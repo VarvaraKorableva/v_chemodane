@@ -5,13 +5,22 @@ import '../Announce/Announce.css'
 import {Link} from 'react-router-dom'
 import announcementPic from '../../images/purim.png'
 import schedule from '../../images/schedule.pdf'
+import OneImg from './OneImg'
 
 function Schedule({handleCardClick}) {
-    
-    function onHandleCardClick() {
-        handleCardClick(scheduleFirstPart)
-        console.log(scheduleFirstPart)
-    }
+
+    const arr = [
+        {
+            img: scheduleFirstPart,
+            id: 12,
+            name: "Расписание 1 день"
+        },
+        {
+            img: scheduleSecondPart,
+            id: 13,
+            name: "Расписание 2 день"
+        }
+    ]
 
     return(
         <>
@@ -26,8 +35,11 @@ function Schedule({handleCardClick}) {
                 </a>
             </div>
             <div className='schedule__img-container'>
-                <img src={scheduleFirstPart} alt='Расписание часть первая' className='schedule__img' onClick={onHandleCardClick}></img>
-                <img src={scheduleSecondPart} alt='Расписание часть вторая' className='schedule__img' onClick={onHandleCardClick}></img>
+                {
+                    arr.map((item) => (
+                        <OneImg item={item} key={item.id} handleCardClick={handleCardClick}/>
+                    ))
+                }
             </div>
         </>
     )

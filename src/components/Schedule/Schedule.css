@@ -24,6 +24,13 @@
     }
 }
 
+@media screen and (max-width: 1060px) {
+    .schedule__img:first-of-type {
+      margin: 0;
+      
+    }
+}
+
 @media screen and (max-width: 400px) {
     .schedule__img {
         padding-left: 10px;
@@ -37,7 +44,7 @@
 
 .schedule__title {
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 @media screen and (max-width: 750px) {
@@ -70,6 +77,7 @@
     padding: 7px;
     margin: 10px;
     margin-top: 0px;
+    margin-bottom: 25px;
     color: black;
     text-decoration: none;
     width: 175px;
@@ -85,6 +93,7 @@
 @media screen and (max-width: 460px) {
     .schedule__btn {
         margin: 5px;
+        margin-bottom: 25px;
         width: 150px;
         font-size: 12px;
     }
@@ -92,7 +101,6 @@
 
 @media screen and (max-width: 400px) {
     .schedule__btn {
-        margin: 5px;
         font-size: 12px;
     }
 }
