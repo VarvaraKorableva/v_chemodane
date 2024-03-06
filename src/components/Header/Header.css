@@ -1,0 +1,92 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.header__navbar {
+    max-width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(47, 128, 237, 0.5);
+}
+
+@media screen and (max-width: 1060px) {
+    .header__navbar {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header__navbar {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+.header__logo__img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 450px) {
+    .header__logo__img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+.header__logo-text {
+    width: 200px;
+}
+
+@media screen and (max-width: 450px) {
+    .header__logo-text {
+        font-size: 12px;
+        width: 150px;
+    }
+}
+
+.header__links-container {
+    padding: 0;
+    display: flex;
+}
+
+@media screen and (max-width: 900px) {
+    .header__links-container {
+      display: none;
+    }
+}
+
+.header__link {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.header__logo-container {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 900px) {
+    .header__nav {
+      background-image: url(../../images/menuIcon.png);
+      width: 40px;
+      height: 40px;
+      background-position: center;
+      background-size: cover;
+      object-fit: cover;
+      cursor: pointer;
+    }
+}
