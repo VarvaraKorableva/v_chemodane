@@ -69,6 +69,12 @@
     max-width: 400px;
 }
 
+@media screen and (max-width: 450px) {
+    .schedule__links-container {
+        max-width: 320px;
+    }
+}
+
 .schedule__btn {
     border-radius: 30px;
     background-color: transparent;
