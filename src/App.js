@@ -31,7 +31,7 @@ function App() {
       <Header></Header>
       <Routes>
         <Route
-          path="/main"
+          exact path="/"
           element={
             <Announce />
           }>

@@ -8,7 +8,7 @@ function Header() {
     return (
         <header>
             <div className="header__navbar">
-                <Link className="header__logo-container" to='/main'>
+                <Link className="header__logo-container" to='/'>
                     <img src={logoPic} alt='Картинка логотипа' className="header__logo__img"></img>
                     <p className="header__logo-text">Семейный книжный фестиваль</p>
                 </Link>
