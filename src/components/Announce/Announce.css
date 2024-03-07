@@ -31,6 +31,7 @@
     border-radius: 30px;
     background-color: transparent;
     border: 3px solid #2f80ed;
+    /*box-shadow: 0 3px 6px #999;*/
     cursor: pointer;
     padding: 10px;
     margin: 10px;
@@ -200,8 +201,9 @@
 .header__btn-link {
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: #2f80ed;
     margin-bottom: 25px;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 550px) {
