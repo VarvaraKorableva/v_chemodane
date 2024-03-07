@@ -22,6 +22,14 @@ function Announce() {
 
                 </div> 
 
+                <div className="header__attention-container">
+                    <h2>Внимание!</h2>
+                    <h3>Спектакль "Просто Великан" проходит на иврите, вы можете приобрести билеты только на спектакль для своих друзей и близких</h3> 
+                    <a className="header__btn" href='https://www.anumuseum.org.il/ru/events/giant/'>Купить билеты только на спектакль</a>
+                </div>
+
+
+
 
             </div>
 
