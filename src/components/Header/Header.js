@@ -1,10 +1,15 @@
 import logoPic from '../../images/logoch.png'
-import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp, FaTelegram, FaGoogle, FaFacebook } from 'react-icons/fa'
+import { FaInstagram, FaTelegram, FaFacebook } from 'react-icons/fa'
 import {Link} from 'react-router-dom'
 
 import './Header.css'
 
-function Header() {
+function Header({handleContactsPopupOpen}) {
+
+    function handlePopup() {
+        handleContactsPopupOpen()
+    }
+
     return (
         <header>
             <div className="header__navbar">
@@ -31,9 +36,8 @@ function Header() {
                             </a>
                         </li>
                     </ul>
-                
-                    
                 </nav>
+                <button className='header__btn-contacts' onClick={handlePopup}></button>
             </div>
         </header>
     )

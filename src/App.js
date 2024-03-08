@@ -6,9 +6,10 @@ import Schedule from './components/Schedule/Schedule'
 import Announce from './components/Announce/Announce'
 
 import ImagePopup from './components/Popups/ImagePopup'
+import ContactsPopup from './components/Popups/ContactsPopup'
 
 function App() {
-
+  const [contactsPopup, setContactsPopup] = React.useState(false)
   const [imgPopup, setImgPopup] = React.useState(false)
   const [selectedCard, setSelectedCard] = React.useState({})
 
@@ -16,9 +17,14 @@ function App() {
     setImgPopup(true)
   }
 
+  function handleContactsPopupOpen() {
+    setContactsPopup(true)
+  }
+
   function closeAllPopups() {
     setSelectedCard({})
     setImgPopup(false)
+    setContactsPopup(false)
   }
 
   function handleCardClick(card) {
@@ -28,7 +34,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header></Header>
+      <Header handleContactsPopupOpen={handleContactsPopupOpen}></Header>
       <Routes>
         <Route
           exact path="/"
@@ -50,6 +56,10 @@ function App() {
           card={selectedCard}
           imgPopup={imgPopup}
           onClose={closeAllPopups}
+      />
+      <ContactsPopup 
+        onClose={closeAllPopups}
+        isOpen={contactsPopup}
       />
       
     </div>
