@@ -15,6 +15,12 @@
 .schedule__img {
     max-width: 500px;
     background-size: cover;  
+    cursor: pointer;
+}
+
+.schedule__img:hover {
+    border: 5px solid #2f80ed;
+    border-radius: 3px;
 }
 
 @media screen and (max-width: 1060px) {
@@ -27,14 +33,6 @@
 @media screen and (max-width: 1060px) {
     .schedule__img:first-of-type {
       margin: 0;
-      
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .schedule__img {
-        padding-left: 10px;
-        padding-right: 10px;
     }
 }
 
