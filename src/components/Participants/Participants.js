@@ -10,7 +10,7 @@ function Participants({addMovies, limit}) {
                 <Participant key={item.id} item={item}></Participant>
             ))}
             </ul>
-            {participantsData.length >= limit? 
+            {participantsData.length <= limit? 
             <button disabled={true} className="paticipant-btn-add_notactive">Вы видите всех участников</button>
             :
             <button className="paticipant-btn-add" onClick={addMovies}>Посмотреть еще</button>
