@@ -6,7 +6,7 @@ import Schedule from './components/Schedule/Schedule'
 import Announce from './components/Announce/Announce'
 import AboutFestival from './components/AboutFestival/AboutFestival'
 import Participants from './components/Participants/Participants'
-
+import Footer from './components/Footer/Footer'
 import ImagePopup from './components/Popups/ImagePopup'
 import ContactsPopup from './components/Popups/ContactsPopup'
 
@@ -58,6 +58,7 @@ function App() {
           }>
         </Route>
       </Routes>  
+      <Footer />
       <ImagePopup 
           card={selectedCard}
           imgPopup={imgPopup}

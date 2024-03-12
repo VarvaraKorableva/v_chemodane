@@ -1,0 +1,64 @@
+.footer {
+    
+}
+
+
+.footer__links-container {
+    padding: 0;
+    display: flex;
+}
+
+@media screen and (max-width: 900px) {
+    .footer__links-container {
+      display: none;
+    }
+}
+
+.footer__link {
+    list-style-type: none;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.footer__link:hover {
+    opacity: 0.7;
+}
+
+.header__logo-container {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 900px) {
+    .footer__nav {
+      display: none;
+    }
+}
+
+.footer__contact-item-link {
+    font-size: 36px;
+    color: #2f80ed;
+    text-decoration: none;
+}
+
+.footer__btn-contacts {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .footer__btn-contacts {
+      background-image: url(../../images/menuIcon.png);
+      width: 40px;
+      height: 40px;
+      background-position: center;
+      background-size: cover;
+      object-fit: cover;
+      cursor: pointer;
+      display: flex;
+      border: none;
+      background-color: transparent;
+    }
+}

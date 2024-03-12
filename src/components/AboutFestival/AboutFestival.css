@@ -3,11 +3,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
     margin-bottom: 25px;
-
     background-color: #fff;
 }
+
 .aboutFestival__main-title {
     margin-top: 50px;
 
@@ -27,6 +26,46 @@
     margin-bottom: 50px;
 }
 
-.aboutFestival__text {
+@media screen and (max-width: 500px) {
+    .aboutFestival__text-container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
 
+.aboutFestival__text {
+    max-width: 65%;
+    text-align: start;
+}
+
+@media screen and (max-width: 800px) {
+    .aboutFestival__text{
+        max-width: 100%;
+    }
+}
+
+.aboutFestival__text-wrapper {
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    .aboutFestival__text-wrapper{
+        flex-direction: column;
+    }
+}
+
+.aboutFestival__img {
+    max-width: 30%;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 800px) {
+    .aboutFestival__img{
+        max-width: 100%;
+    }
 }
