@@ -1,4 +1,8 @@
 
+.header__container {
+
+}
+
 .header__announcement-pic {
     width: 580px;
     height: 580px;
@@ -79,6 +83,7 @@
     justify-content: space-between;
     max-width: 1200px;
     margin: auto;
+
 }
 
 @media screen and (max-width: 1050px) {

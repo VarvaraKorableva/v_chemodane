@@ -4,6 +4,8 @@ import './App.css';
 import Header from './components/Header/Header'
 import Schedule from './components/Schedule/Schedule'
 import Announce from './components/Announce/Announce'
+import AboutFestival from './components/AboutFestival/AboutFestival'
+import Participants from './components/Participants/Participants'
 
 import ImagePopup from './components/Popups/ImagePopup'
 import ContactsPopup from './components/Popups/ContactsPopup'
@@ -39,7 +41,11 @@ function App() {
         <Route
           exact path="/"
           element={
+            <>
             <Announce />
+            <AboutFestival />
+            <Participants />
+            </>
           }>
         </Route>
 
