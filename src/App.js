@@ -15,6 +15,10 @@ function App() {
   const [imgPopup, setImgPopup] = React.useState(false)
   const [selectedCard, setSelectedCard] = React.useState({})
 
+  const [limit, setLimit] = React.useState(6)
+
+  const addMovies = () => setLimit(limit + 3);
+
   function handleImgPopupOpen() {
     setImgPopup(true)
   }
@@ -44,7 +48,10 @@ function App() {
             <>
             <Announce />
             <AboutFestival />
-            <Participants />
+            <Participants 
+              addMovies={addMovies}
+              limit={limit}
+            />
             </>
           }>
         </Route>

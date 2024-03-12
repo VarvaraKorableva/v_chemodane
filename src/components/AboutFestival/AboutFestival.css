@@ -9,7 +9,6 @@
 
 .aboutFestival__main-title {
     margin-top: 50px;
-
     font-size: 36px;
 }
 
@@ -20,7 +19,7 @@
 }
 
 .aboutFestival__text-container {
-    max-width: 800px;
+    max-width: 1000px;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 50px;

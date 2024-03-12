@@ -26,13 +26,14 @@
 
 .paticipant-container {
     list-style-type: none;
-    background-color: transparent;
+    background-color: #fff;
     
     /*border: 1px solid #2f80ed;*/
     border-radius: 6px;
     border: 3px solid #fff;
     width: 280px;
-    height: 370px;
+    /*height: 370px;*/
+    height: 400px;
     padding: 10px;
 
     margin: 5px;
@@ -46,7 +47,7 @@
 
 .paticipant-companyName-description {
     width: 260px;
-    height: 290px;
+    height: 184px;
     /*overflow: ;*/
     overflow-x: hidden;
     overflow-y: scroll;
@@ -76,3 +77,41 @@
     scrollbar-width: thin; /* Толщина скроллбара */
     scrollbar-color: #2f80ed #f1f1f1; /* Цвет ползунка и фона скроллбара */
   }
+
+  .paticipant-img {
+      max-width: 200px;
+      height: 150px;
+      
+      display: flex;
+      margin: auto;
+      object-fit: contain;
+      /*object-fit: scale-down;*/
+      
+  }
+
+.paticipant-btn-add {
+    border: 2px solid #2f80ed;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 25px;
+}  
+
+.paticipant-btn-add:hover {
+    background-color: #2f80ed;
+}
+
+.paticipant-btn-add_notactive {
+    border: 2px solid #b3bdc7;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 25px;
+}
