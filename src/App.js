@@ -9,6 +9,7 @@ import Participants from './components/Participants/Participants'
 import Footer from './components/Footer/Footer'
 import ImagePopup from './components/Popups/ImagePopup'
 import ContactsPopup from './components/Popups/ContactsPopup'
+import OurTeam from './components/OurTeam/OurTeam'
 
 function App() {
   const [contactsPopup, setContactsPopup] = React.useState(false)
@@ -17,7 +18,7 @@ function App() {
 
   const [limit, setLimit] = React.useState(6)
 
-  const addMovies = () => setLimit(limit + 3);
+  const addCard = () => setLimit(limit + 3);
 
   function handleImgPopupOpen() {
     setImgPopup(true)
@@ -49,9 +50,10 @@ function App() {
             <Announce />
             <AboutFestival />
             <Participants 
-              addMovies={addMovies}
+              addCard={addCard}
               limit={limit}
             />
+            <OurTeam />
             </>
           }>
         </Route>

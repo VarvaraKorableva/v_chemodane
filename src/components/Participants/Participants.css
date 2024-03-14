@@ -16,6 +16,7 @@
 
 .paticipant-main-title {
     font-size: 36px;
+    margin-top: 50px;
 }
 
 @media screen and (max-width: 500px) {
@@ -86,7 +87,6 @@
       margin: auto;
       object-fit: contain;
       /*object-fit: scale-down;*/
-      
   }
 
 .paticipant-btn-add {
@@ -99,6 +99,7 @@
     margin: auto;
     cursor: pointer;
     margin-top: 25px;
+    margin-bottom: 50px;
 }  
 
 .paticipant-btn-add:hover {
@@ -114,4 +115,5 @@
     align-items: center;
     margin: auto;
     margin-top: 25px;
+    margin-bottom: 50px;
 }

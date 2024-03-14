@@ -49,12 +49,18 @@
 
 .header__logo-text {
     width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 16px;
 }
 
 @media screen and (max-width: 450px) {
     .header__logo-text {
-        font-size: 12px;
-        width: 150px;
+        margin-left: 5px;
+        font-size: 14px;
+        width: 180px;
     }
 }
 

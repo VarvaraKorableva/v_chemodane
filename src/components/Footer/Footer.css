@@ -1,5 +1,5 @@
 .footer {
-    
+    max-width: 1000px;
 }
 
 
@@ -32,33 +32,9 @@
     color: black;
 }
 
-@media screen and (max-width: 900px) {
-    .footer__nav {
-      display: none;
-    }
-}
-
 .footer__contact-item-link {
     font-size: 36px;
     color: #2f80ed;
     text-decoration: none;
 }
 
-.footer__btn-contacts {
-    display: none;
-}
-
-@media screen and (max-width: 900px) {
-    .footer__btn-contacts {
-      background-image: url(../../images/menuIcon.png);
-      width: 40px;
-      height: 40px;
-      background-position: center;
-      background-size: cover;
-      object-fit: cover;
-      cursor: pointer;
-      display: flex;
-      border: none;
-      background-color: transparent;
-    }
-}
