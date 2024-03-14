@@ -14,19 +14,19 @@ const ourTeam = [
     {
         name: 'Даша Грозовская', 
         info: 'Журналист. Директор по развитию. Составляет программу и курирует участников фестиваля',
-        img: 'https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710408074049_169806615.jpg',
+        img: 'https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710408621373_378876236.jpg',
         id: '1234567',
     },
     {
         name: 'Маша Дубова', 
         info: 'Писательница. Пиар-директор. Организует эфиры, публикации в прессе и переводит всю документацию на иврит',
-        img: 'https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710408656457_430720246.jpg',
+        img: 'https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710408074049_169806615.jpg',
         id: '12345678',
     },
     {
         name: 'Кира Орадовская', 
         info: 'Психолог. Операционный директор фестиваля. Курирует команду волонтеров и следит, чтобы на площадке все было в порядке',
-        img: 'https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710408621373_378876236.jpg',
+        img: 'https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710408656457_430720246.jpg',
         id: '123456789',
     }
 
