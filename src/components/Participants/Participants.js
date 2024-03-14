@@ -26,7 +26,7 @@ function Participants({addCard, limit}) {
 
     return(
         <section className="paticipant-section">
-            <h2 className="paticipant-main-title">Участники фестиваля</h2>
+            <h2 className="paticipant-main-title">Участники маркета</h2>
             <ul className="paticipant-main-container">
             {participantsData.slice(0, limit).map((item) => (
                 <Participant key={item.id} item={item}></Participant>

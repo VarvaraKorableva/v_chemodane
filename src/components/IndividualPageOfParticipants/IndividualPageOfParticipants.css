@@ -1,0 +1,63 @@
+.individualPageOfParticipants-section {
+    min-height: 70vh;
+}
+
+.individualPageOfParticipants-container {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: center;
+}
+
+.individualPageOfParticipants-title {
+    margin-top: 50px;
+}
+
+.individualPageOfParticipants-pic {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+.individualPageOfParticipants-discription {
+    width: 500px;
+    margin-left: 20px;
+    text-align: start;
+}
+
+.individualPageOfParticipants-link {
+    margin-left: 20px;
+    text-align: start;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.individualPageOfParticipants-link:hover {
+    opacity: 0.7;
+}
+
+.individualPageOfParticipants-link-text {
+    margin-left: 20px;
+    text-align: start;
+    font-weight: bold;
+    cursor: pointer;
+    
+    text-decoration: none;
+    color: black;
+}
+
+.individualPageOfParticipants-link-text:hover {
+    opacity: 0.7;
+}
+
+.individualPageOfParticipants-links-container {
+    display: flex;
+}
+
+.individualPageOfParticipants-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

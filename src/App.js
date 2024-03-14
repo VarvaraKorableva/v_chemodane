@@ -10,6 +10,7 @@ import Footer from './components/Footer/Footer'
 import ImagePopup from './components/Popups/ImagePopup'
 import ContactsPopup from './components/Popups/ContactsPopup'
 import OurTeam from './components/OurTeam/OurTeam'
+import IndividualPageOfParticipants from './components/IndividualPageOfParticipants/IndividualPageOfParticipants'
 
 function App() {
   const [contactsPopup, setContactsPopup] = React.useState(false)
@@ -66,6 +67,14 @@ function App() {
             />
           }>
         </Route>
+
+        <Route 
+          path='/participant/:id'
+            element={
+              <IndividualPageOfParticipants />
+            }
+        />
+
       </Routes>  
       <Footer />
       <ImagePopup 

@@ -1,17 +1,15 @@
 .footer {
-    max-width: 1000px;
+   
+    background-color: rgba(47, 128, 237, 0.5);
+    min-height: 200px;
+    padding-top: 50px;
 }
 
 
 .footer__links-container {
     padding: 0;
     display: flex;
-}
-
-@media screen and (max-width: 900px) {
-    .footer__links-container {
-      display: none;
-    }
+    margin-bottom: 50px;
 }
 
 .footer__link {
@@ -26,15 +24,15 @@
     opacity: 0.7;
 }
 
-.header__logo-container {
-    display: flex;
-    text-decoration: none;
-    color: black;
-}
-
 .footer__contact-item-link {
     font-size: 36px;
     color: #2f80ed;
     text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .footer__contact-item-link {
+        font-size: 28px;
+    }
 }
 
