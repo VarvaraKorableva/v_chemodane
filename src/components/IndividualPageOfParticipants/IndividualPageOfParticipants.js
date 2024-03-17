@@ -23,11 +23,7 @@ function IndividualPageOfParticipants() {
                         className='individualPageOfParticipants-discription'>
                             {participant.description}
                     </p>
-                    <div className='individualPageOfParticipants-links-container'>
-                        <a className='individualPageOfParticipants-link' target='_blank' href={participant.socialNetwork.instagram}><FaInstagram /></a>
-                        <a className='individualPageOfParticipants-link' target='_blank' href={participant.socialNetwork.facebook}><FaFacebook /></a>
-                        <a className='individualPageOfParticipants-link' target='_blank' href={participant.socialNetwork.personalSite}><FaExternalLinkAlt /></a>
-                    </div>
+
                 </div>
             </div>
         </section>
@@ -35,3 +31,11 @@ function IndividualPageOfParticipants() {
 }
 
 export default IndividualPageOfParticipants;
+
+/*
+                    <div className='individualPageOfParticipants-links-container'>
+                        {participant.socialNetwork.instagram == ""? <a className='individualPageOfParticipants-link' target='_blank' href={participant.socialNetwork.instagram}><FaInstagram /></a> : <></>}
+                        {participant.socialNetwork.facebook == ""? <a className='individualPageOfParticipants-link' target='_blank' href={participant.socialNetwork.facebook}><FaFacebook /></a> : <></>}
+                        {participant.socialNetwork.personalSite == ""? <></> : <a className='individualPageOfParticipants-link' target='_blank' href={participant.socialNetwork.personalSite}><FaExternalLinkAlt /></a>}
+                    </div>
+*/
