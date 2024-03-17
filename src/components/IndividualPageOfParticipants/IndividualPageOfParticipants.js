@@ -24,6 +24,12 @@ function IndividualPageOfParticipants() {
                             {participant.description}
                     </p>
 
+                    <div className='individualPageOfParticipants-links-container'>
+                        {participant.socialNetwork.instagram.length? <a className='individualPageOfParticipants-link' target='_blank' href={participant.socialNetwork.instagram}><FaInstagram /></a> : <></>}
+                        {participant.socialNetwork.facebook.length? <a className='individualPageOfParticipants-link' target='_blank' href={participant.socialNetwork.facebook}><FaFacebook /></a> : <></>}
+                        {participant.socialNetwork.personalSite.length? <a className='individualPageOfParticipants-link' target='_blank' href={participant.socialNetwork.personalSite}><FaExternalLinkAlt /></a>: <></>}
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -34,8 +40,8 @@ export default IndividualPageOfParticipants;
 
 /*
                     <div className='individualPageOfParticipants-links-container'>
-                        {participant.socialNetwork.instagram == ""? <a className='individualPageOfParticipants-link' target='_blank' href={participant.socialNetwork.instagram}><FaInstagram /></a> : <></>}
-                        {participant.socialNetwork.facebook == ""? <a className='individualPageOfParticipants-link' target='_blank' href={participant.socialNetwork.facebook}><FaFacebook /></a> : <></>}
-                        {participant.socialNetwork.personalSite == ""? <></> : <a className='individualPageOfParticipants-link' target='_blank' href={participant.socialNetwork.personalSite}><FaExternalLinkAlt /></a>}
+                        {participant.socialNetwork.instagram.length? <a className='individualPageOfParticipants-link' target='_blank' href={participant.socialNetwork.instagram}><FaInstagram /></a> : <></>}
+                        {participant.socialNetwork.facebook.length? <a className='individualPageOfParticipants-link' target='_blank' href={participant.socialNetwork.facebook}><FaFacebook /></a> : <></>}
+                        {participant.socialNetwork.personalSite.length? <></> : <a className='individualPageOfParticipants-link' target='_blank' href={participant.socialNetwork.personalSite}><FaExternalLinkAlt /></a>}
                     </div>
 */

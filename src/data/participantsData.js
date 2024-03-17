@@ -61,7 +61,7 @@ const participantsData = [
         },
         description:"Издательство «Август» работает с 2000 года. Вышло множество очень красивых книг из русской  литературы и поэзии, среди них есть то, что раньше отдельной книгой для детей не издавалось. Сейчас издательство переехало в Израиль и выпустило первую книгу на иврите .",
         participationInTheLottery:"да",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710706184984_849202619.jpg",
+        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710712074695_565886293.jpg",
         id:5
     },
     {
@@ -180,7 +180,7 @@ const participantsData = [
         },
         description:"Авторские украшения ручной работы из серебра и натуральных камней",
         participationInTheLottery:"да",
-        imgLink:"https://disk.yandex.ru/i/tBj0EBGTPrAUFA",
+        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710712327716_521194897.jpg",
         id:14,
     },
     {
