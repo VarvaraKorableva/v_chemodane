@@ -3,7 +3,7 @@ import scheduleSecondPart from '../../images/scheduleSecondPart.png'
 import './Schedule.css'
 import '../Announce/Announce.css'
 import {Link} from 'react-router-dom'
-import announcementPic from '../../images/purim.png'
+//import announcementPic from '../../images/purim.png'
 import schedule from '../../images/schedule.pdf'
 import OneImg from './OneImg'
 

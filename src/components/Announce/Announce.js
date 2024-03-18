@@ -1,6 +1,6 @@
 import './Announce.css'
 import {Link} from 'react-router-dom'
-import announcementPic from '../../images/purim.png'
+//import announcementPic from '../../images/purim.png'
 import schedule from '../../images/schedule.pdf'
 
 function Announce() {
@@ -33,7 +33,7 @@ function Announce() {
 
             </div>
 
-            <img class="header__announcement-pic" src={announcementPic}></img>
+            
         </section>
         
     )
@@ -43,7 +43,7 @@ export default Announce;
 
 
 /*
-
+<img class="header__announcement-pic" src={announcementPic}></img>
                 <div class="header__square-pic rotation"></div>
                 <div class="kaufman__triangle rotation"></div>
 
