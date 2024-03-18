@@ -1,5 +1,6 @@
 import participantsData from '../../data/participantsData'
 import Participant from './Participant'
+import './Participants.css'
 
 function Participants({addCard, limit}) {
 
@@ -22,11 +23,9 @@ function Participants({addCard, limit}) {
     }
   });
 
-  console.log(sortedData);
-
     return(
         <section className="paticipant-section" id='market'>
-            <h2 className="paticipant-main-title">Участники маркета</h2>
+            <h2 className="paticipant-main-title">УЧАСТНИКИ МАРКЕТА</h2>
             <ul className="paticipant-main-container">
             {participantsData.slice(0, limit).map((item) => (
                 <Participant key={item.id} item={item}></Participant>

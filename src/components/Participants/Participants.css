@@ -1,8 +1,15 @@
 .paticipant-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    background-color: #FDD256;
+    padding-top: 100px;
+
+}
+
+@media screen and (max-width: 770px) {
+    .paticipant-section {
+        padding-top: 40px;
+    }
 }
 
 .paticipant-main-container {
@@ -15,13 +22,24 @@
 }
 
 .paticipant-main-title {
-    font-size: 36px;
-    margin-top: 50px;
+    font-weight: bold;
+    font-size: 54px;
+    text-align: start;
+    margin-top: 0;
+    margin-left: 80px;
+    margin-bottom: 100px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1065px) {
     .paticipant-main-title {
-        font-size: 26px;
+        font-size: 32px;
+        margin-left: 12px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .paticipant-main-title {
+        margin-bottom: 20px;
     }
 }
 
