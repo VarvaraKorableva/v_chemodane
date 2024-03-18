@@ -25,7 +25,7 @@ function Participants({addCard, limit}) {
   console.log(sortedData);
 
     return(
-        <section className="paticipant-section">
+        <section className="paticipant-section" id='market'>
             <h2 className="paticipant-main-title">Участники маркета</h2>
             <ul className="paticipant-main-container">
             {participantsData.slice(0, limit).map((item) => (

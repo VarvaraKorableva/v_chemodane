@@ -4,6 +4,8 @@ import './App.css';
 import Header from './components/Header/Header'
 import Schedule from './components/Schedule/Schedule'
 import Announce from './components/Announce/Announce'
+import NewAnnounce from './components/Purim/NewAnnounce/NewAnnounce'
+import NewSchedule from './components/Purim/NewSchedule/NewSchedule'
 import AboutFestival from './components/AboutFestival/AboutFestival'
 import Participants from './components/Participants/Participants'
 import Footer from './components/Footer/Footer'
@@ -48,8 +50,9 @@ function App() {
           exact path="/"
           element={
             <>
-            <Announce />
+            <NewAnnounce />
             <AboutFestival />
+            <NewSchedule />
             <Participants 
               addCard={addCard}
               limit={limit}

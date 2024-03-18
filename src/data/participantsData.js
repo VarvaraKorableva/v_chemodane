@@ -340,19 +340,7 @@ const participantsData = [
         imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710703531711_228584765.jpg",
         id:27,
     },
-    {
-        companyName:"Маша и Медведь",
-        previousParticipation:'',
-        socialNetwork: {
-            instagram: "",
-            facebook: "",
-            personalSite: "",
-        },
-        description:"",
-        participationInTheLottery:"",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710274751746_994000010.jpg",
-        id:28,
-    },
+    
 ]
 
 export default participantsData;
@@ -373,5 +361,19 @@ export default participantsData;
         participationInTheLottery:"да",
         imgLink:"",
         id:20
+    },
+
+    {
+        companyName:"Маша и Медведь",
+        previousParticipation:'',
+        socialNetwork: {
+            instagram: "",
+            facebook: "",
+            personalSite: "",
+        },
+        description:"",
+        participationInTheLottery:"",
+        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710274751746_994000010.jpg",
+        id:28,
     },
 */

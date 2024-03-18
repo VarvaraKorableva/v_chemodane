@@ -7,7 +7,7 @@ import sixPic from '../../images/aboutFesImages/sixPic.jpg'
 
 function AboutFestival() {
     return(
-        <section className="aboutFestival__main-container">
+        <section className="aboutFestival__main-container" id='festival'>
           <h2 className="aboutFestival__main-title">О фестивале</h2>
 
           <div className="aboutFestival__text-container">
