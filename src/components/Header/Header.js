@@ -25,7 +25,7 @@ function Header({handleContactsPopupOpen}) {
                         <li className="header__link">КТО МЫ</li>
                         <li className="header__link">НАШИ ПРОЕКТЫ</li>
                         <li className="header__link">ОТЗЫВЫ</li>
-                        <li className="header__link">КОНТАНТЫ</li>
+                        <li className="header__link">КОНТАКТЫ</li>
                     </ul>
                 </nav>
                 <button className='header__btn-contacts' onClick={handlePopup}></button>
