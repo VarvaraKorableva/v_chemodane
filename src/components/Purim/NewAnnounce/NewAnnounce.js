@@ -11,7 +11,7 @@ function NewAnnounce() {
                 <h1 className="newAnnounce__title">ПУРИМ В МУЗЕЕ 24-25 МАРТА</h1>
                 <div className="newAnnounce__btn-container">
                     <Link className="newAnnounce__btn-link" to='#festival'>О фестивале</Link>
-                    <Link className="newAnnounce__btn-link" to='#schedule'>Расписание</Link>
+                    <Link className="newAnnounce__btn-link" to='/schedule'>Расписание</Link>
                     <Link className="newAnnounce__btn-link" to=''>Участники</Link>
                     <Link className="newAnnounce__btn-link" to='#market'>Маркет</Link>
                     <a className="newAnnounce__btn" href='https://www.anumuseum.org.il/ru/events/purim-russian/' target="_blank">Купить билеты</a>
