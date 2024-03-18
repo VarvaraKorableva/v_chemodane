@@ -1,6 +1,6 @@
 .section__schedule {
     background-color:#F5F5F5;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 @media screen and (max-width: 770px) {
@@ -11,11 +11,11 @@
 
 .section__title {
     font-weight: bold;
-    font-size: 54px;
+    font-size: 32px;
     text-align: start;
     margin-top: 0;
     margin-left: 80px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 @media screen and (max-width: 1065px) {

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     background-color: #FDD256;
-    padding-top: 100px;
+    padding-top: 80px;
 
 }
 
@@ -23,11 +23,11 @@
 
 .paticipant-main-title {
     font-weight: bold;
-    font-size: 54px;
+    font-size: 32px;
     text-align: start;
     margin-top: 0;
     margin-left: 80px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 @media screen and (max-width: 1065px) {
@@ -39,7 +39,7 @@
 
 @media screen and (max-width: 770px) {
     .paticipant-main-title {
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 }
 

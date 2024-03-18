@@ -5,7 +5,7 @@ import OneCard from './OneCard'
 function OurTeam() {
     return(
         <section className='ourTeam-section'>
-            <h2 className='ourTeam-main-title'>Наша команда</h2>
+            <h2 className='ourTeam-main-title'>НАША КОМАНДА</h2>
             <ul className='ourTeam__main-container'>
                 {ourTeam.map((person) => (
                     <OneCard

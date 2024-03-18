@@ -1,19 +1,35 @@
 .aboutFestival__main-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     background-color: #fff;
+    padding-top: 80px;
+}
+
+@media screen and (max-width: 770px) {
+    .aboutFestival__main-container {
+        padding-top: 40px;
+    }
 }
 
 .aboutFestival__main-title {
-    margin-top: 50px;
-    font-size: 36px;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: start;
+    margin-top: 0;
+    margin-left: 80px;
+    margin-bottom: 80px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1065px) {
     .aboutFestival__main-title {
-        font-size: 26px;
+        font-size: 32px;
+        margin-left: 12px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .aboutFestival__main-title {
+        margin-bottom: 40px;
     }
 }
 
