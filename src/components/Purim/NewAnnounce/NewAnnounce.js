@@ -12,7 +12,7 @@ function NewAnnounce() {
                 <div className="newAnnounce__btn-container">
                     <Link className="newAnnounce__btn-link" to='#festival'>О фестивале</Link>
                     <Link className="newAnnounce__btn-link" to='/schedule'>Расписание</Link>
-                    <Link className="newAnnounce__btn-link" to=''>Участники</Link>
+                    
                     <Link className="newAnnounce__btn-link" to='#market'>Маркет</Link>
                     <a className="newAnnounce__btn" href='https://tickets.anumuseum.org.il/ru/Фестиваль__В_чемодане._Пурим_в_музее_/?id=31117#choose_tickets' target="_blank">Купить билеты</a>
                 </div> 
@@ -26,4 +26,6 @@ export default NewAnnounce;
 
 /*
 <a href={schedule} download="schedule.pdf" className="newAnnounce__btn-link">Скачать расписание</a>
+
+<Link className="newAnnounce__btn-link" to=''>Участники</Link>
 */

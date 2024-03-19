@@ -20,9 +20,9 @@ function App() {
   const [imgPopup, setImgPopup] = React.useState(false)
   const [selectedCard, setSelectedCard] = React.useState({})
 
-  const [limit, setLimit] = React.useState(6)
+  const [limit, setLimit] = React.useState(8)
 
-  const addCard = () => setLimit(limit + 3);
+  const addCard = () => setLimit(limit + 4);
 
   function handleImgPopupOpen() {
     setImgPopup(true)

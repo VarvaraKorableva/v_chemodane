@@ -12,7 +12,7 @@ function Paticipant({item}) {
             :
             <img className="paticipant-img" src={item.imgLink} alt={`Логотип компании ${item.companyName}`}></img>
            }
-           <h3 className="paticipant-companyName-title">{item.companyName}</h3> 
+            
            {item.description.length? 
            <p className="paticipant-companyName-description">{item.description}</p>
            :
@@ -24,3 +24,5 @@ function Paticipant({item}) {
 }
 
 export default Paticipant;
+
+//<h3 className="paticipant-companyName-title">{item.companyName}</h3>

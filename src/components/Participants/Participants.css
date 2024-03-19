@@ -3,7 +3,16 @@
     flex-direction: column;
     background-color: #FDD256;
     padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
 
+}
+
+@media screen and (max-width: 1065px) {
+    .paticipant-section {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
 }
 
 @media screen and (max-width: 770px) {
@@ -17,7 +26,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-    max-width: 1000px;
+    max-width: 1200px;
     padding: 0;
 }
 
@@ -26,14 +35,12 @@
     font-size: 32px;
     text-align: start;
     margin-top: 0;
-    margin-left: 80px;
     margin-bottom: 80px;
 }
 
 @media screen and (max-width: 1065px) {
     .paticipant-main-title {
         font-size: 32px;
-        margin-left: 12px;
     }
 }
 
@@ -48,8 +55,8 @@
     background-color: #fff;
     border-radius: 6px;
     border: 3px solid #fff;
-    width: 280px;
-    height: 400px;
+    width: 260px;
+    height: 300px;
     padding: 10px;
     margin: 5px;
     text-decoration: none;
@@ -68,8 +75,8 @@
 }
 
 .paticipant-companyName-description {
-    width: 260px;
-    height: 184px;
+    width: 250px;
+    height: 145px;
     /*overflow: ;*/
     overflow-x: hidden;
     overflow-y: scroll;
@@ -102,10 +109,11 @@
 
   .paticipant-img {
       max-width: 200px;
-      height: 150px;
+      height: 125px;
       
       display: flex;
       margin: auto;
+      margin-bottom: 20px;
       object-fit: contain;
       /*object-fit: scale-down;*/
   }

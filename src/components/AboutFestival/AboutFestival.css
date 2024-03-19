@@ -75,7 +75,11 @@
 
 @media screen and (max-width: 700px) {
     .aboutFestival__blue-circle {
-        display: none;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        top: 100px;
+        right: -100px;
     }
 }
 
@@ -215,11 +219,19 @@
 
 .aboutFestival__thirdPic-text {
     max-width: 550px;
-    margin-left: 80px;
+    margin-left: 100px;
     margin-top: 0;
     margin-bottom: 0;
     text-align: start;
     z-index: 1;
+}
+
+@media screen and (max-width: 1500px) {
+    .aboutFestival__thirdPic-text {
+
+        margin-left: 80px;
+
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -261,8 +273,13 @@
 
 @media screen and (max-width: 700px) {
     .aboutFestival__green-circle {
-        position: relative;
-        display: none;
+        /*position: relative;
+        display: none;*/
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        bottom: -180px;
+        right: -50px;
     }
 }
 
@@ -280,8 +297,14 @@
 
 @media screen and (max-width: 700px) {
     .aboutFestival__yellow-circle {
-        position: relative;
-        display: none;
+        /*position: relative;
+        display: none;*/
+
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        top: -150px;
+        left: -80px;
     }
 }
 
