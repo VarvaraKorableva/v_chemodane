@@ -26,14 +26,14 @@
     font-size: 32px;
     text-align: start;
     margin-top: 0;
-    margin-left: 80px;
+    
     margin-bottom: 80px;
 }
 
 @media screen and (max-width: 1065px) {
     .ourTeam-main-title {
         font-size: 32px;
-        margin-left: 12px;
+        
     }
 }
 

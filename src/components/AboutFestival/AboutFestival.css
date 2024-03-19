@@ -43,91 +43,329 @@
 }
 
 .aboutFestival__text-container {
-    max-width: 1000px;
-    /*margin-left: 50px;
-    margin-right: 50px;*/
-}
-/*
-@media screen and (max-width: 500px) {
-    .aboutFestival__text-container{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-}*/
-
-.aboutFestival__text {
-    max-width: 65%;
-    text-align: start;
-    font-size: 20px;
+    max-width: 100%;
+    margin: auto;
 }
 
-@media screen and (max-width: 800px) {
-    .aboutFestival__text{
-        max-width: 100%;
-        margin: 10px;
-        font-size: 16px;
-    }
-}
+/*first container*/
 
-.aboutFestival__text-wrapper {
-    border-radius: 8px;
-    width: 100%;
+.aboutFestival__text-and-circle-wrapper {
     display: flex;
-    margin-bottom: 10px;
-    justify-content: space-between;
-    align-items: center;
+    position: relative;
+    z-index: 10;
 }
 
-@media screen and (max-width: 800px) {
-    .aboutFestival__text-wrapper{
+@media screen and (max-width: 700px) {
+    .aboutFestival__text-and-circle-wrapper {
         flex-direction: column;
-        /*box-shadow: 0 3px 6px #999;*/
-        margin-bottom: 15px;
-
-        border: 2px solid #f2f2f2;
     }
 }
 
-.aboutFestival__text-wrapper-second {
-    border-radius: 8px;
+.aboutFestival__blue-circle {
+    background-image: url(../../images/aboutFesImages/bluecircle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 835px;
+    height: 835px;
+    position: absolute;
+    top: 200px;
+    right: -200px;
+    z-index: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .aboutFestival__blue-circle {
+        display: none;
+    }
+}
+
+.aboutFestival__firstPic-img {
+    width: 70%;
+    z-index: 10;
+    margin-bottom: 100px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .aboutFestival__firstPic-img {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+
+
+.aboutFestival__firstPic-text {
+    width: 30%;
+    z-index: 10;
+    text-align: start;
+    margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .aboutFestival__firstPic-text {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+}
+
+/*second container*/
+
+.aboutFestival__secondPic-container {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutFestival__secondPic-img {
+    width: 100%;
+    z-index: 10;
+    margin-bottom: 50px;
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 700px) {
+    .aboutFestival__secondPic-img {
+        margin-bottom: 20px;
+    }
+}
+
+.aboutFestival__secondPic-text {
+    max-width: 834px;
+    text-align: start;
+    margin: 0;
+    z-index: 10;
+}
+
+/*third container*/
+.aboutFestival__thirdPic-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    height: 1400px;
+    position: relative;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1600px) {
+    .aboutFestival__thirdPic-container {
+        height: 1100px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .aboutFestival__thirdPic-container {
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .aboutFestival__thirdPic-container {
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .aboutFestival__thirdPic-container {
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .aboutFestival__thirdPic-container {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .aboutFestival__thirdPic-container {
+        display: flex;
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+}
+
+.aboutFestival__thirdPic-text-and-pic-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .aboutFestival__thirdPic-text-and-pic-wrapper {
+        width: 100%;
+        position: relative;
+    }
+}
+.aboutFestival__thirdPic-pic {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 700px) {
+    .aboutFestival__thirdPic-pic {
+        margin-bottom: 0;
+        display: none;
+    }
+}
+
+.aboutFestival__thirdPic-text {
+    max-width: 550px;
+    margin-left: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: start;
+    z-index: 1;
+}
+
+@media screen and (max-width: 700px) {
+    .aboutFestival__thirdPic-text {
+        width: 100%;
+        margin-left: 0;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+}
+
+.aboutFestival__thirdPic-big-pic {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 5px;
+    width: 50%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 700px) {
+    .aboutFestival__thirdPic-big-pic {
+        width: 100%;
+        position: relative;
+    }
+}
+
+.aboutFestival__green-circle {
+    background-image: url(../../images/aboutFesImages/greencircle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: -255px;
+    right: -50px;
+    width: 455px;
+    height: 455px;
+    z-index: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .aboutFestival__green-circle {
+        position: relative;
+        display: none;
+    }
+}
+
+.aboutFestival__yellow-circle {
+    background-image: url(../../images/aboutFesImages/yellowcircle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: -25px;
+    left: -80px;
+    width: 550px;
+    height: 550px;
+    z-index: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .aboutFestival__yellow-circle {
+        position: relative;
+        display: none;
+    }
+}
+
+/*4-5*/
+
+.aboutFestival__four-wrapper {
     width: 100%;
     display: flex;
-    margin-bottom: 10px;
-    justify-content: space-between;
-    align-items: center;
-}
-
-@media screen and (max-width: 800px) {
-    .aboutFestival__text-wrapper-second{
-        flex-direction: column-reverse;
-        /*box-shadow: 0 3px 6px #999;*/
-        margin-bottom: 15px;
-        border: 2px solid #f2f2f2;
-    }
-}
-
-.aboutFestival__img {
-    max-width: 30%;
-    border-radius: 8px;
-}
-
-@media screen and (max-width: 800px) {
-    .aboutFestival__img{
-        max-width: 100%;
-    }
-}
-
-.aboutFestival__last-text {
-    text-align: center;
-    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+    margin-top: 100px;
     margin-bottom: 50px;
-
-    font-weight: bold;
 }
 
-@media screen and (max-width: 800px) {
-    .aboutFestival__last-text{
-        font-size: 14px;
+@media screen and (max-width: 700px) {
+    .aboutFestival__four-wrapper  {
+        flex-direction: column-reverse;
+        margin-bottom: 0px;
+        margin-top: 40px;
     }
 }
 
+.aboutFestival__four-img {
+    width: 55%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 700px) {
+    .aboutFestival__four-img {
+        width: 100%;
+    }
+}
+
+.aboutFestival__four-text {
+    width: 50%;
+    margin-right: 20px;
+    text-align: start;
+}
+
+@media screen and (max-width: 700px) {
+    .aboutFestival__four-text {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+}
+
+.aboutFestival__five-wrapper {
+    width: 100%;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 700px) {
+    .aboutFestival__five-wrapper {
+        flex-direction: column;
+    }
+}
+
+.aboutFestival__five-img {
+    width: 55%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 700px) {
+    .aboutFestival__five-img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+.aboutFestival__five-text {
+    width: 50%;
+    margin: 0;
+    margin-left: 20px;
+    text-align: start;
+}
+
+@media screen and (max-width: 700px) {
+    .aboutFestival__five-text {
+        width: 100%;
+        margin-right: 0px;
+    }
+}
