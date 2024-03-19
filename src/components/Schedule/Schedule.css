@@ -3,12 +3,14 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+    margin-bottom: 50px;
     max-width: 1000px;
 }
 
 @media screen and (max-width: 1060px) {
     .schedule__img-container {
       flex-direction: column;
+      margin-bottom: 25px;
     }
 }
 

@@ -1,8 +1,8 @@
 import './AboutFestival.css'
 import firstPic from '../../images/aboutFesImages/firstPic.jpg'
-import secondPic from '../../images/aboutFesImages/secondPic.jpg'
+//import secondPic from '../../images/aboutFesImages/secondPic.jpg'
 import thirdPic from '../../images/aboutFesImages/thirdPic.jpeg'
-import fifthPic from '../../images/aboutFesImages/fifthPic.jpg'
+//import fifthPic from '../../images/aboutFesImages/fifthPic.jpg'
 import sixPic from '../../images/aboutFesImages/sixPic.jpg'
 
 function AboutFestival() {
@@ -44,5 +44,3 @@ function AboutFestival() {
 }
 
 export default AboutFestival;
-
-//<img src={fifthPic} className="aboutFestival__img"></img>

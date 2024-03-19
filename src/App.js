@@ -53,7 +53,7 @@ function App() {
             <>
             <NewAnnounce />
             <AboutFestival />
-            <NewSchedule />
+            <NewSchedule handleCardClick={handleCardClick}/>
             <Participants addCard={addCard} limit={limit}/>
             <OurTeam />
             </>

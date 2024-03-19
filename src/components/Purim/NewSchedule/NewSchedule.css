@@ -48,6 +48,7 @@
     margin: 0;
     border-bottom: 1px solid #D9D9D9;
     padding: 20px;
+    cursor: pointer;
 }
 
 .section__date:last-of-type {
@@ -78,4 +79,8 @@
     .section__date:last-of-type {
         margin-bottom: 80px;
     }
+}
+
+.section__date:hover {
+    color: #2f80ed;
 }
