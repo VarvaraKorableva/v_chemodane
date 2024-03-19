@@ -14,7 +14,7 @@ function NewAnnounce() {
                     <Link className="newAnnounce__btn-link" to='/schedule'>Расписание</Link>
                     <Link className="newAnnounce__btn-link" to=''>Участники</Link>
                     <Link className="newAnnounce__btn-link" to='#market'>Маркет</Link>
-                    <a className="newAnnounce__btn" href='https://www.anumuseum.org.il/ru/events/purim-russian/' target="_blank">Купить билеты</a>
+                    <a className="newAnnounce__btn" href='https://tickets.anumuseum.org.il/ru/Фестиваль__В_чемодане._Пурим_в_музее_/?id=31117#choose_tickets' target="_blank">Купить билеты</a>
                 </div> 
             </div>
         </section>
