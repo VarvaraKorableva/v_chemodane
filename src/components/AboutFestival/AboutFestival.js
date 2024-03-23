@@ -12,6 +12,8 @@ function AboutFestival() {
         <section className="aboutFestival__main-container" id='festival'>
           <h2 className="aboutFestival__main-title">О ФЕСТИВАЛЕ</h2>
 
+          <p className="aboutFestival__title">Адрес: ул. Клаузнер, 15, Тель-Авив. Основной вход через ворота Тель-Авивского университета №2</p>
+
           <div className="aboutFestival__text-container">
             <div className="aboutFestival__text-and-circle-wrapper">
                 <img src={firstPic} className="aboutFestival__firstPic-img"></img>
