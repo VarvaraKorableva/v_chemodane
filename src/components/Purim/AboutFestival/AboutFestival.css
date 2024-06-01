@@ -20,24 +20,24 @@
     }
 }
 
-.haifa-about-festival__title {
-    /*font-weight: bold;*/
-    font-size: 30px;
-    text-align: center;
+.aboutFestival__main-title {
+    font-weight: bold;
+    font-size: 32px;
+    text-align: start;
     margin-top: 0;
+    
     margin-bottom: 80px;
 }
 
 @media screen and (max-width: 1065px) {
-    .haifa-about-festival__title {
-        font-size: 28px;
+    .aboutFestival__main-title {
+        font-size: 32px;
         
     }
 }
 
 @media screen and (max-width: 770px) {
-    .haifa-about-festival__title {
-        font-size: 18px;
+    .aboutFestival__main-title {
         margin-bottom: 40px;
     }
 }
@@ -62,7 +62,7 @@
 }
 
 .aboutFestival__blue-circle {
-    background-image: url(../../images/aboutFesImages/bluecircle.svg);
+    background-image: url(../../../images/aboutFesImages/bluecircle.svg);
     background-repeat: no-repeat;
     background-position: center;
     width: 835px;
@@ -260,7 +260,7 @@
 }
 
 .aboutFestival__green-circle {
-    background-image: url(../../images/aboutFesImages/greencircle.svg);
+    background-image: url(../../../images/aboutFesImages/greencircle.svg);
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -273,8 +273,6 @@
 
 @media screen and (max-width: 700px) {
     .aboutFestival__green-circle {
-        /*position: relative;
-        display: none;*/
         width: 250px;
         height: 250px;
         border-radius: 50%;
@@ -284,7 +282,7 @@
 }
 
 .aboutFestival__yellow-circle {
-    background-image: url(../../images/aboutFesImages/yellowcircle.svg);
+    background-image: url(../../../images/aboutFesImages/yellowcircle.svg);
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -297,9 +295,6 @@
 
 @media screen and (max-width: 700px) {
     .aboutFestival__yellow-circle {
-        /*position: relative;
-        display: none;*/
-
         width: 300px;
         height: 300px;
         border-radius: 50%;

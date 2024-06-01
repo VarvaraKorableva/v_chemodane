@@ -27,7 +27,7 @@ function Schedule({handleCardClick}) {
             <h1 className='schedule__title'>Расписание</h1>
 
             <div className="schedule__links-container">
-                <a className="schedule__btn" href='https://www.anumuseum.org.il/ru/events/purim-russian/' target="_blank">
+                <a className="schedule__btn" href='https://www.anumuseum.org.il/ru/events/purim-russian/' target="_blank" rel="noopener">
                     Купить билеты
                 </a>
                 <a href={schedule} download="Расписание.pdf" className="schedule__btn">

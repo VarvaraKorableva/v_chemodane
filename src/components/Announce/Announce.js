@@ -12,7 +12,7 @@ function Announce() {
                 <div className="header__btn-container">
                     <Link className="header__btn-link" to='/schedule'>Посмотреть расписание →</Link>
                     <div className="announce__links-container">
-                        <a className="header__btn" href='https://www.anumuseum.org.il/ru/events/purim-russian/' target="_blank">
+                        <a className="header__btn" href='https://www.anumuseum.org.il/ru/events/purim-russian/' target="_blank" rel="noopener">
                             Купить билеты
                         </a>
                         <a href={schedule} download="WebDeveloper_KorablevaVarvara.pdf" className="header__btn">

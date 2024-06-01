@@ -1,0 +1,148 @@
+.paticipant-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #FDD256;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+@media screen and (max-width: 1065px) {
+    .paticipant-section {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .paticipant-section {
+        padding-top: 40px;
+    }
+}
+
+.paticipant-main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    max-width: 1200px;
+    padding: 0;
+}
+
+.paticipant-main-title {
+    font-weight: bold;
+    font-size: 32px;
+    text-align: start;
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1065px) {
+    .paticipant-main-title {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .paticipant-main-title {
+        margin-bottom: 40px;
+    }
+}
+
+.paticipant-container {
+    list-style-type: none;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 3px solid #fff;
+    width: 260px;
+    height: 300px;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.paticipant-container:hover {
+    border: 5px solid #fff;
+}
+
+.paticipant-companyName-title {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.paticipant-companyName-description {
+    width: 250px;
+    height: 145px;
+    /*overflow: ;*/
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 0;
+    margin-right: 0;
+    padding-right: 15px;
+    text-align: start;
+}
+
+::-webkit-scrollbar {
+    background-color: #f1f1f1; /* Цвет фона скроллбара */
+    width: 5px; /* Ширина скроллбара */
+    
+  }
+  
+  /* Для Chrome, Safari и Opera */
+  ::-webkit-scrollbar-thumb {
+    background-color: #2f80ed; /* Цвет ползунка */
+    border-radius: 6px; /* Радиус закругления углов ползунка */
+    
+  }
+  
+  /* Для Firefox */
+  /* Заменяем стандартный скроллбар на псевдоскроллбар */
+  * {
+    
+    scrollbar-width: thin; /* Толщина скроллбара */
+    scrollbar-color: #2f80ed #f1f1f1; /* Цвет ползунка и фона скроллбара */
+  }
+
+  .paticipant-img {
+      max-width: 200px;
+      height: 125px;
+      
+      display: flex;
+      margin: auto;
+      margin-bottom: 20px;
+      object-fit: contain;
+      /*object-fit: scale-down;*/
+  }
+
+.paticipant-btn-add {
+    border: 2px solid #2f80ed;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}  
+
+.paticipant-btn-add:hover {
+    background-color: #2f80ed;
+}
+
+.paticipant-btn-add_notactive {
+    border: 2px solid #b3bdc7;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}

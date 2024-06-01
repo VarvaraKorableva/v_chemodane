@@ -3,9 +3,10 @@ import { Route, Routes, useNavigate } from 'react-router-dom'
 import './App.css';
 import Header from './components/Header/Header'
 import Schedule from './components/Schedule/Schedule'
-import Announce from './components/Announce/Announce'
-import NewAnnounce from './components/Purim/NewAnnounce/NewAnnounce'
-import NewSchedule from './components/Purim/NewSchedule/NewSchedule'
+import NewAnnounce from './components/CurrentAnnounce/HaifaNewAnnounce'
+import HaifaSchedule from './components/HaifaSchedule/HaifaSchedule'
+
+import Purim from './pages/purim/PurimPage'
 
 import AboutFestival from './components/AboutFestival/AboutFestival'
 import Participants from './components/Participants/Participants'
@@ -53,7 +54,7 @@ function App() {
             <>
             <NewAnnounce />
             <AboutFestival />
-            <NewSchedule handleCardClick={handleCardClick}/>
+            <HaifaSchedule handleCardClick={handleCardClick}/>
             <Participants addCard={addCard} limit={limit}/>
             <OurTeam />
             </>
@@ -75,6 +76,17 @@ function App() {
               <IndividualPageOfParticipants />
             }
         />
+
+        <Route
+          path='/purim'
+            element={
+              <Purim
+                handleCardClick={handleCardClick}
+                addCard={addCard} limit={limit}
+              ></Purim>
+            }
+        >
+        </Route>
 
       </Routes>  
       <Footer />
