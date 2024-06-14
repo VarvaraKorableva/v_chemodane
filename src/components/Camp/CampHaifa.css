@@ -1,3 +1,9 @@
+.camp-haifa__main-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
 .camp-haifa__section {
     display: flex;
     flex-direction: column;
@@ -33,7 +39,7 @@
     text-align: start;
     margin-top: 0;
     
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 @media screen and (max-width: 1065px) {
@@ -217,6 +223,6 @@
     }
 }
 
-.camp-haifa__fifth-orange-star {
-
+.camp-haifa__main-text {
+    margin-bottom: 40px;
 }
