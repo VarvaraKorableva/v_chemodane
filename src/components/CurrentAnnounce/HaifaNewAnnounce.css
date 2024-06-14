@@ -1,6 +1,7 @@
 .hifa-announce__container {
-    background-image: url(../../images/announceHaifa.jpg);
+    background-image: url(../../images/haifa/mainPicHaifa.jpg);
     /*background-color: rgb(218, 177, 82);*/
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

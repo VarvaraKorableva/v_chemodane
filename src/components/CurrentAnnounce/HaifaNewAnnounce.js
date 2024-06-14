@@ -11,10 +11,11 @@ function HaifaNewAnnounce() {
                 <h1 className="hifa-announce__title">1-2 июля <br/> фестиваль "В чемодане" <br/> возвращается в Хайфу!</h1>
                 <div className="newAnnounce__btn-container">
                     <Link className="newAnnounce__btn-link" to='#festival'>О фестивале</Link>
-                    <Link className="newAnnounce__btn-link">Расписание</Link>{/*to='/schedule' */}
-                    
+                    <Link className="newAnnounce__btn-link" to='/haifa-2024-schedule'>Расписание</Link>{/* */}
+                    <Link className='newAnnounce__btn-link'>Кайтана</Link>
+                    <Link className='newAnnounce__btn-link'>Спектакли</Link>
+                    <Link className='newAnnounce__btn-link'>Мастер-классы</Link>       
                     <Link className="newAnnounce__btn-link" to='#market'>Маркет</Link>
-                    <a className="newAnnounce__btn"  rel="noopener">Купить билеты</a>{/*href='https://tickets.anumuseum.org.il/ru/Фестиваль__В_чемодане._Пурим_в_музее_/?id=31117#choose_tickets' */}
                 </div> 
             </div>
         </section>

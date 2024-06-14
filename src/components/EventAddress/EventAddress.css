@@ -1,0 +1,43 @@
+
+.eventAddress__main-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1065px) {
+    .eventAddress__main-container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .eventAddress__main-container {
+        padding-top: 40px;
+    }
+}
+
+.haifa-about-festival__title {
+    /*font-weight: bold;*/
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 1065px) {
+    .haifa-about-festival__title {
+        font-size: 28px;
+        
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .haifa-about-festival__title {
+        font-size: 18px;
+    }
+}

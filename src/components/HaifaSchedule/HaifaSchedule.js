@@ -1,15 +1,15 @@
 import './HaifaSchedule.css'
-//import scheduleFirstPart from '../../images/scheduleFirstPart.png'
-//import scheduleSecondPart from '../../images/scheduleSecondPart.png'
+import scheduleFirstPart from '../../images/haifa/firstDayHaifa.jpg'
+import scheduleSecondPart from '../../images/haifa/secondDayHaifa.jpg'
 
 function HaifaSchedule({handleCardClick}) {
 
     function onTwentyFourCardClick() {
-        //handleCardClick(scheduleFirstPart)
+        handleCardClick(scheduleFirstPart)
     }
 
     function onTwentyFiveClick() {
-        //handleCardClick(scheduleSecondPart)
+        handleCardClick(scheduleSecondPart)
     }
 
 

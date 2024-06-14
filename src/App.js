@@ -5,8 +5,9 @@ import Header from './components/Header/Header'
 import Schedule from './components/Schedule/Schedule'
 import NewAnnounce from './components/CurrentAnnounce/HaifaNewAnnounce'
 import HaifaSchedule from './components/HaifaSchedule/HaifaSchedule'
-
+import ScheduleHaifa from './components/ScheduleHaifa/ScheduleHaifa'
 import Purim from './pages/purim/PurimPage'
+import EventAddress from './components/EventAddress/EventAddress'
 
 import AboutFestival from './components/AboutFestival/AboutFestival'
 import Participants from './components/Participants/Participants'
@@ -53,6 +54,7 @@ function App() {
           element={
             <>
             <NewAnnounce />
+            <EventAddress />
             <AboutFestival />
             <HaifaSchedule handleCardClick={handleCardClick}/>
             <Participants addCard={addCard} limit={limit}/>
@@ -65,6 +67,15 @@ function App() {
           path="/schedule"
           element={
             <Schedule 
+            handleCardClick={handleCardClick}
+            />
+          }>
+        </Route>
+
+        <Route
+          path="/haifa-2024-schedule"
+          element={
+            <ScheduleHaifa 
             handleCardClick={handleCardClick}
             />
           }>
