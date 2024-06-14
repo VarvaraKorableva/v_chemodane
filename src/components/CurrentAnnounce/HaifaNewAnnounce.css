@@ -1,7 +1,6 @@
 .hifa-announce__container {
     background-image: url(../../images/haifa/mainPicHaifa.jpg);
     /*background-color: rgb(218, 177, 82);*/
-    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -27,13 +26,16 @@
 
 @media screen and (max-width: 470px) {
     .hifa-announce__container {
-        min-height: 450px;
+        min-height: 50px;
+        background-position: left;
+        
     }
 }
 
 @media screen and (max-width: 455px) {
     .hifa-announce__container {
         padding-bottom: 28px;
+        
     }
 }
 
@@ -63,7 +65,6 @@
 @media screen and (max-width: 1065px) {
     .hifa-announce__title {
         font-size: 36px;
-        
     }
 }
 
