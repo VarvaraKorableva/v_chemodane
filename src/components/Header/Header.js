@@ -20,7 +20,6 @@ function Header({handleContactsPopupOpen}) {
 
                 <nav className="header__nav">
                     <ul className="header__links-container">
-                        <li className="header__link">О ФЕСТИВАЛЕ</li>
                         <li className="header__link">НАША МИССИЯ</li>
                         <li className="header__link">КТО МЫ</li>
                         <li className="header__link">НАШИ ПРОЕКТЫ</li>

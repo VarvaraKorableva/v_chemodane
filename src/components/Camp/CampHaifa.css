@@ -1,0 +1,222 @@
+.camp-haifa__section {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 80px;
+    padding-right: 80px;
+   
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    background-color: #2ab09e;
+
+    position: relative;
+
+}
+
+@media screen and (max-width: 1065px) {
+    .camp-haifa__section {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .camp-haifa__section {
+        padding-top: 40px;
+    }
+}
+
+.camp-haifa__title {
+    font-weight: bold;
+    font-size: 32px;
+    text-align: start;
+    margin-top: 0;
+    
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1065px) {
+    .camp-haifa__title {
+        font-size: 32px;
+        
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .camp-haifa__title {
+        margin-bottom: 40px;
+    }
+}
+
+.camp-haifa__wrapper {
+    padding: 0;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.camp-haifa__container {
+    list-style-type: none;
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 5px dotted #fff;
+
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+@media screen and (max-width: 1300px) {
+    .camp-haifa__container {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .camp-haifa__container {
+        width: 550px;
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .camp-haifa__container {
+        width: 500px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .camp-haifa__container {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .camp-haifa__container {
+        width: 400px;
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .camp-haifa__container {
+        width: 310px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .camp-haifa__container {
+        width: 270px;
+        padding: 10px;
+    }
+}
+
+
+
+.camp-haifa__second-wrapper {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.camp-haifa__second-container {
+    list-style-type: none;
+    text-align: start;
+    margin-bottom: 10px;
+
+    font-size: 18px;
+}
+
+@media screen and (max-width: 444px) {
+    .camp-haifa__second-container {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+}
+
+.camp-haifa__time {
+    color: #fff;
+    margin-right: 10px;
+    font-weight: 500;
+    z-index: 2;
+}
+
+.camp-haifa__second-orange-star {
+    background-image: url(../../images/haifa/star.svg);
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    
+}
+
+
+.camp-haifa__orange-star {
+    background-image: url(../../images/haifa/star.svg);
+    position: absolute;
+    top: 180px;
+    left: 40px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    
+}
+
+@media screen and (max-width: 729px) {
+    .camp-haifa__orange-star {
+        top: 150px;
+    }
+}
+
+.camp-haifa__third-orange-star {
+    background-image: url(../../images/haifa/star.svg);
+    position: absolute;
+    bottom: 70px;
+    left: 60px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+.camp-haifa__fourth-orange-star {
+    background-image: url(../../images/haifa/star.svg);
+    position: absolute;
+    bottom: 40px;
+    left: 130px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 444px) {
+    .camp-haifa__third-orange-star {
+        bottom: 20px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 444px) {
+    .camp-haifa__fourth-orange-star {
+        bottom: 10px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.camp-haifa__fifth-orange-star {
+
+}

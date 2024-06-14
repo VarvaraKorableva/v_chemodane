@@ -1,22 +1,17 @@
 import './AboutFestival.css'
-import firstPic from '../../images/aboutFesImages/firstPic.jpg'
-import secondPic from '../../images/aboutFesImages/secondPic.jpg'
-import thirdPic from '../../images/aboutFesImages/thirdPic.jpeg'
-//import fifthPic from '../../images/aboutFesImages/fifthPic.jpg'
-import sixPic from '../../images/aboutFesImages/sixPic.jpg'
-import thirdContainerPic from '../../images/aboutFesImages/thirdContainerpic.png'
-import fourPic from '../../images/aboutFesImages/fourPic.jpg'
 
 function AboutFestival() {
     return(
         <section className="aboutFestivalHaifa__main-container" id='festival'>
             <h2 className="aboutFestivalHaifa__main-title">О ФЕСТИВАЛЕ</h2>
 
-
+                <div className="aboutFestivalHaifa__title-container">
                 <h2 className="aboutFestivalHaifa__sub-title">
-                    Добро пожаловать на главное русскоязычное событие лета в Израиле - Книжный семейный фестиваль в Хайфе! Этот уникальный фестиваль предлагает незабываемый опыт для всей семьи, насыщенный мастер-классами, спектаклями и лагерем для детей.
+                    Добро пожаловать на главное русскоязычное событие лета в Израиле -
                 </h2>
-
+                <h2 className="aboutFestivalHaifa__sub-title aboutFestivalHaifa__sub-title_bigger">Книжный семейный фестиваль в Хайфе!</h2>
+                <h2 className="aboutFestivalHaifa__sub-title">Этот уникальный фестиваль предлагает незабываемый опыт для всей семьи, насыщенный мастер-классами, спектаклями и лагерем для детей.</h2>
+                </div>
 
                 <ul className="aboutFestivalHaifa__text-wrapper">
 
@@ -38,7 +33,7 @@ function AboutFestival() {
 
                 </ul>
 
-                <p className="aboutFestivalHaifa__text-promotion">До 12 июня на некоторые спектакли можно купить билеты со скидкой 20%!</p>
+                <p className="aboutFestivalHaifa__text-promotion">До 12 июня на некоторые спектакли можно купить билеты со скидкой 20%</p>
 
         </section>
     )

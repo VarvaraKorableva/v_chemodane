@@ -4,22 +4,34 @@
     
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    min-height: 502px;
+    background-position: right;
+    min-height: 670px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
-    padding-bottom: 22px;
+    padding-bottom: 80px;
 }
 
 @media screen and (max-width: 1065px) {
     .hifa-announce__container {
-        min-height: 319px;
+        min-height: 340px;
     }
 }
 
 @media screen and (max-width: 766px) {
+    .hifa-announce__container {
+        padding-bottom: 28px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .hifa-announce__container {
+        min-height: 450px;
+    }
+}
+
+@media screen and (max-width: 455px) {
     .hifa-announce__container {
         padding-bottom: 28px;
     }
@@ -58,6 +70,24 @@
 @media screen and (max-width: 770px) {
     .hifa-announce__title {
         font-size: 24px;
+        margin-top: 30px;
+        
+        color: #3f3e3c;
+        text-shadow: none;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .hifa-announce__title {
+        margin-bottom: 120px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .hifa-announce__title-date {
+        color: #181614;
+        font-weight: 500;
     }
 }
 

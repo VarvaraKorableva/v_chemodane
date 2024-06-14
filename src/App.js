@@ -8,6 +8,8 @@ import HaifaSchedule from './components/HaifaSchedule/HaifaSchedule'
 import ScheduleHaifa from './components/ScheduleHaifa/ScheduleHaifa'
 import Purim from './pages/purim/PurimPage'
 import EventAddress from './components/EventAddress/EventAddress'
+import CampHaifa from './components/Camp/CampHaifa'
+//import Performances from './components/Performances/Performances' <Performances />
 
 import AboutFestival from './components/AboutFestival/AboutFestival'
 import Participants from './components/Participants/Participants'
@@ -57,6 +59,8 @@ function App() {
             <EventAddress />
             <AboutFestival />
             <HaifaSchedule handleCardClick={handleCardClick}/>
+            <CampHaifa />
+            
             <Participants addCard={addCard} limit={limit}/>
             <OurTeam />
             </>

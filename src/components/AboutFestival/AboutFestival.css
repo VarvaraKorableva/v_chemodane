@@ -87,16 +87,31 @@
     }
 }
 
+.aboutFestivalHaifa__title-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
 .aboutFestivalHaifa__sub-title { 
-  display: flex;
-  margin: auto;
   text-align: center;
   color: #2ab09e;
-  width: 90%;
-  /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  text-shadow: 2px 2px 4px rgba(139, 69, 19, 0.5);*/
-  margin-bottom: 80px;
+  text-shadow: 2px 2px 4px rgba(223, 144, 25, 0.2);
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 
+.aboutFestivalHaifa__sub-title:last-of-type {
+    margin-bottom: 80px;
+}
+
+.aboutFestivalHaifa__sub-title:first-of-type {
+    margin-top: 0;
+}
+
+.aboutFestivalHaifa__sub-title_bigger {
+    font-size: 40px;
 }
 
 .aboutFestivalHaifa__text-promotion {
