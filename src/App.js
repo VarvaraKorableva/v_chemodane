@@ -10,6 +10,7 @@ import Purim from './pages/purim/PurimPage'
 import EventAddress from './components/EventAddress/EventAddress'
 import CampHaifa from './components/Camp/CampHaifa'
 //import Performances from './components/Performances/Performances' <Performances />
+import TheaterHaifa from './components/Theater/TheaterHaifa'
 
 import AboutFestival from './components/AboutFestival/AboutFestival'
 import Participants from './components/Participants/Participants'
@@ -60,7 +61,7 @@ function App() {
             <AboutFestival />
             <HaifaSchedule handleCardClick={handleCardClick}/>
             <CampHaifa />
-            
+            <TheaterHaifa />
             <Participants addCard={addCard} limit={limit}/>
             <OurTeam />
             </>

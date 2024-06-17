@@ -1,9 +1,24 @@
-const { RenderErrorBoundary } = require("react-router/dist/lib/hooks");
+import  ParticipantsData  from '../../data/DataHaifa'
+import OnePerformance from './OnePerformance'
+import './TheaterHaifa.css'
 
 function TheaterHaifa() {
-    render(
-        <section>
-            <h2>СПЕКТАКЛИ</h2>
+    return(
+        <section className="theaterHaifa__main-container" id='TheaterHaifa'>
+            <h2 className="theaterHaifa__main-title">СПЕКТАКЛИ</h2>
+
+            <ul className="theaterHaifa__wrapper">
+                {ParticipantsData.map((i) => (
+                    i.Genre === "спектакль" && i.Date !== "" ?
+                        <OnePerformance 
+                            key={i.CompanyName}
+                            item={i}
+                        />
+                    : 
+                        <></>
+                ))}
+            </ul>
+
         </section>
     )
 }

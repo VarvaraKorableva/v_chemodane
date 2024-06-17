@@ -23,6 +23,4 @@ function Paticipant({item}) {
     )
 }
 
-export default Paticipant;
-
-//<h3 className="paticipant-companyName-title">{item.companyName}</h3>
+export default Paticipant

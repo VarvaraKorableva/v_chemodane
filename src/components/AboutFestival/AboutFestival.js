@@ -33,7 +33,7 @@ function AboutFestival() {
 
                 </ul>
 
-                <p className="aboutFestivalHaifa__text-promotion">Остались вопросы? Позвоните нам! +972 53-470-1675</p>
+                <p className="aboutFestivalHaifa__text-promotion">Остались вопросы? Позвоните нам! <br/> +972 53-470-1675</p>
 
         </section>
     )

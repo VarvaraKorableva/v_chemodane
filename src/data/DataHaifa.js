@@ -1,4 +1,4 @@
-ParticipantsData = [
+const ParticipantsData = [
   {
    CompanyName:"Kikar Studio",
    Description:'Мастер-класс в технике теневого театра "Друг к другу" от Kikar Studio.На мастер классе вы узнаете как сделать театр из лампы, кусочка проволоки и пары театральных секретов. Участники мастер-класса:-проведут световые эксперименты;-узнают секрет преображения  бытовых предметов в арт-объекты;-научатся делать теневых кукол;-примут участие в спектакле.Ведущий: режиссёр и педагог Пётр Чижов, автор спектаклей в драматическом и кукольном театрах.Длительность: 1 час 10 мин Количество человек: 15 детей с родителями',
@@ -177,7 +177,7 @@ ParticipantsData = [
    },
   AggregatorLink:"https://eventbuzz.co.il/maminasumka",
    Genre:"спектакль",
-   Date:"2 июля, 15.002 июля, 17.00",
+   Date:"2 июля, 15.00; 2 июля, 17.00",
    },
   {
    CompanyName:"Театрон Маток",
@@ -236,7 +236,7 @@ ParticipantsData = [
    Telegram: "",
    },
   AggregatorLink:"https://eventbuzz.co.il/artel",
-   Genre:"спетакль",
+   Genre:"спектакль",
    Date:"1 июля, 14.00",
    },
   {
@@ -668,7 +668,7 @@ ParticipantsData = [
    Telegram: "",
    },
   AggregatorLink:"https://eventbuzz.co.il/chelovechek",
-   Genre:"спетакль",
+   Genre:"спектакль",
    Date:"2 июля, 13.30",
    },
   {
@@ -744,3 +744,5 @@ ParticipantsData = [
    Date:"",
    },
   ]
+
+  export default ParticipantsData

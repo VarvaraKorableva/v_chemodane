@@ -11,7 +11,7 @@ function HaifaNewAnnounce() {
                     <Link className="newAnnounce__btn-link" to='#festival'>О фестивале</Link>
                     <Link className="newAnnounce__btn-link" to='/haifa-2024-schedule'>Расписание</Link>{/* */}
                     <Link className='newAnnounce__btn-link' to='#camp-haifa'>Кайтана</Link>
-                    <Link className='newAnnounce__btn-link'>Спектакли</Link>
+                    <Link className='newAnnounce__btn-link' to='#TheaterHaifa'>Спектакли</Link>
                     <Link className='newAnnounce__btn-link'>Мастер-классы</Link>       
                     <Link className="newAnnounce__btn-link" to='#market'>Маркет</Link>
                 </div> 
