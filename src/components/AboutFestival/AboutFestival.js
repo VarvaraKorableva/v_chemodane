@@ -10,7 +10,7 @@ function AboutFestival() {
                     Добро пожаловать на главное русскоязычное событие лета в Израиле -
                 </h2>
                 <h2 className="aboutFestivalHaifa__sub-title aboutFestivalHaifa__sub-title_bigger">Книжный семейный фестиваль в Хайфе!</h2>
-                <h2 className="aboutFestivalHaifa__sub-title">Этот уникальный фестиваль предлагает незабываемый опыт для всей семьи, насыщенный мастер-классами, спектаклями и лагерем для детей.</h2>
+                <h2 className="aboutFestivalHaifa__sub-title">Вас ждут спектакли, мастер-классы, лекции, встречи с писателями. Интересно будет всей семье.</h2>
                 </div>
 
                 <ul className="aboutFestivalHaifa__text-wrapper">
@@ -33,7 +33,7 @@ function AboutFestival() {
 
                 </ul>
 
-                <p className="aboutFestivalHaifa__text-promotion">До 12 июня на некоторые спектакли можно купить билеты со скидкой 20%</p>
+                <p className="aboutFestivalHaifa__text-promotion">Остались вопросы? Позвоните нам! +972 53-470-1675</p>
 
         </section>
     )

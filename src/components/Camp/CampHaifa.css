@@ -10,7 +10,7 @@
     padding-bottom: 80px;
 
     background-color: #2ab09e;
-
+    background-color: rgba(42, 176, 158, 0.8);
     position: relative;
 
 }
@@ -118,7 +118,7 @@
 
 @media screen and (max-width: 400px) {
     .camp-haifa__container {
-        width: 270px;
+        width: 100%;
         padding: 10px;
     }
 }
@@ -161,8 +161,19 @@
     right: 30px;
     width: 50px;
     height: 50px;
-    z-index: 1;
-    
+    z-index: 1; 
+}
+
+@media screen and (max-width: 772px) {
+    .camp-haifa__second-orange-star {
+        top: 150px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .camp-haifa__second-orange-star {
+        top: 20px;
+    }
 }
 
 
@@ -220,4 +231,92 @@
 
 .camp-haifa__main-text {
     margin-bottom: 40px;
+}
+
+.camp-haifa__title-and-btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+    .camp-haifa__title-and-btn-container {
+        flex-direction: column;
+    }
+}
+
+.camp-haifa__link-btn {
+    height: 40px;
+    width: 150px;
+    border: 2px solid #FDD256;
+    border-radius: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.camp-haifa__link-btn:hover {
+    background-color: #FDD256;
+    color: #2ab09e;
+}
+
+@media screen and (max-width: 500px) {
+    .camp-haifa__link-btn {
+        background-color: #FDD256;
+        color: #fff;
+        width: 70%;
+        align-self: center;
+        margin-bottom: 40px;
+        font-weight: 600;
+    }
+}
+
+.camp-haifa__wrapper-hosts {
+    padding: 0;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.camp-haifa__container-hosts {
+    list-style-type: none;
+    width: 350px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .camp-haifa__container-hosts {
+        width: 90%;
+    }
+}
+
+
+.camp-haifa__host-pic {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.camp-haifa__host-name {
+    font-weight: 600;
+}
+
+.camp-haifa__subtitle-hosts {
+font-size: 32px;
+font-family: "Roboto", sans-serif;
+}
+
+.camp-haifa__subtitle {
+    font-weight: 500;
 }
