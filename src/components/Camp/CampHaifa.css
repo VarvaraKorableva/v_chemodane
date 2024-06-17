@@ -243,6 +243,34 @@
     }
 }
 
+.camp-haifa__link-btn-down {
+    height: 50px;
+    width: 350px;
+    
+    background-color: #FDD256;
+    border-radius: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2ab09e;
+    cursor: pointer;
+    align-self: center;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 500px) {
+    .camp-haifa__link-btn-down {
+        width: 85%;
+    }
+}
+
+.camp-haifa__link-btn-down:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
 .camp-haifa__link-btn {
     height: 40px;
     width: 150px;
@@ -254,6 +282,7 @@
     align-items: center;
     color: #2ab09e;
     cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .camp-haifa__link-btn:hover {

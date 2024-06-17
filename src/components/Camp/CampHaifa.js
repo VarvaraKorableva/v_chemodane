@@ -59,7 +59,8 @@ function CampHaifa() {
             </ul>
 
             <p>Стоимость программы - один день 300 ₪, оба дня – 500 ₪</p>
-            <p>Обед, перекусы, вода и незабываемые впечатления - включены!</p>       
+            <p>Обед, перекусы, вода и незабываемые впечатления - включены!</p>   
+            <Link to='https://eventbuzz.co.il/lp/event/kaitana' target="_blank" className="camp-haifa__link-btn-down">Купить билеты</Link>    
         </section>
         
     )
