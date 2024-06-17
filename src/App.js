@@ -11,6 +11,7 @@ import EventAddress from './components/EventAddress/EventAddress'
 import CampHaifa from './components/Camp/CampHaifa'
 //import Performances from './components/Performances/Performances' <Performances />
 import TheaterHaifa from './components/Theater/TheaterHaifa'
+import MasterClassHaifa from './components/MasterClass/MasterClassHaifa'
 
 import AboutFestival from './components/AboutFestival/AboutFestival'
 import Participants from './components/Participants/Participants'
@@ -62,6 +63,7 @@ function App() {
             <HaifaSchedule handleCardClick={handleCardClick}/>
             <CampHaifa />
             <TheaterHaifa />
+            <MasterClassHaifa />
             <Participants addCard={addCard} limit={limit}/>
             <OurTeam />
             </>
