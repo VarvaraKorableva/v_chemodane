@@ -21,6 +21,7 @@ import ImagePopup from './components/Popups/ImagePopup'
 import ContactsPopup from './components/Popups/ContactsPopup'
 import OurTeam from './components/OurTeam/OurTeam'
 import IndividualPageOfParticipants from './components/IndividualPageOfParticipants/IndividualPageOfParticipants'
+import IndividualPage from './components/IndividualPage/IndividualPage'
 
 function App() {
   const [contactsPopup, setContactsPopup] = React.useState(false)
@@ -66,7 +67,6 @@ function App() {
             <TheaterHaifa />
             <MasterClassHaifa />
             <LecturesAndPresentations />
-
             <Participants addCard={addCard} limit={limit}/>
             <OurTeam />
             </>
@@ -95,6 +95,13 @@ function App() {
           path='/participant/:id'
             element={
               <IndividualPageOfParticipants />
+            }
+        />
+
+        <Route 
+          path='/master-class-theater/:id'
+            element={
+              <IndividualPage />
             }
         />
 

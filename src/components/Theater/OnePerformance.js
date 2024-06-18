@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 function OnePerformance({item}) {
 
     return (
-        <li className='onePerformance__container'>
+        <Link className='onePerformance__container' to={`/master-class-theater/${item.id}`}>
             <p className='onePerformance__date'>{item.Date}</p>
             {item.AggregatorLink === ""?
                 <div className='masterClassHaifa__link-btn'>БЕСПЛАТНО</div>
@@ -16,7 +16,7 @@ function OnePerformance({item}) {
                 <p className='onePerformance__description'>{item.Description}</p>
             </div>
 
-        </li>
+        </Link>
     )
 }
 

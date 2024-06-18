@@ -1,24 +1,17 @@
 
-/*
-
-Мастер-класс Оксаны Бондаревой "НЕ рисующие художники". Оксана расскажет детям, как так вышло, что можно быть художником и не рисовать вовсе и познакомит ребят с альтернативными творческими инструментами. Каждый создаст собственную работу, а в конце мастер-класса устроим минивыставку для родителей.
-
-
-Возраст участников 6+
-
-*/
 const ParticipantsData = [
   {
    CompanyName:"Kikar Studio",
    Description:'Мастер-класс в технике теневого театра "Друг к другу" от Kikar Studio.На мастер классе вы узнаете как сделать театр из лампы, кусочка проволоки и пары театральных секретов. Участники мастер-класса:-проведут световые эксперименты;-узнают секрет преображения  бытовых предметов в арт-объекты;-научатся делать теневых кукол;-примут участие в спектакле.Ведущий: режиссёр и педагог Пётр Чижов, автор спектаклей в драматическом и кукольном театрах.Длительность: 1 час 10 мин Количество человек: 15 детей с родителями',
    SocialNetwork: {
-  Instagram: "https://www.instagram.com/kikar_studio?igsh=MWcxbWd6dTF4dGxjag==",
+   Instagram: "https://www.instagram.com/kikar_studio?igsh=MWcxbWd6dTF4dGxjag==",
    Facebook: "https://www.facebook.com/profile.php?id=61550568539176",
    Telegram: "",
    },
-  AggregatorLink:"https://eventbuzz.co.il/kikarstudio",
+   AggregatorLink:"https://eventbuzz.co.il/kikarstudio",
    Genre:"мастер-класс",
    Date:"1 июля, 13.00",
+   id: 123,
    },
 
    {
@@ -34,6 +27,7 @@ const ParticipantsData = [
    AggregatorLink:"https://eventbuzz.co.il/lp/event/khudozniki",
     Genre:"мастер-класс",
     Date:"1 июля, 14.30-15.30",
+    id: 124,
     },
 
    {
@@ -47,6 +41,7 @@ const ParticipantsData = [
    AggregatorLink:"https://eventbuzz.co.il/lp/event/letalshagal",
     Genre:"мастер-класс",
     Date:"1 июля, 15.00",
+    id: 125,
     },
 
     {
@@ -60,6 +55,7 @@ const ParticipantsData = [
      AggregatorLink:"https://eventbuzz.co.il/moda",
       Genre:"мастер-класс",
       Date:"1 июля, 16.00",
+      id: 126,
     },  
 
     {
@@ -73,6 +69,7 @@ const ParticipantsData = [
      AggregatorLink:"https://eventbuzz.co.il/chudo",
       Genre:"мастер-класс",
       Date:"1 июля, 17.30",
+      id: 127,
     },  
 
     {
@@ -86,6 +83,7 @@ const ParticipantsData = [
      AggregatorLink:"https://eventbuzz.co.il/pryanik",
       Genre:"мастер-класс",
       Date:"",
+      id: 128,
     },
 
     {
@@ -99,6 +97,7 @@ const ParticipantsData = [
      AggregatorLink:"https://eventbuzz.co.il/chtenie",
       Genre:"мастер-класс",
       Date:"2 июля, 14.00",
+      id: 129,
     },  
 
     {
@@ -112,6 +111,7 @@ const ParticipantsData = [
      AggregatorLink:"https://eventbuzz.co.il/fomin",
       Genre:"мастер-класс",
       Date:"2 июля, 15.00",
+      id: 130,
     },
 
     {
@@ -119,13 +119,14 @@ const ParticipantsData = [
       Age: '5+',
       Description:"Присоединяйтесь к нашему мастер-классу и создайте свой уникальный мини-десерт, который станет идеальным подарком для близких или украшением вашего праздничного стола!Мы приготовим вкуснейший шоколадный бенто-тортBento — в переводе с японского значит «порция на одного». Этим термином в азиатских странах может называться не только сладость, но и просто коробочка еды на один прием пищи для одной персоны.На мастер-классе с кондитером Ольгой Ким каждый участник создаст свой мини торт и украсит его разными героями из компьютерных игр! Майнкрафт, amongus, brawl stars. Включаем вашу фантазию и вперед5+Билет приобретается на каждого участника",
       SocialNetwork: {
-     Instagram: "https://www.instagram.com/kim.bakeat/",
-      Facebook: "",
-      Telegram: "",
+        Instagram: "https://www.instagram.com/kim.bakeat/",
+        Facebook: "",
+        Telegram: "",
       },
-     AggregatorLink:"https://eventbuzz.co.il/bentotort",
+      AggregatorLink:"https://eventbuzz.co.il/bentotort",
       Genre:"мастер-класс",
       Date:"2 июля, 15.00, 18.00, 19.00",
+      id: 131,
     },  
 
     {
@@ -139,6 +140,7 @@ const ParticipantsData = [
      AggregatorLink:"https://eventbuzz.co.il/svecha",
       Genre:"мастер-класс",
       Date:"2 июля, 16.30",
+      id: 132,
     },  
 
     
@@ -154,6 +156,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 133,
    },
   {
    CompanyName:"ДОМ чёрной СОВЫ",
@@ -168,6 +171,7 @@ const ParticipantsData = [
   AggregatorLink:"https://eventbuzz.co.il/vseprosto",
    Genre:"спектакль",
    Date:"2 июля, 16.00",
+   id: 134,
    },
   {
    CompanyName:"",
@@ -180,6 +184,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 135,
    },
   {
    CompanyName:"@pod_lopuhom",
@@ -192,6 +197,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 136,
    },
   {
    CompanyName:"Театр Пластилин",
@@ -204,6 +210,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 137,
    },
   {
    CompanyName:"Arty Party",
@@ -216,6 +223,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 138,
    },
   {
    CompanyName:"",
@@ -228,6 +236,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 139,
    },
   {
    CompanyName:"Театр Зебра",
@@ -240,6 +249,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 140,
    },
   {
    CompanyName:"",
@@ -252,6 +262,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 141,
    },
   {
    CompanyName:"Ирина Алымова",
@@ -264,6 +275,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 142,
    },
   {
    CompanyName:"    ",
@@ -276,6 +288,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 143,
    },
   {
    CompanyName:"",
@@ -288,6 +301,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 144,
    },
   {
    CompanyName:"",
@@ -300,6 +314,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 145,
    },
   {
    CompanyName:"Hug U",
@@ -308,13 +323,14 @@ const ParticipantsData = [
    Director: 'Марфа Горвиц',
    Description:"Спектакль «Сказки из маминой сумки» Марфы Горвиц для самых маленьких. Из подручных средств создается настоящий домашний камерный театр, где расчески - это ежики, шарики - цветы, а детские ботиночки мышата. Трогательный спектакль, который понравится и детям и взрослым. Проверено!)",
    SocialNetwork: {
-  Instagram: "https://www.instagram.com/hug.u.event?igsh=MWVmcGR4YTBpMmkzcg%3D%3D&utm_source=qr",
-   Facebook: "https://www.facebook.com/hug.u.event?mibextid=LQQJ4d",
-   Telegram: "",
+    Instagram: "https://www.instagram.com/hug.u.event?igsh=MWVmcGR4YTBpMmkzcg%3D%3D&utm_source=qr",
+    Facebook: "https://www.facebook.com/hug.u.event?mibextid=LQQJ4d",
+    Telegram: "",
    },
-  AggregatorLink:"https://eventbuzz.co.il/maminasumka",
+   AggregatorLink:"https://eventbuzz.co.il/maminasumka",
    Genre:"спектакль",
    Date:"2 июля, 15.00 и 17.00",
+   id: 146,
    },
   {
    CompanyName:"Театрон Маток",
@@ -329,6 +345,7 @@ const ParticipantsData = [
   AggregatorLink:"https://eventbuzz.co.il/pingvikingi",
    Genre:"спектакль",
    Date:"1 июля 12.00",
+   id: 147,
    },
   {
    CompanyName:"",
@@ -341,6 +358,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 148,
    },
 
   {
@@ -354,6 +372,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"игра",
    Date:"",
+   id: 149,
    },
   {
    CompanyName:"Театр ARTель",
@@ -368,6 +387,7 @@ const ParticipantsData = [
   AggregatorLink:"https://eventbuzz.co.il/artel",
    Genre:"спектакль",
    Date:"1 июля, 14.00",
+   id: 150,
    },
   {
    CompanyName:"SDG ART",
@@ -380,6 +400,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 151,
    },
   {
    CompanyName:"-",
@@ -392,6 +413,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 152,
    },
   {
    CompanyName:"",
@@ -404,6 +426,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 153,
    },
   {
    CompanyName:"",
@@ -416,6 +439,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 154,
    },
   {
    CompanyName:"Trio INCREDIBLE ",
@@ -428,6 +452,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 155,
    },
   {
    CompanyName:" Нет, но что-то есть у сына Арсения. Подробная инфа обо мне - в любом поисковике. Считая Википедию.",
@@ -440,6 +465,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 156,
    },
   {
    CompanyName:"",
@@ -452,6 +478,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 157,
    },
   {
    CompanyName:"",
@@ -464,6 +491,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 158,
    },
 
   {
@@ -477,6 +505,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 159,
    },
   {
    CompanyName:"Slim Hadashim",
@@ -489,6 +518,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 160,
    },
   {
    CompanyName:"DJ Maxim Sergeev",
@@ -501,6 +531,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 161,
    },
   {
    CompanyName:"Ядвига Шишкина",
@@ -514,6 +545,7 @@ const ParticipantsData = [
   AggregatorLink:"https://eventbuzz.co.il/sunduk",
    Genre:"мастер-класс",
    Date:"2 июля, 18.00",
+   id: 162,
    },
 
   {
@@ -529,6 +561,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"спектакль",
    Date:"1 июля, 15.00",
+   id: 163,
    },
   {
    CompanyName:"",
@@ -541,6 +574,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 164,
    },
   {
    CompanyName:"Fusion Choir! ",
@@ -553,6 +587,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 165,
    },
   {
    CompanyName:"ArtNeuroVerse Biennale",
@@ -565,6 +600,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 166,
    },
   {
    CompanyName:"Арт студия: Индиго, Инесс/ студио",
@@ -577,6 +613,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 167,
    },
   {
    CompanyName:'"Лакоча"',
@@ -589,6 +626,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 168,
    },
   {
    CompanyName:"Valerigross_desserts",
@@ -601,6 +639,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 169,
    },
   {
    CompanyName:"Дина Гербек",
@@ -613,6 +652,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"презентация",
    Date:"2 июля, 12.00",
+   id: 170,
    },
   {
    CompanyName:"Катя Орлова",
@@ -625,6 +665,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 171,
    },
   {
    CompanyName:"Анна Ремез",
@@ -637,6 +678,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"мастер-класс",
    Date:"1 июля,16.00",
+   id: 172,
    },
   {
    CompanyName:"Поэтический концерт НА СТРОЙКАХ НОВЫХ ПИРАМИД. ",
@@ -649,6 +691,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"концерт",
    Date:"",
+   id: 173,
    },
   {
    CompanyName:"Хор",
@@ -661,6 +704,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 174,
    },
   {
    CompanyName:"Зингер 😀 сам себе компания)))",
@@ -673,6 +717,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 175,
    },
   {
    CompanyName:"",
@@ -685,6 +730,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 176,
    },
   {
    CompanyName:"Рубен Давид Гонсаллес Гальего",
@@ -697,6 +743,7 @@ const ParticipantsData = [
   AggregatorLink:"https://eventbuzz.co.il/galyego",
    Genre:"презентация",
    Date:"2 июля, 19.00",
+   id: 177,
    },
   {
    CompanyName:"Математика и малышики",
@@ -709,6 +756,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 178,
    },
   {
    CompanyName:"LittleAttic // музей Чердачок",
@@ -721,6 +769,7 @@ const ParticipantsData = [
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 179,
    },
   {
    CompanyName:'Театрон "Самэах"',
@@ -735,6 +784,7 @@ const ParticipantsData = [
   AggregatorLink:"https://eventbuzz.co.il/chelovechek",
    Genre:"спектакль",
    Date:"2 июля, 13.30",
+   id: 180,
    },
   {
    CompanyName:"Трио Новая Голландия",
@@ -749,6 +799,7 @@ const ParticipantsData = [
   AggregatorLink:"https://eventbuzz.co.il/skazka",
    Genre:"спектакль",
    Date:"2 июля, 18.00",
+   id: 181,
    },
 
   {
@@ -757,13 +808,14 @@ const ParticipantsData = [
    Age:'12+',
    Description:"«Девочка с головой волка»Театрализованная читка пьесы А.Житковского",
    SocialNetwork: {
-  Instagram: "https://www.instagram.com/craf_t_heatre/",
+   Instagram: "https://www.instagram.com/craf_t_heatre/",
    Facebook: "https://www.facebook.com/craft.theatre",
    Telegram: "",
    },
-  AggregatorLink:"",
+   AggregatorLink:"",
    Genre:"спектакль",
    Date:"2 июля, 14.00",
+   id: 182,
    },
   {
    CompanyName:"Cпектакль Анатолия Белого и Татьяны Марек",
@@ -778,18 +830,20 @@ const ParticipantsData = [
   AggregatorLink:"https://2.kassa.co.il/announce/79066",
    Genre:"спектакль",
    Date:"1 июля, 19.30",
+   id: 183,
    },
   {
    CompanyName:"Ольга Дробот",
    Description:"Чтение для жаркого лета – два хороших романа о северной жизни",
    SocialNetwork: {
-  Instagram: "",
+   Instagram: "",
    Facebook: "",
    Telegram: "",
    },
   AggregatorLink:"",
    Genre:"",
    Date:"",
+   id: 184,
    },
   ]
 
