@@ -10,16 +10,16 @@ function IndividualPage() {
 
     return(
         <section className='individualPage-section'>
-            <h2 className='individualPage-title'>{participant.CompanyName}, представляет {participant.Genre} <br/>{participant.Name}</h2>
+            <h2 className='individualPage-title'>{participant.CompanyName} представляет {participant.Genre} <br/>{participant.Name}</h2>
                 <div className='individualPage-text-container'>
                     <p 
                         className='individualPage-discription'>
                             {participant.Description}
                     </p>
-                    {participant.AggregatorLink !== '' || participant.Date !== ''?
-                    <Link className='individualPage-link-ticket' to={participant.AggregatorLink}>Купить билет</Link>
-                    :
+                    {participant.AggregatorLink === ''?
                     <div className='individualPage-link-ticket'>БЕСПЛАТНО</div>
+                    :
+                    <Link className='individualPage-link-ticket' to={participant.AggregatorLink}>Купить билет</Link>
                     }
                     <p className='individualPage-age'>{participant.Age}</p>
                     <p>{participant.Date}</p>

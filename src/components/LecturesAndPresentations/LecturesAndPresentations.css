@@ -8,7 +8,6 @@
     position: relative;
     background-color: #fff;
     /*background-color:#F5F5F5;*/
-    
 }
 
 @media screen and (max-width: 1065px) {
@@ -62,6 +61,7 @@
     margin-top: 20px;
     border-radius: 15px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 357px) {
@@ -74,6 +74,32 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
+.masterClassHaifa__container_important {
+    width: 300px;
+    height: 300px;
+    background-color: #FDD256;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+    color: #fff;
+    position: relative;
+    padding: 10px;
+    list-style-type: none;
+    margin: 5px;
+    margin-top: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 357px) {
+    .masterClassHaifa__container_important {
+        width: 100%;
+    }
+}
+
+.masterClassHaifa__container_important:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
 
 .masterClassHaifa__text-container {
     height: 250px;
@@ -103,6 +129,29 @@
     color: #FDD256;
 } 
 
+.masterClassHaifa__link-btn_important {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #2ab09e;
+    opacity: 1;
+    color: #FDD256;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    top: -20px;
+    right: 0;
+    text-decoration: none;
+}
+
+.masterClassHaifa__link-btn_important:hover {
+    background-color: #2f80ed;
+    color: #FDD256;
+} 
+
+
 .masterClassHaifa__wrapper {
     padding: 0;
     display: flex;
@@ -125,4 +174,21 @@
 
 .masterClassHaifa__description {
     text-align: start;
+}
+
+.masterClassHaifa__age {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #F5F5F5;
+    background-color: #d44a4a;
+
+    position: absolute;
+    right: -10px;
+    top: 5px;
+    z-index: 5;
 }

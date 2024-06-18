@@ -6,11 +6,7 @@ function AboutFestival() {
             <h2 className="aboutFestivalHaifa__main-title">О ФЕСТИВАЛЕ</h2>
 
                 <div className="aboutFestivalHaifa__title-container">
-                <h2 className="aboutFestivalHaifa__sub-title">
-                    Добро пожаловать на главное русскоязычное событие лета в Израиле -
-                </h2>
-                <h2 className="aboutFestivalHaifa__sub-title aboutFestivalHaifa__sub-title_bigger">Книжный семейный фестиваль в Хайфе!</h2>
-                <h2 className="aboutFestivalHaifa__sub-title">Вас ждут спектакли, мастер-классы, лекции, встречи с писателями. Интересно будет всей семье.</h2>
+                <h1 className="aboutFestivalHaifa__sub-title aboutFestivalHaifa__sub-title_bigger">Книжный семейный фестиваль в Хайфе!</h1>
                 </div>
 
                 <ul className="aboutFestivalHaifa__text-wrapper">

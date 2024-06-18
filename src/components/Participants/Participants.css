@@ -94,6 +94,7 @@
   /* Для Chrome, Safari и Opera */
   ::-webkit-scrollbar-thumb {
     background-color: #2f80ed; /* Цвет ползунка */
+    background-color: #78e9b4;
     border-radius: 6px; /* Радиус закругления углов ползунка */
   }
   
@@ -103,6 +104,7 @@
     
     scrollbar-width: thin; /* Толщина скроллбара */
     scrollbar-color: #2f80ed #f1f1f1; /* Цвет ползунка и фона скроллбара */
+    scrollbar-color: #78e9b4 #f1f1f1;
   }
 
   .paticipant-img {

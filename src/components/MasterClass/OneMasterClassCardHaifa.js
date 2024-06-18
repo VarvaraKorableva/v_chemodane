@@ -4,20 +4,23 @@ import './MasterClass.css'
 function OneMasterClassCardHaifa({item}) {
 
     return (
-        <li className='masterClassHaifa__container'>
+        <Link className='onePerformance__container' to={`/master-class-theater/${item.id}`}>
             <p className='masterClassHaifa__date'>{item.Date}</p>
+            
             {item.AggregatorLink === ""
                 ? 
                     <div className='masterClassHaifa__link-btn'>БЕСПЛАТНО</div>
                 :
                     <Link to={item.AggregatorLink} className='masterClassHaifa__link-btn'>Купить билет</Link>
             }
+            <div className='masterClassHaifa__age'>{item.Age}</div>
             <div className='masterClassHaifa__text-container'>
-                <h2 className='masterClassHaifa__title'>{item.CompanyName}</h2>
+                
+                <h2 className='masterClassHaifa__title'>{item.Name}</h2>
                 <p className='masterClassHaifa__description'>{item.Description}</p>
             </div>
 
-        </li>
+        </Link>
     )
 }
 

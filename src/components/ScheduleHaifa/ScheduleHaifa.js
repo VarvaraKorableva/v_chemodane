@@ -1,5 +1,5 @@
-import scheduleFirstPart from '../../images/haifa/firstDayHaifa.jpg'
-import scheduleSecondPart from '../../images/haifa/secondDayHaifa.jpg'
+import scheduleFirstPart from '../../images/haifa/firstDayHaifa.png'
+import scheduleSecondPart from '../../images/haifa/secondDayHaifa.png'
 import '../Schedule/Schedule.css'
 import '../Announce/Announce.css'
 import {Link} from 'react-router-dom'

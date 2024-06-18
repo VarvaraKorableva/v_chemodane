@@ -1,6 +1,6 @@
 import './HaifaSchedule.css'
-import scheduleFirstPart from '../../images/haifa/firstDayHaifa.jpg'
-import scheduleSecondPart from '../../images/haifa/secondDayHaifa.jpg'
+import scheduleFirstPart from '../../images/haifa/firstDayHaifa.png'
+import scheduleSecondPart from '../../images/haifa/secondDayHaifa.png'
 
 function HaifaSchedule({handleCardClick}) {
 
