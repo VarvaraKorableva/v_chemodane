@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
-import './MasterClass.css'
+import './LecturesAndPresentations.css'
 
-function OneMasterClassCardHaifa({item}) {
+function OneLecturesAndPresentations({item}) {
 
     return (
         <li className='masterClassHaifa__container'>
@@ -21,4 +21,4 @@ function OneMasterClassCardHaifa({item}) {
     )
 }
 
-export default OneMasterClassCardHaifa
+export default OneLecturesAndPresentations

@@ -6,7 +6,7 @@ function OnePerformance({item}) {
         <li className='onePerformance__container'>
             <p className='onePerformance__date'>{item.Date}</p>
             {item.AggregatorLink === ""?
-                <div className='masterClassHaifa__link-btn'>Вход свободный</div>
+                <div className='masterClassHaifa__link-btn'>БЕСПЛАТНО</div>
             :
                 <Link to={item.AggregatorLink} className='onePerformance__link-btn'>Купить билет</Link>
             }

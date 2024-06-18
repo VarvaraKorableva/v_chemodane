@@ -1,0 +1,128 @@
+.lecturesAndPresentations__main-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    position: relative;
+    background-color: #fff;
+    /*background-color:#F5F5F5;*/
+    
+}
+
+@media screen and (max-width: 1065px) {
+    .lecturesAndPresentations__main-container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .lecturesAndPresentations__main-container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+.masterClassHaifa__main-title {
+    font-weight: bold;
+    font-size: 32px;
+    text-align: start;
+    margin-top: 0;
+    
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1065px) {
+    .masterClassHaifa__main-title {
+        font-size: 32px;
+        
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .masterClassHaifa__main-title {
+        margin-bottom: 40px;
+    }
+}
+
+/*onePerformance__container*/
+.masterClassHaifa__container {
+    width: 300px;
+    height: 300px;
+    background-color: #2ab09e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+    color: #fff;
+    position: relative;
+    padding: 10px;
+    list-style-type: none;
+    margin: 5px;
+    margin-top: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 357px) {
+    .masterClassHaifa__container {
+        width: 100%;
+    }
+}
+
+.masterClassHaifa__container:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+
+.masterClassHaifa__text-container {
+    height: 250px;
+    overflow-y: scroll;
+    margin-top: 40px;
+}
+
+.masterClassHaifa__link-btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #FDD256;
+    opacity: 1;
+    color: #2f80ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    top: -20px;
+    right: 0;
+    text-decoration: none;
+}
+
+.masterClassHaifa__link-btn:hover {
+    background-color: #2f80ed;
+    color: #FDD256;
+} 
+
+.masterClassHaifa__wrapper {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.masterClassHaifa__date {
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.masterClassHaifa__title {
+    font-weight: 600;
+    font-size: 16px;  
+}
+
+.masterClassHaifa__description {
+    text-align: start;
+}

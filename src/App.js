@@ -12,6 +12,7 @@ import CampHaifa from './components/Camp/CampHaifa'
 //import Performances from './components/Performances/Performances' <Performances />
 import TheaterHaifa from './components/Theater/TheaterHaifa'
 import MasterClassHaifa from './components/MasterClass/MasterClassHaifa'
+import LecturesAndPresentations from './components/LecturesAndPresentations/LecturesAndPresentations'
 
 import AboutFestival from './components/AboutFestival/AboutFestival'
 import Participants from './components/Participants/Participants'
@@ -64,6 +65,8 @@ function App() {
             <CampHaifa />
             <TheaterHaifa />
             <MasterClassHaifa />
+            <LecturesAndPresentations />
+
             <Participants addCard={addCard} limit={limit}/>
             <OurTeam />
             </>
