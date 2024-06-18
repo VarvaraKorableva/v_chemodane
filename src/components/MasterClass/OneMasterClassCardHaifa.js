@@ -6,7 +6,12 @@ function OneMasterClassCardHaifa({item}) {
     return (
         <li className='masterClassHaifa__container'>
             <p className='masterClassHaifa__date'>{item.Date}</p>
-            <Link to={item.AggregatorLink} className='masterClassHaifa__link-btn'>Купить билет</Link>
+            {item.AggregatorLink === ""
+                ? 
+                    <div className='masterClassHaifa__link-btn'>Вход свободный</div>
+                :
+                    <Link to={item.AggregatorLink} className='masterClassHaifa__link-btn'>Купить билет</Link>
+            }
             <div className='masterClassHaifa__text-container'>
                 <h2 className='masterClassHaifa__title'>{item.CompanyName}</h2>
                 <p className='masterClassHaifa__description'>{item.Description}</p>
