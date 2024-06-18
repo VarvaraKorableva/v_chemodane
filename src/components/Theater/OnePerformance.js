@@ -10,6 +10,7 @@ function OnePerformance({item}) {
             :
                 <Link to={item.AggregatorLink} className='onePerformance__link-btn'>Купить билет</Link>
             }
+            <div className='onePerformance__age'>{item.Age}</div>
             <div className='onePerformance__text-container'>
                 <h2 className='onePerformance__title'>{item.Name}</h2>
                 <p className='onePerformance__description'>{item.Description}</p>

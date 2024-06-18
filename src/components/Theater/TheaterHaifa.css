@@ -126,3 +126,20 @@
 .onePerformance__description {
     text-align: start;
 }
+
+.onePerformance__age {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #F5F5F5;
+    background-color: #d44a4a;
+
+    position: absolute;
+    right: -10px;
+    top: 5px;
+    z-index: 5;
+}
