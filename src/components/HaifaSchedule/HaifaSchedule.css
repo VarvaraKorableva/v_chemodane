@@ -53,7 +53,7 @@
 
 .section__date:last-of-type {
     border-bottom: none;
-    margin-bottom: 277px;
+    margin-bottom: 150px;
 }
 
 @media screen and (max-width: 1065px) {
