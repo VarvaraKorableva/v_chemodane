@@ -5,7 +5,7 @@ function OneLecturesAndPresentations({item}) {
 
     return (
         <Link className={item.CompanyName === "Рубен Давид Гонсаллес Гальего" ? 'masterClassHaifa__container_important' :'masterClassHaifa__container'} to={`/master-class-theater/${item.id}`}>
-            <p className='masterClassHaifa__date'>{item.Date}</p>
+            <p className={item.CompanyName === "Рубен Давид Гонсаллес Гальего" ? 'masterClassHaifa__date_important':'masterClassHaifa__date'}>{item.Date}</p>
             {item.AggregatorLink === ""
                 ? 
                     <div className='masterClassHaifa__link-btn'>БЕСПЛАТНО</div>

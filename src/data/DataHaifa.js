@@ -360,8 +360,8 @@ const ParticipantsData = [
           {
             CompanyName:"Образовательный центр Окей",
             Name: 'Лекция о высшем образовании',
-            Age: '12+',
-            Description: "",
+            Age: '16+',
+            Description: "Лектор Олег Колдобский.",
             SocialNetwork: {
             Instagram: "",
             Facebook: "",

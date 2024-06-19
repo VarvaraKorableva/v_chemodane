@@ -75,12 +75,13 @@
 }
 
 .onePerformance__container_important {
-    width: 300px;
-    height: 300px;
+    width: 290px;
+    height: 290px;
     background-color: #FDD256;
+    border: 5px dotted #2ab09e;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     opacity: 0.8;
-    color: #fff;
+    color: #424646;
     position: relative;
     padding: 10px;
     list-style-type: none;
@@ -93,7 +94,7 @@
 
 @media screen and (max-width: 357px) {
     .onePerformance__container_important {
-        width: 100%;
+        width: calc(100% - 10px);
     }
 }
 
@@ -195,3 +196,10 @@
     background-color: #2f80ed;
     color: #FDD256;
 } 
+
+.onePerformance__date_important {
+    color: #424646;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}

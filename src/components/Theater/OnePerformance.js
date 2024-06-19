@@ -4,7 +4,7 @@ function OnePerformance({item}) {
 
     return (
         <Link className={item.CompanyName === "Cпектакль Анатолия Белого и Татьяны Марек"? 'onePerformance__container_important': 'onePerformance__container'} to={`/master-class-theater/${item.id}`}>
-            <p className='onePerformance__date'>{item.Date}</p>
+            <p className={item.CompanyName === "Cпектакль Анатолия Белого и Татьяны Марек"? 'onePerformance__date_important' : 'onePerformance__date'}>{item.Date}</p>
             {item.AggregatorLink === ""?
                 <div className='masterClassHaifa__link-btn'>БЕСПЛАТНО</div>
             :
