@@ -219,7 +219,7 @@ const ParticipantsData = [
     Facebook: "",
     Telegram: "",
     },
-   AggregatorLink:"https://2.kassa.co.il/announce/79066",
+   AggregatorLink:"https://11879.kassa.co.il/",
     Genre:"спектакль",
     Date:"1 июля, 19.30",
     id: 183,
