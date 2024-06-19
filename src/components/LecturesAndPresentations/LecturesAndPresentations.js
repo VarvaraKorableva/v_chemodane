@@ -10,7 +10,7 @@ function LecturesAndPresentations() {
 
             <ul className="masterClassHaifa__wrapper">
                 {ParticipantsData.map((i) => (
-                    i.Genre === "презентация" && i.Date !== "" ?
+                    (i.Genre === "презентация" || i.Genre === "лекция") && i.Date !== "" ?
                         <OneLecturesAndPresentations 
                             key={i.CompanyName}
                             item={i}
