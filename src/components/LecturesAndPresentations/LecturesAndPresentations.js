@@ -12,7 +12,7 @@ function LecturesAndPresentations() {
                 {ParticipantsData.map((i) => (
                     (i.Genre === "презентация" || i.Genre === "лекция") && i.Date !== "" ?
                         <OneLecturesAndPresentations 
-                            key={i.CompanyName}
+                            key={i.id}
                             item={i}
                         />
                     : 

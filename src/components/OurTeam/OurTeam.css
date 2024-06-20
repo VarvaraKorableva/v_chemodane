@@ -1,5 +1,5 @@
 .ourTeam-section {
-    background-color: #fff;
+    background-color:#F5F5F5;
     padding: 80px;
 }
 
@@ -17,7 +17,6 @@
     flex-wrap: wrap;
     margin: auto;
     padding: 0;
-    /*max-width: 1000px;*/
     justify-content: center;
 }
 

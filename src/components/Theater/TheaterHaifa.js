@@ -11,7 +11,7 @@ function TheaterHaifa() {
                 {ParticipantsData.map((i) => (
                     i.Genre === "спектакль" && i.Date !== "" ?
                         <OnePerformance 
-                            key={i.CompanyName}
+                            key={i.id}
                             item={i}
                         />
                     : 

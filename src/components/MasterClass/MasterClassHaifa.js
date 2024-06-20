@@ -12,7 +12,7 @@ function MasterClassHaifa() {
                 {ParticipantsData.map((i) => (
                     i.Genre === "мастер-класс" && i.Date !== "" ?
                         <OneMasterClassCardHaifa 
-                            key={i.CompanyName}
+                            key={i.id}
                             item={i}
                         />
                     : 

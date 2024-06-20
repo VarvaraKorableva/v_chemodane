@@ -13,7 +13,7 @@ const ParticipantsData = [
    AggregatorLink:"https://eventbuzz.co.il/kikarstudio",
    Genre:"мастер-класс",
    Date:"1 июля, 13.00",
-   id: 123,
+   id: 4444,
    },
 
    {
@@ -29,7 +29,7 @@ const ParticipantsData = [
    AggregatorLink:"https://eventbuzz.co.il/lp/event/khudozniki",
     Genre:"мастер-класс",
     Date:"1 июля, 14.30",
-    id: 124,
+    id: 4445,
     },
 
    {
@@ -45,7 +45,7 @@ const ParticipantsData = [
    AggregatorLink:"https://eventbuzz.co.il/lp/event/letalshagal",
     Genre:"мастер-класс",
     Date:"1 июля, 15.00",
-    id: 125,
+    id: 4446,
     },
 
     {
@@ -61,7 +61,7 @@ const ParticipantsData = [
      AggregatorLink:"https://eventbuzz.co.il/moda",
       Genre:"мастер-класс",
       Date:"1 июля, 16.00",
-      id: 126,
+      id: 4447,
     },  
 
     {
@@ -77,7 +77,7 @@ const ParticipantsData = [
      AggregatorLink:"https://eventbuzz.co.il/pryanik",
       Genre:"мастер-класс",
       Date:"1 июля, 17.00 и 18.00",
-      id: 128,
+      id: 4448,
     },
 
     {
@@ -93,7 +93,7 @@ const ParticipantsData = [
       AggregatorLink:"https://eventbuzz.co.il/chtenie",
       Genre:"мастер-класс",
       Date:"2 июля, 14.00",
-      id: 129,
+      id: 4449,
     },  
 
     {
@@ -109,7 +109,7 @@ const ParticipantsData = [
      AggregatorLink:"https://eventbuzz.co.il/fomin",
       Genre:"мастер-класс",
       Date:"2 июля, 15.00",
-      id: 130,
+      id: 4450,
     },
 
     {
@@ -125,7 +125,7 @@ const ParticipantsData = [
       AggregatorLink:"https://eventbuzz.co.il/bentotort",
       Genre:"мастер-класс",
       Date:"2 июля, 15.00, 18.00, 19.00",
-      id: 131,
+      id: 4451,
     },  
 
     {
@@ -141,7 +141,7 @@ const ParticipantsData = [
      AggregatorLink:"https://eventbuzz.co.il/svecha",
       Genre:"мастер-класс",
       Date:"2 июля, 16.30",
-      id: 132,
+      id: 4452,
     },  
 
     {
@@ -157,7 +157,7 @@ const ParticipantsData = [
      AggregatorLink:"https://eventbuzz.co.il/sunduk",
       Genre:"мастер-класс",
       Date:"2 июля, 18.00",
-      id: 162,
+      id: 4453,
       },
 
 
@@ -176,7 +176,7 @@ const ParticipantsData = [
        AggregatorLink:"https://eventbuzz.co.il/pingvikingi",
         Genre:"спектакль",
         Date:"1 июля 12.00",
-        id: 147,
+        id: 4454,
         },
         {
           CompanyName:"Театр ARTель",
@@ -191,7 +191,7 @@ const ParticipantsData = [
          AggregatorLink:"https://eventbuzz.co.il/artel",
           Genre:"спектакль",
           Date:"1 июля, 14.00",
-          id: 150,
+          id: 4455,
           },   
           {
             CompanyName:"ArtFabrika ",
@@ -206,7 +206,7 @@ const ParticipantsData = [
            AggregatorLink:"",
             Genre:"спектакль",
             Date:"1 июля, 15.00",
-            id: 163,
+            id: 4456,
             },    
             
   {
@@ -222,7 +222,7 @@ const ParticipantsData = [
    AggregatorLink:"https://11879.kassa.co.il/",
     Genre:"спектакль",
     Date:"1 июля, 19.30",
-    id: 183,
+    id: 4457,
     },    
       
    {
@@ -238,7 +238,7 @@ const ParticipantsData = [
    AggregatorLink:"https://eventbuzz.co.il/chelovechek",
     Genre:"спектакль",
     Date:"2 июля, 13.30",
-    id: 180,
+    id: 4458,
     }, 
   
     {
@@ -254,7 +254,7 @@ const ParticipantsData = [
       AggregatorLink:"",
       Genre:"спектакль",
       Date:"2 июля, 14.00",
-      id: 182,
+      id: 4459,
       },  
 
   {
@@ -271,7 +271,7 @@ const ParticipantsData = [
    AggregatorLink:"https://eventbuzz.co.il/maminasumka",
    Genre:"спектакль",
    Date:"2 июля, 15.00 и 17.00",
-   id: 146,
+   id: 4460,
    },
 
    {
@@ -287,7 +287,7 @@ const ParticipantsData = [
    AggregatorLink:"https://eventbuzz.co.il/vseprosto",
     Genre:"спектакль",
     Date:"2 июля, 16.00",
-    id: 134,
+    id: 4461,
     }, 
 
    {
@@ -303,7 +303,7 @@ const ParticipantsData = [
    AggregatorLink:"https://eventbuzz.co.il/skazka",
     Genre:"спектакль",
     Date:"2 июля, 18.00",
-    id: 181,
+    id: 4462,
     }, 
 
     ///презентация/лекция///
@@ -338,7 +338,7 @@ const ParticipantsData = [
         AggregatorLink:"",
         Genre:"презентация",
         Date:"1 июля, 17.00",
-        id: 1701,
+        id: 4463,
         },
 
         {
@@ -354,7 +354,7 @@ const ParticipantsData = [
           AggregatorLink:"",
           Genre:"лекция",
           Date:"1 июля, 17.00",
-          id: 1702,
+          id: 4464,
           },   
           
           {
@@ -370,7 +370,7 @@ const ParticipantsData = [
             AggregatorLink:"",
             Genre:"лекция",
             Date:"1 июля, 18.30",
-            id: 1703,
+            id: 4465,
             },            
 
   {
@@ -386,7 +386,7 @@ const ParticipantsData = [
    AggregatorLink:"",
    Genre:"презентация",
    Date:"2 июля, 12.00",
-   id: 170,
+   id: 4466,
    },
 
    {
@@ -402,7 +402,7 @@ const ParticipantsData = [
     AggregatorLink:"",
     Genre:"лекция",
     Date:"2 июля, 16.30",
-    id: 1704,
+    id: 4467,
     },   
    
 
@@ -419,7 +419,7 @@ const ParticipantsData = [
   AggregatorLink:"https://eventbuzz.co.il/galyego",
    Genre:"презентация",
    Date:"2 июля, 19.00",
-   id: 177,
+   id: 4468,
    },
 
    {
@@ -433,7 +433,7 @@ const ParticipantsData = [
     AggregatorLink:"",
     Genre:"",
     Date:"",
-    id: 165,
+    id: 4469,
     },
  
   ]
