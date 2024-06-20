@@ -45,19 +45,15 @@
     }
 }
 
-.ourPartners__logo-container {
-    width: 200px;
-    object-fit: fill;
+.ourPartners__logo-wrapper {
     list-style-type: none;
     margin: 20px;
+}
+
+.ourPartners__logo-container {
+    object-fit: fill;
     text-decoration: none;
 }    
-
-@media screen and (max-width: 545px) {
-    .ourPartners__logo-container {
-        width: 100px;
-    }
-}
 
 .ourPartners__img {
     max-width: 200px;

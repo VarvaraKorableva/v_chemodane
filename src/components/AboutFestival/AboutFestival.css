@@ -105,6 +105,12 @@
     margin-bottom: 80px;
 }
 
+@media screen and (max-width: 700px) {
+    .aboutFestivalHaifa__sub-title:last-of-type {
+        margin-bottom: 40px;
+    }
+}
+
 .aboutFestivalHaifa__sub-title:first-of-type {
     margin-top: 0;
 }
