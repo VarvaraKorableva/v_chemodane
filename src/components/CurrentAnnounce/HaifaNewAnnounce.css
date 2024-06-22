@@ -19,9 +19,9 @@
 
 @media screen and (max-width: 470px) {
     .hifa-announce__container {
-        min-height: 540px;
-        max-height: 540px;
-        height: 540px;
+        min-height: 560px;
+        max-height: 560px;
+        height: 560px;
         background-position: left;
         
     }
@@ -83,7 +83,7 @@
         font-size: 40px;
         font-weight: 600;
         padding: 5px;
-        padding-top: 20px;
+        padding-top: 0;
         padding-bottom: 0;
         padding-left: 0;
         text-align: start;

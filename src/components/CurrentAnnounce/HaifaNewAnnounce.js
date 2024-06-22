@@ -6,7 +6,7 @@ function HaifaNewAnnounce() {
         <section className="hifa-announce__container">
             <div className="newAnnounce__text-wrapper">
                 <h1 className="hifa-announce__title">
-                    <span className="hifa-announce__title-date">1-2 июля</span><br/> фестиваль <span className="hifa-announce__title-nowrap">"В чемодане"</span><br/> возвращается в Хайфу!</h1>
+                    <span className="hifa-announce__title-date">1-2 июля</span><br/> фестиваль <span className="hifa-announce__title-nowrap">"В чемодане"</span><br/> возвращается <span className="hifa-announce__title-nowrap">в Хайфу!</span></h1>
                 <div className="newAnnounce__btn-container">
                     <Link className="newAnnounce__btn-link" to='#festival'>О фестивале</Link>
                     <Link className="newAnnounce__btn-link" to='/haifa-2024-schedule'>Расписание</Link>{/* */}
