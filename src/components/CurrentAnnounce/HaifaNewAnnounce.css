@@ -75,16 +75,21 @@
 
 @media screen and (max-width: 470px) {
     .hifa-announce__title {
-        margin-bottom: 50px;
+        
         color: #2e2d2c;
         background-color: rgba(255, 255, 255, 0.4); /* Белый фон с прозрачностью */
         backdrop-filter: blur(10px);
         border-radius: 20px;
         font-weight: 500;
-        padding: 10px;
+        padding: 5px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         text-align: start;
         margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: 0;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        line-height: 1.5;
     }
 }
 
