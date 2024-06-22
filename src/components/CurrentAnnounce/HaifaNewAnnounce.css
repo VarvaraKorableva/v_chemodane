@@ -19,9 +19,9 @@
 
 @media screen and (max-width: 470px) {
     .hifa-announce__container {
-        min-height: 540px;
-        max-height: 540px;
-        height: 540px;
+        min-height: 520px;
+        max-height: 520px;
+        height: 520px;
         background-position: left;
         
     }
@@ -75,7 +75,7 @@
 
 @media screen and (max-width: 470px) {
     .hifa-announce__title {
-        margin-bottom: 60px;
+        margin-bottom: 50px;
         color: #2e2d2c;
         background-color: rgba(255, 255, 255, 0.4); /* Белый фон с прозрачностью */
         backdrop-filter: blur(10px);
@@ -83,7 +83,7 @@
         font-weight: 500;
         padding: 10px;
         text-align: start;
-
+        margin-top: 20px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
 }

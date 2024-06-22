@@ -228,6 +228,18 @@
     }
 }
 
+.camp-haifa-orange-small-star {
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+    z-index: 4;
+    width: 20px;
+    height: 20px;
+
+    background-image: url(../../images/haifa/star.svg);
+
+}
+
 .camp-haifa__main-text {
     margin-bottom: 40px;
 }

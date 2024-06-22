@@ -1,9 +1,14 @@
+.individualPage-section {
+    min-height: 70vh;
+}
+
 .individualPage-text-container {
     max-width: 1000px;
     text-align: start;
     display: flex;
     flex-direction: column;
     margin: auto;
+
 }
 
 @media screen and (max-width: 1200px) {

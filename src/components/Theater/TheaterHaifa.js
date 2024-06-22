@@ -8,11 +8,11 @@ function TheaterHaifa() {
             <h2 className="theaterHaifa__main-title">СПЕКТАКЛИ</h2>
 
             <ul className="theaterHaifa__wrapper">
-                {ParticipantsData.map((i) => (
-                    i.Genre === "спектакль" && i.Date !== "" ?
+                {ParticipantsData.map((item) => (
+                    item.Genre === "спектакль" && item.Date !== "" ?
                         <OnePerformance 
-                            key={i.id}
-                            item={i}
+                            key={item.id}
+                            item={item}
                         />
                     : 
                         <></>

@@ -10,7 +10,7 @@ function OneLecturesAndPresentations({item}) {
                 ? 
                     <div className='masterClassHaifa__link-btn'>БЕСПЛАТНО</div>
                 :
-                    <Link to={item.AggregatorLink} className='masterClassHaifa__link-btn_important'>Купить билет</Link>
+                    <div to={item.AggregatorLink} className='masterClassHaifa__link-btn_important'>Купить билет</div>
             }
             <div className='masterClassHaifa__age'>{item.Age}</div>
             <div className='masterClassHaifa__text-container'>

@@ -19,7 +19,7 @@ function IndividualPage() {
                     {participant.AggregatorLink === ''?
                     <div className='individualPage-link-ticket'>БЕСПЛАТНО</div>
                     :
-                    <Link className='individualPage-link-ticket' to={participant.AggregatorLink}>Купить билет</Link>
+                    <Link className='individualPage-link-ticket' to={participant.AggregatorLink} target="_blank">Купить билет</Link>
                     }
                     <p className='individualPage-age'>{participant.Age}</p>
                     <p>{participant.Date}</p>

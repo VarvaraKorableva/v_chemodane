@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom'
 import './MasterClass.css'
 
 function OneMasterClassCardHaifa({item}) {
-
+    
     return (
         <Link className='onePerformance__container' to={`/master-class-theater/${item.id}`}>
             <p className='masterClassHaifa__date'>{item.Date}</p>
@@ -11,7 +11,7 @@ function OneMasterClassCardHaifa({item}) {
                 ? 
                     <div className='masterClassHaifa__link-btn'>БЕСПЛАТНО</div>
                 :
-                    <Link to={item.AggregatorLink} className='masterClassHaifa__link-btn'>Купить билет</Link>
+                    <div to={item.AggregatorLink} className='masterClassHaifa__link-btn' target="_blank">Купить билет</div>
             }
             <div className='masterClassHaifa__age'>{item.Age}</div>
             <div className='masterClassHaifa__text-container'>

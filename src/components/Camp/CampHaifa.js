@@ -41,6 +41,7 @@ function CampHaifa() {
             <div className='camp-haifa__third-orange-star'></div>
             <div className='camp-haifa__fourth-orange-star'></div>
             <div className='camp-haifa__fifth-orange-star'></div>
+            <div className='camp-haifa-orange-small-star'></div>
 
              
 

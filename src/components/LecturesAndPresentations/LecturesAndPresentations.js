@@ -9,11 +9,11 @@ function LecturesAndPresentations() {
             <h2 className="masterClassHaifa__main-title">ЛЕКЦИИ И ПРЕЗЕНТАЦИИ</h2>
 
             <ul className="masterClassHaifa__wrapper">
-                {ParticipantsData.map((i) => (
-                    (i.Genre === "презентация" || i.Genre === "лекция") && i.Date !== "" ?
+                {ParticipantsData.map((item) => (
+                    (item.Genre === "презентация" || item.Genre === "лекция") && item.Date !== "" ?
                         <OneLecturesAndPresentations 
-                            key={i.id}
-                            item={i}
+                            key={item.id}
+                            item={item}
                         />
                     : 
                         <></>

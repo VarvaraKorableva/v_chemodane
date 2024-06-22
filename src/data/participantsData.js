@@ -1,3 +1,5 @@
+import redmax from '../images/logo/redmax.jpg'
+
 const participantsData = [
     {
         companyName:"Перелётный чайник",
@@ -144,7 +146,7 @@ const participantsData = [
         imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710702045687_531183008.jpg",
         id:11
     },
-    {
+    /*{
         companyName:"Story Store",
         previousParticipation:"Нет",
         socialNetwork: {
@@ -156,7 +158,7 @@ const participantsData = [
         participationInTheLottery:"Нет",
         imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710701968010_305267914.png",
         id:12
-    },
+    },*/
     {
         companyName:"SMELLS",
         previousParticipation:"Нет",
@@ -352,6 +354,20 @@ const participantsData = [
         participationInTheLottery:"",
         imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1711225493864_61029240.jpeg",
         id: 28,
+    },
+
+    {
+        companyName:"РэдМакс",
+        previousParticipation:"",
+        socialNetwork: {
+            instagram: "",
+            facebook: "",
+            personalSite: "https://www.redmax.tv/",
+        },
+        description:"Redmax TV - крупнейший видеосервис в Израиле на иврите и русском языке. Он предлагает огромный выбор телеканалов, а также коллекцию фильмов и сериалов на родном языке. Более того, клиентская поддержка в Redmax TV на русском языке доступна 24/7 - даже в шаббат!",
+        participationInTheLottery:"",
+        imgLink: redmax,
+        id: 29,
     },
     
 ]
