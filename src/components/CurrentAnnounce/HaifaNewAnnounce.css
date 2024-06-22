@@ -19,9 +19,9 @@
 
 @media screen and (max-width: 470px) {
     .hifa-announce__container {
-        min-height: 520px;
-        max-height: 520px;
-        height: 520px;
+        min-height: 540px;
+        max-height: 540px;
+        height: 540px;
         background-position: left;
         
     }
@@ -77,9 +77,9 @@
     .hifa-announce__title {
         
         color: #2e2d2c;
-        /*background-color: rgba(255, 255, 255, 0.4);  Белый фон с прозрачностью 
+        background-color: rgba(255, 255, 255, 0.4);  /*Белый фон с прозрачностью */
         backdrop-filter: blur(10px);
-        border-radius: 20px;*/
+        border-radius: 20px;
         font-size: 38px;
         font-weight: 600;
         padding: 5px;
