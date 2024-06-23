@@ -125,6 +125,12 @@
     }
 }
 
+@media screen and (max-width: 342px) {
+    .aboutFestivalHaifa__sub-title_bigger {
+        font-size: 28px;
+    }
+}
+
 .aboutFestivalHaifa__text-promotion {
     color: black;
     margin-bottom: 80px;
