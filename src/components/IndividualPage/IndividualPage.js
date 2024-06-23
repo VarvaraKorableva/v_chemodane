@@ -1,10 +1,16 @@
 import { useParams } from 'react-router-dom'
+import { useEffect } from 'react'
 import { FaInstagram, FaTelegram, FaFacebook, FaExternalLinkAlt } from 'react-icons/fa'
 import DataHaifa from '../../data/DataHaifa'
 import './IndividualPage.css'
 import {Link} from 'react-router-dom'
+import React from 'react'
 
 function IndividualPage() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
     let { id } = useParams()
     const participant = DataHaifa.find(f => f.id == id)
 
