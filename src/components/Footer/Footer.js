@@ -8,8 +8,7 @@ function Footer() {
           <img src={logoPic} alt='Картинка логотипа' className="header__logo__img"></img>
             <nav className="footer__nav">
                 <div className="footer__contacts-container">
-                    <p>Контакты: </p>
-                    <p className="footer__contacts-tel"> + 972 53-470-1675</p>
+                    <p className="footer__contacts-tel"><span>Контакты: </span><span> +</span> 972 53-470-1675</p>
                 </div>
                 <ul className="footer__links-container">
                     <li className='footer__link'>
