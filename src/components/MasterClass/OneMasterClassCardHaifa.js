@@ -9,9 +9,12 @@ function OneMasterClassCardHaifa({item}) {
             
             {item.AggregatorLink === ""
                 ? 
-                    <div className='masterClassHaifa__link-btn'>БЕСПЛАТНО</div>
+                    <div className='masterClassHaifa__link-btn'>БЕСПЛАТНО</div>    
                 :
-                    <div to={item.AggregatorLink} className='masterClassHaifa__link-btn' target="_blank">Купить билет</div>
+                item.Name === 'Рыцарские бои на мечах'?
+                <div className='masterClassHaifa__link-btn'>Билеты на месте</div>
+                :
+                <div to={item.AggregatorLink} className='masterClassHaifa__link-btn' target="_blank">Купить билет</div>
             }
             <div className='masterClassHaifa__age'>{item.Age}</div>
             <div className='masterClassHaifa__text-container'>

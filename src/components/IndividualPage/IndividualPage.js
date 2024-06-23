@@ -14,10 +14,6 @@ function IndividualPage() {
         setParticipant(DataHaifa.find(f => f.id == id))
       }, []);
 
-    
-
-    //const participant = DataHaifa.find(f => f.id == id)
-
     return(
         <section className='individualPage-section'>
             <h2 className='individualPage-title'>{participant.CompanyName} представляет {participant.Genre} <br/>{participant.Name}</h2>
@@ -28,6 +24,9 @@ function IndividualPage() {
                     </p>
                     {participant.AggregatorLink === ''?
                     <div className='individualPage-link-ticket'>БЕСПЛАТНО</div>
+                    :
+                    participant.Name === 'Рыцарские бои на мечах'?
+                    <div className='individualPage-link-ticket'>Билеты на месте</div>
                     :
                     <Link className='individualPage-link-ticket' to={participant.AggregatorLink} target="_blank">Купить билет</Link>
                     }
