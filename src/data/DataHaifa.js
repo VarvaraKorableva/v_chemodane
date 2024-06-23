@@ -1,7 +1,3 @@
-function generateUniqueId() {
-  return Math.random().toString(36).substr(2, 9);
-}
-
 const ParticipantsData = [
   {
     CompanyName:"Учебный Центр Окей",
@@ -16,7 +12,7 @@ const ParticipantsData = [
     AggregatorLink:"",
     Genre:"мастер-класс",
     Date:"1 июля, целый день",
-    id: generateUniqueId(),
+    id: 10987,
     },
 
     {
@@ -32,7 +28,7 @@ const ParticipantsData = [
       AggregatorLink:"ссылка",
       Genre:"мастер-класс",
       Date:"1 июля, 12.30-14.30",
-      id: generateUniqueId(),
+      id: 109876,
       },
   {
    CompanyName:"Kikar Studio",
@@ -47,7 +43,7 @@ const ParticipantsData = [
    AggregatorLink:"https://eventbuzz.co.il/kikarstudio",
    Genre:"мастер-класс",
    Date:"1 июля, 13.00",
-   id: generateUniqueId(),
+   id: 109845,
    },
 
    {
@@ -63,7 +59,7 @@ const ParticipantsData = [
    AggregatorLink:"https://eventbuzz.co.il/lp/event/khudozniki",
     Genre:"мастер-класс",
     Date:"1 июля, 14.30",
-    id: generateUniqueId(),
+    id: 109846,
     },
 
    {
@@ -79,7 +75,7 @@ const ParticipantsData = [
    AggregatorLink:"https://eventbuzz.co.il/lp/event/letalshagal",
     Genre:"мастер-класс",
     Date:"1 июля, 15.00",
-    id: generateUniqueId(),
+    id: 109847,
     },
 
     {
@@ -95,7 +91,7 @@ const ParticipantsData = [
      AggregatorLink:"https://eventbuzz.co.il/moda",
       Genre:"мастер-класс",
       Date:"1 июля, 16.00",
-      id: generateUniqueId(),
+      id: 10987676,
     },  
 
     {
@@ -111,7 +107,7 @@ const ParticipantsData = [
       AggregatorLink:"https://eventbuzz.co.il/lp/event/chudo",
       Genre:"мастер-класс",
       Date:"1 июля, 15.00",
-      id: generateUniqueId(),
+      id: 10987657,
       },
 
     {
@@ -127,7 +123,7 @@ const ParticipantsData = [
      AggregatorLink:"https://eventbuzz.co.il/pryanik",
       Genre:"мастер-класс",
       Date:"1 июля, 17.00 и 18.00",
-      id: generateUniqueId(),
+      id: 10987678,
     },
 
     {
@@ -143,7 +139,7 @@ const ParticipantsData = [
       AggregatorLink:"https://eventbuzz.co.il/art-makarova",
       Genre:"мастер-класс",
       Date:"1 июля, 17.30",
-      id: generateUniqueId(),
+      id: 1098767,
     },
 
     {
@@ -159,7 +155,7 @@ const ParticipantsData = [
       AggregatorLink:"https://eventbuzz.co.il/lp/event/ritzari",
       Genre:"мастер-класс",
       Date:"1 и 2 июля, 17.00-20.00",
-      id: generateUniqueId(),
+      id: 10987679,
     },
 
     {
@@ -175,7 +171,7 @@ const ParticipantsData = [
       AggregatorLink:"https://eventbuzz.co.il/chtenie",
       Genre:"мастер-класс",
       Date:"2 июля, 14.00",
-      id: generateUniqueId(),
+      id: 10987680,
     },  
 
     {
@@ -191,7 +187,7 @@ const ParticipantsData = [
      AggregatorLink:"https://eventbuzz.co.il/fomin",
       Genre:"мастер-класс",
       Date:"2 июля, 15.00",
-      id: generateUniqueId(),
+      id: 10987612,
     },
 
     {
@@ -207,7 +203,7 @@ const ParticipantsData = [
       AggregatorLink:"https://eventbuzz.co.il/bentotort",
       Genre:"мастер-класс",
       Date:"2 июля, 15.00, 18.00, 19.00",
-      id: generateUniqueId(),
+      id: 10987682,
     },
 
     {
@@ -223,7 +219,7 @@ const ParticipantsData = [
      AggregatorLink:"https://eventbuzz.co.il/svecha",
       Genre:"мастер-класс",
       Date:"2 июля, 16.30",
-      id: generateUniqueId(),
+      id: 83,
     },  
 
     {
@@ -239,7 +235,7 @@ const ParticipantsData = [
      AggregatorLink:"https://eventbuzz.co.il/sunduk",
       Genre:"мастер-класс",
       Date:"2 июля, 18.00",
-      id: generateUniqueId(),
+      id: 84,
       },
 
 

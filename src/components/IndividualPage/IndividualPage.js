@@ -1,18 +1,22 @@
 import { useParams } from 'react-router-dom'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { FaInstagram, FaTelegram, FaFacebook, FaExternalLinkAlt } from 'react-icons/fa'
 import DataHaifa from '../../data/DataHaifa'
 import './IndividualPage.css'
 import {Link} from 'react-router-dom'
-import React from 'react'
 
 function IndividualPage() {
+    let { id } = useParams()
+    const [participant, setParticipant] = useState(DataHaifa.find(f => f.id == id))
+
     useEffect(() => {
         window.scrollTo(0, 0);
+        setParticipant(DataHaifa.find(f => f.id == id))
       }, []);
 
-    let { id } = useParams()
-    const participant = DataHaifa.find(f => f.id == id)
+    
+
+    //const participant = DataHaifa.find(f => f.id == id)
 
     return(
         <section className='individualPage-section'>
@@ -42,5 +46,3 @@ function IndividualPage() {
 }
 
 export default IndividualPage
-
-//{participant.SocialNetwork.PersonalSite !== ""? <a className='individualPageOfParticipants-link' target='_blank' href={participant.SocialNetwork.PersonalSite}><FaExternalLinkAlt /></a>: <></>}
