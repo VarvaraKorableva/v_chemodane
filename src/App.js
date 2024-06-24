@@ -28,7 +28,7 @@ import IndividualPage from './components/IndividualPage/IndividualPage'
 function App() {
   const [contactsPopup, setContactsPopup] = React.useState(false)
   const [imgPopup, setImgPopup] = React.useState(false)
-  const [isInfoHaifaPopupClicked, setIsInfoHaifaPopupClicked] = React.useState(true)
+  const [isInfoHaifaPopupClicked, setIsInfoHaifaPopupClicked] = React.useState(false)
 
   const [selectedCard, setSelectedCard] = React.useState({})
 
@@ -56,6 +56,15 @@ function App() {
     handleImgPopupOpen()
   }
 
+  React.useEffect(() => {
+    const neverShowMessage = localStorage.getItem('neverShowMessage')
+    if( neverShowMessage === null ) {
+      setIsInfoHaifaPopupClicked(true)
+    }else {
+      setIsInfoHaifaPopupClicked(false)
+      console.log(neverShowMessage)
+    }
+  }, [])
   /*
   InfoHaifaPopup({ text, onClose, isInfoHaifaPopupClicked })
   */
