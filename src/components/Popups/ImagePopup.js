@@ -6,7 +6,6 @@ function ImagePopup({ card, onClose, imgPopup }) {
 
   function handleClick() {
     onClose()
-    console.log('click')
   }
 
   return (

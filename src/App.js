@@ -14,6 +14,7 @@ import TheaterHaifa from './components/Theater/TheaterHaifa'
 import MasterClassHaifa from './components/MasterClass/MasterClassHaifa'
 import LecturesAndPresentations from './components/LecturesAndPresentations/LecturesAndPresentations'
 import OurPartners from './components/OurPartners/OurPartners'
+import InfoHaifaPopup from './components/Popups/InfoHaifaPopup'
 
 import AboutFestival from './components/AboutFestival/AboutFestival'
 import Participants from './components/Participants/Participants'
@@ -27,6 +28,8 @@ import IndividualPage from './components/IndividualPage/IndividualPage'
 function App() {
   const [contactsPopup, setContactsPopup] = React.useState(false)
   const [imgPopup, setImgPopup] = React.useState(false)
+  const [isInfoHaifaPopupClicked, setIsInfoHaifaPopupClicked] = React.useState(true)
+
   const [selectedCard, setSelectedCard] = React.useState({})
 
   const [limit, setLimit] = React.useState(8)
@@ -45,12 +48,17 @@ function App() {
     setSelectedCard({})
     setImgPopup(false)
     setContactsPopup(false)
+    setIsInfoHaifaPopupClicked(false)
   }
 
   function handleCardClick(card) {
     setSelectedCard(card);
     handleImgPopupOpen()
   }
+
+  /*
+  InfoHaifaPopup({ text, onClose, isInfoHaifaPopupClicked })
+  */
 
   return (
     <div className="App">
@@ -128,6 +136,10 @@ function App() {
       <ContactsPopup 
         onClose={closeAllPopups}
         isOpen={contactsPopup}
+      />
+      <InfoHaifaPopup 
+        isInfoHaifaPopupClicked={isInfoHaifaPopupClicked}
+        onClose={closeAllPopups}
       />
       
     </div>
