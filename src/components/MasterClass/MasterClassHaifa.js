@@ -1,4 +1,3 @@
-//MasterClass
 import ParticipantsData  from '../../data/DataHaifa'
 import OneMasterClassCardHaifa from './OneMasterClassCardHaifa'
 import '../Theater/TheaterHaifa.css'

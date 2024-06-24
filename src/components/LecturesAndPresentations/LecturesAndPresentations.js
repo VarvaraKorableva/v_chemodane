@@ -5,7 +5,7 @@ import './LecturesAndPresentations.css'
 
 function LecturesAndPresentations() {
     return(
-        <section className="lecturesAndPresentations__main-container">
+        <section className="lecturesAndPresentations__main-container" id='lectures'>
             <h2 className="masterClassHaifa__main-title">ЛЕКЦИИ И ПРЕЗЕНТАЦИИ</h2>
 
             <ul className="masterClassHaifa__wrapper">
