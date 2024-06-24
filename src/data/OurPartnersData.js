@@ -5,6 +5,7 @@ import redmax from '../images/logo/redmax.jpg'
 import interesno from '../images/logo/interesno.jpeg'
 import srzit from '../images/logo/srzit.png'
 import latte from '../images/logo/latte.png'
+import beithagefen from '../images/logo/beithagefen.png'
 
 const ourPartnersData = [
     {
@@ -59,9 +60,17 @@ const ourPartnersData = [
         name: 'Сообщество «Тыквенный латте»',
         logo: latte,
         alt: 'logo Сообщество «Тыквенный латте»',
-        link: 'https://www.facebook.com/share/97CiWAWWVZg9rVAW/?mibextid=K35XfP ',
+        link: 'https://www.facebook.com/share/97CiWAWWVZg9rVAW/?mibextid=K35XfP',
         description: '',
         id: 2228,
+    },
+    {
+        name: 'Beit Hagefen',
+        logo: beithagefen,
+        alt: 'logo Beit Hagefen',
+        link: 'https://www.beit-hagefen.com/?lang=1',
+        description: '',
+        id: 2229,
     },
 ]
 
