@@ -62,12 +62,8 @@ function App() {
       setIsInfoHaifaPopupClicked(true)
     }else {
       setIsInfoHaifaPopupClicked(false)
-      console.log(neverShowMessage)
     }
   }, [])
-  /*
-  InfoHaifaPopup({ text, onClose, isInfoHaifaPopupClicked })
-  */
 
   return (
     <div className="App">
