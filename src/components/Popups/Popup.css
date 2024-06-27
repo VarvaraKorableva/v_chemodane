@@ -224,7 +224,7 @@
 @media screen and (max-width: 600px) {
   .infoHaifaPopup__container {
     max-width: 80%;
-    margin-top: 100px;
+    margin-top: 50px;
   }
 }
 
@@ -304,6 +304,7 @@
   align-items: center;
   cursor: pointer;
   margin: auto;
+  height: fit-content;
 }
 
 .infoHaifaPopup__btn:hover {
