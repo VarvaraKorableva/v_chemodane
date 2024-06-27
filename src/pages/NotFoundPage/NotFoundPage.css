@@ -1,0 +1,40 @@
+.notFoundPage__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    padding: 20px;
+}
+.notFoundPage__text {
+
+}
+.notFoundPage__pic {
+    background-image: url(../../images/errorNotFoundPage.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin: 20px;
+}
+
+
+@media screen and (max-width: 550px) {
+    .notFoundPage__pic {
+        width: 265px;
+        height: 150px;
+        object-fit: fill;
+        box-sizing: border-box;
+    }
+}
+
+.notFoundPage__link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.notFoundPage__link:hover {
+    opacity: 0.7;
+}

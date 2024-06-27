@@ -15,6 +15,7 @@ import MasterClassHaifa from './components/MasterClass/MasterClassHaifa'
 import LecturesAndPresentations from './components/LecturesAndPresentations/LecturesAndPresentations'
 import OurPartners from './components/OurPartners/OurPartners'
 import InfoHaifaPopup from './components/Popups/InfoHaifaPopup'
+import NotReadyPage from './pages/NotReadyPage/NotReadyPage'
 
 import AboutFestival from './components/AboutFestival/AboutFestival'
 import Participants from './components/Participants/Participants'
@@ -24,6 +25,7 @@ import ContactsPopup from './components/Popups/ContactsPopup'
 import OurTeam from './components/OurTeam/OurTeam'
 import IndividualPageOfParticipants from './components/IndividualPageOfParticipants/IndividualPageOfParticipants'
 import IndividualPage from './components/IndividualPage/IndividualPage'
+import NotFoundPage from './pages/NotFoundPage/NotFoundPage'
 
 function App() {
   const [contactsPopup, setContactsPopup] = React.useState(false)
@@ -129,6 +131,21 @@ function App() {
               ></Purim>
             }
         >
+        </Route>
+
+        <Route
+          path='/not-ready-page'
+            element={
+              <NotReadyPage />
+            }
+        >
+        </Route>
+
+        <Route
+          path="*"
+          element={
+            <NotFoundPage />
+          }>
         </Route>
 
       </Routes>  

@@ -1,5 +1,4 @@
 import logoPic from '../../images/logoch.png'
-import { FaInstagram, FaTelegram, FaFacebook } from 'react-icons/fa'
 import {Link} from 'react-router-dom'
 
 import './Header.css'
@@ -20,11 +19,11 @@ function Header({handleContactsPopupOpen}) {
 
                 <nav className="header__nav">
                     <ul className="header__links-container">
-                        <li className="header__link">НАША МИССИЯ</li>
-                        <li className="header__link">КТО МЫ</li>
-                        <li className="header__link">НАШИ ПРОЕКТЫ</li>
-                        <li className="header__link">ОТЗЫВЫ</li>
-                        <li className="header__link">КОНТАКТЫ</li>
+                        <Link className="header__link" to='/not-ready-page'>НАША МИССИЯ</Link>
+                        <Link className="header__link" to='/not-ready-page'>КТО МЫ</Link>
+                        <Link className="header__link" to='/not-ready-page'>НАШИ ПРОЕКТЫ</Link>
+                        <Link className="header__link" to='/not-ready-page'>ОТЗЫВЫ</Link>
+                        <Link className="header__link" to='/not-ready-page'>КОНТАКТЫ</Link>
                     </ul>
                 </nav>
                 <button className='header__btn-contacts' onClick={handlePopup}></button>
