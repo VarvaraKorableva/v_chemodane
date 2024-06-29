@@ -1,0 +1,112 @@
+.schedule__img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 50px;
+    max-width: 1000px;
+}
+
+@media screen and (max-width: 1060px) {
+    .schedule__img-container {
+      flex-direction: column;
+      margin-bottom: 25px;
+    }
+}
+
+.schedule__img {
+    max-width: 500px;
+    background-size: cover;  
+    cursor: pointer;
+}
+
+.schedule__img:hover {
+    border: 5px solid #2f80ed;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 1060px) {
+    .schedule__img {
+      margin: 25px;
+      max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .schedule__img:first-of-type {
+      margin: 0;
+    }
+}
+
+.schedule__img:last-of-type {
+    margin-left: 20px;
+}
+
+.schedule__title {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 750px) {
+    .schedule__title {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .schedule__title {
+        font-size: 28px;
+    }
+}
+
+
+.scheduleHaifa__links-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 0;
+    max-width: 400px;
+}
+
+@media screen and (max-width: 450px) {
+    .scheduleHaifa__links-container {
+        max-width: 320px;
+    }
+}
+
+.schedule__btn {
+    border-radius: 30px;
+    background-color: transparent;
+    border: 3px solid #2f80ed;
+    cursor: pointer;
+    padding: 7px;
+    margin: 10px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    color: black;
+    text-decoration: none;
+    width: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+  
+.schedule__btn:hover {
+    background-color: #2f80ed;
+}
+
+@media screen and (max-width: 460px) {
+    .schedule__btn {
+        margin: 5px;
+        margin-bottom: 25px;
+        width: 150px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .schedule__btn {
+        font-size: 12px;
+    }
+}
