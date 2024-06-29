@@ -1,4 +1,4 @@
-import participantsData from '../../data/participantsData'
+import participantsData from '../../data/participantsDataHaifa'
 import Participant from './Participant'
 import './Participants.css'
 
