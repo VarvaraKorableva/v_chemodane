@@ -141,25 +141,13 @@ const participantsData = [
             facebook: "https://www.facebook.com/pod.lopuhom?mibextid=uzlsIk",
             personalSite: "",
         },
-        description:"Меня зовут Оля Билак. С удовольствием знакомлю вас со своим проектом «Сухоцветы в доме» \n@pod_lopuhom \n\nМир сухоцветов бездонен - их можно сочетать с различными материалами, комбинировать цвета и формы. \nТак появляются мои работы - интерьерные украшения для дома и оригинальные сувениры. \nИх интересно разглядывать и приятно держать в руках. Сухоцветные композиции внесут в ваш дом нотки тепла и уюта.",
+        description:"Ольга Билак, создаю различные предметы декора для дома и сувениры из сухоцветов. На маркете фестиваля вас будут ждать новинки - украшения из сухоцветов и ювелирной смолы.",
         participationInTheLottery:"Нет",
         emal:"bolka1543@gmail.com",
         imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710702045687_531183008.jpg",
         id:11
     },
-    /*{
-        companyName:"Story Store",
-        previousParticipation:"Нет",
-        socialNetwork: {
-            instagram: "https://www.instagram.com/storystore.books?igsh=NTc4MTIwNjQ2YQ==",
-            facebook: "",
-            personalSite: "",
-        },
-        description:"Story Store - книжный магазин онлайн, доставка по Израилю и миру. Автор Екатерина Врублевская - опыт работы в поле культурной журналистки более 10 лет, как литературного обозревателя вылился в проект Story Store. Это не просто магазин, но полноценный журнал о литературе. Здесь есть наши рецензии о книгах, разговоры с писателями и тд. Также мы проводим лекции и мероприятия. И делаем ещё массу интересного ",
-        participationInTheLottery:"Нет",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710701968010_305267914.png",
-        id:12
-    },*/
+
     {
         companyName:"SMELLS",
         previousParticipation:"Нет",
@@ -384,40 +372,66 @@ const participantsData = [
         imgLink: pjlabrary,
         id: 303,
     },
+
+    {
+        companyName:"Маша и три медведя",
+        previousParticipation:'',
+        socialNetwork: {
+            instagram: "https://www.instagram.com/mashaandthreebears?igsh=NmE1ZjNhYWx3ZDdr",
+            facebook: "https://www.facebook.com/mashaand3bears?mibextid=ZbWKwL",
+        },
+        description:'Тот самый детский книжный магазин, который еще недавно назывался "Маша и Медведь". У нас на полках отличный выбор детских книг для всех возрастов на русском, иврите, украинском и английском – и дорогая сердцу классика, и новинки от лучших современных авторов. Мы верим, что любовь к чтению зажигается с детства, и стараемся создать такую атмосферу, чтоб каждый маленький читатель чувствовал себя у нас как дома и мог найти для себя что-то особенное, а наша команда всегда рядом, чтобы помочь в выборе идеальной книги. По выходным в нашем магазине проходят очень разные и очень интересные мастер-классы, игры, квесты, квизы, викторины и спектакли. Или можно просто прийти понаблюдать за жизнью хомячков, полистать книжки и отдохнуть в игровой зоне.',
+        participationInTheLottery:"",
+        imgLink:"https://scontent.ftlv19-1.fna.fbcdn.net/v/t39.30808-6/438328510_122123009840245994_579715423834513606_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=LaRL6hZk-MEQ7kNvgFtKErf&_nc_ht=scontent.ftlv19-1.fna&oh=00_AYDAwnLBtMVBa9zQCQNYdOoQSiesKEwgUy3dE23XOfW3VA&oe=66870195",
+        id: 281,
+    },
+
+    {
+        companyName:"RubinArt",
+        previousParticipation:"",
+        socialNetwork: {
+            instagram: "https://www.instagram.com/rubinartbooks/",
+            facebook: "",
+            personalSite: "",
+        },
+        description:"Книжное издательство и галерея. Специализируется на издании книг для детей и для семейного чтения. Издательство ориентировано на тексты на любых языках в рамках еврейской традиции, иудаику и на иллюстрирование и визуальную поддержку интересных проектов, предоставляя профессиональное сопровождение от момента написания рукописи и до получения тиража в типографии (включая услуги редактора, корректора, верстальщика, дизайнера, иллюстратора). Галерея при издательстве занимается продвижением картин израильского художника Давида Рубина.",
+        participationInTheLottery:"",
+        imgLink:"https://scontent.ftlv19-2.fna.fbcdn.net/v/t39.30808-6/308202555_457474363028983_4984378404630836471_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=8rKRCb-qUeMQ7kNvgEz9Yww&_nc_ht=scontent.ftlv19-2.fna&oh=00_AYBsn0ImF2rwVRbtvVNMdDjbU3532S4kxBoKoqQc5IPU6g&oe=6686DC4B",
+        id:201
+    },
+
+    {
+        companyName:"inesstudio",
+        previousParticipation:"",
+        socialNetwork: {
+            instagram: "",
+            facebook: "",
+            personalSite: "",
+        },
+        description:'Мы рисуем, делаем макеты, и бумажные костюмы. С нами не скучно, мы умеем придумывать и учим этому всех желающих. Еще мы делаем маски и наряды из бумаги, и мы еще и театр любим! И в него  со всеми играем. Приходите к нам мамы- папы с детьми и сами тоже приходите. Делаем украшения, и  бумажные открытки. Мы все делаем из бумаги , потому что мы художники, дизайнеры и архитекторы. Вообще то мы и из бетона можем, но это долго. Учим детей рисовать, макетировать и развиваем пространственное воображение. А пространственное изображение всем нужно и архитекторам и IT, и водителям автобуса и дизайнерам. Да вообще то всем нужно, что бы не заблудится в лесу!',
+        participationInTheLottery:"",
+        imgLink:"",
+        id:202
+    },
     
 ]
 
 export default participantsData;
 
 
-//https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710401859436_115596249.jpg
-
 /*
-{
-        companyName:"Toysland",
+    /*{
+        companyName:"Story Store",
         previousParticipation:"Нет",
         socialNetwork: {
-            instagram: "https://www.instagram.com/toysland.il?igsh=YmNlOTQyNzN6enY4",
-            facebook: "https://www.facebook.com/toyslend.co.il?mibextid=ZbWKwL",
-            personalSite: "",
-        },
-        description:"Добрый день, меня зовут Елена ,вяжу добрые, экологически чистые игрушки, прекрасный подарок на любой праздник для детей и взрослых.",
-        participationInTheLottery:"да",
-        imgLink:"",
-        id:20
-    },
-
-    {
-        companyName:"Маша и Медведь",
-        previousParticipation:'',
-        socialNetwork: {
-            instagram: "",
+            instagram: "https://www.instagram.com/storystore.books?igsh=NTc4MTIwNjQ2YQ==",
             facebook: "",
             personalSite: "",
         },
-        description:"",
-        participationInTheLottery:"",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710274751746_994000010.jpg",
-        id:28,
+        description:"Story Store - книжный магазин онлайн, доставка по Израилю и миру. Автор Екатерина Врублевская - опыт работы в поле культурной журналистки более 10 лет, как литературного обозревателя вылился в проект Story Store. Это не просто магазин, но полноценный журнал о литературе. Здесь есть наши рецензии о книгах, разговоры с писателями и тд. Также мы проводим лекции и мероприятия. И делаем ещё массу интересного ",
+        participationInTheLottery:"Нет",
+        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710701968010_305267914.png",
+        id:12
     },
+    
 */

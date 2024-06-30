@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom'
 import { FaInstagram, FaTelegram, FaFacebook, FaExternalLinkAlt } from 'react-icons/fa'
-import participantsData from '../../data/participantsData'
+import participantsData from '../../data/participantsDataHaifa'
 import './IndividualPageOfParticipants.css'
 
 function IndividualPageOfParticipants() {
