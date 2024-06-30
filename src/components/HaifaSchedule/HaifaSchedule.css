@@ -11,30 +11,28 @@
     }
 }
 
-.section__title {
+.section-haifa__title {
     font-weight: bold;
     font-size: 32px;
     text-align: start;
-    margin-top: 0;
-    margin-left: 80px;
-    margin-bottom: 80px;
+    margin: 0;
 }
 
 @media screen and (max-width: 1065px) {
-    .section__title {
+    .section-haifa__title {
         font-size: 32px;
-        margin-left: 12px;
     }
 }
 
 
-.section__date-container {
+.section-haifa__date-container {
     max-width: 630px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: auto;
+    
 }
 
 @media screen and (max-width: 770px) {
@@ -72,4 +70,60 @@
 
 .section__date:hover {
     color: #2f80ed;
+}
+
+.haifa-schedule__btn {
+    height: 40px;
+    width: 180px;
+    border: 2px solid #FDD256;
+    border-radius: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2ab09e;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.haifa-schedule__btn:hover {
+    background-color: #FDD256;
+    color: #2ab09e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width: 500px) {
+    .haifa-schedule__btn {
+        background-color: #FDD256;
+        color: #2ab09e;
+        width: 70%;
+        align-self: center;
+        margin-bottom: 40px;
+        font-weight: 600;
+        margin-top: 40px;
+    }
+}
+
+.section-haifa__title-container {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 0;
+    margin-left: 80px;
+    margin-bottom: 80px;
+    margin-right: 80px;
+}
+
+@media screen and (max-width: 1065px) {
+    .section-haifa__title-container {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section-haifa__title-container {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
 }

@@ -1,6 +1,7 @@
 import './HaifaSchedule.css'
 import scheduleFirstPart from '../../images/haifa/firstDayHaifa.png'
 import scheduleSecondPart from '../../images/haifa/secondDayHaifa.png'
+import schedule from '../../images/haifa/scheduleHaifa.pdf'
 
 function HaifaSchedule({handleCardClick}) {
 
@@ -15,11 +16,19 @@ function HaifaSchedule({handleCardClick}) {
 
     return(
         <section className="section__schedule" id='schedule'>
-            <h3 className="section__title">РАСПИСАНИЕ</h3>
-            <div className="section__date-container">
+            <div className="section-haifa__title-container">
+                <h3 className="section-haifa__title">РАСПИСАНИЕ</h3>
+                <a href={schedule} download="Расписание.pdf" className="haifa-schedule__btn">
+                    Скачать расписание
+                </a>
+            </div>
+
+            <div className="section-haifa__date-container">
                 <p className="haifa-section__date" onClick={onTwentyFourCardClick}>1 ИЮЛЯ</p>
                 <p className="haifa-section__date" onClick={onTwentyFiveClick}>2 ИЮЛЯ</p>
             </div>
+
+
 
         </section>
     )

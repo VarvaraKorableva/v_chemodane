@@ -377,12 +377,12 @@ const participantsData = [
         socialNetwork: {
             instagram: "",
             facebook: "",
-            personalSite: "https://www.redmax.tv/",
+            personalSite: "",
         },
         description:'"Пижамная библиотечка" на русском языке представит новые книжки и 2 мастер-класса для детей и расскажет, как подписаться на бесплатные книги для детей 2-8 лет даже будучи в Израиле. Оформляйте подписку на российский адрес ваших родных или друзей: https://pjlibrary.ru/subscribe. Если вы уже были зарегистрированы в программе, поменяйте адрес доставки на адрес ваших родных или друзей в России в Личном кабинете: https://pjlibrary.ru/membership/address',
         participationInTheLottery:"",
         imgLink: pjlabrary,
-        id: 30,
+        id: 303,
     },
     
 ]
