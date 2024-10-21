@@ -14,7 +14,8 @@ import TheaterHaifa from './components/Theater/TheaterHaifa'
 import MasterClassHaifa from './components/MasterClass/MasterClassHaifa'
 import LecturesAndPresentations from './components/LecturesAndPresentations/LecturesAndPresentations'
 import OurPartners from './components/OurPartners/OurPartners'
-import InfoHaifaPopup from './components/Popups/InfoHaifaPopup'
+//import InfoHaifaPopup from './components/Popups/InfoHaifaPopup'
+import SukkotPopup from './components/Popups/SukkotPopup'
 import NotReadyPage from './pages/NotReadyPage/NotReadyPage'
 
 import AboutFestival from './components/AboutFestival/AboutFestival'
@@ -159,10 +160,15 @@ function App() {
         onClose={closeAllPopups}
         isOpen={contactsPopup}
       />
-      <InfoHaifaPopup 
+
+      <SukkotPopup 
         isInfoHaifaPopupClicked={isInfoHaifaPopupClicked}
         onClose={closeAllPopups}
       />
+      {/*<InfoHaifaPopup 
+        isInfoHaifaPopupClicked={isInfoHaifaPopupClicked}
+        onClose={closeAllPopups}
+      />*/}
       
     </div>
   );

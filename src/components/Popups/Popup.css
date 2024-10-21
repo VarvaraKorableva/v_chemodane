@@ -310,3 +310,98 @@
 .infoHaifaPopup__btn:hover {
   background-color: #FDD256;
 }
+
+
+/*sukkot*/
+
+.sukkotPopup__container {
+  border-radius: 20px;
+  box-sizing: border-box;
+  align-self: center;
+  margin-top: 50px;
+  position: relative;
+  z-index: 25;
+}
+
+@media screen and (max-width: 600px) {
+  .sukkotPopup__container {
+    margin-top: 25px;
+  }
+}
+
+.sukkotPopup__img {
+  position: relative;
+}
+
+@media screen and (max-width: 800px) {
+  .sukkotPopup__img {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .sukkotPopup__img {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .sukkotPopup__img {
+    max-width: 300px;
+  }
+}
+
+.sukkotPopup__close-button {
+  position: absolute;
+  z-index: 10;
+  top: 8px;
+  right: 8px;
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  opacity: 1;
+  transition: 0.3s ease;
+}
+
+.sukkotPopup__ticket-btn {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  width: 250px;
+  height: 45px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  border: 2px solid #365004;
+  background-color: #ff9601;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #365004;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}  
+
+.sukkotPopup__ticket-btn:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 550px) {
+  .sukkotPopup__ticket-btn {
+    left: 20px;
+    width: 230px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .sukkotPopup__ticket-btn {
+    top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
