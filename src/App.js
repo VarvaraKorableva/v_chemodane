@@ -58,7 +58,7 @@ function App() {
     setSelectedCard(card);
     handleImgPopupOpen()
   }
-
+/*
   React.useEffect(() => {
     const neverShowMessage = localStorage.getItem('neverShowMessage')
     if( neverShowMessage === null ) {
@@ -66,7 +66,7 @@ function App() {
     }else {
       setIsInfoHaifaPopupClicked(false)
     }
-  }, [])
+  }, [])*/
 
   return (
     <div className="App">
