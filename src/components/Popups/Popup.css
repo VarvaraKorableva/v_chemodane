@@ -405,3 +405,46 @@
     font-weight: 500;
   }
 }
+
+.sukkotPopup__event-btn {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  width: 230px;
+  height: 45px;
+  position: absolute;
+  bottom: 160px;
+  left: 30px;
+  border: 2px solid #365004;
+  background-color: #ff9601;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #365004;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sukkotPopup__event-btn:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 550px) {
+  .sukkotPopup__event-btn {
+    left: 20px;
+    width: 200px;
+    height: 35px;
+
+    bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .sukkotPopup__event-btn {
+    bottom: 80px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}

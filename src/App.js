@@ -31,8 +31,8 @@ import NotFoundPage from './pages/NotFoundPage/NotFoundPage'
 function App() {
   const [contactsPopup, setContactsPopup] = React.useState(false)
   const [imgPopup, setImgPopup] = React.useState(false)
-  const [isInfoHaifaPopupClicked, setIsInfoHaifaPopupClicked] = React.useState(false)
-
+  //const [isInfoHaifaPopupClicked, setIsInfoHaifaPopupClicked] = React.useState(false)
+  const [isSukkotPopupClicked, setIsSukkotPopupClicked] = React.useState(true)
   const [selectedCard, setSelectedCard] = React.useState({})
 
   const [limit, setLimit] = React.useState(8)
@@ -47,11 +47,16 @@ function App() {
     setContactsPopup(true)
   }
 
+  function handleSukkotPopupOpen() {
+    setIsSukkotPopupClicked(true)
+  }
+
   function closeAllPopups() {
     setSelectedCard({})
     setImgPopup(false)
     setContactsPopup(false)
-    setIsInfoHaifaPopupClicked(false)
+    //setIsInfoHaifaPopupClicked(false)
+    setIsSukkotPopupClicked(false)
   }
 
   function handleCardClick(card) {
@@ -162,7 +167,7 @@ function App() {
       />
 
       <SukkotPopup 
-        isInfoHaifaPopupClicked={isInfoHaifaPopupClicked}
+        isSukkotPopupClicked={isSukkotPopupClicked}
         onClose={closeAllPopups}
       />
       {/*<InfoHaifaPopup 
