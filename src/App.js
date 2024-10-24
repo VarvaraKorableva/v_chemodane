@@ -78,7 +78,7 @@ function App() {
       <Header handleContactsPopupOpen={handleContactsPopupOpen}></Header>
       <Routes>
         <Route
-          exact path="/"
+          exact path="/haifa"
           element={
             <>
             <NewAnnounce />
