@@ -17,6 +17,7 @@
 @media screen and (max-width: 1073px) {
   .App {
     padding: 0;
+    background-color: #fff;
   }
 }
 

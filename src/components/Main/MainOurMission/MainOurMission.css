@@ -1,0 +1,129 @@
+.main-our-mission__section {
+    width: calc(100% - 64px);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #fff;
+    position: relative;
+
+    padding-top: calc(153px + 75px);
+}
+
+@media screen and (max-width: 800px) {
+    .main-our-mission__section {
+        padding-top: calc(153px);
+
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .main-our-mission__section {
+        padding-top: calc(120px);
+    }
+}
+
+.main-our-mission__pageofbookpic {
+    background-image: url(../../../images/mainPage/bookgrey.svg);
+    background-repeat: no-repeat;
+    min-width: 100%;
+    height: 153px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    background-size: contain;
+}
+
+.main-our-mission__title {
+    color: #374BA5;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Mulish", sans-serif;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 630px) {
+    .main-our-mission__title {
+        font-size: 24px;
+    }
+}
+
+.main-our-mission__text {
+    width: 576px;
+    font-size: 15px;
+    font-family: "Martel", serif;
+    font-weight: bold;
+    text-align: start;
+    margin: 0;
+    line-height: auto;
+    margin-bottom: 158px;
+  }
+
+@media screen and (max-width: 1220px) {
+    .main-our-mission__text {
+        margin-bottom: 216px;
+    }    
+}
+
+@media screen and (max-width: 772px) {
+    .main-our-mission__text {
+        margin-bottom: 270px;
+    }    
+}
+
+@media screen and (max-width: 650px) {
+    .main-our-mission__text {
+        width: 100%;
+    }    
+}
+
+@media screen and (max-width: 513px) {
+    .main-our-mission__text {
+        margin-bottom: 50px;
+    }    
+}
+
+.main-our-mission__letters {
+    width: 523px;
+    height: 382px;
+    position: absolute;
+    right: 24px;
+    top: 116px;
+    background-image: url(../../../images/mainPage/lettersmission.png);
+    background-repeat: no-repeat;
+
+    background-size: contain;
+}  
+
+@media screen and (max-width: 1220px) {
+    .main-our-mission__letters {
+        top: 216px;
+    }    
+}
+
+@media screen and (max-width: 859px) {
+    .main-our-mission__letters {
+        width: 364px;
+        height: 266px;
+        top: 260px;
+    }    
+}
+
+@media screen and (max-width: 772px) {
+    .main-our-mission__letters {
+        top: 430px;
+        width: 324px;
+        height: 237px;
+        
+    }    
+}
+
+@media screen and (max-width: 513px) {
+    .main-our-mission__letters {
+        display: none;
+    }    
+}

@@ -166,7 +166,7 @@ function App() {
         </Route>
 
       </Routes>  
-      <Footer />
+      {/*<Footer />*/}
       <ImagePopup 
           card={selectedCard}
           imgPopup={imgPopup}
