@@ -11,6 +11,13 @@
 
     padding-top: calc(153px + 75px);
 }
+/*
+@media screen and (max-width: 1260px) {
+    .main-our-mission__section {
+        padding-top: calc(153px + 75px);
+
+    }
+}*/
 
 @media screen and (max-width: 800px) {
     .main-our-mission__section {
@@ -34,7 +41,13 @@
     top: 0;
     right: 0;
 
-    background-size: contain;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1200px) {
+    .main-our-mission__pageofbookpic {
+        background-size: contain;
+    }
 }
 
 .main-our-mission__title {

@@ -34,8 +34,13 @@
     position: absolute;
     top: 0;
     right: 0;
+    background-size: cover;
+}
 
-    background-size: contain;
+@media screen and (max-width: 1200px) {
+    .main-footer-book-page {
+        background-size: contain;
+    }
 }
 
 .main-footer-contacts-contsiner {

@@ -99,10 +99,9 @@ function App() {
         </Route>
 
         <Route
-          path="/main"
+          path="/"
           element={
             <MainPage 
-            
             />
           }>
         </Route>
