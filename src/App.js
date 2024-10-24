@@ -1,6 +1,8 @@
 import React from 'react'
 import { Route, Routes, useNavigate } from 'react-router-dom'
 import './App.css';
+
+import MainPage from './pages/MainPage/MainPage'
 import Header from './components/Header/Header'
 import Schedule from './components/Schedule/Schedule'
 import NewAnnounce from './components/CurrentAnnounce/HaifaNewAnnounce'
@@ -75,7 +77,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header handleContactsPopupOpen={handleContactsPopupOpen}></Header>
+      {/*<Header handleContactsPopupOpen={handleContactsPopupOpen}></Header>*/}
       <Routes>
         <Route
           exact path="/haifa"
@@ -93,6 +95,15 @@ function App() {
             <OurPartners />
             <OurTeam />
             </>
+          }>
+        </Route>
+
+        <Route
+          path="/main"
+          element={
+            <MainPage 
+            
+            />
           }>
         </Route>
 
@@ -155,7 +166,7 @@ function App() {
         </Route>
 
       </Routes>  
-      <Footer />
+      {/*<Footer />*/}
       <ImagePopup 
           card={selectedCard}
           imgPopup={imgPopup}
