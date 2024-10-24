@@ -46,17 +46,17 @@ function App() {
   function handleContactsPopupOpen() {
     setContactsPopup(true)
   }
-
+{/*
   function handleSukkotPopupOpen() {
     setIsSukkotPopupClicked(true)
-  }
+  }*/}
 
   function closeAllPopups() {
     setSelectedCard({})
     setImgPopup(false)
     setContactsPopup(false)
     //setIsInfoHaifaPopupClicked(false)
-    setIsSukkotPopupClicked(false)
+    //setIsSukkotPopupClicked(false)
   }
 
   function handleCardClick(card) {
@@ -165,12 +165,12 @@ function App() {
         onClose={closeAllPopups}
         isOpen={contactsPopup}
       />
-
+    {/*
       <SukkotPopup 
         isSukkotPopupClicked={isSukkotPopupClicked}
         onClose={closeAllPopups}
       />
-      {/*<InfoHaifaPopup 
+      <InfoHaifaPopup 
         isInfoHaifaPopupClicked={isInfoHaifaPopupClicked}
         onClose={closeAllPopups}
       />*/}
