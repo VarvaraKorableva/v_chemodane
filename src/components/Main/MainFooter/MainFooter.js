@@ -3,14 +3,31 @@ import './MainFooter.css'
 function MainFooter() {
     return(
         <footer className="main__footer">
-            <div className="main-footer-book-page"></div>
-            <div className="main-footer-contacts-contsiner">
-                <p className="main-footer__title">Контакты</p>
-                <p className="main-footer-contacts-number">+ 972 53-470-1675</p>
+            {/*<div className="main-footer-book-page"></div>*/}
+            <div className="main-footer-wrapper">
+                <div className="main-footer-letters-grey"></div>
+                <div className="main-footer__logo-support-wrapper">
+                    <div className="main-footer-logo"></div>
+                    <div className="main-footer-contacts-container">
+                        <p className="main-footer__title">Контакты</p>
+                        <p className="main-footer-contacts-number">+ 972 53-470-1675</p>
+                        <ul className="main-footer__icons-container">
+                            <li className="main-footer__icon-facebook"></li>
+                            <li className="main-footer__icon-instagram"></li>
+                            <li className="main-footer__icon-tg"></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div className="main-footer__logo-support-wrapper">
-                <div className="main-footer-logo"></div>
-                <div className="main-footer__support-wrapper">
+        </footer>
+    )
+}
+
+export default MainFooter
+
+
+/*
+<div className="main-footer__support-wrapper">
                     <p className="main-footer__title">ПРИ ПОДДЕРЖКЕ:</p>
                     <ul className="main-footer__support-container">
                         <li className="main-footer__support-li">Центр Наследия Менахема Бегина</li>
@@ -24,9 +41,4 @@ function MainFooter() {
                         <li className="main-footer__support-li">Отдел Абсорбции Г Реховот</li>
                     </ul>
                 </div>
-            </div>
-        </footer>
-    )
-}
-
-export default MainFooter
+*/

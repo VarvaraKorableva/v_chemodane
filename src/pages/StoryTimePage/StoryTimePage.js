@@ -4,6 +4,7 @@ import CardsContainer from '../../components/StoryTime/Cards/CardsContainer'
 import Presenters from '../../components/StoryTime/Presenters/Presenters'
 import Partners from '../../components/StoryTime/Partners/Partners'
 import Organizers from '../../components/StoryTime/Organizers/Organizers'
+import MainFooter from '../../components/Main/MainFooter/MainFooter'
 
 function StoryTimePage() {
     return (
@@ -14,6 +15,7 @@ function StoryTimePage() {
         <Presenters></Presenters>
         <Partners></Partners>
         <Organizers></Organizers>
+        <MainFooter></MainFooter>
         </>
     )
 } 
