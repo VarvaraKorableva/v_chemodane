@@ -1,0 +1,275 @@
+.storyTimeBannerSection__section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.storyTimeBannerSection__pic-container {
+    background-color: #EACDA5;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.storyTimeBannerSection__nav-container {
+    background-color: #FCBB01;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        
+    padding-left: 43px;
+    padding-right: 43px
+}
+
+.storyTimeBannerSection__title-container {
+    font-family: 'Karton', sans-serif;
+    margin-top: 61px;
+}
+
+.storyTimeBannerSection__title {
+    font-weight: 400;
+    font-size: 80px;
+    margin: 0;
+}
+
+.storyTimeBannerSection__subtitle {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 26px;
+}
+
+.storyTimeBannerSection__nav-container {
+    display: flex;
+}
+
+.storyTimeBannerSection__ul-container {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+}
+
+.storyTimeBannerSection__left-memory-pic {
+    background-image: url(../../../images/storytime/leftline.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 117px;
+    height: 451px;
+}
+
+.storyTimeBannerSection__rigth-memory-pic {
+    background-image: url(../../../images/storytime/rightline.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 84px;
+    height: 451px;
+}
+
+.storyTimeBannerSection__guitar-pic {
+    position: absolute;
+    top: 5px;
+    left: 100px;
+    background-image: url(../../../images/storytime/guitar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 127px;
+    height: 217px;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.storyTimeBannerSection__guitar-pic:hover {
+    /*transform: translateY(-20px);*/
+    transform: rotate(30deg);
+}
+
+.storyTimeBannerSection__envelope-pic {
+    position: absolute;
+    top: 267px;
+    left: 200px;
+    background-image: url(../../../images/storytime/envelope.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 109px;
+    height: 77px;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.storyTimeBannerSection__key-pic {
+    position: absolute;
+    top: 161px;
+    left: 250px;
+    background-image: url(../../../images/storytime/key.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 69px;
+    height: 64px;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.storyTimeBannerSection__book-pic {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    background-image: url(../../../images/storytime/book.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 132px;
+    height: 151px;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.storyTimeBannerSection__book-pic:hover {
+    /*transform: translateY(-20px);*/
+    transform: rotate(20deg);
+}
+
+.storyTimeBannerSection__arm-pic {
+    position: absolute;
+    width: 80px;
+    height: 103px;
+    background-size: contain;
+    cursor: pointer;
+    top: 219px;
+    left: 500px;
+    background-image: url(../../../images/storytime/arm.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.storyTimeBannerSection__arm-pic:hover {
+    /*transform: translateY(-20px);*/
+    transform: rotate(50deg);
+}
+
+.storyTimeBannerSection__disk-pic {
+    position: absolute;
+    width: 167px;
+    height: 167px;
+    background-size: contain;
+    cursor: pointer;
+    bottom: 58px;
+    left: 600px;
+    background-image: url(../../../images/storytime/disk.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.storyTimeBannerSection__feather-pic {
+    position: absolute;
+    width: 397px;
+    height: 75px;
+    background-size: contain;
+    cursor: pointer;
+    bottom: 13px;
+    left: 500px;
+    background-image: url(../../../images/storytime/feather.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.storyTimeBannerSection__savawon-pic {
+    position: absolute;
+    width: 56px;
+    height: 69px;
+    background-size: contain;
+    cursor: pointer;
+    top: 109px;
+    right: 250px;
+    background-image: url(../../../images/storytime/sovawon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.storyTimeBannerSection__savawon-pic:hover {
+    /*transform: translateY(-20px);*/
+    transform: rotate(90deg);
+}
+
+.storyTimeBannerSection__compilation-pic {
+    position: absolute;
+    width: 119px;
+    height: 94px;
+    background-size: contain;
+    cursor: pointer;
+    top: 34px;
+    right: 114px;
+    background-image: url(../../../images/storytime/compilation.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.storyTimeBannerSection__compilation-pic:hover {
+
+    transform: rotate(-20deg);
+}
+
+.storyTimeBannerSection__glasses-pic {
+    position: absolute;
+
+    width: 91px;
+    height: 81px;
+    background-size: contain;
+    cursor: pointer;
+    top: 208px;
+    right: 114px;
+    background-image: url(../../../images/storytime/glasses.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.storyTimeBannerSection__picture-pic {
+    position: absolute;
+    width: 155px;
+    height: 149px;
+    background-size: contain;
+    cursor: pointer;
+    top: 211px;
+    right: 210px;
+    background-image: url(../../../images/storytime/picture.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.storyTimeBannerSection__li {
+    background-color: #374BA5;
+    color: #fff;
+    padding: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 12px;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+.storyTimeBannerSection__li:hover {
+    background-color: #F96A00;
+}
+
+.storyTimeBannerSection__link-btn {
+    background-color: #F96A00;
+    color: #fff;
+    height: 43px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 12px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+.storyTimeBannerSection__link-btn:hover {
+    background-color: #374BA5;
+}

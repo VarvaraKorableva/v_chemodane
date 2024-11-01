@@ -4,6 +4,7 @@ import './App.css';
 
 import MainPage from './pages/MainPage/MainPage'
 import Header from './components/Header/Header'
+import MainNewHeader from './components/Main/MainHeader/MainNewHeader/MainNewHeader'
 import Schedule from './components/Schedule/Schedule'
 import NewAnnounce from './components/CurrentAnnounce/HaifaNewAnnounce'
 import HaifaSchedule from './components/HaifaSchedule/HaifaSchedule'
@@ -29,6 +30,7 @@ import OurTeam from './components/OurTeam/OurTeam'
 import IndividualPageOfParticipants from './components/IndividualPageOfParticipants/IndividualPageOfParticipants'
 import IndividualPage from './components/IndividualPage/IndividualPage'
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage'
+import StoryTimePage from './pages/StoryTimePage/StoryTimePage'
 
 function App() {
   const [contactsPopup, setContactsPopup] = React.useState(false)
@@ -77,7 +79,8 @@ function App() {
 
   return (
     <div className="App">
-      {/*<Header handleContactsPopupOpen={handleContactsPopupOpen}></Header>*/}
+      {/*<Header handleContactsPopupOpen={handleContactsPopupOpen}></Header>
+      <MainNewHeader></MainNewHeader>*/}
       <Routes>
         <Route
           exact path="/haifa"
@@ -102,6 +105,14 @@ function App() {
           path="/"
           element={
             <MainPage 
+            />
+          }>
+        </Route>
+
+        <Route
+          path="/story-time"
+          element={
+            <StoryTimePage 
             />
           }>
         </Route>

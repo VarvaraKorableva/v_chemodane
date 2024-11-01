@@ -1,0 +1,248 @@
+.cardsContainer__section {
+    background-color: #fff;
+    width: calc(100% - 86px);
+    padding-left: 43px;
+    padding-right: 43px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 635px) {
+    .cardsContainer__section {
+        width: calc(100% - 40px);
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cardsContainer__section {
+        width: calc(100% - 10px);
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 25px;
+    }
+}
+
+.cardsContainer__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    max-width: 1142px;
+    list-style-type: none;
+    padding: 0;
+    margin: auto; 
+}
+
+@media screen and (max-width: 1000px) {
+    .cardsContainer__wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+.cardsContainer__li {
+    /*width: 561px;*/
+    height: 678px;
+    background-color: #EACDA5;
+    border-radius: 30px;
+    position: relative;
+}
+
+@media screen and (max-width: 1000px) {
+    .cardsContainer__li {
+        height: fit-content;
+    }
+}
+
+.cardsContainer__pic-lines {
+    background-image: url(../../../images/storytime/linesup.png);
+    width: 100%;
+    height: 120px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cardsContainer__pic-linesdown {
+    background-image: url(../../../images/storytime/linesdown.png);
+    width: 100%;
+    height: 120px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cardsContainer__container {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: start;
+    /*width: calc(100% - 200px);*/
+    
+    margin-right: 20px;
+}    
+
+.cardsContainer__subtitle {
+    text-align: start;
+    margin-left: 40px;
+    margin-top: 0;
+}
+
+.cardsContainer__li_for {
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.cardsContainer__subtitle_main {
+    font-family: 'Karton', sans-serif;
+    font-size: 28px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+    font-weight: 200px;
+}
+
+@media screen and (max-width: 370px) {
+    .cardsContainer__subtitle_main {
+        font-size: 24px;
+    }
+}
+
+.cardsContainer__title_main {
+    font-family: 'Karton', sans-serif;
+    font-size: 40px;
+    margin-bottom: 38px;
+    margin-top: 0;
+    font-weight: 400px;
+}
+
+.cardsContainer__pic-forsecondcard {
+    background-image: url(../../../images/storytime/linesforsecondcard.png);
+    width: 100%;
+    height: 120px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cardsContainer__second-card-ul {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.cardsContainer__second-card-title {
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.cardsContainer__pic-forthirdcard {
+    background-image: url(../../../images/storytime/lineshebrew.png);
+    width: 100%;
+    height: 120px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cardsContainer__feather-pic {
+    width: 397px;
+    height: 75px;
+    background-size: contain;
+    background-image: url(../../../images/storytime/feather.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .cardsContainer__feather-pic {
+        width: calc(100% - 50px);
+    }
+}
+
+.cardsContainer__time-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    margin-top: 40px;
+    margin-right: 20px;
+    text-align: end;
+}
+
+@media screen and (max-width: 390px) {
+    .cardsContainer__time-container {
+        flex-direction: column;
+        margin-right: 0;
+    }
+}
+
+.cardsContainer__time {
+    font-weight: 500px;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.cardsContainer__place {
+    margin: 0;
+}
+
+.cardsContainer__strong-text {
+    font-weight: 600px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.cardsContainer__second-card-title-forthcard {
+    margin-top: 55px;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 500px) {
+    .cardsContainer__second-card-title-forthcard {
+        margin-bottom: 50px;
+    }
+}
+
+.cardsContainer__key-pic {
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    background-image: url(../../../images/storytime/key.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 69px;
+    height: 64px;
+    background-size: contain;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1145px) {
+    .cardsContainer__key-pic {
+        top: 60px;
+        left: 80px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cardsContainer__key-pic {
+        top: 60px;
+        left: 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cardsContainer__key-pic {
+        top: 50px;
+        left: 20px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .cardsContainer__key-pic {
+        left: 10px;
+    }
+}
