@@ -48,7 +48,7 @@ function CardsContainer() {
                     <div className="cardsContainer__key-pic"></div>
                     <ul className="cardsContainer__second-card-ul">
                         <li className="cardsContainer__li_for">Заполните <a href={'https://forms.gle/yRaz25gniLuf1ZtZ6'} target="_blank" className="cardsContainer__questionnaire-link">анкету</a> для участия.</li>
-                        <li className="cardsContainer__li_for">Первая зум-встреча команды проекта. </li>
+                        <li className="cardsContainer__li_for">Участуйте в зум-встрече проекта- ссылка на встречу будет доступна, после регистрации.</li>
                     </ul>
                     <div className="cardsContainer__time-container">
                         <h3 className="cardsContainer__time">12 НОЯБРЯ В 19:00</h3>

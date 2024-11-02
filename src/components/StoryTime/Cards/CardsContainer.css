@@ -205,6 +205,7 @@
 
 .cardsContainer__strong-text {
     font-weight: 600px;
+    margin: auto;
     margin-bottom: 40px;
     margin-top: 40px;
     max-width: calc(100% - 40px);
