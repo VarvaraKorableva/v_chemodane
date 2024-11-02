@@ -11,7 +11,9 @@ function MainNewHeader() {
                 <nav className="mainNewHeader-container">
                     <ul className="mainNewHeader-ul-container">
                         <li className="mainNewHeader-nav-link">Наша миссия</li>
-                        <li className="mainNewHeader-nav-link">О фестивале</li>
+                        <li className="mainNewHeader-nav-link">
+                            <Link to={'/'}className="mainNewHeader-link">О фестивале</Link>
+                        </li>
                         <li className="mainNewHeader-nav-link">Наши участники</li>
                         <li className="mainNewHeader-nav-link">Наши проекты</li>
                         <li className="mainNewHeader-nav-link">Кто мы</li>

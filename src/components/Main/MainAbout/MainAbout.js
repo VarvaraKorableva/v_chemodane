@@ -5,7 +5,7 @@ import './MainAbout.css'
 
 function MainAbout() {
     return(
-        <section className="main-about-section">
+        <section className="main-about-section" id="main__about">
             <div className="main-about-title-and-text-container">
                 <h2 className="main-about-title">О ФЕСТИВАЛЕ</h2>
                 <p className="main-about-text">СЕМЕЙНЫЙ ФЕСТИВАЛЬ КНИГ НА РУССКОМ ЯЗЫКЕ В ЧЕМОДАНЕ-  

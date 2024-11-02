@@ -137,3 +137,8 @@
         cursor: pointer;
     }
 }
+
+.mainNewHeader-link {
+    text-decoration: none;
+    color: #FBBB00;
+}

@@ -112,7 +112,8 @@
 .presenters__title {
     color: #374BA5;
     text-align: start;
-    font-size: 45px;
+    font-size: 42px;
+    font-family: 'Karton', sans-serif;
 }
 
 @media screen and (max-width: 900px) {
