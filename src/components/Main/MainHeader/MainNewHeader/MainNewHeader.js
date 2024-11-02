@@ -1,12 +1,13 @@
 //MainNewHeader
 import letters from '../../../../images/mainPage/Lettersnewheader.png'
 import './MainNewHeader.css'
+import { Link } from 'react-router-dom';
 
 function MainNewHeader() {
     return(
         <header className="mainNewHeader">
             <div className="mainNewHeader__nav-container">
-                <div className="mainNewHeader-logo"></div>
+                <Link  to={`/`} className="mainNewHeader-logo"></Link>
                 <nav className="mainNewHeader-container">
                     <ul className="mainNewHeader-ul-container">
                         <li className="mainNewHeader-nav-link">Наша миссия</li>

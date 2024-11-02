@@ -168,9 +168,7 @@
 
 @media screen and (max-width: 1000px) {
     .main-footer-letters-grey {
-        /*left: 300px;
-        bottom: 10px;
-        object-fit: contain;*/
+        display: none;
     }
 }
 
