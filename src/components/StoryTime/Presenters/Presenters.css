@@ -2,7 +2,22 @@
     background-color: #fff;
     width: calc(100% - 86px);
     padding-left: 43px;
-    padding-right: 43px
+    padding-right: 43px;
+    padding-bottom: 100px;
+    padding-top: 300px;
+    position: relative;
+}
+
+@media screen and (max-width: 1650px) {
+    .presenters__section {
+        padding-top: 200px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .presenters__section {
+        padding-top: 150px;
+    }
 }
 
 @media screen and (max-width: 635px) {
@@ -10,17 +25,43 @@
         width: calc(100% - 40px);
         padding-left: 20px;
         padding-right: 20px;
-        padding-top: 25px;
         padding-bottom: 25px;
     }
 }
 
 @media screen and (max-width: 500px) {
     .presenters__section {
-        width: calc(100% - 10px);
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-top: 25px;
+        padding-top: 100px;
+    }
+}
+
+.presenters__page-pic {
+    background-image: url(../../../images/storytime/bookpagegrey.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1650px) {
+    .presenters__page-pic  {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .presenters__page-pic  {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .presenters__page-pic  {
+        height: 100px;
     }
 }
 
@@ -57,6 +98,12 @@
     color: #374BA5;
     text-align: start;
     font-size: 45px;
+}
+
+@media screen and (max-width: 900px) {
+    .presenters__title  {
+        font-size: 34px;
+    }
 }
 
 @media screen and (max-width: 500px) {

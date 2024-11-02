@@ -8,7 +8,7 @@ import ilia from '../../../images/storytime/ilia.png'
 function Presenters() {
     return(
         <section className='presenters__section' id='Presenters'>
-            <div></div>
+            <div className='presenters__page-pic'></div>
             <h2 className='presenters__title'>ВЕДУЩИЕ</h2>
             <ul className='presenters__wrapper'>
                 <li className='presenters__li_card'>

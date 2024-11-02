@@ -119,6 +119,12 @@
     font-weight: 400px;
 }
 
+@media screen and (max-width: 500px) {
+    .cardsContainer__title_main {
+        margin-bottom: 20px;
+    }
+}
+
 .cardsContainer__pic-forsecondcard {
     background-image: url(../../../images/storytime/linesforsecondcard.png);
     width: 100%;
@@ -136,6 +142,13 @@
 .cardsContainer__second-card-title {
     margin-top: 55px;
     margin-bottom: 55px;
+}
+
+@media screen and (max-width: 500px) {
+    .cardsContainer__second-card-title {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 }
 
 .cardsContainer__pic-forthirdcard {
@@ -194,6 +207,7 @@
     font-weight: 600px;
     margin-bottom: 40px;
     margin-top: 40px;
+    max-width: calc(100% - 40px);
 }
 
 .cardsContainer__second-card-title-forthcard {
@@ -203,7 +217,8 @@
 
 @media screen and (max-width: 500px) {
     .cardsContainer__second-card-title-forthcard {
-        margin-bottom: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 }
 
@@ -229,14 +244,15 @@
 
 @media screen and (max-width: 500px) {
     .cardsContainer__key-pic {
-        top: 60px;
+        top: 30px;
         left: 50px;
+        width: 50px;
+        height: 60px;
     }
 }
 
 @media screen and (max-width: 400px) {
     .cardsContainer__key-pic {
-        top: 50px;
         left: 20px;
     }
 }
@@ -245,4 +261,19 @@
     .cardsContainer__key-pic {
         left: 10px;
     }
+}
+
+.cardsContainer__questionnaire-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: #374BA5;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+}
+
+.cardsContainer__questionnaire-link:hover {
+    background-color: #fff;
 }

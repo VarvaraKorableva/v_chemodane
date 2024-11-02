@@ -4,6 +4,20 @@
     padding-left: 43px;
     padding-right: 43px;
     padding-bottom: 100px;
+    padding-top: 300px;
+    position: relative;
+}
+
+@media screen and (max-width: 1650px) {
+    .organizers__section {
+        padding-top: 200px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .organizers__section {
+        padding-top: 150px;
+    }
 }
 
 @media screen and (max-width: 635px) {
@@ -11,17 +25,43 @@
         width: calc(100% - 40px);
         padding-left: 20px;
         padding-right: 20px;
-        padding-top: 25px;
         padding-bottom: 25px;
     }
 }
 
 @media screen and (max-width: 500px) {
     .organizers__section {
-        width: calc(100% - 10px);
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-top: 25px;
+        padding-top: 100px;
+    }
+}
+
+.organizers__page-pic {
+    background-image: url(../../../images/storytime/bookpagegrey.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1650px) {
+    .organizers__page-pic  {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .organizers__page-pic  {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .organizers__page-pic  {
+        height: 100px;
     }
 }
 
@@ -29,6 +69,12 @@
     color: #374BA5;
     text-align: start;
     font-size: 45px;
+}
+
+@media screen and (max-width: 900px) {
+    .organizers__title  {
+        font-size: 34px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -60,6 +106,38 @@
     object-fit: contain;
 }
 
+.organizers__li-containerlogoNadav {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .organizers__li-containerlogoNadav  {
+        max-height: 100px;
+    }
+}
+
 .organizers__li-containerlogoVChemodame {
     margin-right: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .organizers__li-containerlogoVChemodame  {
+        max-width: 100px;
+        max-height: 100px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .organizers__li-containerlogoVChemodame  {
+        max-width: 80px;
+        max-height: 80px;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .organizers__li-containerlogoVChemodame  {
+        max-width: 70px;
+        max-height: 70px;
+    }
 }
