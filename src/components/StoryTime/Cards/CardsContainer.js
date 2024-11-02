@@ -2,7 +2,7 @@ import './CardsContainer.css'
 
 function CardsContainer() {
     return(
-        <section className="cardsContainer__section">
+        <section className="cardsContainer__section" id="aboutProject">
             <ul className="cardsContainer__wrapper">
                 <li className="cardsContainer__li">
                     <div className="cardsContainer__pic-lines"></div>

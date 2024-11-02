@@ -5,7 +5,7 @@ import Nadav from '../../../images/logo/Nadav.png'
 
 function Organizers() {
     return(
-        <section className='organizers__section'>
+        <section className='organizers__section' id='Organizers'>
             <h2 className='organizers__title'>ОРГАНИЗАТОРЫ</h2>
             <ul className='organizers__ul-wrapper'>
                 <li className='organizers__li-containerVChemodame'>

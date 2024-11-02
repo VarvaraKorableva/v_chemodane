@@ -5,7 +5,7 @@ import yadvashem from '../../../images/logo/yadvashem.png'
 
 function Partners() {
     return(
-        <section className='partners__section'>
+        <section className='partners__section' id="Partners">
             <h2 className='partners__title'>ПАРТНЕРЫ</h2>
             <ul className='partners__ul-wrapper'>
                 <li className='partners__li-container'>
