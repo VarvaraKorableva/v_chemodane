@@ -7,7 +7,7 @@ function Organizers() {
     return(
         <section className='organizers__section' id='Organizers'>
             <div className='organizers__page-pic'></div>
-            <h2 className='organizers__title'>ОРГАНИЗАТОРЫ</h2>
+            <h2 className='organizers__title'>ПРИ ПОДДЕРЖКЕ</h2>
             <ul className='organizers__ul-wrapper'>
                 <li className='organizers__li-container organizers__li-containerlogoVChemodame'>
                     <img src={logoVChemodame} alt="Логотип Фестиваля ВЧемодане" className='organizers__logo'></img>
