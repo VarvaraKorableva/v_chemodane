@@ -1,6 +1,6 @@
 import ole from '../images/logo/ole.png'
 import any from '../images/logo/Anu.png'
-import nadav from '../images/logo/Anu.png'
+import nadav from '../images/logo/Nadav.png'
 import redmax from '../images/logo/redmax.jpg'
 import interesno from '../images/logo/interesno.jpeg'
 import srzit from '../images/logo/srzit.png'

@@ -1,7 +1,7 @@
 import './Organizers.css'
 import logoVChemodame from '../../../images/mainPage/logobottom.png'
 import ujFederation from '../../../images/logo/ujFederation.png'
-import Nadav from '../../../images/logo/nadav.png'
+import Nadav from '../../../images/logo/Nadav.png'
 
 function Organizers() {
     return(
