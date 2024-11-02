@@ -4,10 +4,8 @@
   background-color: #D6D6D6;
   padding: 32px;
   min-height: 100vh;
-
   font-family: "Mulish", sans-serif;
   overflow: hidden;
-
   display: flex;
   flex-direction: column;
   justify-content: start;

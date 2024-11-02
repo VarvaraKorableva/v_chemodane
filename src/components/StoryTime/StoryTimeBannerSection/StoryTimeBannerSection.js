@@ -41,7 +41,12 @@ function StoryTimeBannerSection() {
                         <a href="#Organizers" className="storyTimeBannerSection__link">Организаторы</a>
                     </li>
                 </ul>
-                <a href={'https://forms.gle/yRaz25gniLuf1ZtZ6'} className="storyTimeBannerSection__link-btn" target='_blank'>Регистрация</a>
+                <a 
+                    href={'https://forms.gle/yRaz25gniLuf1ZtZ6'} 
+                    className="storyTimeBannerSection__link-btn" 
+                    target='_blank'
+                    rel="noopener noreferrer"
+                >Регистрация</a>
             </nav>
         </section>
 

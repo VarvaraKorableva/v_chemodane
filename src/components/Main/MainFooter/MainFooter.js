@@ -1,4 +1,5 @@
 import './MainFooter.css'
+import { FaInstagram, FaTelegram, FaFacebook } from 'react-icons/fa'
 
 function MainFooter() {
     return(
@@ -11,10 +12,22 @@ function MainFooter() {
                     <div className="main-footer-contacts-container">
                         <p className="main-footer__title">Контакты:</p>
                         <p className="main-footer-contacts-number">info@vchemodane.com</p>
-                        <ul className="main-footer__icons-container">
-                            <li className="main-footer__icon-facebook"></li>
-                            <li className="main-footer__icon-instagram"></li>
-                            <li className="main-footer__icon-tg"></li>
+                        <ul className="footer__links-container">
+                            <li className='footer__link'>
+                                <a className='footer__contact-item-link' href='https://www.instagram.com/vchemodanefest/' target='_blank'>
+                                <FaInstagram />
+                                </a>
+                            </li>
+                            <li className='footer__link'>
+                                <a className='footer__contact-item-link' href='https://www.facebook.com/vchemodanefest/' target='_blank'>
+                                <FaFacebook />
+                                </a>
+                            </li>
+                            <li className='footer__link'>
+                                <a className='footer__contact-item-link' href='https://t.me/chemodanfest' target='_blank'>
+                                <FaTelegram />
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
