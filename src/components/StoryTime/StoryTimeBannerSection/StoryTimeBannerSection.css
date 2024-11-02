@@ -935,7 +935,13 @@
         border: 1px solid #fff;
         margin: 0;
         padding: 20px;
+    }
+}
 
+@media screen and (max-width: 385px) {
+    .storyTimeBannerSection__li {
+        font-size: 12px;
+        padding: 15px;
     }
 }
 
