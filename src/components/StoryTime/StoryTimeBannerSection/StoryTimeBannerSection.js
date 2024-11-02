@@ -38,7 +38,7 @@ function StoryTimeBannerSection() {
                         <a href="#Partners" className="storyTimeBannerSection__link">Партнеры</a>
                     </li>
                     <li className="storyTimeBannerSection__li">
-                        <a href="#Organizers" className="storyTimeBannerSection__link">Организаторы</a>
+                        <a href="#Organizers" className="storyTimeBannerSection__link">При Поддержке</a>
                     </li>
                 </ul>
                 <a 
