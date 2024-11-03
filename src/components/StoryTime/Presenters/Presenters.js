@@ -23,14 +23,14 @@ function Presenters() {
                         <img src={marina} className='presenters__photo' alt='Фотография ведущего Марина Сазоненко'></img>
                     </div>
                     <p className='presenters__li_card-title'>Марина Сазоненко</p>
-                    <p className='presenters__li_card-discription'>художница, преподаватель,художник-исследователь, педагог, выпускница Аспирантской Школы по искусству и дизайну НИУ ВШЭ</p>
+                    <p className='presenters__li_card-discription'>Художница, преподаватель,художник-исследователь, педагог, выпускница Аспирантской Школы по искусству и дизайну НИУ ВШЭ</p>
                 </li>
                 <li className='presenters__li_card'>
                     <div className='presenters__photo-container'>
                         <img src={sima} className='presenters__photo' alt='Фотография ведущего Серафима Велькович'></img>
                     </div>
                     <p className='presenters__li_card-title'>Д-р Серафима Велькович</p>
-                    <p className='presenters__li_card-discription'>руководитель отдела исследования семейных корней в службе архива Яд Вашем. Автор лекций о использовании ресурсов Яд Вашем для генеалогических и других исследований</p>
+                    <p className='presenters__li_card-discription'>Руководитель отдела исследования семейных корней в службе архива Яд Вашем. Автор лекций о использовании ресурсов Яд Вашем для генеалогических и других исследований</p>
                 </li>
                 <li className='presenters__li_card'>
                     <div className='presenters__photo-container'>
@@ -44,7 +44,7 @@ function Presenters() {
                         <img src={vladimir} className='presenters__photo' alt='Фотография ведущего Владимир Определенов'></img>
                     </div>  
                     <p className='presenters__li_card-title'>Владимир Определенов</p>
-                    <p className='presenters__li_card-discription'>эксперт и исследователь в области сохранения цифрового наследия и использования технологий для сферы искусства и культуры, cооснователь цифровой платформы Album, основатель цифрового Art&Tech агенства TECH4.ART. opredelenov.pro</p>
+                    <p className='presenters__li_card-discription'>Эксперт и исследователь в области сохранения цифрового наследия и использования технологий для сферы искусства и культуры, cооснователь цифровой платформы Album, основатель цифрового Art&Tech агенства TECH4.ART. opredelenov.pro</p>
                 </li>  
             </ul>
 
