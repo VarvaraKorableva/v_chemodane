@@ -132,3 +132,17 @@
     font-weight: 600;
     font-size: 20px;
 }
+
+@media screen and (max-width: 500px) {
+    .presenters__li_card-title  {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .presenters__li_card-discription {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+}

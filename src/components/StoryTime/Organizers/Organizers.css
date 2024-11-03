@@ -99,6 +99,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px;
 }
     
 .organizers__logo {
@@ -114,31 +115,5 @@
 @media screen and (max-width: 500px) {
     .organizers__li-containerlogoNadav  {
         max-height: 100px;
-    }
-}
-
-.organizers__li-containerlogoVChemodame {
-    margin-right: 10px;
-}
-
-@media screen and (max-width: 500px) {
-    .organizers__li-containerlogoVChemodame  {
-        max-width: 100px;
-        max-height: 100px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .organizers__li-containerlogoVChemodame  {
-        max-width: 80px;
-        max-height: 80px;
-    }
-}
-
-
-@media screen and (max-width: 360px) {
-    .organizers__li-containerlogoVChemodame  {
-        max-width: 70px;
-        max-height: 70px;
     }
 }
