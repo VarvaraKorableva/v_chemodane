@@ -13,14 +13,7 @@ function Slider() {
         { id: 3, src: page3, link: 'https://forms.gle/N4mSMeM2ZK5Fdw7f9', text: "ПРЕДЛОЖИТЬ СВОЙ МК ИЛИ СПЕКТАКЛЬ" },
         { id: 4, src: page1, link: '/story-time', subtext: 'СЕМЕЙНАЯ ОНЛАЙН ЛАБОРАТОРИЯ',lastcall: 'OPEN CALL до 11.11.24',text: "ВРЕМЯ ИСТОРИЙ" },
     ];
-
-    /*
-        <div className="storyTimeBannerSection__title-container">
-            <h3 className="storyTimeBannerSection__subtitle">СЕМЕЙНАЯ ОНЛАЙН ЛАБОРАТОРИЯ</h3>
-            <h1 className="storyTimeBannerSection__title">ВРЕМЯ ИСТОРИЙ</h1>
-            <p className="storyTimeBannerSection__subtitle">OPEN CALL до 11.11.24</p>
-        </div>
-    */
+/*
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const nextSlide = () => {
@@ -40,6 +33,50 @@ function Slider() {
       return () => clearInterval(interval);
     }, []);
 
+*/
+
+
+const [currentSlide, setCurrentSlide] = useState(0);
+const [startX, setStartX] = useState(null);
+
+const nextSlide = () => {
+    setCurrentSlide((prev) => (prev + 1) % images.length);
+};
+
+const prevSlide = () => {
+    setCurrentSlide((prev) => (prev - 1 + images.length) % images.length);
+};
+
+const goToSlide = (index) => {
+    setCurrentSlide(index);
+};
+
+const handleTouchStart = (e) => {
+    setStartX(e.touches[0].clientX);
+};
+
+const handleTouchMove = (e) => {
+    if (startX === null) return;
+    const currentX = e.touches[0].clientX;
+    const diffX = startX - currentX;
+
+    if (diffX > 50) {
+        nextSlide();
+        setStartX(null); // Reset startX to prevent multiple calls
+    } else if (diffX < -50) {
+        prevSlide();
+        setStartX(null); // Reset startX to prevent multiple calls
+    }
+};
+
+const handleTouchEnd = () => {
+    setStartX(null); // Reset on touch end
+};
+
+useEffect(() => {
+    const interval = setInterval(nextSlide, 8000);
+    return () => clearInterval(interval);
+}, []);
 
     return ( 
     <div className="slider">
