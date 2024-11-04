@@ -79,7 +79,10 @@ useEffect(() => {
 }, []);
 
     return ( 
-    <div className="slider">
+    <div className="slider"
+        onTouchStart={handleTouchStart} 
+        onTouchMove={handleTouchMove} 
+        onTouchEnd={handleTouchEnd}>
             <div className="slides" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
                 {images.map((image, index) => (
                     image.text ? 
