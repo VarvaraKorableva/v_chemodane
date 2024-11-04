@@ -3,7 +3,7 @@ import { Route, Routes, useNavigate } from 'react-router-dom'
 import './App.css';
 
 import MainPage from './pages/MainPage/MainPage'
-import Header from './components/Header/Header'
+//import Header from './components/Header/Header'
 import MainNewHeader from './components/Main/MainHeader/MainNewHeader/MainNewHeader'
 import Schedule from './components/Schedule/Schedule'
 import NewAnnounce from './components/CurrentAnnounce/HaifaNewAnnounce'
@@ -24,6 +24,7 @@ import NotReadyPage from './pages/NotReadyPage/NotReadyPage'
 import AboutFestival from './components/AboutFestival/AboutFestival'
 import Participants from './components/Participants/Participants'
 import Footer from './components/Footer/Footer'
+import MainFooter from './components/Main/MainFooter/MainFooter'
 import ImagePopup from './components/Popups/ImagePopup'
 import ContactsPopup from './components/Popups/ContactsPopup'
 import OurTeam from './components/OurTeam/OurTeam'
@@ -79,8 +80,8 @@ function App() {
 
   return (
     <div className="App">
-      {/*<Header handleContactsPopupOpen={handleContactsPopupOpen}></Header>
-      <MainNewHeader></MainNewHeader>*/}
+      {/*<Header handleContactsPopupOpen={handleContactsPopupOpen}></Header>*/}
+      <MainNewHeader></MainNewHeader>
       <Routes>
         <Route
           exact path="/haifa"
@@ -104,7 +105,7 @@ function App() {
         <Route
           path="/"
           element={
-            <MainPage 
+            <MainPage
             />
           }>
         </Route>
@@ -176,7 +177,7 @@ function App() {
         </Route>
 
       </Routes>  
-      {/*<Footer />*/}
+      <MainFooter />
       <ImagePopup 
           card={selectedCard}
           imgPopup={imgPopup}

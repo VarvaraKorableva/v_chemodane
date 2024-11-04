@@ -9,13 +9,11 @@ import MainFooter from '../../components/Main/MainFooter/MainFooter'
 function StoryTimePage() {
     return (
         <>
-        <MainNewHeader></MainNewHeader>
         <StoryTimeBannerSection></StoryTimeBannerSection>
         <CardsContainer></CardsContainer>
         <Presenters></Presenters>
         <Partners></Partners>
         <Organizers></Organizers>
-        <MainFooter></MainFooter>
         </>
     )
 } 

@@ -159,6 +159,12 @@
     }
 }
 
+@media screen and (mix-width: 1300px) {
+    .storyTimeBannerSection__guitar-pic {
+        left: 600px;
+    }
+}
+
 .storyTimeBannerSection__guitar-pic {
     position: absolute;
     top: 5px;
@@ -206,7 +212,6 @@
     .storyTimeBannerSection__guitar-pic {
         width: 80px;
         height: 150px;
-
         top: 70px;
     }
 }
