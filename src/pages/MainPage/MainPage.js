@@ -10,8 +10,6 @@ function MainPage() {
         <>
             <Slider/>
             <MainAbout/>
-            <MainOurMission/>
-
         </>
     )
 } 

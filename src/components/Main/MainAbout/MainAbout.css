@@ -37,9 +37,8 @@
 
 .main-about-text {
   width: 585px;
-  font-size: 15px;
+  font-size: 16px;
   font-family: "Martel", serif;
-  font-weight: bold;
   text-align: start;
   margin: 0;
   
@@ -124,9 +123,6 @@
         display: none;
     }
 }
-
-
-
 
 .main-about-title-and-text-container {
     display: flex;

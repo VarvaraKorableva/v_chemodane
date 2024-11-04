@@ -8,10 +8,10 @@ import './Slider.css'
 function Slider() {
 
     const images = [
-        { src: page1, link: '/story-time', text: NaN },
-        { src: page2, link: '/not-ready-page', text: "ПОДАТЬ ЗАЯВКУ НА МАРКЕТ" },
-        { src: page3, link: '/not-found-page', text: "ПРЕДЛОЖИТЬ СВОЙ МК ИЛИ СПЕКТАКЛЬ" },
-        { src: page1, link: '/story-time', text: " Время историй" },
+        { id: 1, src: page1, link: '/story-time', text: NaN },
+        { id: 2, src: page2, link: '/not-ready-page', text: "ПОДАТЬ ЗАЯВКУ НА МАРКЕТ" },
+        { id: 3, src: page3, link: '/not-ready-page', text: "ПРЕДЛОЖИТЬ СВОЙ МК ИЛИ СПЕКТАКЛЬ" },
+        { id: 4, src: page1, link: '/story-time', text: "ВРЕМЯ ИСТОРИЙ" },
     ];
     const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -28,7 +28,7 @@ function Slider() {
     };
 
     useEffect(() => {
-      const interval = setInterval(nextSlide, 10000);
+      const interval = setInterval(nextSlide, 8000);
       return () => clearInterval(interval);
     }, []);
 
@@ -37,14 +37,14 @@ function Slider() {
     <div className="slider">
             <div className="slides" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
                 {images.map((image, index) => (
-                    <Link to={image.link} className={`slide ${currentSlide === index ? 'active' : ''}`} key={index}>
+                    <Link key={image.id} to={image.link} className={`slide ${currentSlide === index ? 'active' : ''}`} key={index}>
                         <div>
                             <img src={image.src} alt={`Slide ${index + 1}`} />
                         </div>
                         {image.text ? 
-                            (<Link to={image.link} className={'slide__text-container'}>{image.text}</Link>) 
+                            (<div className='slide__text-container'>{image.text}</div>) 
                             : 
-                            (<Link to={image.link} className={'slide__link-to-event-container'}></Link>)
+                            (<div className={'slide__link-to-event-container'}></div>)
                         }
                     </Link>
                 ))}
