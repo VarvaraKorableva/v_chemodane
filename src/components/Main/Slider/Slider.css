@@ -130,3 +130,56 @@
         padding: 10px;
     }
 }
+
+.slide__link-to-event {
+    background-image: url(../../../images/slider/storytimetitlebtn.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: 150px;
+    transform: translate(-50%, -50%);
+
+    cursor: pointer;
+}
+
+.slide__link-to-event:hover {
+    
+}
+
+@media screen and (max-width: 1535px) {
+    .slide__link-to-event {
+        top: 120px;
+    }
+}
+
+@media screen and (max-width: 1478px) {
+    .slide__link-to-event {
+        width: 300px;
+        height: 200px;
+        top: 100px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .slide__link-to-event {
+        width: 250px;
+        height: 150px;
+        top: 100px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .slide__link-to-event {
+        top: 80px;
+    }
+}
+
+@media screen and (max-width: 922px) {
+    .slide__link-to-event {
+        width: 200px;
+        height: 120px;
+    }
+}

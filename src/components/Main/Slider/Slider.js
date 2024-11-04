@@ -8,9 +8,9 @@ import './Slider.css'
 function Slider() {
 
     const images = [
-        { src: page1, link: '/', text: NaN },
-        { src: page2, link: '/story-time', text: "ПОДАТЬ ЗАЯВКУ НА МАРКЕТ" },
-        { src: page3, link: '/story-time', text: "ПРЕДЛОЖИТЬ СВОЙ МК ИЛИ СПЕКТАКЛЬ" },
+        { src: page1, link: '/story-time', text: NaN },
+        { src: page2, link: '/not-ready-page', text: "ПОДАТЬ ЗАЯВКУ НА МАРКЕТ" },
+        { src: page3, link: '/not-ready-page', text: "ПРЕДЛОЖИТЬ СВОЙ МК ИЛИ СПЕКТАКЛЬ" },
     ];
     const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -40,7 +40,7 @@ function Slider() {
                         {image.text?
                             <Link to={image.link} className={'slide__text-container'}>{image.text}</Link>
                             :
-                            <></>
+                            <Link to={image.link} className={'slide__link-to-event'}></Link>
                         }    
                     </div>
                 ))}
