@@ -54,7 +54,8 @@
     color: #374BA5;
     font-size: 45px;
     font-weight: bold;
-    font-family: "Mulish", sans-serif;
+    /*font-family: "Mulish", sans-serif;*/
+    font-family: 'Karton', sans-serif;
     margin-bottom: 30px;
     margin-top: 0;
 }

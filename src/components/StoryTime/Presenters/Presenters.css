@@ -79,6 +79,7 @@
 .presenters__li_card {
     width: 300px;
     margin: 20px;
+    font-family: 'Karton', sans-serif;
 }
 
 @media screen and (max-width: 800px) {
@@ -129,6 +130,7 @@
 }
 
 .presenters__li_card-title {
+    font-family: 'Karton', sans-serif;
     font-weight: 600;
     font-size: 20px;
 }
@@ -138,6 +140,10 @@
         font-size: 16px;
         margin-bottom: 10px;
     }
+}
+
+.presenters__li_card-discription {
+    font-family: 'Karton', sans-serif;
 }
 
 @media screen and (max-width: 500px) {

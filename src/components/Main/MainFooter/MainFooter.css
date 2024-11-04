@@ -85,12 +85,12 @@
 
 }
 .main-footer__title {
-    font-family: "Martel", serif;
+    font-family: 'Karton', sans-serif;
     font-size: 15px;
     font-weight: bold;
 }
 .main-footer-contacts-number {
-    font-family: "Martel", serif;
+    font-family: 'Karton', sans-serif;
     font-size: 15px;
 }
 .main-footer-logo {
@@ -114,7 +114,7 @@
 .main-footer__title {
     margin-top: 0;
     font-weight: bold;
-    font-family: "Martel", serif;
+    font-family: 'Karton', sans-serif;
     font-size: 15px;
 }
 
@@ -126,7 +126,7 @@
 }
 .main-footer__support-li {
     list-style-type: none;
-    font-family: "Martel", serif;
+    font-family: 'Karton', sans-serif;
     font-size: 15px;
 }
 
@@ -244,6 +244,7 @@
 }
 
 .main-footer__title {
+    font-family: 'Karton', sans-serif;
     margin: 0;
     font-size: 20px;
     font-weight: bold;

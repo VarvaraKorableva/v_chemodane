@@ -83,6 +83,7 @@
 }
 
 .slide__text-container {
+    font-family: 'Karton', sans-serif;
     font-size: 40px;
     font-weight: bold;
     text-decoration: none;
@@ -187,11 +188,13 @@
 }
 
 .slide__text-lastcall {
+    font-family: 'Karton', sans-serif;
     font-size: 12px;
     margin: 0;
 }
 
 .slide__text-subtitle {
+    font-family: 'Karton', sans-serif;
     font-size: 14px;
     margin: 0;
 }
