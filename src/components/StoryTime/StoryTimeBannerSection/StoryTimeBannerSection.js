@@ -17,6 +17,12 @@ function StoryTimeBannerSection() {
                 <div className="storyTimeBannerSection__glasses-pic"></div>
                 <div className="storyTimeBannerSection__picture-pic"></div>
 
+                <div className="storyTimeBannerSection__suitcase-pic"></div>
+                <div className="storyTimeBannerSection__candlestick-pic"></div>
+                <div className="storyTimeBannerSection__greenpicture-pic"></div>
+                <div className="storyTimeBannerSection__secondarm-pic"></div>
+
+
                 <div className="storyTimeBannerSection__left-memory-pic"></div>
                 
                 <div className="storyTimeBannerSection__title-container">
