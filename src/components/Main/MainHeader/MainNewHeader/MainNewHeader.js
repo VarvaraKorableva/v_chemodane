@@ -12,13 +12,23 @@ function MainNewHeader() {
                     <ul className="mainNewHeader-ul-container">
                         <li className="mainNewHeader-nav-link">Наша миссия</li>
                         <li className="mainNewHeader-nav-link">
-                            <Link to={'/'}className="mainNewHeader-link">О фестивале</Link>
+                            <Link to={'/not-ready-page'}className="mainNewHeader-link">О фестивале</Link>
                         </li>
-                        <li className="mainNewHeader-nav-link">Наши участники</li>
-                        <li className="mainNewHeader-nav-link">Наши проекты</li>
-                        <li className="mainNewHeader-nav-link">Кто мы</li>
-                        <li className="mainNewHeader-nav-link">Отзывы</li>
-                        <li className="mainNewHeader-nav-link">Контакты</li>
+                        <li className="mainNewHeader-nav-link">
+                            <Link to={'/not-ready-page'}className="mainNewHeader-link">Наши участники</Link>
+                        </li>
+                        <li className="mainNewHeader-nav-link">
+                            <Link to={'/not-ready-page'}className="mainNewHeader-link">Наши проекты</Link>
+                        </li>
+                        <li className="mainNewHeader-nav-link">
+                            <Link to={'/not-ready-page'}className="mainNewHeader-link">Кто мы</Link>
+                        </li>
+                        <li className="mainNewHeader-nav-link">
+                            <Link to={'/not-ready-page'}className="mainNewHeader-link">Отзывы</Link>
+                        </li>
+                        <li className="mainNewHeader-nav-link">
+                            <Link to={'/not-ready-page'}className="mainNewHeader-link">Контакты</Link>
+                        </li>
                     </ul>
                     <img src={letters} className="mainNewHeader-letters"></img>
                 </nav>

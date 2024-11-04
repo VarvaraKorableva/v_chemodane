@@ -17,10 +17,10 @@ function MainHeader() {
                     <ul className="main-header-ul-container">
                         <li className="main-header-nav-link">О фестивале</li>
                         <li className="main-header-nav-link">Наша миссия</li>
-                        <li className="main-header-nav-link">Кто мы</li>
-                        <li className="main-header-nav-link">Наши участники</li>
-                        <li className="main-header-nav-link">Наши проекты</li>
-                        <li className="main-header-nav-link">Отзывы</li>
+                        <li to={`/story-time`} className="main-header-nav-link">Кто мы</li>
+                        <Link to={`/story-time`} className="main-header-nav-link">Наши участники</Link>
+                        <Link to={`/story-time`} className="main-header-nav-link">Наши проекты</Link>
+                        <Link to={`/story-time`} className="main-header-nav-link">Отзывы</Link>
                         <Link to={`/story-time`} className="main-header-nav-link">Контакты</Link>
                     </ul>
                 

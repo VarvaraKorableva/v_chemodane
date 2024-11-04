@@ -1133,6 +1133,10 @@
     display: none;
 }
 
+.storyTimeBannerSection__secondarm-pic:hover {
+    transform: rotate(0);
+}
+
 @media screen and (max-width: 1642px) {
     .storyTimeBannerSection__secondarm-pic {
         position: absolute;
