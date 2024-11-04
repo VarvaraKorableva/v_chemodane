@@ -10,10 +10,10 @@ function Slider() {
     const images = [
         { src: page1, link: '/story-time', text: NaN },
         { src: page2, link: '/not-ready-page', text: "ПОДАТЬ ЗАЯВКУ НА МАРКЕТ" },
-        { src: page3, link: '/not-ready-page', text: "ПРЕДЛОЖИТЬ СВОЙ МК ИЛИ СПЕКТАКЛЬ" },
+        { src: page3, link: '/not-found-page', text: "ПРЕДЛОЖИТЬ СВОЙ МК ИЛИ СПЕКТАКЛЬ" },
+        { src: page1, link: '/story-time', text: " Время историй" },
     ];
     const [currentSlide, setCurrentSlide] = useState(0);
-    const [startX, setStartX] = useState(null);
 
     const nextSlide = () => {
         setCurrentSlide((prev) => (prev + 1) % images.length);
@@ -32,50 +32,21 @@ function Slider() {
       return () => clearInterval(interval);
     }, []);
 
-    const handleTouchStart = (e) => {
-        setStartX(e.touches[0].clientX);
-    };
-
-    const handleTouchMove = (e) => {
-        if (!startX) return;
-        const currentX = e.touches[0].clientX;
-        const diffX = startX - currentX;
-
-        if (diffX > 50) {
-            nextSlide(); // Свайп влево
-        } else if (diffX < -50) {
-            prevSlide(); // Свайп вправо
-        }
-
-        setStartX(null); // Сброс
-    };
-
-    useEffect(() => {
-        const slidesElement = document.querySelector('.slides');
-
-        slidesElement.addEventListener('touchstart', handleTouchStart);
-        slidesElement.addEventListener('touchmove', handleTouchMove);
-
-        return () => {
-            slidesElement.removeEventListener('touchstart', handleTouchStart);
-            slidesElement.removeEventListener('touchmove', handleTouchMove);
-        };
-    }, [startX]);
 
     return ( 
     <div className="slider">
             <div className="slides" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
                 {images.map((image, index) => (
-                    <div key={index} className={`slide ${currentSlide === index ? 'active' : ''}`}>
-                        <img src={image.src} alt={`Slide ${index + 1}`} />
-                        {image.text?
-                            <Link to={image.link} className={'slide__text-container'}>{image.text}</Link>
-                            :
-                            <Link to={image.link} className={'slide__link-to-event-container'}>
-                                <div className={'slide__link-to-event-img'}></div>
-                            </Link>
-                        }    
-                    </div>
+                    <Link to={image.link} className={`slide ${currentSlide === index ? 'active' : ''}`} key={index}>
+                        <div>
+                            <img src={image.src} alt={`Slide ${index + 1}`} />
+                        </div>
+                        {image.text ? 
+                            (<Link to={image.link} className={'slide__text-container'}>{image.text}</Link>) 
+                            : 
+                            (<Link to={image.link} className={'slide__link-to-event-container'}></Link>)
+                        }
+                    </Link>
                 ))}
             </div>
             <div className="dots">
