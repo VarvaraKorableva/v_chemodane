@@ -3,6 +3,7 @@ import { Route, Routes, useNavigate } from 'react-router-dom'
 import './App.css';
 
 import MainPage from './pages/MainPage/MainPage'
+import Haifa from './pages/Haifa/Haifa'
 //import Header from './components/Header/Header'
 import MainNewHeader from './components/Main/MainHeader/MainNewHeader/MainNewHeader'
 import Schedule from './components/Schedule/Schedule'
@@ -83,6 +84,16 @@ function App() {
       {/*<Header handleContactsPopupOpen={handleContactsPopupOpen}></Header>*/}
       <MainNewHeader></MainNewHeader>
       <Routes>
+        <Route
+          exact path="/haifa"
+          element={
+            <Haifa 
+              handleCardClick={handleCardClick} 
+              addCard={addCard} 
+              limit={limit}
+            />
+          }>
+        </Route>
         <Route
           exact path="/haifa"
           element={
