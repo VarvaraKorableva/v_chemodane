@@ -2,7 +2,12 @@ import letters from '../../../../images/mainPage/Lettersnewheader.png'
 import './MainNewHeader.css'
 import { Link } from 'react-router-dom';
 
-function MainNewHeader() {
+function MainNewHeader({handleIsBurgerMainPopup}) {
+
+    function handleOpenPopup() {
+        handleIsBurgerMainPopup()
+    }
+
     return(
         <header className="mainNewHeader">
             <div className="mainNewHeader__nav-container">
@@ -34,7 +39,7 @@ function MainNewHeader() {
                     </ul>
                     <img src={letters} className="mainNewHeader-letters"></img>
                 </nav>
-                <button className="mainNewHeader-burger-btn"></button>
+                <button className="mainNewHeader-burger-btn" onClick={handleOpenPopup} type='button'></button>
             </div>
         </header>
     )

@@ -28,6 +28,7 @@ import Footer from './components/Footer/Footer'
 import MainFooter from './components/Main/MainFooter/MainFooter'
 import ImagePopup from './components/Popups/ImagePopup'
 import ContactsPopup from './components/Popups/ContactsPopup'
+import BurgerMainPopup from './components/Popups/BurgerMainPopup/BurgerMainPopup'
 import OurTeam from './components/OurTeam/OurTeam'
 import IndividualPageOfParticipants from './components/IndividualPageOfParticipants/IndividualPageOfParticipants'
 import IndividualPage from './components/IndividualPage/IndividualPage'
@@ -37,6 +38,7 @@ import StoryTimePage from './pages/StoryTimePage/StoryTimePage'
 function App() {
   const [contactsPopup, setContactsPopup] = React.useState(false)
   const [imgPopup, setImgPopup] = React.useState(false)
+  const [isBurgerMainPopup, setIsBurgerMainPopup] = React.useState(false)
   //const [isInfoHaifaPopupClicked, setIsInfoHaifaPopupClicked] = React.useState(false)
   const [isSukkotPopupClicked, setIsSukkotPopupClicked] = React.useState(true)
   const [selectedCard, setSelectedCard] = React.useState({})
@@ -52,15 +54,17 @@ function App() {
   function handleContactsPopupOpen() {
     setContactsPopup(true)
   }
-{/*
-  function handleSukkotPopupOpen() {
-    setIsSukkotPopupClicked(true)
-  }*/}
+
+  function handleIsBurgerMainPopup() {
+    setIsBurgerMainPopup(true)
+    console.log('click')
+  }
 
   function closeAllPopups() {
     setSelectedCard({})
     setImgPopup(false)
     setContactsPopup(false)
+    setIsBurgerMainPopup(false)
     //setIsInfoHaifaPopupClicked(false)
     //setIsSukkotPopupClicked(false)
   }
@@ -82,7 +86,7 @@ function App() {
   return (
     <div className="App">
       {/*<Header handleContactsPopupOpen={handleContactsPopupOpen}></Header>*/}
-      <MainNewHeader></MainNewHeader>
+      <MainNewHeader handleIsBurgerMainPopup={handleIsBurgerMainPopup}></MainNewHeader>
       <Routes>
         <Route
           exact path="/haifa"
@@ -198,12 +202,12 @@ function App() {
         onClose={closeAllPopups}
         isOpen={contactsPopup}
       />
-    {/*
-      <SukkotPopup 
-        isSukkotPopupClicked={isSukkotPopupClicked}
+    
+      <BurgerMainPopup 
+        isOpen={isBurgerMainPopup}
         onClose={closeAllPopups}
       />
-      <InfoHaifaPopup 
+      {/*<InfoHaifaPopup 
         isInfoHaifaPopupClicked={isInfoHaifaPopupClicked}
         onClose={closeAllPopups}
       />*/}
