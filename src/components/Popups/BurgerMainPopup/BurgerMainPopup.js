@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
 import './BurgerMainPopup.css'
 
-function BurgerMainPopup({isOpen, onClose}) {
+function BurgerMainPopup({isOpen, onClose, isMenuOurProjectsOpen = false, }) {
 
   const [isSubMenuOpen, setSubMenuOpen] = useState(false);
 
@@ -31,10 +31,10 @@ function BurgerMainPopup({isOpen, onClose}) {
                   <p className='burgerMainPopup-subtitle'>ФЕСТИВАЛИ</p>
                   <ul className='burgerMainPopup-submenu-container'>
                     <li className='burgerMainPopup-submenu-link'>
-                      <Link to='/haifa'>ХАЙФА 2024</Link>
+                      <Link to='/haifa' onClick={onClosePopup}>ХАЙФА 2024</Link>
                     </li>
                     <li className='burgerMainPopup-submenu-link'>
-                      <Link to='/purim'>ТЕЛЬ-АВИВ 2024</Link>
+                      <Link to='/purim' onClick={onClosePopup}>ТЕЛЬ-АВИВ 2024</Link>
                     </li>
                     <li className='burgerMainPopup-submenu-link'>ИЕРУСАЛИМ 2023</li>
                     <li className='burgerMainPopup-submenu-link'>ТЕЛЬ-АВИВ 2023</li>
@@ -60,9 +60,9 @@ function BurgerMainPopup({isOpen, onClose}) {
           
           :
               <ul className='burgerMainPopup__listcontainer'>
-                <li className="burgerMainPopup-nav-link">
+                {/*<li className="burgerMainPopup-nav-link">
                   <Link to={'/not-ready-page'}className="burgerMainPopup-link">Наша миссия</Link>
-                </li>
+                  </li>*/}
                 <li className="burgerMainPopup-nav-link">
                   <Link to={'/not-ready-page'}className="burgerMainPopup-link">О фестивале</Link>
                 </li>
@@ -75,9 +75,9 @@ function BurgerMainPopup({isOpen, onClose}) {
                 <li className="burgerMainPopup-nav-link">
                   <Link to={'/not-ready-page'}className="burgerMainPopup-link">Кто мы</Link>
                 </li>
-                <li className="burgerMainPopup-nav-link">
+                {/*<li className="burgerMainPopup-nav-link">
                   <Link to={'/not-ready-page'}className="burgerMainPopup-link">Отзывы</Link>
-                </li>
+                </li>*/}
                 <li className="burgerMainPopup-nav-link">
                   <Link to={'/not-ready-page'}className="burgerMainPopup-link">Контакты</Link>
                 </li>

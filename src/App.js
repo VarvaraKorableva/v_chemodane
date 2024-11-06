@@ -24,7 +24,7 @@ import NotReadyPage from './pages/NotReadyPage/NotReadyPage'
 
 import AboutFestival from './components/AboutFestival/AboutFestival'
 import Participants from './components/Participants/Participants'
-import Footer from './components/Footer/Footer'
+import Footer from './bin/Footer/Footer'
 import MainFooter from './components/Main/MainFooter/MainFooter'
 import ImagePopup from './components/Popups/ImagePopup'
 import ContactsPopup from './components/Popups/ContactsPopup'

@@ -19,9 +19,9 @@ function MainNewHeader({handleIsBurgerMainPopup}) {
                 <Link  to={`/`} className="mainNewHeader-logo"></Link>
                 <nav className="mainNewHeader-container">
                     <ul className="mainNewHeader-ul-container">  
-                        <li className="mainNewHeader-nav-link">
+                        {/*<li className="mainNewHeader-nav-link">
                             <Link to={'/not-ready-page'}className="mainNewHeader-link">Наша миссия</Link>
-                        </li>
+                        </li>*/}
                         <li className="mainNewHeader-nav-link">
                             <Link to={'/not-ready-page'}className="mainNewHeader-link">О фестивале</Link>
                         </li>
@@ -34,9 +34,9 @@ function MainNewHeader({handleIsBurgerMainPopup}) {
                         <li className="mainNewHeader-nav-link">
                             <Link to={'/not-ready-page'}className="mainNewHeader-link">Кто мы</Link>
                         </li>
-                        <li className="mainNewHeader-nav-link">
+                        {/*<li className="mainNewHeader-nav-link">
                             <Link to={'/not-ready-page'}className="mainNewHeader-link">Отзывы</Link>
-                        </li>
+                        </li>*/}
                         <li className="mainNewHeader-nav-link">
                             <Link to={'/not-ready-page'}className="mainNewHeader-link">Контакты</Link>
                         </li>
