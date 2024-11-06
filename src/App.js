@@ -19,7 +19,7 @@ import MasterClassHaifa from './components/MasterClass/MasterClassHaifa'
 import LecturesAndPresentations from './components/LecturesAndPresentations/LecturesAndPresentations'
 import OurPartners from './components/OurPartners/OurPartners'
 //import InfoHaifaPopup from './components/Popups/InfoHaifaPopup'
-import SukkotPopup from './components/Popups/SukkotPopup'
+//import SukkotPopup from './components/Popups/SukkotPopup'
 import NotReadyPage from './pages/NotReadyPage/NotReadyPage'
 
 import AboutFestival from './components/AboutFestival/AboutFestival'
@@ -29,6 +29,7 @@ import MainFooter from './components/Main/MainFooter/MainFooter'
 import ImagePopup from './components/Popups/ImagePopup'
 import ContactsPopup from './components/Popups/ContactsPopup'
 import BurgerMainPopup from './components/Popups/BurgerMainPopup/BurgerMainPopup'
+import OurProjectPopup from './components/Popups/OurProjectPopup/OurProjectPopup'
 import OurTeam from './components/OurTeam/OurTeam'
 import IndividualPageOfParticipants from './components/IndividualPageOfParticipants/IndividualPageOfParticipants'
 import IndividualPage from './components/IndividualPage/IndividualPage'
@@ -39,6 +40,7 @@ function App() {
   const [contactsPopup, setContactsPopup] = React.useState(false)
   const [imgPopup, setImgPopup] = React.useState(false)
   const [isBurgerMainPopup, setIsBurgerMainPopup] = React.useState(false)
+  const [isOurProjectPopup, setIsOurProjectPopup] = React.useState(false)
   //const [isInfoHaifaPopupClicked, setIsInfoHaifaPopupClicked] = React.useState(false)
   const [isSukkotPopupClicked, setIsSukkotPopupClicked] = React.useState(true)
   const [selectedCard, setSelectedCard] = React.useState({})
@@ -59,11 +61,17 @@ function App() {
     setIsBurgerMainPopup(true)
   }
 
+  function handleIsOurProjectPopup() {
+    setIsOurProjectPopup(true)
+  }
+  
+
   function closeAllPopups() {
     setSelectedCard({})
     setImgPopup(false)
     setContactsPopup(false)
     setIsBurgerMainPopup(false)
+    setIsOurProjectPopup(false)
     //setIsInfoHaifaPopupClicked(false)
     //setIsSukkotPopupClicked(false)
   }
@@ -85,7 +93,10 @@ function App() {
   return (
     <div className="App">
       {/*<Header handleContactsPopupOpen={handleContactsPopupOpen}></Header>*/}
-      <MainNewHeader handleIsBurgerMainPopup={handleIsBurgerMainPopup}></MainNewHeader>
+      <MainNewHeader 
+        handleIsBurgerMainPopup={handleIsBurgerMainPopup}
+        handleIsOurProjectPopup={handleIsOurProjectPopup}
+      />
       <Routes>
         <Route
           exact path="/haifa"
@@ -204,6 +215,11 @@ function App() {
     
       <BurgerMainPopup 
         isOpen={isBurgerMainPopup}
+        onClose={closeAllPopups}
+      />
+
+      <OurProjectPopup 
+        isOpen={isOurProjectPopup}
         onClose={closeAllPopups}
       />
       {/*<InfoHaifaPopup 

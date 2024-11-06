@@ -92,7 +92,7 @@
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 800px) {
     .mainNewHeader-ul-container {
         font-size: 12px; 
     }
@@ -142,4 +142,19 @@
 .mainNewHeader-link {
     text-decoration: none;
     color: #FBBB00;
+}
+
+.mainNewHeader-btn {
+    border: none;
+    background-color: transparent;
+    color: #FBBB00;
+    font-size: 17px;
+    font-family: 'Karton', sans-serif;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+    .mainNewHeader-btn {
+        font-size: 12px; 
+    }
 }

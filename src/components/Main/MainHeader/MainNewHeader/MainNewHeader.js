@@ -2,7 +2,7 @@ import letters from '../../../../images/mainPage/Lettersnewheader.png'
 import './MainNewHeader.css'
 import { Link } from 'react-router-dom';
 
-function MainNewHeader({handleIsBurgerMainPopup}) {
+function MainNewHeader({handleIsBurgerMainPopup, handleIsOurProjectPopup}) {
     //const [isMenuOpen, setMenuOpen] = useState(false);
 
     function handleOpenPopup() {
@@ -29,7 +29,7 @@ function MainNewHeader({handleIsBurgerMainPopup}) {
                             <Link to={'/not-ready-page'}className="mainNewHeader-link">Наши участники</Link>
                         </li>
                         <li className="mainNewHeader-nav-link">
-                            <Link to={'/not-ready-page'}className="mainNewHeader-link">Наши проекты</Link>
+                            <button className="mainNewHeader-btn" onClick={handleIsOurProjectPopup}>Наши проекты</button>
                         </li>
                         <li className="mainNewHeader-nav-link">
                             <Link to={'/not-ready-page'}className="mainNewHeader-link">Кто мы</Link>

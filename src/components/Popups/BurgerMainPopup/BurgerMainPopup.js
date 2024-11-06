@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
 import './BurgerMainPopup.css'
 
-function BurgerMainPopup({isOpen, onClose, isMenuOurProjectsOpen = false, }) {
+function BurgerMainPopup({isOpen, onClose }) {
 
   const [isSubMenuOpen, setSubMenuOpen] = useState(false);
 
@@ -13,8 +13,6 @@ function BurgerMainPopup({isOpen, onClose, isMenuOurProjectsOpen = false, }) {
   function onClosePopup() {
     setSubMenuOpen(false)
     onClose()
-    //toggleSubMenu()
-    //setTimeout(() => onClose(), 10000);
   }
 
 
@@ -23,7 +21,7 @@ function BurgerMainPopup({isOpen, onClose, isMenuOurProjectsOpen = false, }) {
       <div className='burgerMainPopup__container'>
       <button className='burgerMainPopup__closebtn' onClick={onClosePopup}></button>
           {isSubMenuOpen? 
-              <div className="burger-main-popup-ourprojects-container">
+            <div className="burger-main-popup-ourprojects-container">
               <button className="burger-main-popup-back-arrow" onClick={toggleSubMenu} type='button'></button>  
               <h3 className="burgerMainPopup-title">Наши проекты</h3>
               <ul className="burgerMainPopup__subMenu">
@@ -56,7 +54,7 @@ function BurgerMainPopup({isOpen, onClose, isMenuOurProjectsOpen = false, }) {
                   </ul>
                 </li>
               </ul>
-              </div>
+            </div>
           
           :
               <ul className='burgerMainPopup__listcontainer'>
