@@ -11,18 +11,20 @@ function BurgerMainPopup({isOpen, onClose}) {
   }
 
   function onClosePopup() {
-    onClose()
     setSubMenuOpen(false)
+    onClose()
+    //toggleSubMenu()
+    //setTimeout(() => onClose(), 10000);
   }
 
 
   return (
-    <aside className={`burgerMainPopup ${isOpen && ' burgerMainPopup__opened'}`}>
+    <aside className={`burgerMainPopup ${isOpen? 'burgerMainPopup__opened' : ''}`}>
       <div className='burgerMainPopup__container'>
       <button className='burgerMainPopup__closebtn' onClick={onClosePopup}></button>
           {isSubMenuOpen? 
               <div className="burger-main-popup-ourprojects-container">
-              <button className="burger-main-popup-back-arrow" onClick={toggleSubMenu}></button>  
+              <button className="burger-main-popup-back-arrow" onClick={toggleSubMenu} type='button'></button>  
               <h3 className="burgerMainPopup-title">Наши проекты</h3>
               <ul className="burgerMainPopup__subMenu">
                 <li>

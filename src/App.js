@@ -57,7 +57,6 @@ function App() {
 
   function handleIsBurgerMainPopup() {
     setIsBurgerMainPopup(true)
-    console.log('click')
   }
 
   function closeAllPopups() {
