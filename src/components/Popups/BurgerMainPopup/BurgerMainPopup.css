@@ -32,6 +32,7 @@
     opacity: 1;
     box-sizing: border-box;
     width: 200px;
+    width: 70%;
     background-color: #ffffff;
     border-radius: 8px;
     padding: 20px;
@@ -86,4 +87,95 @@
 .burgerMainPopup-link {
     text-decoration: none;
     color: #FBBB00;
+    border: none;
+    background-color: transparent;
+    font-family: 'Karton', sans-serif;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Karton', sans-serif;
+    font-size: 16px;
 }
+
+.burgerMainPopup__subMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-self: flex-start;
+  }
+  
+  .burgerMainPopup__subMenu .burgerMainPopup-nav-link {
+    padding-left: 20px; /* Отступ для подменю */
+  }
+  
+  .burgerMainPopup__subMenu .burgerMainPopup-link {
+    color: #FBBB00; /* Цвет ссылок в подменю */
+    font-size: 14px; /* Меньший размер шрифта для подменю */
+  }
+  
+  .burgerMainPopup__subMenu .burgerMainPopup-nav-link:hover {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+  }
+  
+  .burgerMainPopup-nav-link button {
+    cursor: pointer;
+  }
+
+  .burger-main-popup-ourprojects-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .burgerMainPopup-title {
+    font-family: 'Karton', sans-serif;
+    font-size: 20px;
+    color: #FBBB00;
+  }
+
+  .burgerMainPopup-subtitle {
+    font-family: 'Karton', sans-serif;
+    font-size: 18px;
+    color: #FBBB00;
+    text-align: start;
+    margin-top: 0;
+  }
+
+  .burgerMainPopup-submenu-link {
+    font-family: 'Karton', sans-serif;
+    font-size: 16px;
+    color: #374BA5;
+    text-align: start;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+
+  .burgerMainPopup-submenu-link:hover {
+    border: 1px solid #FBBB00;
+    border-radius: 30px;
+    padding: 5px;
+  }
+
+  .burgerMainPopup-submenu-container {
+      padding: 0;
+      list-style-type: none;
+      margin-bottom: 20px;
+  }
+
+  .burger-main-popup-back-arrow {
+      margin-bottom: 10px;
+      margin-top: 10px;
+      width: 30px;
+      height: 30px;
+      background-image: url(../../../images/popups/arrow.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      transform: rotate(180deg);
+      cursor: pointer;
+      border: none;
+      background-color: transparent;
+  }
