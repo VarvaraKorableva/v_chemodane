@@ -11,11 +11,12 @@ function Slider() {
         { id: 1, src: page1, link: '/story-time', text: NaN },
         { id: 2, src: page2, link: 'https://forms.gle/USjZPq4y9WSDvLBy6', text: "ПОДАТЬ ЗАЯВКУ НА МАРКЕТ" },
         { id: 3, src: page3, link: 'https://forms.gle/N4mSMeM2ZK5Fdw7f9', text: "ПРЕДЛОЖИТЬ СВОЙ МК ИЛИ СПЕКТАКЛЬ" },
-        { id: 4, src: page1, link: '/story-time', subtext: 'СЕМЕЙНАЯ ОНЛАЙН ЛАБОРАТОРИЯ',lastcall: 'OPEN CALL до 11.11.24',text: "ВРЕМЯ ИСТОРИЙ" },
+        { id: 4, src: page1, link: '/story-time', subtext: 'СЕМЕЙНАЯ ОНЛАЙН ЛАБОРАТОРИЯ',lastcall: 'OPEN CALL до 11.11.24',text: "ВРЕМЯ ИСТОРИЙ"},
     ];
 
 const [currentSlide, setCurrentSlide] = useState(0);
 const [startX, setStartX] = useState(null);
+const [isMobile, setIsMobile] = useState(false);
 
 const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % images.length);
@@ -51,10 +52,12 @@ const handleTouchEnd = () => {
     setStartX(null);
 };
 
-useEffect(() => {
-    const interval = setInterval(nextSlide, 8000);
+  useEffect(() => {
+    if (window.innerWidth <= 780) return;
+    const interval = setInterval(nextSlide, 3000);
     return () => clearInterval(interval);
-}, []);
+  }, [window.innerWidth <= 768]);
+
 
     return ( 
     <div className="slider"
