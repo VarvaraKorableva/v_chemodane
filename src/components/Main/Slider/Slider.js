@@ -54,7 +54,7 @@ const handleTouchEnd = () => {
 
   useEffect(() => {
     if (window.innerWidth <= 780) return;
-    const interval = setInterval(nextSlide, 3000);
+    const interval = setInterval(nextSlide, 6000);
     return () => clearInterval(interval);
   }, [window.innerWidth <= 768]);
 

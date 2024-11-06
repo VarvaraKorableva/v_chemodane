@@ -12,7 +12,7 @@ function BurgerMainPopup({isOpen, onClose}) {
 
   function onClosePopup() {
     onClose()
-    toggleSubMenu()
+    setSubMenuOpen(false)
   }
 
 
