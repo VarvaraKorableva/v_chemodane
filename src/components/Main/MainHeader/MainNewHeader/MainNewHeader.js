@@ -3,18 +3,22 @@ import './MainNewHeader.css'
 import { Link } from 'react-router-dom';
 
 function MainNewHeader({handleIsBurgerMainPopup}) {
+    //const [isMenuOpen, setMenuOpen] = useState(false);
 
     function handleOpenPopup() {
         handleIsBurgerMainPopup()
     }
+    /*
+    function toggleSubMenu() {
+        setMenuOpen(prevState => !prevState);
+    }*/
 
     return(
         <header className="mainNewHeader">
             <div className="mainNewHeader__nav-container">
                 <Link  to={`/`} className="mainNewHeader-logo"></Link>
                 <nav className="mainNewHeader-container">
-                    <ul className="mainNewHeader-ul-container">
-                        
+                    <ul className="mainNewHeader-ul-container">  
                         <li className="mainNewHeader-nav-link">
                             <Link to={'/not-ready-page'}className="mainNewHeader-link">Наша миссия</Link>
                         </li>
