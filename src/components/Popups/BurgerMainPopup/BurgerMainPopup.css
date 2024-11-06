@@ -72,10 +72,12 @@
     border: none;
     background-color: #fff;
     opacity: 1;
+    transition: visibility 0.3s;
 }
 
 .burgerMainPopup__closebtn:hover{
   opacity: 0.3;
+  transition: visibility 0.3s;
 }
 
 .burgerMainPopup__listcontainer {
