@@ -8,11 +8,11 @@ function ParticipantsMenu({onClosePopup, closeSubMenu}) {
         <button className="burger-main-popup-back-arrow" onClick={closeSubMenu} type="button"></button>
         <h3 className="burgerMainPopup-title">Наши участники</h3>
         <ul className="burgerMainPopup__participantSubMenu">
-            <li className="burgerMainPopup-nav-link">
+            {/*<li className="burgerMainPopup-nav-link">
                 <Link to="/not-ready-page" onClick={onClosePopup} className="burgerMainPopup-link">
                   Участники Фестиваля
                 </Link>
-            </li>
+            </li>*/}
             <li className="burgerMainPopup-nav-link">
                 <Link to="/marker-paticipants" onClick={onClosePopup} className="burgerMainPopup-link">
                   Участиники Маркета
