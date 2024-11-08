@@ -40,8 +40,11 @@ function OurProjectPopup({isOpen, onClose}) {
                   </ul>
                 </li>
                 <li>
-                  <p className='ourProjectPopup-subtitle'>ЭВЕНТЫ</p>
+                  <p className='ourProjectPopup-subtitle'>СОБЫТИЯ</p>
                   <ul className='ourProjectPopup-submenu-container'>
+                    <li className='ourProjectPopup-submenu-link'>
+                      <Link to='/story-time' onClick={onClosePopup}>ВРЕМЯ ИСТОРИЙ, НОЯБРЬ 2024</Link>
+                    </li>
                     <li className='ourProjectPopup-submenu-link'>
                       ХАНУКА, декабрь 2023
                     </li>

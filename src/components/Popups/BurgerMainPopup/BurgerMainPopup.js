@@ -41,8 +41,11 @@ function BurgerMainPopup({isOpen, onClose }) {
                   </ul>
                 </li>
                 <li>
-                  <p className='burgerMainPopup-subtitle'>ЭВЕНТЫ</p>
+                  <p className='burgerMainPopup-subtitle'>СОБЫТИЯ</p>
                   <ul className='burgerMainPopup-submenu-container'>
+                    <li className='burgerMainPopup-submenu-link'>
+                      <Link to='/story-time' onClick={onClosePopup}>ВРЕМЯ ИСТОРИЙ, НОЯБРЬ 2024</Link>
+                    </li>
                     <li className='burgerMainPopup-submenu-link'>
                       ХАНУКА, декабрь 2023
                     </li>
@@ -71,7 +74,7 @@ function BurgerMainPopup({isOpen, onClose }) {
                   <button className="burgerMainPopup-link" onClick={toggleSubMenu}>Наши проекты</button>
                 </li>
                 <li className="burgerMainPopup-nav-link">
-                  <Link to={'/not-ready-page'}className="burgerMainPopup-link">Кто мы</Link>
+                  <Link to={'/not-ready-page'}className="burgerMainPopup-link">Наша команда</Link>
                 </li>
                 {/*<li className="burgerMainPopup-nav-link">
                   <Link to={'/not-ready-page'}className="burgerMainPopup-link">Отзывы</Link>

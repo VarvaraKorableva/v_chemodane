@@ -32,7 +32,7 @@ function MainNewHeader({handleIsBurgerMainPopup, handleIsOurProjectPopup}) {
                             <button className="mainNewHeader-btn" onClick={handleIsOurProjectPopup}>Наши проекты</button>
                         </li>
                         <li className="mainNewHeader-nav-link">
-                            <Link to={'/not-ready-page'}className="mainNewHeader-link">Кто мы</Link>
+                            <Link to={'/not-ready-page'}className="mainNewHeader-link">Наша команда</Link>
                         </li>
                         {/*<li className="mainNewHeader-nav-link">
                             <Link to={'/not-ready-page'}className="mainNewHeader-link">Отзывы</Link>

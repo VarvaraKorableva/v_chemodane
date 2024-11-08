@@ -100,14 +100,13 @@
 
 .burgerMainPopup-nav-link:hover {
     border-radius: 30px;
-    background-color: #fff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-
+    background-color: #FBBB00;
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 .burgerMainPopup-link {
     text-decoration: none;
-    color: #FBBB00;
+    color: #374BA5;
     border: none;
     background-color: transparent;
     font-family: 'Karton', sans-serif;
@@ -116,6 +115,10 @@
     padding-right: 10px;
     font-family: 'Karton', sans-serif;
     font-size: 16px;
+}
+
+.burgerMainPopup-link:hover {
+    color: #fff;
 }
 
 .burgerMainPopup__subMenu {
@@ -131,11 +134,11 @@
   .burgerMainPopup__subMenu .burgerMainPopup-nav-link {
     padding-left: 20px;
   }
-  
+  /*
   .burgerMainPopup__subMenu .burgerMainPopup-link {
-    color: #FBBB00;
+    color: #374BA5;
     font-size: 14px;
-  }
+  }*/
   
   .burgerMainPopup__subMenu .burgerMainPopup-nav-link:hover {
     background-color: #f0f0f0;
@@ -177,6 +180,8 @@
 
   .burgerMainPopup-submenu-link:hover {
     border: 1px solid #FBBB00;
+    /*background-color: #FBBB00;
+    color: #fff;*/
     border-radius: 30px;
     padding: 5px;
   }
