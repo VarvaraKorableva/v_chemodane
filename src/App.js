@@ -2,6 +2,7 @@ import React from 'react'
 import { Route, Routes, useNavigate } from 'react-router-dom'
 import './App.css';
 
+import StickyButton from './components/StickyButton/StickyButton'
 import MainPage from './pages/MainPage/MainPage'
 import Haifa from './pages/Haifa/Haifa'
 //import Header from './components/Header/Header'
@@ -226,7 +227,7 @@ function App() {
         isInfoHaifaPopupClicked={isInfoHaifaPopupClicked}
         onClose={closeAllPopups}
       />*/}
-      
+      <StickyButton/>
     </div>
   );
 }

@@ -1,10 +1,8 @@
 import './CardsContainer.css'
-import StickyButton from '../../../components/StickyButton/StickyButton';  // Импортируем компонент
 
 function CardsContainer() {
     return(
         <section className="cardsContainer__section" id="aboutProject">
-            <StickyButton></StickyButton>
             <ul className="cardsContainer__wrapper">
                 <li className="cardsContainer__li">
                     <div className="cardsContainer__pic-lines"></div>
