@@ -36,6 +36,8 @@ import IndividualPageOfParticipants from './components/IndividualPageOfParticipa
 import IndividualPage from './components/IndividualPage/IndividualPage'
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage'
 import StoryTimePage from './pages/StoryTimePage/StoryTimePage'
+import OurTeamPage from './pages/OurTeamPage/OurTeamPage'
+import MarketPatisipantsPage from './pages/MarketPatisipantsPage/MarketPatisipantsPage'
 
 function App() {
   const [contactsPopup, setContactsPopup] = React.useState(false)
@@ -145,6 +147,14 @@ function App() {
         </Route>
 
         <Route
+          path="/our-team"
+          element={
+            <OurTeamPage 
+            />
+          }>
+        </Route>
+
+        <Route
           path="/schedule"
           element={
             <Schedule 
@@ -173,6 +183,13 @@ function App() {
           path='/master-class-theater/:id'
             element={
               <IndividualPage />
+            }
+        />
+
+        <Route 
+          path='/marker-paticipants'
+            element={
+              <MarketPatisipantsPage />
             }
         />
 

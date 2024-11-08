@@ -23,7 +23,7 @@ function MainNewHeader({handleIsBurgerMainPopup, handleIsOurProjectPopup}) {
                             <Link to={'/not-ready-page'}className="mainNewHeader-link">Наша миссия</Link>
                         </li>*/}
                         <li className="mainNewHeader-nav-link">
-                            <Link to={'/not-ready-page'}className="mainNewHeader-link">О фестивале</Link>
+                            <Link to={'/'}className="mainNewHeader-link">О фестивале</Link>
                         </li>
                         <li className="mainNewHeader-nav-link">
                             <Link to={'/not-ready-page'}className="mainNewHeader-link">Наши участники</Link>
@@ -32,7 +32,7 @@ function MainNewHeader({handleIsBurgerMainPopup, handleIsOurProjectPopup}) {
                             <button className="mainNewHeader-btn" onClick={handleIsOurProjectPopup}>Наши проекты</button>
                         </li>
                         <li className="mainNewHeader-nav-link">
-                            <Link to={'/not-ready-page'}className="mainNewHeader-link">Наша команда</Link>
+                            <Link to={'/our-team'}className="mainNewHeader-link">Наша команда</Link>
                         </li>
                         {/*<li className="mainNewHeader-nav-link">
                             <Link to={'/not-ready-page'}className="mainNewHeader-link">Отзывы</Link>
