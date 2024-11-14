@@ -29,7 +29,8 @@
 
 .ourTeam-section {
     background-color:#F5F5F5;
-    width: calc(100% - 64px);
+    background-color:#fff;
+    width: calc(100% - 70px);
     padding-top: 75px;
     padding-left: 35px;
     padding-right: 35px;

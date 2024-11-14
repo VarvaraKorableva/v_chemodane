@@ -1,6 +1,5 @@
 //MainAbout
 import aboutpic from '../../../images/mainPage/aboutpic.png'
-
 import './MainAbout.css'
 
 function MainAbout() {

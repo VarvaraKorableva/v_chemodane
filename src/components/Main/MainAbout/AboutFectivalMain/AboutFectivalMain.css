@@ -1,0 +1,777 @@
+.aboutFectivalMainSection {
+    width: calc(100% - 64px);
+    width: 100%;
+    padding-top: 105px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}    
+
+.aboutFectivalMainWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 0 20px;
+}
+
+.aboutFectivalMain-text {
+    text-align: start;
+    align-self: center;
+    font-size: 30px;
+    font-family: "Martel", serif;
+    margin: 0;
+    max-width: 796px;
+    z-index: 5px;
+}
+
+.aboutFectivalMain-title {
+    font-size: 64px;
+    font-family: "Mulish", sans-serif;
+    font-family: 'Karton', sans-serif;
+    color: #374BA5;
+    margin-top: 0;
+    margin-bottom: 55px;
+    max-width: 796px;
+    z-index: 5px;
+}
+
+.aboutFectivalMain-subtitle {
+    font-size: 30px;
+    font-family: "Martel", serif;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 113px;
+    max-width: 796px;
+    z-index: 5px;
+}
+
+.aboutFectivalMain-shiftedText {
+    align-self: flex-end;
+    max-width: 594px;
+    text-align: start;
+}
+
+.aboutFectivalMain-text-first-p-margin {
+
+}
+
+.aboutFectivalMain-dots-pic {
+    background-image: url(../../../../images/mainPage/dots.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: 61px;
+    margin-bottom: 126px;
+    width: 589px;
+    height: 76px;
+    align-self: center;
+}
+
+.aboutFectivalMain-stared-dots-pic {
+    background-image: url(../../../../images/mainPage/dotsStarted.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 241px;
+    height: 317px;
+    align-self: flex-end;
+}
+
+.aboutFectivalMain-zigZag-pic {
+    background-image: url(../../../../images/mainPage/zigzagpic.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 243px;
+    height: 163px;
+    align-self: flex-start;
+}
+
+.aboutFectivalMain-title-sub-title-pic-container {
+    display: flex;
+    margin-bottom: 52px;
+    width: 100%;
+    justify-content: space-between; 
+}
+
+.aboutFectivalMain-flex-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin: auto;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.aboutFectivalMain-flex-container-lamed {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.aboutFectivalMain-flex-book-letters-pics {
+    background-image: url(../../../../images/mainPage/bookandletters.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 500px;
+    height: 446px;
+    align-self: flex-end;
+    margin-bottom: 96px;
+    transform: rotate(25deg);
+
+}
+.aboutFectivalMain-flex-zig-zag-of-two-pic {
+    background-image: url(../../../../images/mainPage/twozigzagpng.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 505px;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: flex-end;
+}
+
+.aboutFectivalMain-flex-container-one-zig-zag {
+    background-image: url(../../../../images/mainPage/onezigzag.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 330px;
+    align-self: flex-end;
+}
+.aboutFectivalMain-flex-container-rounds {
+    background-image: url(../../../../images/mainPage/rounds.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 303px;
+    align-self: start;
+    transform: rotate(-45deg);
+}
+
+.aboutFectivalMain-third-container {
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+}
+
+.aboutFectivalMain-rounds-pic {
+    background-image: url(../../../../images/mainPage/aboutfectivalmainroundspic.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 130px;
+
+}
+
+.aboutFectivalMain-letters-pic {
+    background-image: url(../../../../images/mainPage/aboutFectivalMainroundspic.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 268px;
+}
+
+.aboutFectivalMain-one-blue-round {
+    background-image: url(../../../../images/mainPage/aboutfectivalmainoneblueround.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 61px;
+    height: 61px;
+    margin-top: 8px;
+    margin-bottom: 37px;
+    align-self: flex-end;
+}
+
+.aboutFectivalMain-third-container-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutFectivalMain-one-orange-round {
+    background-image: url(../../../../images/mainPage/aboutfectivalmainoneorangeround.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 61px;
+    height: 61px;
+    
+    align-self: flex-end;
+    margin-right: 30px;
+}
+
+.aboutFectivalMain-orange-round-text-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutFectivalMain-fourth-container {
+    margin-right: 0;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.aboutFectivalMain-fourth-container-letter-pey {
+    background-image: url(../../../../images/mainPage/letterpey.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 148px;
+    height: 151px;
+    align-self: flex-start;
+    margin: 0;
+}
+
+.aboutFectivalMain-fourth-container-letters-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutFectivalMain-fourth-container-letter-a {
+    background-image: url(../../../../images/mainPage/lettera.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 61px;
+    height: 61px;
+    align-self: flex-start;
+    margin-right: 30px;
+}
+
+.aboutFectivalMain-fourth-container-letter-b {
+    background-image: url(../../../../images/mainPage/letterb.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 61px;
+    height: 61px;
+    align-self: flex-end;
+    margin-right: 30px;
+}
+
+.aboutFectivalMain-fourth-container-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutFectivalMain-fourth-container-dots-pic {
+    background-image: url(../../../../images/mainPage/dots.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: 61px;
+    margin-bottom: 126px;
+    width: 589px;
+    height: 76px;
+    align-self: flex-end;
+}
+
+.aboutFectivalMain-down-margin {
+    margin-bottom: 57px;
+}
+
+.aboutFectivalMain-down-the-same-margin {
+    margin-bottom: 57px;  
+} 
+
+.aboutFectivalMain-fourth-container-text-wrapper {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+
+.aboutFectivalMain-fourth-container-three-zigzags {
+    background-image: url(../../../../images/mainPage/threezigzag.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 428px;
+    height: 267px;
+}
+
+.aboutFectivalMain-letters-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+    max-width: 100%;
+    min-width: fit-content;
+}
+
+.aboutFectivalMain-letter-dalet {
+    background-image: url(../../../../images/mainPage/letterdalet.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 301px;
+    height: 94px;
+}
+
+.aboutFectivalMain-letter-l {
+    background-image: url(../../../../images/mainPage/letterl.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 61px;
+    height: 61px;
+}
+
+.aboutFectivalMain-fifth-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutFectivalMain-letter-i {
+    background-image: url(../../../../images/mainPage/letteri.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 45px;
+    height: 234px;
+    margin: 50px;
+}
+
+.aboutFectivalMain-letters-i-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutFectivalMain-open-book {
+    background-image: url(../../../../images/mainPage/openbook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 387px;
+    height: 148px;
+    margin: 50px;
+}
+
+.aboutFectivalMain-open-right-book {
+    background-image: url(../../../../images/mainPage/rightbook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 418px;
+    height: 123px;
+    align-self: flex-end;
+}    
+
+.aboutFectivalMain-letters-lamed {
+    background-image: url(../../../../images/mainPage/letterlamed.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 285px;
+    height: 292px;
+    margin-right: 30px;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .aboutFectivalMain-flex-book-letters-pics {
+        width: 387px;
+        height: 148px;
+    }
+
+    .aboutFectivalMain-flex-zig-zag-of-two-pic {
+        width: 375px;
+        height: 182px;
+    }
+
+    .aboutFectivalMain-flex-container-one-zig-zag {
+        width: 330px;
+        height: 117px;
+        align-self: flex-end;
+    }
+
+    .aboutFectivalMain-flex-container-rounds {
+        width: 165px;
+        height: 28px;
+    }
+
+    .aboutFectivalMain-flex-container {
+        width: fit-content;
+    }
+    
+}
+/*//////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////*/
+
+@media screen and (max-width: 1000px) {
+    .aboutFectivalMain-title {
+        font-size: 48px;
+        margin-bottom: 35px;
+        margin-top: 55px;
+    }
+
+    .aboutFectivalMain-subtitle {
+        font-size: 22px;
+        max-width: 460px;
+        margin-bottom: 90px;
+    }
+
+    .aboutFectivalMain-text {
+        font-size: 20px;
+        max-width: 460px;
+    }
+
+    .aboutFectivalMain-zigZag-pic {
+        width: 151px;
+        height: 101px;
+        
+    }
+
+    .aboutFectivalMain-stared-dots-pic {
+        width: 124px;
+        height: 164px;
+    }
+
+    .aboutFectivalMain-title-sub-title-pic-container {
+        justify-content: center;
+        margin-bottom: 24px;
+    }
+
+    .aboutFectivalMainSection {
+        padding-top: 55px;
+    }
+
+    .aboutFectivalMain-dots-pic {
+        width: 370px;
+        height: 48px;
+        margin-top: 32px;
+        margin-bottom: 58px;
+    }
+
+    .aboutFectivalMain-shiftedText {
+        max-width: 464px;
+    }
+
+    .aboutFectivalMain-letters-lamed {
+        width: 285px;
+        height: 292;
+    }
+
+    .aboutFectivalMain-flex-container-lamed {
+        justify-content: center;
+    }
+
+    .aboutFectivalMain-flex-book-letters-pics {
+        width: 387px;
+        height: 148px;
+    }
+
+    .aboutFectivalMain-flex-zig-zag-of-two-pic {
+        width: 275px;
+        height: 82px;
+    }
+
+    .aboutFectivalMain-flex-container-one-zig-zag {
+        width: 330px;
+        height: 117px;
+    }
+
+    .aboutFectivalMain-flex-container-rounds {
+        width: 165px;
+        height: 28px;
+    }
+
+    .aboutFectivalMain-one-blue-round {
+        width: 30px;
+        height: 30px;
+    }
+
+    .aboutFectivalMain-rounds-pic {
+        width: 130px;
+        height: 317px;
+    }
+
+    .aboutFectivalMain-letters-pic {
+        width: 188px;
+        height: 332px;
+    }
+
+    .aboutFectivalMain-fourth-container-letter-pey {
+        width: 97px;
+        height: 99px;
+        margin-left: 60px;
+    }
+
+    .aboutFectivalMain-fourth-container-three-zigzags {
+        width: 264px;
+        height: 165px;
+    }
+
+    .aboutFectivalMain-fourth-container-dots-pic {
+        width: 339px;
+        height: 91px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    } 
+
+    .aboutFectivalMain-open-book {
+        width: 409px;
+        height: 195px;
+    }
+
+    .aboutFectivalMain-fourth-container-letter-a {
+        width: 47px;
+        height: 46px;
+    }
+
+    .aboutFectivalMain-fourth-container-letter-b {
+        width: 57px;
+        height: 65px;
+    }
+
+    .aboutFectivalMain-letter-l {
+        width: 47px;
+        height: 46px;
+    }
+
+    .aboutFectivalMain-letter-dalet {
+        width: 150px;
+        height: 50px;
+    }
+
+    .aboutFectivalMain-letter-i {
+        width: 70px;
+        height: 134px;
+        margin: 10px;
+    }
+}
+
+/*//////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////*/
+
+@media screen and (max-width: 746px) {
+    .aboutFectivalMain-title {
+        font-size: 24px;
+        margin-bottom: 32px;
+        margin-top: 0;
+    }
+
+    .aboutFectivalMain-subtitle {
+        font-size: 16px;
+        max-width: 339px;
+        margin-bottom: 50px;
+    }
+
+    .aboutFectivalMain-text {
+        font-size: 16px;
+        max-width: 339px;
+    }
+
+    .aboutFectivalMain-letters-lamed {
+        width: 200px;
+        height: 192;
+
+        transform: rotate(-25deg);
+    }
+
+    .aboutFectivalMain-flex-book-letters-pics {
+        width: 192px;
+        height: 73px;
+    }
+
+    .aboutFectivalMain-one-orange-round {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .aboutFectivalMain-fourth-container {
+        margin-top: 30px;
+        align-self: center;
+    }
+}
+/*//////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////*/
+
+@media screen and (max-width: 630px) {
+    .aboutFectivalMain-zigZag-pic {
+        width: 120px;
+        height: 80px;
+    }
+    .aboutFectivalMain-stared-dots-pic {
+        width: 120px;
+        height: 100px;
+    }
+
+}
+
+/*//////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////*/
+
+@media screen and (max-width: 580px) {
+    .aboutFectivalMain-zigZag-pic {
+        width: 90px;
+        height: 80px;
+    }
+
+    .aboutFectivalMain-stared-dots-pic {
+        width: 90px;
+        height: 100px;
+    }
+
+    .aboutFectivalMain-shiftedText {
+        max-width: 285px;
+    }
+
+    .aboutFectivalMain-dots-pic {
+        width: 183px;
+        height: 24px;
+    }
+
+    .aboutFectivalMain-letters-lamed {
+        width: 100px;
+        height: 80;
+
+        transform: rotate(-25deg);
+    }
+
+    .aboutFectivalMain-flex-zig-zag-of-two-pic {
+        width: 137px;
+        height: 41px;
+    }
+
+    .aboutFectivalMain-flex-container-one-zig-zag {
+        width: 139px;
+        height: 57px;
+    }
+
+    .aboutFectivalMain-letters-pic {
+        display: none;
+    }
+
+    .aboutFectivalMain-one-blue-round {
+        width: 20px;
+        height: 20px;
+        margin-top: 20px;
+    }
+
+    .aboutFectivalMain-text {
+        max-width: 280px;
+    }
+
+    .aboutFectivalMain-fourth-container-letter-pey {
+        width: 48px;
+        height: 49px;
+    }
+
+    .aboutFectivalMain-fourth-container-three-zigzags {
+        width: 131px;
+        height: 82px;
+        align-self: center;
+        margin-right: 10px;
+    }
+
+    .aboutFectivalMain-down-margin {
+        margin-bottom: 120px;
+    }
+
+    .aboutFectivalMain-down-the-same-margin {
+        margin-bottom: 20px;  
+    } 
+
+    .aboutFectivalMain-fourth-container-text-wrapper {
+        position: relative;
+    }
+
+    .aboutFectivalMain-fourth-container-three-zigzags {
+        position: absolute;
+        left: 40px;
+        top: 80px;
+    }
+
+    .aboutFectivalMain-fourth-container-dots-pic {
+        width: 168px;
+        height: 45px;
+    } 
+
+    .aboutFectivalMain-open-book {
+        width: 202px;
+        height: 121px;
+    }
+
+    .aboutFectivalMain-fourth-container-letter-a {
+        width: 28px;
+        height: 32px;
+    }
+
+    .aboutFectivalMain-fourth-container-letter-b {
+        width: 28px;
+        height: 32px;
+    }
+
+    .aboutFectivalMain-letter-l {
+        width: 47px;
+        height: 46px;
+    }
+}
+
+/*//////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////*/
+
+@media screen and (max-width: 530px) {
+
+    .aboutFectivalMain-title-sub-title-pic-container {
+        position: relative;
+        width: fit-content;
+        align-self: center;
+    }
+
+    .aboutFectivalMain-zigZag-pic {
+        position: absolute;
+        top: -30px;
+        left: -5px;
+        width: 75px;
+        height: 50px;
+    }
+
+    .aboutFectivalMain-stared-dots-pic {
+        position: absolute;
+        top: -30px;
+        right: -5px;
+        width: 62px;
+        height: 82px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .aboutFectivalMain-letters-lamed {
+        display: none;
+    }
+
+    .aboutFectivalMain-flex-book-letters-pics {
+        align-self: flex-end;
+    }
+
+    .aboutFectivalMain-flex-container {
+        margin-top: 70px;
+    }
+
+    .aboutFectivalMain-letters-container {
+        width: fit-content;
+    }
+
+}
