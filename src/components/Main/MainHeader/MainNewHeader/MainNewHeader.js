@@ -2,16 +2,16 @@ import letters from '../../../../images/mainPage/Lettersnewheader.png'
 import './MainNewHeader.css'
 import { Link } from 'react-router-dom';
 
-function MainNewHeader({handleIsBurgerMainPopup, handleIsOurProjectPopup}) {
+function MainNewHeader({handleIsBurgerMainPopup, handleIsOurProjectPopup, handleOurParticipantsPopup}) {
     //const [isMenuOpen, setMenuOpen] = useState(false);
 
     function handleOpenPopup() {
         handleIsBurgerMainPopup()
     }
-    /*
-    function toggleSubMenu() {
-        setMenuOpen(prevState => !prevState);
-    }*/
+    
+    function handleOurParticipantsPopupOpen() {
+        handleOurParticipantsPopup()
+    }
 
     return(
         <header className="mainNewHeader">
@@ -26,13 +26,13 @@ function MainNewHeader({handleIsBurgerMainPopup, handleIsOurProjectPopup}) {
                             <Link to={'/'}className="mainNewHeader-link">О фестивале</Link>
                         </li>
                         <li className="mainNewHeader-nav-link">
-                            <Link to={'/not-ready-page'}className="mainNewHeader-link">Наши участники</Link>
+                            <button className="mainNewHeader-btn" onClick={handleOurParticipantsPopupOpen}>Наши участники</button>
                         </li>
                         <li className="mainNewHeader-nav-link">
                             <button className="mainNewHeader-btn" onClick={handleIsOurProjectPopup}>Наши проекты</button>
                         </li>
                         <li className="mainNewHeader-nav-link">
-                            <Link to={'/our-team'}className="mainNewHeader-link">Наша команда</Link>
+                            <Link to={'/our-team'} className="mainNewHeader-link">Наша команда</Link>
                         </li>
                         {/*<li className="mainNewHeader-nav-link">
                             <Link to={'/not-ready-page'}className="mainNewHeader-link">Отзывы</Link>

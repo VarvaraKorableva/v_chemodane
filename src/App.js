@@ -31,6 +31,7 @@ import ImagePopup from './components/Popups/ImagePopup'
 import ContactsPopup from './components/Popups/ContactsPopup'
 import BurgerMainPopup from './components/Popups/BurgerMainPopup/BurgerMainPopup'
 import OurProjectPopup from './components/Popups/OurProjectPopup/OurProjectPopup'
+import OurParticipantsPopup from './components/Popups/OurParticipantsPopup/OurParticipantsPopup'
 import OurTeam from './components/OurTeam/OurTeam'
 import IndividualPageOfParticipants from './components/IndividualPageOfParticipants/IndividualPageOfParticipants'
 import IndividualPage from './components/IndividualPage/IndividualPage'
@@ -44,7 +45,7 @@ function App() {
   const [imgPopup, setImgPopup] = React.useState(false)
   const [isBurgerMainPopup, setIsBurgerMainPopup] = React.useState(false)
   const [isOurProjectPopup, setIsOurProjectPopup] = React.useState(false)
-  //const [isInfoHaifaPopupClicked, setIsInfoHaifaPopupClicked] = React.useState(false)
+  const [isOurParticipantsPopup, setIsOurParticipantsPopup] = React.useState(false)
   const [isSukkotPopupClicked, setIsSukkotPopupClicked] = React.useState(true)
   const [selectedCard, setSelectedCard] = React.useState({})
 
@@ -67,6 +68,10 @@ function App() {
   function handleIsOurProjectPopup() {
     setIsOurProjectPopup(true)
   }
+
+  function handleOurParticipantsPopup() {
+    setIsOurParticipantsPopup(true)
+  }
   
 
   function closeAllPopups() {
@@ -75,7 +80,7 @@ function App() {
     setContactsPopup(false)
     setIsBurgerMainPopup(false)
     setIsOurProjectPopup(false)
-    //setIsInfoHaifaPopupClicked(false)
+    setIsOurParticipantsPopup(false)
     //setIsSukkotPopupClicked(false)
   }
 
@@ -99,6 +104,7 @@ function App() {
       <MainNewHeader 
         handleIsBurgerMainPopup={handleIsBurgerMainPopup}
         handleIsOurProjectPopup={handleIsOurProjectPopup}
+        handleOurParticipantsPopup={handleOurParticipantsPopup}
       />
       <Routes>
         <Route
@@ -240,10 +246,10 @@ function App() {
         isOpen={isOurProjectPopup}
         onClose={closeAllPopups}
       />
-      {/*<InfoHaifaPopup 
-        isInfoHaifaPopupClicked={isInfoHaifaPopupClicked}
+      <OurParticipantsPopup 
+        isOpen={isOurParticipantsPopup}
         onClose={closeAllPopups}
-      />*/}
+      />
       <StickyButton/>
     </div>
   );
