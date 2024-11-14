@@ -9,7 +9,7 @@ function AboutFectivalMain() {
                     <div className='aboutFectivalMain-zigZag-pic'></div>
                         <div>
                             <h2 className="aboutFectivalMain-title">О ФЕСТИВАЛЕ</h2>
-                            <h3 className="aboutFectivalMain-subtitle">СЕМЕЙНЫЙ ФЕСТИВАЛЬ КНИГ НА РУССКОМ ЯЗЫКЕ <span>В ЧЕМОДАНЕ</span> — ЭТО</h3>
+                            <h3 className="aboutFectivalMain-subtitle">СЕМЕЙНЫЙ ФЕСТИВАЛЬ КНИГ НА РУССКОМ ЯЗЫКЕ <span className="aboutFectivalMain-subtitle-bold">"В ЧЕМОДАНЕ"</span> — ЭТО</h3>
                         </div>
                     <div className='aboutFectivalMain-stared-dots-pic'></div>
                 </div>
@@ -23,7 +23,7 @@ function AboutFectivalMain() {
                 <div className='aboutFectivalMain-flex-container'>
                     <div className='aboutFectivalMain-flex-book-letters-pics'></div>
                     <div className='aboutFectivalMain-flex-zig-zag-of-two-pic'></div>
-                    <div className='aboutFectivalMain-flex-container-one-zig-zag'></div>
+                    {/*<div className='aboutFectivalMain-flex-container-one-zig-zag'></div>*/}
                     <div className='aboutFectivalMain-flex-container-rounds'></div>
                 </div>
 
@@ -31,11 +31,11 @@ function AboutFectivalMain() {
 
                     <div className="aboutFectivalMain-rounds-pic"></div>
                     <div className="aboutFectivalMain-third-container-text-container">
-                        <p className="aboutFectivalMain-text">Это площадка, предлагающая специалистам по детской и подростковой литературе, педагогам, писателям, искусствоведам и иллюстраторам заявить о себе,</p>
+                        <p className="aboutFectivalMain-text">Это площадка, предлагающая специалистам по детской и подростковой литературе, педагогам, писателям, искусствоведам и иллюстраторам заявить о себе.</p>
                         <div className="aboutFectivalMain-one-blue-round"></div>
                         <div className="aboutFectivalMain-orange-round-text-container">
                             <div className="aboutFectivalMain-one-orange-round"></div>
-                            <p className="aboutFectivalMain-text aboutFectivalMain-shiftedText">раскрыть свои таланты в работе с детьми и текстами, найти единомышленников и творческие проекты.</p>
+                            <p className="aboutFectivalMain-text aboutFectivalMain-shiftedText">Раскрыть свои таланты в работе с детьми и текстами, найти единомышленников и творческие проекты.</p>
                         </div>
                     </div>
                     <div className="aboutFectivalMain-letters-pic"></div>
@@ -45,13 +45,13 @@ function AboutFectivalMain() {
 
                 <div className="aboutFectivalMain-fourth-container">
                     <div className="aboutFectivalMain-fourth-container-letter-pey"></div>
-                    <p className="aboutFectivalMain-text aboutFectivalMain-down-the-same-margin">Уникальная возможность для детей и родителей приобрести книги на русском языке независимых издательств,</p>
+                    <p className="aboutFectivalMain-text aboutFectivalMain-down-the-same-margin">Уникальная возможность для детей и родителей приобрести книги на русском языке независимых издательств.</p>
                     
                     <div className="aboutFectivalMain-fourth-container-text-wrapper">
                         <div className="aboutFectivalMain-fourth-container-three-zigzags"></div>
                         <div className="aboutFectivalMain-fourth-container-text-container">
-                            <p className="aboutFectivalMain-text aboutFectivalMain-shiftedText aboutFectivalMain-down-margin">встретиться со специалистами по детскому чтению,</p>
-                            <p className="aboutFectivalMain-text aboutFectivalMain-shiftedText">поговорить напрямую с создателями книг: редакторами, писателями, переводчиками и иллюстраторами, популяризаторами науки и педагогами.</p>
+                            <p className="aboutFectivalMain-text aboutFectivalMain-shiftedText aboutFectivalMain-down-margin">Встретиться со специалистами по детскому чтению.</p>
+                            <p className="aboutFectivalMain-text aboutFectivalMain-shiftedText">Поговорить напрямую с создателями книг: редакторами, писателями, переводчиками и иллюстраторами, популяризаторами науки и педагогами.</p>
                         </div>
                     </div>
                         <div className="aboutFectivalMain-fourth-container-dots-pic"></div>
@@ -61,12 +61,12 @@ function AboutFectivalMain() {
                     </div>
                 </div>
                 <div className="aboutFectivalMain-fifth-container">
-                    <p className="aboutFectivalMain-text">Незабываемая атмосфера мастер-классов и лекций, встреч с друзьями и коллегами</p>
+                    <p className="aboutFectivalMain-text">Незабываемая атмосфера мастер-классов и лекций, встреч с друзьями и коллегами.</p>
                     <div className="aboutFectivalMain-letters-container">
                         <div className="aboutFectivalMain-letter-dalet"></div>
                         <div className="aboutFectivalMain-letter-l"></div>
                     </div>
-                    <p className="aboutFectivalMain-text">Это совместное творчество, обсуждение актуальных тем</p>
+                    <p className="aboutFectivalMain-text aboutFectivalMain-down-the-same-margin">Это совместное творчество, обсуждение актуальных тем.</p>
                     <div className="aboutFectivalMain-letters-i-container">
                         <div className="aboutFectivalMain-letter-i"></div>
                         <p className="aboutFectivalMain-text">Специально организованный профессионалами маркет, на котором представлены книги независимых издательств, работы современных художников, керамистов и других мастеров.</p>
