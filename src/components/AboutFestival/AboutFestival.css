@@ -1,6 +1,7 @@
 .aboutFestivalHaifa__main-container {
     display: flex;
     flex-direction: column;
+    width: calc(100% - 160px);
     padding-top: 80px;
     padding-left: 80px;
     padding-right: 80px;
@@ -12,6 +13,7 @@
     .aboutFestivalHaifa__main-container {
         padding-left: 12px;
         padding-right: 12px;
+        width: calc(100% - 24px);
     }
 }
 

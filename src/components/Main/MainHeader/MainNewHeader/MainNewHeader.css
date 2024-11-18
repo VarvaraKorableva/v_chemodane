@@ -112,6 +112,7 @@
     padding-left: 10px;
     padding-right: 10px;
     font-family: 'Karton', sans-serif;
+    font-size: 20px;
 }
 
 .mainNewHeader-nav-link:hover {
@@ -148,7 +149,7 @@
     border: none;
     background-color: transparent;
     color: #FBBB00;
-    font-size: 17px;
+    font-size: 20px;
     font-family: 'Karton', sans-serif;
     font-weight: bold;
 }
@@ -156,5 +157,6 @@
 @media screen and (max-width: 800px) {
     .mainNewHeader-btn {
         font-size: 12px; 
+        font-size: 20px;
     }
 }

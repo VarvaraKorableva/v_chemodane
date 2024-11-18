@@ -5,6 +5,7 @@
     padding-top: 80px;
     padding-left: 80px;
     padding-right: 80px;
+    width: calc(100% - 160px);
 
 }
 
@@ -12,6 +13,7 @@
     .paticipant-section {
         padding-left: 12px;
         padding-right: 12px;
+        width: calc(100% - 24px);
     }
 }
 

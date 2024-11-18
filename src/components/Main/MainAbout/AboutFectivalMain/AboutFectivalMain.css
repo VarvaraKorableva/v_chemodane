@@ -17,7 +17,7 @@
 .aboutFectivalMain-text {
     text-align: start;
     align-self: center;
-    font-size: 30px;
+    font-size: 28px;
     font-family: "Martel", serif;
     margin: 0;
     max-width: 796px;
@@ -25,7 +25,7 @@
 }
 
 .aboutFectivalMain-title {
-    font-size: 64px;
+    font-size: 60px;
     font-family: "Mulish", sans-serif;
     font-family: 'Karton', sans-serif;
     color: #374BA5;
@@ -48,6 +48,11 @@
 .aboutFectivalMain-subtitle-bold {
     font-weight: bold;
     font-size: 30px;
+    
+}
+
+.aboutFectivalMain-subtitle-one-line {
+    white-space: nowrap;
 }
 
 .aboutFectivalMain-shiftedText {
@@ -70,6 +75,7 @@
     width: 589px;
     height: 76px;
     align-self: center;
+    z-index: 1px;
 }
 
 .aboutFectivalMain-stared-dots-pic {
@@ -234,7 +240,8 @@
     width: 148px;
     height: 151px;
     align-self: flex-start;
-    margin: 0;
+    margin: 20px;
+    margin-left: 150px;
 }
 
 .aboutFectivalMain-fourth-container-letters-wrapper {
@@ -302,6 +309,7 @@
     background-size: contain;
     width: 428px;
     height: 267px;
+    margin-right: 20px;
 }
 
 .aboutFectivalMain-letters-container {
@@ -406,6 +414,10 @@
     .aboutFectivalMain-flex-container {
         width: fit-content;
     }
+
+    .aboutFectivalMain-fourth-container-letter-pey {
+        margin-left: 200px;
+    }
     
 }
 /*//////////////////////////////////////////////////*/
@@ -444,6 +456,7 @@
     .aboutFectivalMain-stared-dots-pic {
         width: 124px;
         height: 164px;
+        margin-left: 30px;
     }
 
     .aboutFectivalMain-title-sub-title-pic-container {

@@ -164,7 +164,7 @@ function App() {
           path="/schedule"
           element={
             <Schedule 
-            handleCardClick={handleCardClick}
+              handleCardClick={handleCardClick}
             />
           }>
         </Route>
@@ -173,7 +173,7 @@ function App() {
           path="/haifa-2024-schedule"
           element={
             <ScheduleHaifa 
-            handleCardClick={handleCardClick}
+              handleCardClick={handleCardClick}
             />
           }>
         </Route>
@@ -195,7 +195,7 @@ function App() {
         <Route 
           path='/marker-paticipants'
             element={
-              <MarketPatisipantsPage />
+              <MarketPatisipantsPage addCard={addCard} limit={limit}/>
             }
         />
 

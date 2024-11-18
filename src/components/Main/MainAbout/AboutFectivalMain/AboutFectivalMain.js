@@ -9,7 +9,7 @@ function AboutFectivalMain() {
                     <div className='aboutFectivalMain-zigZag-pic'></div>
                         <div>
                             <h2 className="aboutFectivalMain-title">О ФЕСТИВАЛЕ</h2>
-                            <h3 className="aboutFectivalMain-subtitle">СЕМЕЙНЫЙ ФЕСТИВАЛЬ КНИГ НА РУССКОМ ЯЗЫКЕ <span className="aboutFectivalMain-subtitle-bold">"В ЧЕМОДАНЕ"</span> — ЭТО</h3>
+                            <h3 className="aboutFectivalMain-subtitle">СЕМЕЙНЫЙ ФЕСТИВАЛЬ КНИГ <span className="aboutFectivalMain-subtitle-one-line">НА РУССКОМ ЯЗЫКЕ <span className="aboutFectivalMain-subtitle-bold">"В ЧЕМОДАНЕ"</span> — ЭТО</span></h3>
                         </div>
                     <div className='aboutFectivalMain-stared-dots-pic'></div>
                 </div>

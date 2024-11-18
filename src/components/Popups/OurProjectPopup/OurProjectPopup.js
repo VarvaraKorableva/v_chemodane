@@ -3,6 +3,7 @@ import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
 import './OurProjectPopup.css'
 
+
 function OurProjectPopup({isOpen, onClose}) {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,10 +29,10 @@ function OurProjectPopup({isOpen, onClose}) {
                   <p className='ourProjectPopup-subtitle'>ФЕСТИВАЛИ</p>
                   <ul className='ourProjectPopup-submenu-container'>
                     <li className='ourProjectPopup-submenu-link'>
-                      <Link to='/haifa' onClick={onClosePopup}>ХАЙФА 2024</Link>
+                      <Link to='/haifa' onClick={onClosePopup} className='ourProjectPopup-submenu-active-link'>ХАЙФА 2024</Link>
                     </li>
                     <li className='ourProjectPopup-submenu-link'>
-                      <Link to='/purim' onClick={onClosePopup}>ТЕЛЬ-АВИВ 2024</Link>
+                      <Link to='/purim' onClick={onClosePopup} className='ourProjectPopup-submenu-active-link'>ТЕЛЬ-АВИВ 2024</Link>
                     </li>
                     <li className='ourProjectPopup-submenu-link'>ИЕРУСАЛИМ 2023</li>
                     <li className='ourProjectPopup-submenu-link'>ТЕЛЬ-АВИВ 2023</li>
@@ -43,7 +44,7 @@ function OurProjectPopup({isOpen, onClose}) {
                   <p className='ourProjectPopup-subtitle'>СОБЫТИЯ</p>
                   <ul className='ourProjectPopup-submenu-container'>
                     <li className='ourProjectPopup-submenu-link'>
-                      <Link to='/story-time' onClick={onClosePopup}>ВРЕМЯ ИСТОРИЙ, НОЯБРЬ 2024</Link>
+                      <Link to='/story-time' onClick={onClosePopup} className='ourProjectPopup-submenu-active-link'>ВРЕМЯ ИСТОРИЙ, НОЯБРЬ 2024</Link>
                     </li>
                     <li className='ourProjectPopup-submenu-link'>
                       ХАНУКА, декабрь 2023

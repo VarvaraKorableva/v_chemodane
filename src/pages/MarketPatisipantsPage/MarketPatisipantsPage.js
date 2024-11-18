@@ -1,9 +1,9 @@
 import Participants from '../../components/Participants/Participants'
 
-function MarketPatisipantsPage() {
+function MarketPatisipantsPage({addCard, limit}) {
     return(
         <>
-          <Participants/>
+          <Participants addCard={addCard} limit={limit}/>
         </>
     )
 }
