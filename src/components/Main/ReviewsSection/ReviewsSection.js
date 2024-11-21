@@ -82,7 +82,7 @@ function ReviewsSection() {
             <h2 className="reviewsSection__title">ОТЗЫВЫ</h2>
 
             <div className="reviewsSection__slider-container">
-                <button onClick={prevReview} className="slider-btn">{`<`}</button>
+                <button onClick={prevReview} className="slider-btn"><div className="slider-btn-left"></div></button>
                 <div className="review">
                     <div className="reviewsSection__reviewImgContainer">
                         <img src={reviews[currentIndex].img} alt={reviews[currentIndex].name} className="reviewsSection__reviewImg"></img>
@@ -93,7 +93,7 @@ function ReviewsSection() {
                         <p className="reviewsSection__text">{reviews[currentIndex].text}</p>
                     </div>
                 </div>
-                <button onClick={nextReview} className="slider-btn">{`>`}</button>
+                <button onClick={nextReview} className="slider-btn"><div className="slider-btn-right"></div></button>
             </div>
 
             <div className="reviewsSection__dots">
