@@ -1,0 +1,129 @@
+.our-sponsors-section-container {
+    width: calc(100% - 86px);
+    padding-left: 43px;
+    padding-right: 43px;
+    padding-top: 405px;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;  
+    padding-bottom: 100px;
+}
+
+.our-sponsors-section-title {
+    font-size: 60px;
+    font-family: "Mulish", sans-serif;
+    font-family: 'Karton', sans-serif;
+    color: #374BA5;
+    display: flex;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 80px;
+    max-width: 796px;
+    z-index: 5px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .our-sponsors-section-title {
+        margin-bottom: 45px;
+        font-size: 48px;
+        margin-bottom: 35px;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    .our-sponsors-section-title {
+        font-size: 24px;
+        margin-bottom: 32px;
+        margin-top: 0;
+    }
+}
+
+
+.ourPartners__logo-wrapper {
+    list-style-type: none;
+    margin: 20px;
+}
+
+.ourPartners__logo-container {
+    object-fit: fill;
+    text-decoration: none;
+}    
+
+.ourPartners__img {
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: fill;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .ourPartners__img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .ourPartners__img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+}
+
+.ourPartners__wrapper {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-sponsors-section-book-page {
+    background-image: url(../../../images/storytime/bookpagegrey.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1650px) {
+    .our-sponsors-section-container {
+        padding-top: 300px;
+    }
+    .our-sponsors-section-book-page  {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .our-sponsors-section-container {
+        padding-top: 150px;
+    }
+    .our-sponsors-section-book-page  {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .our-sponsors-section-container {
+        width: calc(100% - 40px);
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .our-sponsors-section-book-page  {
+        height: 100px;
+    }
+}
