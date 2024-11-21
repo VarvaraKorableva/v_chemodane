@@ -4,6 +4,7 @@ import AboutFectivalMain from '../../components/Main/MainAbout/AboutFectivalMain
 import MainOurMission from '../../components/Main/MainOurMission/MainOurMission'
 import Slider from '../../components/Main/Slider/Slider'
 import OurTeam from '../../components/OurTeam/OurTeam'
+import ReviewsSection from '../../components/Main/ReviewsSection/ReviewsSection'
 
 function MainPage() {
     return(
@@ -11,6 +12,7 @@ function MainPage() {
             <Slider/>
             <AboutFectivalMain/>
             <OurTeam />
+            <ReviewsSection/>
         </>
     )
 } 
