@@ -56,6 +56,11 @@ function BurgerMainPopup({ isOpen, onClose }) {
               </Link>
             </li>
             <li className="burgerMainPopup-nav-link">
+              <Link to="/reviews" className="burgerMainPopup-link" onClick={onClosePopup}>
+                Отзывы
+              </Link>
+            </li>
+            <li className="burgerMainPopup-nav-link">
               <Link to="/not-ready-page" className="burgerMainPopup-link">
                 Контакты
               </Link>

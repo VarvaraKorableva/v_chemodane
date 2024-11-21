@@ -11,18 +11,17 @@
 }
 
 .reviewsSection__title {
-        font-size: 60px;
-        font-family: "Mulish", sans-serif;
-        font-family: 'Karton', sans-serif;
-        color: #374BA5;
-        display: flex;
-        margin: auto;
-        margin-top: 0;
-        margin-bottom: 80px;
-        max-width: 796px;
-        z-index: 5px;
-        text-align: center;
-
+    font-size: 60px;
+    font-family: "Mulish", sans-serif;
+    font-family: 'Karton', sans-serif;
+    color: #374BA5;
+    display: flex;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 80px;
+    max-width: 796px;
+    z-index: 5px;
+    text-align: center;
 }
 
 .reviewsSection__slider-container {
@@ -72,7 +71,6 @@
 .reviewsSection__reviewImg {
     width: 100%;
     height: 100%;
-    /*border-radius: 50%;*/
     object-fit: cover;
     border-radius: 50%;
 }

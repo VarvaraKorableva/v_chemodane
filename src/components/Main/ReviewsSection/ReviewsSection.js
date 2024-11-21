@@ -1,8 +1,9 @@
 import { useState } from 'react';
+import reviews from '../../../data/DataReviews'
 import './ReviewsSection.css'
 
 function ReviewsSection() {
-
+/*
     const reviews = [
         {
             id:1,
@@ -61,7 +62,7 @@ function ReviewsSection() {
             text:"Организаторы фестиваля «В чемодане» делают важное дело – знакомят с современной израильской культурой новую алию. Очень радостно видеть такое количество умных и думающих лиц, собранных вместе.",
         }     
     ]
-
+*/
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const nextReview = () => {

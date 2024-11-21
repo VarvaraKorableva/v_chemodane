@@ -39,6 +39,7 @@ import NotFoundPage from './pages/NotFoundPage/NotFoundPage'
 import StoryTimePage from './pages/StoryTimePage/StoryTimePage'
 import OurTeamPage from './pages/OurTeamPage/OurTeamPage'
 import MarketPatisipantsPage from './pages/MarketPatisipantsPage/MarketPatisipantsPage'
+import ReviewsPage from './pages/ReviewsPage/ReviewsPage'
 
 function App() {
   const [contactsPopup, setContactsPopup] = React.useState(false)
@@ -161,6 +162,14 @@ function App() {
         </Route>
 
         <Route
+          path="/reviews"
+          element={
+            <ReviewsPage
+            />
+          }>
+        </Route>
+
+        <Route
           path="/schedule"
           element={
             <Schedule 
@@ -226,7 +235,9 @@ function App() {
         </Route>
 
       </Routes>  
+
       <MainFooter />
+
       <ImagePopup 
           card={selectedCard}
           imgPopup={imgPopup}
