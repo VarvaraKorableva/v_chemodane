@@ -101,7 +101,7 @@ function ReviewsSection() {
                 {reviews.map((_, index) => (
                     <span
                         key={index}
-                        className={`dot ${index === currentIndex ? 'active' : ''}`}
+                        className={`reviewsSection__dot ${index === currentIndex ? 'active' : ''}`}
                         onClick={() => goToSlide(index)}
                     ></span>
                 ))}
