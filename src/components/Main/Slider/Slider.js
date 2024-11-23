@@ -9,11 +9,11 @@ import './Slider.css'
 function Slider() {
 
     const images = [
-        { id: 0, src: page0, link: '/', text: NaN },
-        //{ id: 1, src: page1, link: '/story-time', text: NaN },
-        { id: 2, src: page2, link: 'https://forms.gle/USjZPq4y9WSDvLBy6', text: "ПОДАТЬ ЗАЯВКУ НА МАРКЕТ" },
-        { id: 3, src: page3, link: 'https://forms.gle/N4mSMeM2ZK5Fdw7f9', text: "ПРЕДЛОЖИТЬ СВОЙ МК ИЛИ СПЕКТАКЛЬ" },
-        { id: 4, src: page1, link: '/story-time', subtext: 'СЕМЕЙНАЯ ОНЛАЙН ЛАБОРАТОРИЯ',lastcall: 'OPEN CALL до 11.11.24',text: "ВРЕМЯ ИСТОРИЙ"},
+        { id: 0, src: page0, link: '/', text: NaN, trigger: true },
+        { id: 1, src: page1, link: '/story-time', text: NaN, trigger: false },
+        { id: 2, src: page2, link: 'https://forms.gle/USjZPq4y9WSDvLBy6', text: "ПОДАТЬ ЗАЯВКУ НА МАРКЕТ", trigger: false },
+        { id: 3, src: page3, link: 'https://forms.gle/N4mSMeM2ZK5Fdw7f9', text: "ПРЕДЛОЖИТЬ СВОЙ МК ИЛИ СПЕКТАКЛЬ", trigger: false },
+        //{ id: 4, src: page1, link: '/story-time', subtext: 'СЕМЕЙНАЯ ОНЛАЙН ЛАБОРАТОРИЯ',lastcall: 'OPEN CALL до 11.11.24',text: "ВРЕМЯ ИСТОРИЙ"},
     ];
 
 const [currentSlide, setCurrentSlide] = useState(0);
@@ -68,24 +68,26 @@ const handleTouchEnd = () => {
         onTouchEnd={handleTouchEnd}>
             <div className="slides" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
                 {images.map((image, index) => (
-                    image.text ? 
-                    <a key={image.id} href={image.link} target='_blank' className={`slide ${currentSlide === index ? 'active' : ''}`}>
+                    
+                    <a key={image.id} href={image.link} target='_blank' className={`slide ${currentSlide === image.id ? 'active' : ''}`}>
                         <div>
-                            <img src={image.src} alt={`Slide ${index + 1}`} />
+                            <img src={image.src} alt={`Slide ${image.id + 1}`} />
                         </div>
-                        <div className='slide__text-container'>
-                            <p className='slide__text-subtitle'>{image.subtext}</p>
-                            <p className='slide__text'>{image.text}</p>
-                            <p className='slide__text-lastcall'>{image.lastcall}</p>
-                        </div>
+                        {image.text?
+                            <div className='slide__text-container'>
+                                <p className='slide__text-subtitle'>{image.subtext}</p>
+                                <p className='slide__text'>{image.text}</p>
+                                <p className='slide__text-lastcall'>{image.lastcall}</p>
+                            </div>
+                            :
+                            (image.trigger?
+                                <></>
+                                :
+                                <div className={'slide__link-to-event-container'}></div>
+                            )
+                        }
                     </a>
-                     :   
-                    <Link key={image.id} to={image.link} className={`slide ${currentSlide === index ? 'active' : ''}`}>
-                        <div>
-                            <img src={image.src} alt={`Slide ${index + 1}`} />
-                        </div>
-                        {/*<div className={'slide__link-to-event-container'}></div>*/}
-                    </Link>
+
                 ))}
             </div>
             <div className="dots">
