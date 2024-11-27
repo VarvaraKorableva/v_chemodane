@@ -1,0 +1,139 @@
+.hanukaTelAviv2024Banner__section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hanukaTelAviv2024Banner__pic-container {
+    width: 100%;
+    height: 452px;
+}
+
+.hanukaTelAviv2024Banner__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hanukaTelAviv2024Banner__nav-container {
+    background-color: #FCBB01;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 43px;
+    padding-right: 43px;
+}
+
+@media screen and (max-width: 760px) {
+    .hanukaTelAviv2024Banner__nav-container {
+        padding-left: 0;
+        padding-right: 0;
+        flex-direction: column;
+    }
+}
+
+.hanukaTelAviv2024Banner__nav-container {
+    display: flex;
+}
+
+.hanukaTelAviv2024Banner__ul-container {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 760px) {
+    .hanukaTelAviv2024Banner__ul-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.hanukaTelAviv2024Banner__link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hanukaTelAviv2024Banner__li {
+    background-color: #374BA5;
+    color: #fff;
+    padding: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 12px;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    font-family: 'Karton', sans-serif;
+    margin-top: 14px;
+    text-decoration: none;
+}
+
+.hanukaTelAviv2024Banner__li:hover {
+    background-color: #F96A00;
+}
+
+@media screen and (max-width: 760px) {
+    .hanukaTelAviv2024Banner__li {
+        margin-right: 0;
+        border-radius: 0;
+        background-color: #FBBB00;
+        color: #374BA5;
+        font-weight: 600;
+        border: 1px solid #fff;
+        margin: 0;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .hanukaTelAviv2024Banner__li {
+        font-size: 12px;
+        padding: 15px;
+    }
+}
+
+.hanukaTelAviv2024Banner__link-btn {
+    background-color: #F96A00;
+    color: #fff;
+    height: 43px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 12px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    font-family: 'Karton', sans-serif;
+    margin-top: 14px;
+    text-decoration: none;
+}
+
+.hanukaTelAviv2024Banner__link-btn:hover {
+    background-color: #374BA5;
+}
+
+@media screen and (max-width: 760px) {
+    .hanukaTelAviv2024Banner__link-btn {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+        border-radius: 0;
+        height: fit-content;
+        background-color: #374BA5;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .hanukaTelAviv2024Banner__link-btn:hover {
+        background-color: #F96A00;
+    }
+}

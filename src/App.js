@@ -40,6 +40,7 @@ import StoryTimePage from './pages/StoryTimePage/StoryTimePage'
 import OurTeamPage from './pages/OurTeamPage/OurTeamPage'
 import MarketPatisipantsPage from './pages/MarketPatisipantsPage/MarketPatisipantsPage'
 import ReviewsPage from './pages/ReviewsPage/ReviewsPage'
+import HanukaTelAviv2024Page from './pages/HanukaTelAviv2024Page/HanukaTelAviv2024Page'
 
 function App() {
   const [contactsPopup, setContactsPopup] = React.useState(false)
@@ -184,6 +185,13 @@ function App() {
             <ScheduleHaifa 
               handleCardClick={handleCardClick}
             />
+          }>
+        </Route>
+
+        <Route
+          path="/hunuka_tel_aviv_2024"
+          element={
+            <HanukaTelAviv2024Page/>
           }>
         </Route>
 

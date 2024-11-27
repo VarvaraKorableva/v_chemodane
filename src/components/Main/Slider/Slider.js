@@ -9,11 +9,11 @@ import './Slider.css'
 function Slider() {
 
     const images = [
-        { id: 0, src: page0, link: '/', text: NaN, trigger: true },
+        { id: 0, src: page0, link: '/hunuka_tel_aviv_2024', text: NaN, trigger: true },
         { id: 1, src: page1, link: '/story-time', text: NaN, trigger: false },
         { id: 2, src: page2, link: 'https://forms.gle/USjZPq4y9WSDvLBy6', text: "ПОДАТЬ ЗАЯВКУ НА МАРКЕТ", trigger: false },
         { id: 3, src: page3, link: 'https://forms.gle/N4mSMeM2ZK5Fdw7f9', text: "ПРЕДЛОЖИТЬ СВОЙ МК ИЛИ СПЕКТАКЛЬ", trigger: false },
-        //{ id: 4, src: page1, link: '/story-time', subtext: 'СЕМЕЙНАЯ ОНЛАЙН ЛАБОРАТОРИЯ',lastcall: 'OPEN CALL до 11.11.24',text: "ВРЕМЯ ИСТОРИЙ"},
+        ///////{ id: 4, src: page1, link: '/story-time', subtext: 'СЕМЕЙНАЯ ОНЛАЙН ЛАБОРАТОРИЯ',lastcall: 'OPEN CALL до 11.11.24',text: "ВРЕМЯ ИСТОРИЙ"},
     ];
 
 const [currentSlide, setCurrentSlide] = useState(0);

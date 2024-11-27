@@ -31,7 +31,7 @@ function OurParticipantsPopup({ isOpen, onClose }) {
             </li>*/}
             <li className="burgerMainPopup-nav-link">
                 <Link to="/marker-paticipants" onClick={onClosePopup} className="burgerMainPopup-link">
-                  Участиники Маркета
+                  Участники Маркета
                 </Link>
             </li>
         </ul>
