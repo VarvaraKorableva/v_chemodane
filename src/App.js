@@ -119,24 +119,6 @@ function App() {
             />
           }>
         </Route>
-        <Route
-          exact path="/haifa"
-          element={
-            <>
-            <NewAnnounce />
-            <EventAddress />
-            <AboutFestival />
-            <HaifaSchedule handleCardClick={handleCardClick}/>
-            <CampHaifa />
-            <TheaterHaifa />
-            <MasterClassHaifa />
-            <LecturesAndPresentations />
-            <Participants addCard={addCard} limit={limit}/>
-            <OurPartners />
-            <OurTeam />
-            </>
-          }>
-        </Route>
 
         <Route
           path="/"
@@ -191,7 +173,7 @@ function App() {
         <Route
           path="/hanukkah_2024"
           element={
-            <Hanukkah2024Page/>
+            <Hanukkah2024Page handleCardClick={handleCardClick}/>
           }>
         </Route>
 

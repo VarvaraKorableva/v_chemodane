@@ -1,11 +1,12 @@
 import './Announcement.css'
+import Heading from '../../../../UI-Kit/Heading/Heading'
 
 function Announcement() {
 
     return(
         <section className="announcement_section">
             <div className='announcement_pic_rounds'></div>
-            <h2 className="announcement_title">Анонс</h2>
+            <Heading>Анонс</Heading>
             <div className="announcement_text_pics_wrapper">
               
               <div className='announcement_left_pics_wrapper'>
