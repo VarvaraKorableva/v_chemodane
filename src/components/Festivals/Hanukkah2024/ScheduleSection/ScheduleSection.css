@@ -259,4 +259,8 @@
         width: 280px;
         height: 200px;
     }
+
+    .schedule_section {
+        padding-bottom: 100px;
+    }
 }
