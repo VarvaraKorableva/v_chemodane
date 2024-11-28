@@ -16,7 +16,7 @@ function ScheduleSection(handleCardClick) {
 
 
     return(
-        <section className="schedule_section" id='schedule'>
+        <section className="schedule_section" id='schedulehanukkah'>
             <div className="schedule_section_header_and_btn_container">
                 <Heading>РАСПИСАНИЕ</Heading>
 

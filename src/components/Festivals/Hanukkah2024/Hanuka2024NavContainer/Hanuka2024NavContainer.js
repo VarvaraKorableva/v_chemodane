@@ -5,10 +5,10 @@ function Hanuka2024NavContainer() {
         <nav className="hanukaTelAviv2024Banner__nav-container">
             <ul className="hanukaTelAviv2024Banner__ul-container">
                 <li className="hanukaTelAviv2024Banner__li">
-                    <a className="hanukaTelAviv2024Banner__link" href="#aboutProject">Анонс</a>
+                    <a className="hanukaTelAviv2024Banner__link" href="#announcement">Анонс</a>
                 </li>
                 <li className="hanukaTelAviv2024Banner__li">
-                    <a href="#Presenters" className="hanukaTelAviv2024Banner__link">Расписание</a>
+                    <a href="#schedulehanukkah" className="hanukaTelAviv2024Banner__link">Расписание</a>
                 </li>
                 <li className="hanukaTelAviv2024Banner__li">
                     <a href="#Partners" className="hanukaTelAviv2024Banner__link">Правила посещения</a>

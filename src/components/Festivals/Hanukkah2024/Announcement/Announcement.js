@@ -4,7 +4,7 @@ import Heading from '../../../../UI-Kit/Heading/Heading'
 function Announcement() {
 
     return(
-        <section className="announcement_section">
+        <section className="announcement_section" id='announcement'>
             <div className='announcement_pic_rounds'></div>
             <Heading>Анонс</Heading>
             <div className="announcement_text_pics_wrapper">
