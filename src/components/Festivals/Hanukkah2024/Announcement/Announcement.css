@@ -1,0 +1,437 @@
+.announcement_section {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+
+.announcement_text_wrapper {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: "Martel", serif;
+    margin-top: 0;
+}
+
+.announcement_text_pics_wrapper {
+    display: flex;
+    margin: auto;
+    max-width: 1280px;
+    position: relative;
+}
+
+.announcement_title {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: "Mulish", sans-serif;
+    color: #374BA5;
+    margin-bottom: 60px;
+    margin-top: 85px;
+    margin-left: 43px;
+    max-width: 796px;
+    text-align: start;
+}
+
+.announcement_wrapper {
+    display: flex;
+}
+
+.announcement_title_container {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 75px;
+    font-family: "Mulish", sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.announcement_text {
+    text-align: start;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 0;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.announcement_text_bold {
+    font-weight: 600;
+}
+
+.announcement_text_first_container {
+    margin-bottom: 113px;
+}
+
+.announcement_text_margin {
+    margin-bottom: 40px;
+}
+
+.announcement_pic_zig-zag {
+    background-image: url(../../../../images/hanukkah/zig-zags.png);
+    width: 215px;
+    height: 122px;
+    background-size: contain;
+    align-self: center;
+    margin-top: 85px;
+    margin-bottom: 75px;
+}
+
+.announcement_pic_rounds {
+    background-image: url(../../../../images/hanukkah/rounds.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 400px;
+    height: 350px;
+    background-size: contain;
+    align-self: center;
+    position: absolute;
+    top: 0px;
+    right: 50px;
+}
+
+.announcement_left_pics_wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    justify-content: space-between;
+}
+
+.announcement_right_pics_wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-right: 35px;
+    justify-content: space-between;
+}
+
+.announcement_left_pics_hanukia {
+    background-image: url(../../../../images/hanukkah/hanukia.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 134px;
+    height: 204px;
+
+    margin-bottom: 122px;
+}
+
+.announcement_left_pics_orangeround {
+    background-image: url(../../../../images/hanukkah/orangeround.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70px;
+    height: 65px;
+
+    margin-bottom: 175px;
+}
+
+.announcement_left_pics_savivon {
+    background-image: url(../../../../images/hanukkah/savivon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 122px;
+    height: 445px;
+
+    margin-bottom: 290px;
+}
+
+.announcement_left_pics_star {
+    background-image: url(../../../../images/hanukkah/star.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 138px;
+    height: 120px;
+    margin-bottom: 135px;
+}
+
+.announcement_left_pics_cake {
+    background-image: url(../../../../images/hanukkah/cake.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 132px;
+    height: 419px;
+}
+
+.announcement_right_pics_yellowcake {
+    background-image: url(../../../../images/hanukkah/yellowcake.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 125px;
+    height: 436px;
+
+    margin-top: 549px;
+    margin-bottom: 341px;
+}
+
+.announcement_right_pics_stars {
+    background-image: url(../../../../images/hanukkah/stars.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 110px;
+    height: 508px;
+}
+
+@media screen and (max-width: 1500px) {
+    .announcement_text_wrapper {
+        max-width: 796px;
+    }
+
+    .announcement_pic_rounds {
+        width: 350px;
+        height: 300px;
+        top: 0px;
+        right: 50px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    .announcement_pic_rounds {
+        /*width: 300px;
+        height: 300px;*/
+        transform: rotate(-130deg);
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .announcement_title_container {
+        font-size: 40px;
+        line-height: 60px;
+    }
+}    
+
+@media screen and (max-width: 940px) {
+    .announcement_title_container {
+        font-size: 36px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .announcement_title_container {
+        font-size: 34px;
+        line-height: 55px;
+    }
+
+    .announcement_text_first_container {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .announcement_pic_rounds {
+        width: 250px;
+        height: 300px;
+    }
+
+    .announcement_title { 
+        margin-left: 25px;
+    }
+
+    .announcement_title_container {
+        font-size: 32px;
+        line-height: 50px;
+    }
+
+    .announcement_text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .announcement_left_pics_hanukia {
+        background-image: url(../../../../images/hanukkah/hanukia.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 79px;
+        height: 120px;
+    
+        margin-bottom: 73px;
+    }
+    
+    .announcement_left_pics_orangeround {
+        background-image: url(../../../../images/hanukkah/orangeround.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 41px;
+        height: 39px;
+    
+        margin-bottom: 163px;
+    }
+    
+    .announcement_left_pics_savivon {
+        background-image: url(../../../../images/hanukkah/savivon.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 73px;
+        height: 263px;
+    
+        margin-bottom: 182px;
+    }
+    
+    .announcement_left_pics_star {
+        background-image: url(../../../../images/hanukkah/star.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 81px;
+        height: 71px;
+    
+        margin-bottom: 150px;
+    }
+    
+    .announcement_left_pics_cake {
+        background-image: url(../../../../images/hanukkah/cake.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 78px;
+        height: 248px;
+    }
+    
+    .announcement_right_pics_yellowcake {
+        background-image: url(../../../../images/hanukkah/yellowcake.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 74px;
+        height: 258px;
+    
+        margin-bottom: 282px;
+    }
+    
+    .announcement_right_pics_stars {
+        background-image: url(../../../../images/hanukkah/stars.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 65px;
+        height: 301px;
+    }
+
+    .announcement_pic_zig-zag {
+        width: 128px;
+        height: 72px;
+        margin-top: 47px;
+        margin-bottom: 59px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .announcement_text_wrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .announcement_left_pics_wrapper {
+        margin-left: 0;
+    }
+
+    .general_pic_style {
+        display: none;
+    }
+
+    .announcement_left_pics_star {
+        position: absolute;
+        top: 300px;
+        right: 10px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .announcement_pic_rounds {
+        top: 0;
+        right: 0;
+    } 
+
+    .announcement_title { 
+        font-size: 24px;
+        margin-top: 25px;
+    }
+
+    .announcement_title_container {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .announcement_text {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .announcement_pic_zig-zag {
+        width: 114px;
+        height: 64px;
+        margin-top: 11px;
+        margin-bottom: 28px;
+    }
+
+    .announcement_pic_rounds {
+        width: 200px;
+        height: 200px;
+        top: -20px;
+        right: 10px;
+        transform: rotate(30deg);
+    } 
+
+    .announcement_left_pics_hanukia {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: -40px;
+        left: 0px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .announcement_pic_rounds {
+        width: 150px;
+        height: 150px;
+        top: 0px;
+    } 
+
+    .announcement_left_pics_hanukia {
+        width: 100px;
+        height: 100px;
+        top: -5px;
+        left: -10px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .announcement_left_pics_hanukia {
+        width: 100px;
+        height: 100px;
+        top: -50px;
+        left: -5px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .announcement_left_pics_star {
+        top: 350px;
+        right: 10px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .announcement_left_pics_star {
+        top: 370px;
+        right: 5px;
+    }
+}

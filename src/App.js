@@ -40,7 +40,7 @@ import StoryTimePage from './pages/StoryTimePage/StoryTimePage'
 import OurTeamPage from './pages/OurTeamPage/OurTeamPage'
 import MarketPatisipantsPage from './pages/MarketPatisipantsPage/MarketPatisipantsPage'
 import ReviewsPage from './pages/ReviewsPage/ReviewsPage'
-import HanukaTelAviv2024Page from './pages/HanukaTelAviv2024Page/HanukaTelAviv2024Page'
+import Hanukkah2024Page from './pages/Hanukkah2024Page/Hanukkah2024Page'
 
 function App() {
   const [contactsPopup, setContactsPopup] = React.useState(false)
@@ -189,9 +189,9 @@ function App() {
         </Route>
 
         <Route
-          path="/hunuka_tel_aviv_2024"
+          path="/hanukkah_2024"
           element={
-            <HanukaTelAviv2024Page/>
+            <Hanukkah2024Page/>
           }>
         </Route>
 
