@@ -156,6 +156,33 @@
     display: flex;
 }
 
+.visitingRules_browncake {
+    background-image: url(../../../../images/hanukkah/cake.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 125px;
+    height: 436px;
+    position: absolute;
+    left: -120px;
+    top: -700px;
+    display: flex;
+}
+
+@media screen and (max-width: 1350px) {
+    .visitingRules_browncake { 
+        left: -60px;
+        top: -700px;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .visitingRules_browncake { 
+        top: -500px;
+        left: -10px;
+    }
+}
+
 @media screen and (max-width: 1143px) {
     .visitingRules_yellowcake { 
         right: 0px;
@@ -188,6 +215,13 @@
         height: 436px;
         top: -320px;
     }
+
+    .visitingRules_browncake { 
+        width: 90px;
+        height: 436px;
+        top: -300px;
+        left: 20px;
+    }
 }
 
 @media screen and (max-width: 930px) {
@@ -196,6 +230,10 @@
         height: 101px;
         right: 20px;
     }
+/*
+    .visitingRules_browncake { 
+        top: -260px; 
+    }*/
 }
 
 @media screen and (max-width: 840px) {
@@ -207,11 +245,19 @@
     .visitingRules_ul_dates_container {
         font-size: 18px;
         line-height: 30px;
+        max-width: 460px;
     }
 
     .visitingRules_li_round_info {
         margin: 5px;
         font-size: 14px;
+    }
+
+    .visitingRules_browncake { 
+        width: 90px;
+        height: 436px;
+        top: -750px;
+        left: 20px;
     }
 }
 
@@ -245,6 +291,17 @@
         top: -200px;
         right: 10px;
     }
+
+    .visitingRules_browncake { 
+        width: 70px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .visitingRules_browncake { 
+        top: -400px
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -259,13 +316,11 @@
         padding-left: 20px;
         margin: 10px;
     }
-
-
 }
 
 @media screen and (max-width: 500px) {
     .visitingRules_events_title {
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     .visitingRules_more_btn {
@@ -286,7 +341,7 @@
         height: 55px;
         position: absolute;
         left: 40px;
-        top: 60px;
+        top: 70px;
         display: flex;
     }
 
@@ -299,7 +354,7 @@
         height: 38px;
         position: absolute;
         right: 30px;
-        top: 60px;
+        top: 70px;
         display: flex;
     }
 }
@@ -313,8 +368,31 @@
     }
 }
 
+@media screen and (max-width: 430px) {
+    .visitingRules_browncake { 
+        top: -620px
+    }
+
+    .visitingRules_yellowcake { 
+        top: -620px; 
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .visitingRules_browncake { 
+        top: -820px;
+        left: 10px;
+    }
+
+    .visitingRules_yellowcake { 
+        top: -520px; 
+        right: 10px;
+    }
+}
+
 @media screen and (max-width: 400px) {
     .visitingRules_yellowcake { 
         top: -450px; 
     }
 }
+

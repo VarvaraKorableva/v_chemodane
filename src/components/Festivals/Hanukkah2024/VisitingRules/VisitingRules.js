@@ -97,6 +97,7 @@ function VisitingRules() {
             <h3 className="visitingRules_events_title">Cобытия, на которые нужна регистрация:</h3>
             <div className="visitingRules_events_main_wrapper">
                 <div className="visitingRules_yellowcake"></div>
+                <div className="visitingRules_browncake"></div>
                 <div className="visitingRules_events_date_container">
                     <h3 className="visitingRules_events_data_title">{events[0].date}</h3>
                     <ul className="visitingRules_events_container">
