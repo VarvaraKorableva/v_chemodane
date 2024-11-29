@@ -106,10 +106,11 @@ function VisitingRules() {
                         ))}
                     </ul>
                     {isMoreBtnClicked?
-                        <button className="visitingRules_more_btn" onClick={resetLimit}>Свернуть</button>
+                          <button className="visitingRules_more_btn" onClick={resetLimit}>Свернуть</button>
                         :
-                        <button className="visitingRules_more_btn" onClick={addLimit}>Посмотреть больше</button>
+                          <button className="visitingRules_more_btn" onClick={addLimit}>Посмотреть больше</button>
                     }
+                    <div className="visitingRules_star"></div>
                 </div>
                 <div className="visitingRules_events_date_container">
                     <h3 className="visitingRules_events_data_title">{events[1].date}</h3>

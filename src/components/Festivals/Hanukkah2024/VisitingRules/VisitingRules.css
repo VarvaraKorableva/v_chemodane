@@ -83,6 +83,7 @@
     display: flex;
     flex-direction: column;
     font-family: 'Ubuntu', sans-serif;
+    position: relative;
 
 }
 .visitingRules_events_data_title {
@@ -169,6 +170,23 @@
     display: flex;
 }
 
+.visitingRules_btn_container {
+    position: relative;
+}
+
+.visitingRules_star { 
+    background-image: url(../../../../images/hanukkah/star.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: -120px;
+    bottom: 0px;
+    display: flex;
+}
+
 @media screen and (max-width: 1350px) {
     .visitingRules_browncake { 
         left: -60px;
@@ -195,6 +213,13 @@
         flex-direction: column;
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .visitingRules_star { 
+        width: 100px;
+        height: 100px;
+        right: 0;
+        bottom: 0;
     }
 
     .visitingRules_events_container {
@@ -302,6 +327,10 @@
     .visitingRules_browncake { 
         top: -400px
     }
+    .visitingRules_star { 
+        width: 80px;
+        height: 80px;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -354,8 +383,9 @@
         height: 38px;
         position: absolute;
         right: 30px;
-        top: 70px;
+        top: -20px;
         display: flex;
+        transform: rotate(30deg); 
     }
 }
 
@@ -376,11 +406,18 @@
     .visitingRules_yellowcake { 
         top: -620px; 
     }
+
+    .visitingRules_star { 
+        width: 60px;
+        height: 60px;
+        right: 20px;
+        bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 424px) {
     .visitingRules_browncake { 
-        top: -820px;
+        top: -860px;
         left: 10px;
     }
 
@@ -393,6 +430,13 @@
 @media screen and (max-width: 400px) {
     .visitingRules_yellowcake { 
         top: -450px; 
+    }
+
+    .visitingRules_star { 
+        width: 60px;
+        height: 60px;
+        right: 10px;
+        bottom: 40px;
     }
 }
 
