@@ -1,0 +1,320 @@
+.visitingRules_section {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+
+.visitingRules_ul_dates_container {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 0;
+    font-size: 24px;
+    line-height: 50px;
+    margin: auto;
+}
+
+.visitingRules_small_rounds {
+    display: none;
+}
+
+.visitingRules_one_cake {
+    display: none;
+}
+
+.visitingRules_li_dates {
+    text-align: start;
+}
+
+.visitingRules_text_bold {
+    font-weight: bold;
+}
+
+.visitingRules_ul_round_info {
+     display: flex;
+     list-style-type: none;
+     padding: 0;
+     max-width: 1000px;
+     margin: auto;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     justify-content: space-between;
+}
+
+.visitingRules_li_round_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 50%;
+    border: 5px solid #E7226C;
+    /*background-color: rgba(231, 34, 108, 0.3);
+    box-shadow: 0 4px 8px rgba(231, 34, 108, 0.3);*/
+    width: 220px;
+    height: 220px;
+    padding: 10px;
+    line-height: 25px;
+}
+
+.visitingRules_events_title {
+    text-align: center;
+    color: #374BA5;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: "Mulish", sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.visitingRules_events_main_wrapper {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.visitingRules_events_date_container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.visitingRules_events_data_title {
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+.visitingRules_events_container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-right: 20px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.visitingRules_events_container:last-child {
+    margin-right: 0;
+}
+
+.visitingRules_events_text_and_time {
+    text-align: start;
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.visitingRules_events_time {
+    font-weight: bold;
+}
+
+.visitingRules_more_btn {
+    background-color: #EF7936;
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.visitingRules_zig_zag {
+    background-image: url(../../../../images/hanukkah/zig-zags.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 288px;
+    height: 163px;
+    position: absolute;
+    right: 50px;
+    top: 0;
+}
+
+.visitingRules_yellowcake {
+    background-image: url(../../../../images/hanukkah/yellowcake.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 125px;
+    height: 436px;
+    position: absolute;
+    right: -30px;
+    top: -500px;
+    display: flex;
+}
+
+@media screen and (max-width: 1143px) {
+    .visitingRules_yellowcake { 
+        right: 0px;
+        top: -420px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .visitingRules_events_main_wrapper { 
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .visitingRules_events_container {
+        margin-right: 0;
+    }
+
+    .visitingRules_more_btn {
+        margin: unset;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        align-self: start;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .visitingRules_yellowcake { 
+        width: 90px;
+        height: 436px;
+        top: -320px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .visitingRules_zig_zag {
+        width: 180px;
+        height: 101px;
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .visitingRules_events_text_and_time {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .visitingRules_ul_dates_container {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .visitingRules_li_round_info {
+        margin: 5px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .visitingRules_li_round_info {
+        margin: 0;
+        margin-right: 5px;
+        width: 180px;
+        height: 180px;
+    }
+
+    .visitingRules_li_round_info:last-child {
+        margin-right: 0;
+    }
+
+    .visitingRules_ul_round_info {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .visitingRules_zig_zag {
+        top: -40px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .visitingRules_yellowcake { 
+        width: 70px;
+        height: 300px;
+        top: -200px;
+        right: 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .visitingRules_events_text_and_time {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .visitingRules_ul_dates_container {
+        font-size: 16px;
+        line-height: 25px;
+        padding-left: 20px;
+        margin: 10px;
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+    .visitingRules_events_title {
+        margin-bottom: 20px;
+    }
+
+    .visitingRules_more_btn {
+        margin: auto;
+        margin-top: 26px;
+    }
+
+    .visitingRules_zig_zag {
+        display: none;
+    }
+
+    .visitingRules_small_rounds {
+        background-image: url(../../../../images/hanukkah/smallrounds.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 153px;
+        height: 55px;
+        position: absolute;
+        left: 40px;
+        top: 60px;
+        display: flex;
+    }
+
+    .visitingRules_one_cake {
+        background-image: url(../../../../images/hanukkah/onecake.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 44px;
+        height: 38px;
+        position: absolute;
+        right: 30px;
+        top: 60px;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 487px) {
+    .visitingRules_yellowcake { 
+        width: 70px;
+        height: 300px;
+        top: -400px; 
+        right: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .visitingRules_yellowcake { 
+        top: -450px; 
+    }
+}

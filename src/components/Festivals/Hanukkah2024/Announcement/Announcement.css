@@ -22,7 +22,7 @@
     max-width: 1280px;
     position: relative;
 }
-
+/*
 .announcement_title {
     text-transform: uppercase;
     font-size: 45px;
@@ -33,7 +33,7 @@
     margin-left: 43px;
     max-width: 796px;
     text-align: start;
-}
+}*/
 
 .announcement_wrapper {
     display: flex;
