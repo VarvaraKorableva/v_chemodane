@@ -102,7 +102,7 @@ function VisitingRules() {
                     <h3 className="visitingRules_events_data_title">{events[0].date}</h3>
                     <ul className="visitingRules_events_container">
                         {events[0].events.slice(0, limit).map((i) => (
-                        <li className="visitingRules_events_text_and_time"><spa className="visitingRules_events_time">{i.time}</spa> {i.text}</li>
+                        <li className="visitingRules_events_text_and_time"><span className="visitingRules_events_time">{i.time}</span> {i.text}</li>
                         ))}
                     </ul>
                     {isMoreBtnClicked?

@@ -1,0 +1,67 @@
+.lotteryNew_container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+
+.lotteryNew_text_container {
+    max-width: 806px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+    margin: auto;
+}
+
+.lotteryNew_text {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.lotteryNew_text_bold {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.lotteryNew_title {
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #374BA5;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: "Mulish", sans-serif;
+
+}
+
+@media screen and (max-width: 840px) {
+    .lotteryNew_text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .lotteryNew_text_container {
+        max-width: 457px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .lotteryNew_text {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .lotteryNew_text_container {
+        max-width: 312px;
+    }
+}    

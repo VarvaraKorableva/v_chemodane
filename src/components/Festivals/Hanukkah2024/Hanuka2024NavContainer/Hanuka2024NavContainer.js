@@ -24,7 +24,7 @@ function Hanuka2024NavContainer() {
                 </li>
             </ul>
             <a 
-                href={'https://forms.gle/yRaz25gniLuf1ZtZ6'} 
+                href='https://www.anumuseum.org.il/ru/events/hanukah-festival-russian/'
                 className="hanukaTelAviv2024Banner__link-btn" 
                 target='_blank'
                 rel="noopener noreferrer"

@@ -3,6 +3,8 @@ import Announcement from '../../components/Festivals/Hanukkah2024/Announcement/A
 import SeparatorPage from '../../components/SeparatorPage/SeparatorPage'
 import ScheduleSection from '../../components/Festivals/Hanukkah2024/ScheduleSection/ScheduleSection'
 import VisitingRules from '../../components/Festivals/Hanukkah2024/VisitingRules/VisitingRules'
+import LotterySection from '../../components/Festivals/Hanukkah2024/LotterySection/LotterySection'
+import TicketsStickyButton from '../../components/TicketsStickyButton/TicketsStickyButton'
 
 function Hanukkah2024Page({handleCardClick}) {
     return (
@@ -13,7 +15,9 @@ function Hanukkah2024Page({handleCardClick}) {
             <ScheduleSection handleCardClick={handleCardClick}/>
             <SeparatorPage/>
             <VisitingRules/>
-            
+            <SeparatorPage/>
+            <LotterySection/>
+            <TicketsStickyButton/>
         </>
     )
 }

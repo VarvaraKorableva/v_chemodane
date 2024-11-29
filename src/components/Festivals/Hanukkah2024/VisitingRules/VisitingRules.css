@@ -255,10 +255,6 @@
         height: 101px;
         right: 20px;
     }
-/*
-    .visitingRules_browncake { 
-        top: -260px; 
-    }*/
 }
 
 @media screen and (max-width: 840px) {
@@ -424,6 +420,10 @@
     .visitingRules_yellowcake { 
         top: -520px; 
         right: 10px;
+    }
+
+    .visitingRules_li_round_info {
+        margin-bottom: 10px;
     }
 }
 
