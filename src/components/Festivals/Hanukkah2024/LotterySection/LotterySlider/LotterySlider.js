@@ -1,124 +1,95 @@
-
-import { useState } from 'react';
-//import reviews from '../../../data/DataReviews'
-import './LotterySlider.css'
+import { useState, useEffect } from 'react';
+import './LotterySlider.css';
 
 function LotterySlider() {
+  const lots = [
+    { id: 1, img: "./images/lottery/bag.jpg", name: "Шоппер в Чемодане" },
+    { id: 2, img: "./images/lottery/tshirt.jpg", name: "Футболка" },
+    { id: 3, img: "./images/lottery/sheeps.jpg", name: "Овечки" },
+    { id: 4, img: "./images/lottery/neckerchief.jpg", name: "Платок" },
+    { id: 5, img: "./images/lottery/rubinart1.jpg", name: "Четверо в квартире" },
+    { id: 6, img: "./images/lottery/rubinart2.jpg", name: "Верблюдуин" },
+    { id: 7, img: "./images/lottery/doll.jpg", name: "Куколка" },
+    { id: 8, img: "./images/lottery/bookbabel.jpg", name: "Языки мира" },
+    { id: 9, img: "./images/lottery/bookmiribraginsky.jpg", name: "Книги" },
+  ];
 
-    const reviews = [
-    [  
-        {
-            id:1,
-            img:"./images/lottery/bag.jpg",
-            name:"Шоппер в Чемодане",
-            description:"",
-            text:"",
-        },
-        {
-            id:2,
-            img:"./images/lottery/tshirt.jpg",
-            name:"Футболка",
-            description:"",
-            text:"",
-        },
-        {
-            id:3,
-            img:"./images/lottery/sheeps.jpg",
-            name:"Овечки",
-            description:"",
-            text:"",
-        },
-    ],
-    [
-        {
-            id:4,
-            img:"./images/lottery/neckerchief.jpg",
-            name:"Платок",
-            description:"",
-            text:"",
-        },
-        {
-            id:5,
-            img:"./images/lottery/rubinart1.jpg",
-            name:"Четверо в квартире",
-            description:"",
-            text:'',
-        },
-        {
-            id:6,
-            img:"./images/lottery/rubinart2.jpg",
-            name:"Верблюдуин",
-            description:"",
-            text:"Очень теплая, дружеская атмосфера - спасибо огромное!",
-        },
-    ],
-    [    
-        {
-            id:7,
-            img:"./images/lottery/doll.jpg",
-            name:"Куколка",
-            description:"",
-            text:"",
-        },
-        {
-            id:8,
-            img:"./images/lottery/bookbabel.jpg",
-            name:"Языки мира",
-            description:"",
-            text:"",
-        },
-        {
-            id:9,
-            img:"./images/lottery/bookmiribraginsky.jpg",
-            name:"Книги",
-            description:"",
-            text:"",
-        },
-    ],      
-    ]
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
 
-    const [currentIndex, setCurrentIndex] = useState(0);
-
-    const nextReview = () => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % reviews.length);
+  // Отслеживаем изменение размера экрана
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 840);
     };
 
-    const prevReview = () => {
-        setCurrentIndex((prevIndex) => (prevIndex - 1 + reviews.length) % reviews.length);
-    };
+    handleResize(); // Проверка при монтировании
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
-    const goToSlide = (index) => {
-        setCurrentIndex(index);
-    };
+  // Разбиение лотов на группы по 3, если это мобильный экран
+  const groupedLots = isMobile
+    ? lots
+    : lots.reduce((acc, lot, index) => {
+        if (index % 3 === 0) acc.push(lots.slice(index, index + 3));
+        return acc;
+      }, []); // Для больших экранов показываем все лоты как есть
 
-    return (
-        <section className="lotterySection__container">
-            <div className="lottery__slider-container">
-                <button onClick={prevReview} className="slider-btn"><div className="slider-btn-left"></div></button>
-                <div className="lottery">
-                    <ul className="lottery__ImgContainer">
-                        {reviews[currentIndex].map((item) => (
-                            <li key={item.id} className="lottery__ImgItem">
-                                <img src={item.img} alt={item.name} className="lotterySection__Img" />
-                            </li>
-                        ))}
-                    </ul>
-                </div>
-                <button onClick={nextReview} className="lottery-btn"><div className="lottery-btn-right"></div></button>
-            </div>
+  // Функция для перехода к следующему слайду
+  const nextLot = () => {
+    const step = isMobile ? 1 : 1;  // Если мобильный, шагаем по 1 элементу (группе)
+    setCurrentIndex((prevIndex) => (prevIndex + step) % groupedLots.length);
+  };
 
-            <div className="lotterySection__dots">
-                {reviews.map((_, index) => (
-                    <span
-                        key={index}
-                        className={`lotterySection__dot ${index === currentIndex ? 'active' : ''}`}
-                        onClick={() => goToSlide(index)}
-                    ></span>
-                ))}
-            </div>
+  // Функция для перехода к предыдущему слайду
+  const prevLot = () => {
+    const step = isMobile ? 1 : 1;  // Если мобильный, шагаем по 1 элементу (группе)
+    setCurrentIndex((prevIndex) => (prevIndex - step + groupedLots.length) % groupedLots.length);
+  };
 
-        </section>
-    );
+  // Функция для перехода к конкретному слайду по индексу
+  const goToSlide = (index) => {
+    setCurrentIndex(index);
+  };
+
+  return (
+    <section className="lotterySection__container">
+      <div className="lottery__slider-container">
+        <button onClick={prevLot} className="lottery-btn">
+          <div className="lottery-btn-left"></div>
+        </button>
+        <div className="lottery">
+          <ul className="lottery__ImgContainer">
+            {Array.isArray(groupedLots[currentIndex])
+              ? groupedLots[currentIndex].map((item) => (
+                  <li key={item.id} className="lottery__ImgItem">
+                    <img src={item.img} alt={item.name} className="lotterySection__Img" />
+                  </li>
+                ))
+              : (
+                <li key={groupedLots[currentIndex].id} className="lottery__ImgItem">
+                  <img src={groupedLots[currentIndex].img} alt={groupedLots[currentIndex].name} className="lotterySection__Img" />
+                </li>
+              )}
+          </ul>
+        </div>
+        <button onClick={nextLot} className="lottery-btn">
+          <div className="lottery-btn-right"></div>
+        </button>
+      </div>
+
+      <div className="lotterySection__dots">
+        {groupedLots.map((_, index) => (
+          <span
+            key={index}
+            className={`lotterySection__dot ${index === currentIndex ? 'active' : ''}`}
+            onClick={() => goToSlide(index)}
+          ></span>
+        ))}
+      </div>
+    </section>
+  );
 }
 
-export default LotterySlider
+export default LotterySlider;
