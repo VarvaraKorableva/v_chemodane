@@ -7,6 +7,10 @@ function LotterySection() {
     return(
         <section className='lotteryNew_container'>
             <Heading>Лотерея</Heading>
+            <div className="lotteryNew_ordered_circles"></div>
+            <div className="lotteryNew_savivon"></div>
+            {/*<div className="lotteryNew_rounds"></div>
+            <div className="lotteryNew_hanukia"></div>*/}
             <div className='lotteryNew_text_container'>
                 <h3 className='lotteryNew_text lotteryNew_text_bold'>Благотворительная лотерея на фестивале "В Чемодане"</h3>
                 <p className='lotteryNew_text'>Фестиваль "В Чемодане" совместно с музеем еврейского народа АНУ организует благотворительную лотерею. Собранные средства будут направлены на помощь семьям, эвакуированным с юга и севера Израиля.</p>
@@ -30,7 +34,7 @@ function LotterySection() {
                 <p className='lotteryNew_text'>Время: 13.00</p>
                 <p className='lotteryNew_text'>Зал: ТИШ</p>
 
-                <h3 className='lotteryNew_title'>Внимание:</h3>
+                <h3 className='lotteryNew_title'>Обратите Внимание</h3>
                 <p className='lotteryNew_text'>Продажа билетов на лотерею закроется за полчаса до розыгрыша. Покупайте билеты заранее. Благотворительная Лотерея будет проводиться только среди присутствующих в зале. Если выиграл тот, кого в этот момент в зале нет, приз будет разыгрываться снова. Розыгрыш ведет Лика Длугач.</p>
 {/*}
                 <p className='lotteryNew_text lotteryNew_text_bold'>Приходите на фестиваль “В Чемодане” и покупайте билеты на лотерею.</p>

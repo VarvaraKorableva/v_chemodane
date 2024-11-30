@@ -41,7 +41,57 @@
     font-size: 28px;
     text-transform: uppercase;
     font-family: "Mulish", sans-serif;
+}
 
+.lotteryNew_ordered_circles {
+    background-image: url(../../../../images/hanukkah/rounds.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    right: 200px;
+    top: -200px;
+    display: flex;
+}
+
+.lotteryNew_savivon {
+    background-image: url(../../../../images/hanukkah/savivon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 122px;
+    height: 450px;
+    position: absolute;
+    right: 150px;
+    top: 400px;
+    display: flex;
+}
+
+@media screen and (max-width: 1700px) {
+    .lotteryNew_ordered_circles  {
+        top: -100px;
+        right: 100px;
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .lotteryNew_savivon {
+        right: 20px;
+        top: 400px;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .lotteryNew_savivon {
+        width: 90px;
+        height: 350px;
+        top: 500px;
+    }
 }
 
 @media screen and (max-width: 840px) {
@@ -52,6 +102,22 @@
 
     .lotteryNew_text_container {
         max-width: 457px;
+    }
+
+    .lotteryNew_ordered_circles  {
+            top: -50px;
+            right: 50px;
+            width: 250px;
+            height: 250px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .lotteryNew_savivon {
+        width: 73px;
+        height: 263px;
+        top: 550px;
+        right: 0;
     }
 }
 
@@ -64,4 +130,22 @@
     .lotteryNew_text_container {
         max-width: 312px;
     }
+
+    .lotteryNew_ordered_circles  {
+        display: none;
+    }
 }    
+
+@media screen and (max-width: 460px) {
+    .lotteryNew_savivon {
+        top: 220px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .lotteryNew_savivon {
+        width: 60px;
+        height: 200px;
+        top: 50px;
+    }
+}
