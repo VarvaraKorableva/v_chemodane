@@ -2,6 +2,7 @@ import { useState } from 'react';
 import reviews from '../../data/DataReviews.js'
 import Review from './Review/Review'
 import './Reviews.css'
+import Heading from '../../UI-Kit/Heading/Heading'
 
 function Reviews() {
     const reviewsPerPage = 4;
@@ -27,7 +28,7 @@ function Reviews() {
 
     return (
         <section className="reviews__section">
-            <h2 className="reviews__title">ОТЗЫВЫ</h2>
+            <Heading>ОТЗЫВЫ</Heading>
 
             <ul className="reviews__wrapper">
                     {currentReviews.map((i) => (

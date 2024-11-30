@@ -6,6 +6,7 @@ import VisitingRules from '../../components/Festivals/Hanukkah2024/VisitingRules
 import LotterySection from '../../components/Festivals/Hanukkah2024/LotterySection/LotterySection'
 import TicketsStickyButton from '../../components/TicketsStickyButton/TicketsStickyButton'
 import Participants from '../../components/Participants/Participants'
+import OurPartners from '../../components/OurPartners/OurPartners'
 
 function Hanukkah2024Page({handleCardClick, addCard, limit}) {
     return (
@@ -20,6 +21,7 @@ function Hanukkah2024Page({handleCardClick, addCard, limit}) {
             <LotterySection/>
             <TicketsStickyButton/>
             <Participants addCard={addCard} limit={limit}/>
+            <OurPartners/>
         </>
     )
 }
