@@ -8,13 +8,13 @@ function Hanuka2024NavContainer() {
                     <a className="hanukaTelAviv2024Banner__link" href="#announcement">Анонс</a>
                 </li>
                 <li className="hanukaTelAviv2024Banner__li">
-                    <a href="#schedulehanukkah" className="hanukaTelAviv2024Banner__link">Расписание</a>
+                    <a href="#schedulehanukkah" className="hanukaTelAviv2024Banner__link" href="#schedulehanukkah">Расписание</a>
                 </li>
                 <li className="hanukaTelAviv2024Banner__li">
-                    <a href="#Partners" className="hanukaTelAviv2024Banner__link">Правила посещения</a>
+                    <a href="#Partners" className="hanukaTelAviv2024Banner__link" href="#rules">Важные примечания</a>
                 </li>
                 <li className="hanukaTelAviv2024Banner__li">
-                    <a href="#Organizers" className="hanukaTelAviv2024Banner__link">Лотерея</a>
+                    <a href="#Organizers" className="hanukaTelAviv2024Banner__link" href="#lottery">Лотерея</a>
                 </li>
                 <li className="hanukaTelAviv2024Banner__li">
                     <a href="#Organizers" className="hanukaTelAviv2024Banner__link">Участники маркета</a>

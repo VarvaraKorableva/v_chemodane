@@ -75,8 +75,8 @@ function VisitingRules() {
       
 
     return(
-        <section className="visitingRules_section" id='announcement'>
-            <Heading>Важные уточнения</Heading>
+        <section className="visitingRules_section" id='rules'>
+            <Heading>Важные примечания</Heading>
             <div className="visitingRules_zig_zag"></div>
             <div className="visitingRules_small_rounds"></div>
             <div className="visitingRules_one_cake"></div>

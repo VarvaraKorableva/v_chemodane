@@ -5,7 +5,7 @@ import './LotterySection.css'
 
 function LotterySection() {
     return(
-        <section className='lotteryNew_container'>
+        <section className='lotteryNew_container' id='lottery'>
             <Heading>Лотерея</Heading>
             <div className="lotteryNew_ordered_circles"></div>
             <div className="lotteryNew_savivon"></div>
