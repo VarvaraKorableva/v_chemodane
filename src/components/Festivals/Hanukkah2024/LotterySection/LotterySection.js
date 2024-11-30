@@ -21,7 +21,7 @@ function LotterySection() {
 
                 <p className='lotteryNew_text lotteryNew_text_bold'>На благотворительную лотерею нужно приобретать билеты заранее до 26 декабря включительно. Розыгрыш состоится 27 декабря 2024 г в 13.00 на фестивале в зале ТИШ.</p>
 
-                <h3 className='lotteryNew_title'>Как учавствовать?</h3>
+                <h3 className='lotteryNew_title'>Как участвовать?</h3>
                 <p className='lotteryNew_text'>Билеты можно приобрести онлайн по указанной ссылке во время фестиваля “В Чемодане” 26 и 27 декабря.</p>
                 <p className='lotteryNew_text'>Вы можете купить несколько билетов, увеличивая свои шансы на победу.</p>
 
