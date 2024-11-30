@@ -173,7 +173,11 @@ function App() {
         <Route
           path="/hanukkah_2024"
           element={
-            <Hanukkah2024Page handleCardClick={handleCardClick}/>
+            <Hanukkah2024Page 
+              handleCardClick={handleCardClick}
+              addCard={addCard}
+              limit={limit}
+            />
           }>
         </Route>
 

@@ -17,7 +17,7 @@ function Hanuka2024NavContainer() {
                     <a href="#Organizers" className="hanukaTelAviv2024Banner__link" href="#lottery">Лотерея</a>
                 </li>
                 <li className="hanukaTelAviv2024Banner__li">
-                    <a href="#Organizers" className="hanukaTelAviv2024Banner__link">Участники маркета</a>
+                    <a href="#Organizers" className="hanukaTelAviv2024Banner__link" href="#market">Участники маркета</a>
                 </li>
                 <li className="hanukaTelAviv2024Banner__li">
                     <a href="#Organizers" className="hanukaTelAviv2024Banner__link">Партнеры</a>

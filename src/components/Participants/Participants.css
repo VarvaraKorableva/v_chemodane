@@ -1,16 +1,25 @@
-.paticipant-section {
+.participant-section_grey {
+    
+}
+
+.participant-section_grey {
+    background-color: #FDD256;
+    background-color: #FCBB01;
+    
+}
+
+.participant-section {
+    background-color: #f1f1f1;
     display: flex;
     flex-direction: column;
-    background-color: #FDD256;
     padding-top: 80px;
     padding-left: 80px;
     padding-right: 80px;
     width: calc(100% - 160px);
-
 }
 
 @media screen and (max-width: 1065px) {
-    .paticipant-section {
+    .participant-section {
         padding-left: 12px;
         padding-right: 12px;
         width: calc(100% - 24px);
@@ -18,12 +27,12 @@
 }
 
 @media screen and (max-width: 770px) {
-    .paticipant-section {
+    .participant-section {
         padding-top: 40px;
     }
 }
 
-.paticipant-main-container {
+.participant-main-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -32,7 +41,7 @@
     padding: 0;
 }
 
-.paticipant-main-title {
+.participant-main-title {
     font-weight: bold;
     font-size: 32px;
     text-align: start;
@@ -41,18 +50,18 @@
 }
 
 @media screen and (max-width: 1065px) {
-    .paticipant-main-title {
+    .participant-main-title {
         font-size: 32px;
     }
 }
 
 @media screen and (max-width: 770px) {
-    .paticipant-main-title {
+    .participant-main-title {
         margin-bottom: 40px;
     }
 }
 
-.paticipant-container {
+.participant-container {
     list-style-type: none;
     background-color: #fff;
     border-radius: 6px;
@@ -66,17 +75,17 @@
     cursor: pointer;
 }
 
-.paticipant-container:hover {
+.participant-container:hover {
     border: 5px solid #fff;
 }
 
-.paticipant-companyName-title {
+.participant-companyName-title {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
 }
 
-.paticipant-companyName-description {
+.participant-companyName-description {
     width: 250px;
     height: 145px;
     /*overflow: ;*/
@@ -109,7 +118,7 @@
     scrollbar-color: #78e9b4 #f1f1f1;
   }
 
-  .paticipant-img {
+  .participant-img {
       max-width: 200px;
       height: 125px;
       
@@ -120,7 +129,7 @@
       /*object-fit: scale-down;*/
   }
 
-.paticipant-btn-add {
+.participant-btn-add {
     border: 2px solid #2f80ed;
     border-radius: 20px;
     padding: 10px;
@@ -133,11 +142,11 @@
     margin-bottom: 50px;
 }  
 
-.paticipant-btn-add:hover {
+.participant-btn-add:hover {
     background-color: #2f80ed;
 }
 
-.paticipant-btn-add_notactive {
+.participant-btn-add_notactive {
     border: 2px solid #b3bdc7;
     border-radius: 20px;
     padding: 10px;
