@@ -7,6 +7,11 @@
     position: relative;
 }
 
+.lotteryNew_title_star_container {
+    position: relative;
+
+}
+
 .lotteryNew_text_container {
     max-width: 806px;
     display: flex;
@@ -15,6 +20,10 @@
     align-items: flex-start;
     text-align: start;
     margin: auto;
+}
+
+.lotteryNew_text_margin {
+    margin-bottom: 50px !important;
 }
 
 .lotteryNew_text {
@@ -43,6 +52,45 @@
     font-family: "Mulish", sans-serif;
 }
 
+.lotteryNew_star {
+    background-image: url(../../../../images/hanukkah/star.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: -60px;
+    top: -60px;
+    display: flex;
+}
+
+.lotteryNew_hanukia {
+    background-image: url(../../../../images/hanukkah/hanukia.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 134px;
+    height: 204px;
+    position: absolute;
+    left: 100px;
+    top: 600px;
+    display: flex;
+    transform: rotate(-20deg);
+}
+.lotteryNew_circles {
+    background-image: url(../../../../images/hanukkah/circles.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 125px;
+    height: 346px;
+    position: absolute;
+    left: 50px;
+    top: 1000px;
+    display: flex;
+}
+
 .lotteryNew_ordered_circles {
     background-image: url(../../../../images/hanukkah/rounds.png);
     background-position: center;
@@ -69,6 +117,7 @@
     display: flex;
 }
 
+
 @media screen and (max-width: 1700px) {
     .lotteryNew_ordered_circles  {
         top: -100px;
@@ -78,10 +127,49 @@
     }
 }
 
+@media screen and (max-width: 1300px) {
+    .lotteryNew_hanukia {
+        width: 134px;
+        height: 204px;
+        left: 10px;
+        top: 600px;
+    }
+}
+
 @media screen and (max-width: 1220px) {
     .lotteryNew_savivon {
         right: 20px;
         top: 400px;
+    }
+
+    .lotteryNew_circles {
+        left: 5px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .lotteryNew_hanukia {
+        top: 1030px;
+        width: 100px;
+        height: 150px;
+        left: 20px;
+    }
+
+    .lotteryNew_circles {
+        top: 1430px;
+        left: -15px;
+        width: 100px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .lotteryNew_circles {
+        left: 20px;
+        top: 30px;
+        transform: rotate(100deg);
+        /*width: 70px;
+        height: 150px;*/
     }
 }
 
@@ -112,6 +200,15 @@
     }
 }
 
+@media screen and (max-width: 700px) {
+    .lotteryNew_hanukia {
+        top: 950px;
+        width: 100px;
+        height: 150px;
+        left: 20px;
+    }
+}
+
 @media screen and (max-width: 590px) {
     .lotteryNew_savivon {
         width: 73px;
@@ -122,6 +219,11 @@
 }
 
 @media screen and (max-width: 550px) {
+
+    .lotteryNew_title {
+        font-size: 20px;
+    }
+
     .lotteryNew_text {
         font-size: 16px;
         line-height: 25px;
@@ -134,11 +236,54 @@
     .lotteryNew_ordered_circles  {
         display: none;
     }
+
+    .lotteryNew_hanukia {
+        transform: rotate(20deg);
+        top: 890px;
+        left: -10px;
+        width: 80px;
+        height: 100px;
+    }
+
+    .lotteryNew_circles {
+        left: 50px;
+        top: 30px;
+        transform: rotate(100deg);
+        width: 70px;
+        height: 150px;
+    }
+
+    .lotteryNew_rounds {
+        background-image: url(../../../../images/hanukkah/circles.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 350px;
+        height: 150px;
+        position: absolute;
+        left: 20px;
+        top: -130px;
+        display: flex;
+        transform: rotate(70deg);
+    }
 }    
 
 @media screen and (max-width: 460px) {
     .lotteryNew_savivon {
         top: 220px;
+    }
+
+    .lotteryNew_hanukia {
+        top: 930px;
+    }
+
+    .lotteryNew_star {
+        right: -20px;
+    }
+
+    .lotteryNew_text {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
@@ -147,5 +292,22 @@
         width: 60px;
         height: 200px;
         top: 50px;
+    }
+
+    .lotteryNew_hanukia {
+        transform: rotate(-20deg);
+        top: 1420px;
+        right: 0px;
+        left: unset;
+        width: 80px;
+        height: 100px;
+    }
+
+    .lotteryNew_star {
+        right: unset;
+        left: 30px;
+        top: -50px;
+        width: 40px;
+        height: 40px;
     }
 }
