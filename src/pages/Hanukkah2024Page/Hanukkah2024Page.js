@@ -19,8 +19,10 @@ function Hanukkah2024Page({handleCardClick, addCard, limit}) {
             <VisitingRules/>
             <SeparatorPage/>
             <LotterySection/>
+            <SeparatorPage/>
             <TicketsStickyButton/>
             <Participants addCard={addCard} limit={limit}/>
+            <SeparatorPage/>
             <OurPartners/>
         </>
     )
