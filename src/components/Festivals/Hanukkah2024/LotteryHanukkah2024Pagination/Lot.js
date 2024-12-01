@@ -12,7 +12,6 @@ function Lot ({item}) {
                 <p className="lots__name">{item.name}</p>
                 <p className="lots__title">Лот от:</p>
                 <p className="lots__name">{item.whoIsPlaying}</p>
-                <Link to="/" className="lots__link">Посмотреть описание</Link>
             </div>
         </li>
     )

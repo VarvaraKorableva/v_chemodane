@@ -1,10 +1,12 @@
-import { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import lots from '../../../../data/hanukkah/lotshanukkah.js'
 import Lot from './Lot'
 import './LotteryHanukkah2024Pagination.css'
 import Heading from '../../../../UI-Kit/Heading/Heading'
 
 function LotteryHanukkah2024Pagination() {
+const navigate = useNavigate()
 const lotsPerPage = 12;
 const totalPages = Math.ceil(lots.length / lotsPerPage);
 
@@ -21,6 +23,14 @@ const scrollToTop = () => {
     });
 };
 
+const goBack = () => {
+    navigate(-1);
+  };
+
+useEffect(() => {
+    scrollToTop()
+}, [])
+
 const goToPage = (page) => {
     setCurrentPage(page);
     scrollToTop()
@@ -28,6 +38,7 @@ const goToPage = (page) => {
 
 return (
     <section className="lots__section">
+        <p onClick={goBack} className="lots__backbtn">Hазад</p>
         <Heading>Лотерея</Heading>
 
         <ul className="lots__wrapper">

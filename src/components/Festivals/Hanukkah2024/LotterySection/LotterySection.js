@@ -1,6 +1,6 @@
 import Heading from '../../../../UI-Kit/Heading/Heading'
 import LotterySlider from './LotterySlider/LotterySlider'
-import { Link } from 'react-router-dom'
+
 
 import './LotterySection.css'
 
@@ -48,7 +48,7 @@ function LotterySection() {
                 <p className='lotteryNew_text lotteryNew_text_bold'>Это хороший шанс не просто получить приз, но и помочь людям, которые оказались в сложной ситуации.</p>
 */}
                 <h3 className='lotteryNew_title'>Лоты</h3>
-                <Link to={'/hanukkah_2024/lottery'} className='lotteryNew_link'>Посмотреть все лоты</Link>
+                
                 <LotterySlider></LotterySlider>
 
                 

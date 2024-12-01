@@ -82,7 +82,7 @@
     width: 200px;
     height: 200px;
     border-radius: 8px;
-    object-fit: contain;
+    object-fit: cover;
     margin-bottom: 10px;
 }
 
@@ -105,14 +105,16 @@
 
 .lotterySection__dots {
     display: flex;
+    flex-wrap: wrap;
+    max-width: 310px;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .lotterySection__dot {
     width: 12px;
     height: 12px;
-    margin: 0 5px;
+    margin: 5px;
     background-color: #D9D9D9;
     border: 1px solid #D9D9D9;
     border-radius: 50%;
@@ -122,6 +124,18 @@
 
 .lotterySection__dot.active {
     background-color: #555;
+}
+
+.lotterySection_link {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+}
+
+.lotterySection_link:hover {
+    opacity: 1;
 }
 
 .lottery-btn-left {
@@ -163,5 +177,13 @@
     .lottery-btn {
         width: 50px;
         height: 50px;
+    }
+
+    .lotterySection__dots {
+        margin-top: 25px;
+    }
+
+    .lotterySection_link {
+        font-size: 14px;
     }
 }
