@@ -2,7 +2,7 @@ import participantsData from '../../data/participantsDataHaifa'
 import Participant from './Participant'
 import './Participants.css'
 import Heading from '../../UI-Kit/Heading/Heading'
-import { useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom'
 
 function Participants({addCard, limit}) {
   const location = useLocation()
