@@ -41,6 +41,8 @@ import OurTeamPage from './pages/OurTeamPage/OurTeamPage'
 import MarketPatisipantsPage from './pages/MarketPatisipantsPage/MarketPatisipantsPage'
 import ReviewsPage from './pages/ReviewsPage/ReviewsPage'
 import Hanukkah2024Page from './pages/Hanukkah2024Page/Hanukkah2024Page'
+import LotteryHanukkah2024Page from './pages/Hanukkah2024Page/LotteryHanukkah2024Page'
+
 
 function App() {
   const [contactsPopup, setContactsPopup] = React.useState(false)
@@ -177,6 +179,14 @@ function App() {
               handleCardClick={handleCardClick}
               addCard={addCard}
               limit={limit}
+            />
+          }>
+        </Route>
+
+        <Route
+          path="/hanukkah_2024/lottery"
+          element={
+            <LotteryHanukkah2024Page 
             />
           }>
         </Route>

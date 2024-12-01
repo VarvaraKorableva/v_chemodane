@@ -36,16 +36,54 @@
 
 .lottery__ImgItem {
     width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    border-radius: 8px;
     margin-right: 20px;  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    
+}
+
+.lotterySection__text-container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.lotterySection__text {
+    color: black;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: start;
+}
+
+.lotterySection__text:last-child {
+    margin-bottom: 0;
+}  
+
+.lotterySection__title_of_text {
+    color: #555;
+    font-size: 12px;
+    text-align: start;
+    margin: 0;
+    margin-left: 10px;
 }
 
 .lotterySection__Img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: contain;
+    margin-bottom: 10px;
 }
 
 .lottery-btn {

@@ -2,7 +2,7 @@ import teamPic from '../../../images/mainPage/mainpicheader.png'
 import book from '../../../images/mainPage/book.png'
 import letters from '../../../images/mainPage/letters.png'
 import './MainHeader.css'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
 function MainHeader() {
     return(
