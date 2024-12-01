@@ -3,15 +3,29 @@ import './LotterySlider.css';
 
 function LotterySlider() {
   const lots = [
-    { id: 1, img: "./images/lottery/bag.jpg", name: "Шоппер в Чемодане" },
-    { id: 2, img: "./images/lottery/tshirt.jpg", name: "Футболка" },
-    { id: 3, img: "./images/lottery/sheeps.jpg", name: "Овечки" },
-    { id: 4, img: "./images/lottery/neckerchief.jpg", name: "Платок" },
-    { id: 5, img: "./images/lottery/rubinart1.jpg", name: "Четверо в квартире" },
-    { id: 6, img: "./images/lottery/rubinart2.jpg", name: "Верблюдуин" },
-    { id: 7, img: "./images/lottery/doll.jpg", name: "Куколка" },
-    { id: 8, img: "./images/lottery/bookbabel.jpg", name: "Языки мира" },
-    { id: 9, img: "./images/lottery/bookmiribraginsky.jpg", name: "Книги" },
+    { id: 1, img: "./images/lottery/bag.jpg", name: "Шоппер", whoIsPlaying: "Фестиваль в Чемодане", description:"", },
+    { id: 2, img: "./images/lottery/tshirt.jpg", name: "Футболка", whoIsPlaying: "Фестиваль в Чемодане", description:"", },
+    { id: 3, img: "./images/lottery/sheeps.jpg", name: "Игрушка-овечка", whoIsPlaying: "Елены Павловой", description:"", },
+    { id: 4, img: "./images/lottery/neckerchief.jpg", name: "Платок", whoIsPlaying: "Елены Уздельниковой", description:"", },
+    { id: 5, img: "./images/lottery/rubinart1.jpg", name: "Четверо в квартире", whoIsPlaying: "Рубин Арт", description:"", },
+    { id: 6, img: "./images/lottery/rubinart2.jpg", name: "Верблюдуин", whoIsPlaying: "Рубин Арт", description:"", },
+    { id: 7, img: "./images/lottery/doll.jpg", name: "Куколка", whoIsPlaying: "AstaDolls", description:"",}, 
+    { id: 8, img: "./images/lottery/bookbabel.jpg", name: "Языки мира", whoIsPlaying: "Магазин 'Бабель'", description:"",},
+    { id: 9, img: "./images/lottery/bookmiribraginsky.jpg", name: "Книги", whoIsPlaying: "Мири Брагински", description:"",},
+
+    { id: 10, img: "./images/lottery/photogift.jpg", name: "Прогулка фото-сессия В Тель-авиве", whoIsPlaying: "Леры Яковлевой", description: "Сертификат на фотосъемку - прогулку в Тель-Авиве. 1 час , 60 фотографий." },
+
+    { id: 11, img: "./images/lottery/rings.jpg", name: "Два кольца", whoIsPlaying: "Brokain things", description:"Два кольца - оба из фарфора, с золотыми надписями.",},
+
+/*    { id: 12, img: "./images/lottery/tshirt.jpg", name: "Футболка", whoIsPlaying: "Фестиваль в Чемодане", description:"", },
+    { id: 13, img: "./images/lottery/sheeps.jpg", name: "Игрушка-овечка", whoIsPlaying: "Елены Павловой", description:"", },
+    { id: 14, img: "./images/lottery/neckerchief.jpg", name: "Платок", whoIsPlaying: "Елены Уздельниковой", description:"", },
+    { id: 15, img: "./images/lottery/rubinart1.jpg", name: "Четверо в квартире", whoIsPlaying: "Рубин Арт", description:"", },
+    { id: 16, img: "./images/lottery/rubinart2.jpg", name: "Верблюдуин", whoIsPlaying: "Рубин Арт", description:"", },
+    { id: 17, img: "./images/lottery/doll.jpg", name: "Куколка", whoIsPlaying: "AstaDolls", description:"",}, 
+    { id: 18, img: "./images/lottery/bookbabel.jpg", name: "Языки мира", whoIsPlaying: "Магазин 'Бабель'", description:"", },
+    { id: 19, img: "./images/lottery/bookmiribraginsky.jpg", name: "Книги", whoIsPlaying: "Мири Брагински", description:"", },
+    //Прогулка фото-сессия В Тель-авиве от Леры Яковлевой*/
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -65,11 +79,25 @@ function LotterySlider() {
               ? groupedLots[currentIndex].map((item) => (
                   <li key={item.id} className="lottery__ImgItem">
                     <img src={item.img} alt={item.name} className="lotterySection__Img" />
+                    <div lassName="lotterySection__text-container">
+                      <p className="lotterySection__text">{item.name}</p>
+                      
+                      <p className="lotterySection__text">Лот от {item.whoIsPlaying}</p>
+
+                      {/*<p className="lotterySection__text">количество лотов</p>*/}
+                    </div>
                   </li>
                 ))
               : (
                 <li key={groupedLots[currentIndex].id} className="lottery__ImgItem">
                   <img src={groupedLots[currentIndex].img} alt={groupedLots[currentIndex].name} className="lotterySection__Img" />
+                  <div lassName="lotterySection__text-container">
+                      <p className="lotterySection__text">{groupedLots[currentIndex].name}</p>
+                      
+                      <p className="lotterySection__text">Лот от {groupedLots[currentIndex].whoIsPlaying}</p>
+
+                      {/*<p className="lotterySection__text">количество лотов</p>*/}
+                    </div>
                 </li>
               )}
           </ul>
