@@ -70,6 +70,14 @@
     margin-bottom: 0;
 }  
 
+.lotterySection__title_of_text {
+    color: #555;
+    font-size: 12px;
+    text-align: start;
+    margin: 0;
+    margin-left: 10px;
+}
+
 .lotterySection__Img {
     width: 200px;
     height: 200px;
