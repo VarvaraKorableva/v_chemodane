@@ -1,17 +1,32 @@
 const lots = [
+    
     { id: 1, img: "/images/lottery/bag.jpg", name: "Шоппер", whoIsPlaying: "Фестиваль в Чемодане", description:[], },
+    { id: 12, img: "/images/lottery/hopescrolling.jpg", name: "Тостовка «hope runs»", whoIsPlaying: "Hopescrolling", description:["Новые толстовки от проекта Hopescrolling hope runs in our veins согреют и всегда напомнят о главном: народ Израиля жив, и надежда жива вместе с ним."] },
+    
+    { id: 15, 
+      img: "/images/lottery/ticket.jpg", 
+      name: "2 билета на спектакль Орфей и Эвридика", 
+      whoIsPlaying: "Анатолия Белого", 
+      description: [
+        "«Орфей и Эвридика» – музыкально-драматический спектакль при участии ведущих русскоязычных актеров Израиля Анатолия Белого и Елены Яраловой и музыкантов Израильского Филармонического Оркестра (камерный состав). Режиссер-постановщик и драматург – Эстер Дамскер. Совместный проект продюсерской компании Art Up и Израильского Филармонического Оркестра на русском языке.",
+        "Премьера – 10 февраля 2025 года.",
+        "https://artup.co.il/event/143",
+      ], 
+    },
     { id: 2, img: "/images/lottery/tshirt.jpg", name: "Футболка", whoIsPlaying: "Фестиваль в Чемодане", description:[], },
-    { id: 3, img: "/images/lottery/sheeps.jpg", name: "Игрушка-овечка", whoIsPlaying: "Елены Павловой", description:[], },
     { id: 4, img: "/images/lottery/neckerchief.jpg", name: "Платок", whoIsPlaying: "Елены Уздельниковой", description:[], },
+    { id: 8, img: "/images/lottery/bookbabel.jpg", name: "Языки мира", whoIsPlaying: "Магазин 'Бабель'", description:[],},
+    { id: 3, img: "/images/lottery/sheeps.jpg", name: "Игрушка-овечка", whoIsPlaying: "Елены Павловой", description:[], },
+    
     { id: 5, img: "/images/lottery/rubinart1.jpg", name: "Четверо в квартире", whoIsPlaying: "Рубин Арт", description:[], },
     { id: 6, img: "/images/lottery/rubinart2.jpg", name: "Верблюдуин", whoIsPlaying: "Рубин Арт", description:[], },
     { id: 7, img: "/images/lottery/doll.jpg", name: "Куколка", whoIsPlaying: "AstaDolls", description:[],}, 
-    { id: 8, img: "/images/lottery/bookbabel.jpg", name: "Языки мира", whoIsPlaying: "Магазин 'Бабель'", description:[],},
-    { id: 9, img: "/images/lottery/bookmiribraginsky.jpg", name: "Книги", whoIsPlaying: "Мири Брагински", description:[],},
+
+    //{ id: 9, img: "/images/lottery/bookmiribraginsky.jpg", name: "Книги", whoIsPlaying: "Мири Брагински", description:[],},
 
     { id: 10, img: "/images/lottery/photogift.jpg", name: "Прогулка фото-сессия В Тель-авиве", whoIsPlaying: "Леры Яковлевой", description: ["Сертификат на фотосъемку - прогулку в Тель-Авиве. 1 час , 60 фотографий."]},
     { id: 11, img: "/images/lottery/rings.jpg", name: "Два кольца", whoIsPlaying: "Brokain things", description:["Два кольца - оба из фарфора, с золотыми надписями."]},
-    { id: 12, img: "/images/lottery/hopescrolling.jpg", name: "Тостовка «hope runs»", whoIsPlaying: "Hopescrolling", description:["Новые толстовки от проекта Hopescrolling hope runs in our veins согреют и всегда напомнят о главном: народ Израиля жив, и надежда жива вместе с ним."] },
+    
 
     { id: 13, 
       img: "/images/lottery/Fulcro.jpeg", 
@@ -39,16 +54,7 @@ const lots = [
         "ссылка: https://www.cinema.co.il/en/series/%d0%ba%d0%b0%d0%ba-%d0%b2-%d0%ba%d0%b8%d0%bd%d0%be/",*/
       ], 
     },
-    { id: 15, 
-      img: "/images/lottery/ticket.jpg", 
-      name: "2 билета на спектакль Орфей и Эвридика", 
-      whoIsPlaying: "Анатолия Белого", 
-      description: [
-        "«Орфей и Эвридика» – музыкально-драматический спектакль при участии ведущих русскоязычных актеров Израиля Анатолия Белого и Елены Яраловой и музыкантов Израильского Филармонического Оркестра (камерный состав). Режиссер-постановщик и драматург – Эстер Дамскер. Совместный проект продюсерской компании Art Up и Израильского Филармонического Оркестра на русском языке.",
-        "Премьера – 10 февраля 2025 года.",
-        "https://artup.co.il/event/143",
-      ], 
-    },
+
 
     { id: 16, 
       img: "", 

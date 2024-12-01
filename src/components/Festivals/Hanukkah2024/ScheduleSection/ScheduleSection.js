@@ -1,17 +1,17 @@
 import Heading from '../../../../UI-Kit/Heading/Heading'
-import scheduleFirstPart from '../../../../images/haifa/firstDayHaifa.png'
-import scheduleSecondPart from '../../../../images/haifa/secondDayHaifa.png'
+import schedulefirstday from '../../../../images//hanukkah/schedulefirstday.png'
+import schedulesecondday from '../../../../images/hanukkah/schedulesecondday.png'
 import schedule from '../../../../images/haifa/scheduleHaifa.pdf'
 import './ScheduleSection.css'
 
-function ScheduleSection(handleCardClick) {
+function ScheduleSection( {handleCardClick} ) {
 
-    function onTwentyFourCardClick() {
-        handleCardClick(scheduleFirstPart)
+    function onFirstDayClick() {
+        handleCardClick(schedulefirstday)
     }
 
-    function onTwentyFiveClick() {
-        handleCardClick(scheduleSecondPart)
+    function onSecondDayClick() {
+        handleCardClick(schedulesecondday)
     }
 
 
@@ -30,8 +30,8 @@ function ScheduleSection(handleCardClick) {
                 
             <div className="schedule_section__date-container">
                 <div className="schedule_section_left_side_stars"></div>
-                <p className="schedule_section__date" onClick={onTwentyFourCardClick}>26 ДЕКАБРЯ</p>
-                <p className="schedule_section__date" onClick={onTwentyFiveClick}>27 ДЕКАБРЯ</p>
+                <p className="schedule_section__date" onClick={onFirstDayClick}>26 ДЕКАБРЯ</p>
+                <p className="schedule_section__date" onClick={onSecondDayClick}>27 ДЕКАБРЯ</p>
                 <div className="schedule_section_right_side_stars"></div>
             </div>
                 

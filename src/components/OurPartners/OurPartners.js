@@ -8,7 +8,7 @@ import OnePartner from './OnePartner.js'
 function OurPartners() {
     const location = useLocation()
     return (
-        <section className="ourPartners__main-container">
+        <section className="ourPartners__main-container" id='partners'>
             <Heading>НАШИ ПАРТНЕРЫ</Heading>
             <ul className="ourPartners__wrapper">
 
