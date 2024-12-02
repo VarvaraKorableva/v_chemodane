@@ -37,11 +37,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
 .pagination-page.active {
     background-color: #FBBB00;
     color: #fff;
+    text-decoration: none;
 }
 
 .pagination-page:hover {
