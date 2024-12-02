@@ -41,8 +41,8 @@
 
 .announcement_text_link {
     text-decoration: none;
-    color: black;
-    border-bottom: 1px solid black;
+    color: #374BA5;
+    
     cursor: pointer; 
     /*color: #374BA5;
     border-bottom: 2px solid #ff6347;*/

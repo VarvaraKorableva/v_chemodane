@@ -21,9 +21,9 @@ function ScheduleSection( {handleCardClick} ) {
                 <Heading>РАСПИСАНИЕ</Heading>
 
                 <div className="schedule_section_zig_zag"></div>
-                <div download="Расписание.pdf" className="schedule_section_btn">
+                {/*<div download="Расписание.pdf" className="schedule_section_btn">
                     Скачать расписание
-                </div>
+                </div>*/}
             </div>
 
             
