@@ -45,7 +45,7 @@ const ourPartnersHanukkahData = [
         alt: 'logo Prague Book Tower',
         link: '',
         description: '',
-        id: 2228,
+        id: 2229,
     },
     {
         name: 'Сообщество «Тыквенный латте»',
@@ -53,7 +53,7 @@ const ourPartnersHanukkahData = [
         alt: 'logo Сообщество «Тыквенный латте»',
         link: 'https://www.facebook.com/share/97CiWAWWVZg9rVAW/?mibextid=K35XfP',
         description: '',
-        id: 2228,
+        id: 2230,
     },
 ]
 

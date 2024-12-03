@@ -101,8 +101,8 @@ function VisitingRules() {
                 <div className="visitingRules_events_date_container">
                     <h3 className="visitingRules_events_data_title">{events[0].date}</h3>
                     <ul className="visitingRules_events_container">
-                        {events[0].events.slice(0, limit).map((i) => (
-                        <li className="visitingRules_events_text_and_time"><span className="visitingRules_events_time">{i.time}</span> {i.text}</li>
+                        {events[0].events.slice(0, limit).map((i, index) => (
+                        <li key={index} className="visitingRules_events_text_and_time"><span className="visitingRules_events_time">{i.time}</span> {i.text}</li>
                         ))}
                     </ul>
                     {isMoreBtnClicked?
@@ -115,8 +115,8 @@ function VisitingRules() {
                 <div className="visitingRules_events_date_container">
                     <h3 className="visitingRules_events_data_title">{events[1].date}</h3>
                     <ul className="visitingRules_events_container">
-                        {events[1].events.map((i) => (
-                        <li className="visitingRules_events_text_and_time"><span className="visitingRules_events_time">{i.time}</span> {i.text}</li>
+                        {events[1].events.map((i, index) => (
+                        <li key={index} className="visitingRules_events_text_and_time"><span className="visitingRules_events_time">{i.time}</span> {i.text}</li>
                         ))}
                     </ul>
                 </div>
