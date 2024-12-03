@@ -107,13 +107,13 @@ const participantsData = [
         id:8,
     },
     {
-        companyName:"Hobby Land",
+        companyName:"Geexit",
         previousParticipation:"Иерусалим, ТА",
         nePo:"@hobbyland.il",
         socialNetwork: {
             instagram: "",
             facebook: "",
-            personalSite: "",
+            personalSite: "https://www.geexit.co.il",
         },
         description:"Hobby Land - магазин настольных игр и комиксов из Хайфы. Игры и комиксы на трех языках, иврит, английский, русский.",
         participationInTheLottery:"Нет",
@@ -261,7 +261,7 @@ const participantsData = [
             personalSite: "",
         },
         
-        description:"Финкель и Штейн - это украшения из битой посуды (да-да из осколков), созданные Асей Финкельштейн \n\nХодит по блошиным рынкам и антикварным лавкам в поисках разбитого фарфора, чтобы дать ему вторую жизнь \n\nЕсли вы любите необычные серьги и нестандартные концепции, вам понравится ",
+        description:"Финкель и Штейн - это украшения из битой посуды (да-да из осколков), созданные Асей Финкельштейн. Ходит по блошиным рынкам и антикварным лавкам в поисках разбитого фарфора, чтобы дать ему вторую жизнь. Если вы любите необычные серьги и нестандартные концепции, вам понравится ",
         participationInTheLottery:"Нет",
         imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710274589064_681552992.jpg",
         id:22

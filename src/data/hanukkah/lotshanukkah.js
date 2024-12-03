@@ -154,7 +154,7 @@ const lots = [
     },
 
     { id: 25, 
-      img: "", 
+      img: "/images/lottery/FinkelandShtein.jpeg", 
       name: "Серьги-гвоздики из битой посуды", 
       whoIsPlaying: "Finkel and Shtein", 
       description: [
@@ -172,7 +172,7 @@ const lots = [
     },
 
     { id: 27, 
-      img: "", 
+      img: "/images/lottery/PrimaNaturalis.jpeg", 
       name: "Подарочный набор Prima Naturalis", 
       whoIsPlaying: "Prima Naturalis", 
       description: [
@@ -182,7 +182,7 @@ const lots = [
     },
 
     { id: 28, 
-      img: "", 
+      img: "/images/lottery/borisvaizehovski.jpg", 
       name: "Авторский принт на арт-бумаге с автографом автора", 
       whoIsPlaying: "Борис Войцеховский", 
       description: [
@@ -191,7 +191,7 @@ const lots = [
     },
 
     { id: 29, 
-      img: "", 
+      img: "/images/lottery/alexandrkotler.jpg", 
       name: "Неизвестный С. Книга Александра Котлера", 
       whoIsPlaying: "Александр Котлер", 
       description: [
@@ -201,7 +201,7 @@ const lots = [
     },
 
     { id: 30, 
-      img: "", 
+      img: "/images/lottery/4k.jpg", 
       name: "4K приставка", 
       whoIsPlaying: "Видеосервис Redmax TV", 
       description: [
@@ -211,7 +211,7 @@ const lots = [
     },
 
     { id: 31, 
-      img: "", 
+      img: "/images/lottery/bookmiribraginsky.jpg", 
       name: "Три книги Мири Брагински", 
       whoIsPlaying: "Мири Брагински", 
       description: [
