@@ -28,6 +28,9 @@
     font-size: 60px;
     font-family: "Mulish", sans-serif;
     font-family: 'Karton', sans-serif;
+    
+    font-family: "Mulish", sans-serif;
+    font-size: 45px;
     color: #374BA5;
     margin-top: 0;
     margin-bottom: 55px;
@@ -427,7 +430,7 @@
 
 @media screen and (max-width: 1000px) {
     .aboutFectivalMain-title {
-        font-size: 48px;
+        /*font-size: 48px;*/
         margin-bottom: 35px;
         margin-top: 55px;
     }

@@ -71,9 +71,10 @@
 }
 
 .lots__section {
-    width: calc(100% - 70px);
+    /*width: calc(100% - 70px);
     padding-left: 35px;
-    padding-right: 35px;
+    padding-right: 35px;*/
+    width: 100%;
     padding-bottom: 100px;
     position: relative;
     background-color: #fff;
@@ -165,9 +166,10 @@
 @media screen and (max-width: 1000px) {
     .lots__section {
         padding-bottom: 50px;
-        padding-left: 20px;
+        /*padding-left: 20px;
         padding-right: 20px;
-        width: calc(100% - 40px);
+        width: calc(100% - 40px);*/
+        width: 100%;
     }
 }
 

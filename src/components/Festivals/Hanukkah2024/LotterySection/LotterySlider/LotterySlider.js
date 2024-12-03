@@ -45,7 +45,7 @@ function LotterySlider({handleLotClick}) {
   };
 
   return (
-    <section className="lotterySection__container">
+    <section className="slider__container">
       <div className="lottery__slider-container">
         <button onClick={prevLot} className="lottery-btn">
           <div className="lottery-btn-left"></div>

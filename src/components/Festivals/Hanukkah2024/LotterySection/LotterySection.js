@@ -1,10 +1,8 @@
 import Heading from '../../../../UI-Kit/Heading/Heading'
-import LotterySlider from './LotterySlider/LotterySlider'
-
 
 import './LotterySection.css'
 
-function LotterySection({handleLotClick}) {
+function LotterySection() {
     return(
         <section className='lotteryNew_container' id='lottery'>
             <Heading>Лотерея</Heading>
@@ -46,16 +44,12 @@ function LotterySection({handleLotClick}) {
                 <p className='lotteryNew_text'>Зал: ТИШ</p>
 
                 <h3 className='lotteryNew_title'>Обратите Внимание</h3>
-                <p className='lotteryNew_text'>Продажа билетов на лотерею закроется за полчаса до розыгрыша. Покупайте билеты заранее. Благотворительная Лотерея будет проводиться только среди присутствующих в зале. Если выиграл тот, кого в этот момент в зале нет, приз будет разыгрываться снова. Розыгрыш ведет Лика Длугач.</p>
-{/*}
-                <p className='lotteryNew_text lotteryNew_text_bold'>Приходите на фестиваль “В Чемодане” и покупайте билеты на лотерею.</p>
-                <p className='lotteryNew_text lotteryNew_text_bold'>Это хороший шанс не просто получить приз, но и помочь людям, которые оказались в сложной ситуации.</p>
-*/}
+                <p className='lotteryNew_text'>Продажа билетов на лотерею закроется за полчаса до розыгрыша. Покупайте билеты заранее.</p> 
+                <p className='lotteryNew_text'>Если выиграл тот, кто в этот момент отсутствует в зале, организаторы свяжутся с выигрывшим и найдут способ передать приз позже.</p>
+                <p className='lotteryNew_text'>Розыгрыш ведет Лика Длугач.</p>  
+            
                 <h3 className='lotteryNew_title'>Лоты</h3>
-                
-                <LotterySlider handleLotClick={handleLotClick}/>
-
-                
+                   
             </div>
 
         </section>

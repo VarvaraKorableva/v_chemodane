@@ -7,6 +7,7 @@ import LotterySection from '../../components/Festivals/Hanukkah2024/LotterySecti
 import TicketsStickyButton from '../../components/TicketsStickyButton/TicketsStickyButton'
 import Participants from '../../components/Participants/Participants'
 import OurPartners from '../../components/OurPartners/OurPartners'
+import LotterySlider from '../../components/Festivals/Hanukkah2024/LotterySection/LotterySlider/LotterySlider'
 
 function Hanukkah2024Page({handleCardClick, addCard, limit, handleLotClick}) {
     return (
@@ -18,7 +19,8 @@ function Hanukkah2024Page({handleCardClick, addCard, limit, handleLotClick}) {
             <SeparatorPage/>
             <VisitingRules/>
             <SeparatorPage/>
-            <LotterySection handleLotClick={handleLotClick}/>
+            <LotterySection/>
+            <LotterySlider handleLotClick={handleLotClick}/>
             <SeparatorPage/>
             <TicketsStickyButton/>
             <Participants addCard={addCard} limit={limit}/>

@@ -11,6 +11,9 @@ function ProjectsMenu({onClosePopup, closeSubMenu}) {
             <p className='burgerMainPopup-subtitle'>ФЕСТИВАЛИ</p>
             <ul className='burgerMainPopup-submenu-container'>
               <li className='burgerMainPopup-submenu-link'>
+                <Link to='/hanukkah_2024' onClick={onClosePopup} className="burgerMainPopup-link">ТЕЛЬ-АВИВ, ХАНУКА, 2024</Link>
+              </li>
+              <li className='burgerMainPopup-submenu-link'>
                 <Link to='/haifa' onClick={onClosePopup} className="burgerMainPopup-link">ХАЙФА 2024</Link>
               </li>
               <li className='burgerMainPopup-submenu-link'>

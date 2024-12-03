@@ -112,8 +112,9 @@
     height: 450px;
     position: absolute;
     right: 200px;
-    top: -200px;
+    top: 0;
     display: flex;
+    transform: rotate(50deg);
 }
 
 .lotteryNew_savivon {
@@ -130,9 +131,9 @@
 }
 
 
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1750px) {
     .lotteryNew_ordered_circles  {
-        top: -100px;
+        top: 0px;
         right: 100px;
         width: 350px;
         height: 350px;
@@ -159,6 +160,16 @@
     }
 }
 
+@media screen and (max-width: 1150px) {
+    .lotteryNew_ordered_circles  {
+        top: -20px;
+        right: 100px;
+        width: 350px;
+        height: 350px;
+        transform: rotate(30deg);
+    }
+}
+
 @media screen and (max-width: 1100px) {
     .lotteryNew_hanukia {
         top: 1030px;
@@ -180,8 +191,17 @@
         left: 20px;
         top: 30px;
         transform: rotate(100deg);
-        /*width: 70px;
-        height: 150px;*/
+    }
+
+    .lotteryNew_ordered_circles  {
+        display: none;
+    }
+
+    .lotteryNew_hanukia {
+        top: 1150px;
+        width: 100px;
+        height: 150px;
+        left: 20px;
     }
 }
 
@@ -214,7 +234,7 @@
 
 @media screen and (max-width: 700px) {
     .lotteryNew_hanukia {
-        top: 950px;
+        top: 1000px;
         width: 100px;
         height: 150px;
         left: 20px;
@@ -251,8 +271,7 @@
 
     .lotteryNew_hanukia {
         transform: rotate(20deg);
-        top: 890px;
-        left: -10px;
+        top: 1000px;
         width: 80px;
         height: 100px;
     }
@@ -288,7 +307,7 @@
     }
 
     .lotteryNew_hanukia {
-        top: 930px;
+        top: 1000px;
     }
 
     .lotteryNew_star {
@@ -309,10 +328,8 @@
     }
 
     .lotteryNew_hanukia {
-        transform: rotate(-20deg);
-        top: 1420px;
-        right: 0px;
-        left: unset;
+        left: 5px;
+        
         width: 80px;
         height: 100px;
     }

@@ -1,4 +1,4 @@
-.lotterySection__container {
+.slider__container {
     position: relative;
     background-color: #fff;
     display: flex;
@@ -10,7 +10,9 @@
 
 .lottery__slider-container {
     display: flex;
-    width: 100%;
+    max-width: 1000px;
+    margin-left: 10px;
+    margin-right: 10px;
     align-items: center;
     position: relative;
     text-align: center;
