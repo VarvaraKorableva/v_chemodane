@@ -5,7 +5,7 @@ import Lot from './Lot'
 import './LotteryHanukkah2024Pagination.css'
 import Heading from '../../../../UI-Kit/Heading/Heading'
 
-function LotteryHanukkah2024Pagination() {
+function LotteryHanukkah2024Pagination({handleLotClick}) {
 const navigate = useNavigate()
 const lotsPerPage = 12;
 const totalPages = Math.ceil(lots.length / lotsPerPage);
@@ -79,6 +79,7 @@ return (
                     <Lot
                         key={i.id}
                         item={i}
+                        handleLotClick={handleLotClick}
                     />
                 ))}
         </ul>

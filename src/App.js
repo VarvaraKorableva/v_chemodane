@@ -27,6 +27,8 @@ import AboutFestival from './components/AboutFestival/AboutFestival'
 import Participants from './components/Participants/Participants'
 import Footer from './bin/Footer/Footer'
 import MainFooter from './components/Main/MainFooter/MainFooter'
+
+import LotteryPopup from './components/Popups/LotteryPopup'
 import ImagePopup from './components/Popups/ImagePopup'
 import ContactsPopup from './components/Popups/ContactsPopup'
 import BurgerMainPopup from './components/Popups/BurgerMainPopup/BurgerMainPopup'
@@ -45,6 +47,8 @@ import LotteryHanukkah2024Page from './pages/Hanukkah2024Page/LotteryHanukkah202
 
 
 function App() {
+  //LotteryPopup
+  const [lotteryPopup, setLotteryPopup] = React.useState(false)
   const [contactsPopup, setContactsPopup] = React.useState(false)
   const [imgPopup, setImgPopup] = React.useState(false)
   const [isBurgerMainPopup, setIsBurgerMainPopup] = React.useState(false)
@@ -56,6 +60,10 @@ function App() {
   const [limit, setLimit] = React.useState(8)
 
   const addCard = () => setLimit(limit + 4);
+
+  function handleLotteryPopupOpen() {
+    setLotteryPopup(true)
+  }
 
   function handleImgPopupOpen() {
     setImgPopup(true)
@@ -85,7 +93,12 @@ function App() {
     setIsBurgerMainPopup(false)
     setIsOurProjectPopup(false)
     setIsOurParticipantsPopup(false)
-    //setIsSukkotPopupClicked(false)
+    setLotteryPopup(false)
+  }
+
+  function handleLotClick(card) {
+    setSelectedCard(card);
+    handleLotteryPopupOpen()
   }
 
   function handleCardClick(card) {
@@ -126,6 +139,7 @@ function App() {
           path="/"
           element={
             <MainPage
+            
             />
           }>
         </Route>
@@ -177,6 +191,7 @@ function App() {
           element={
             <Hanukkah2024Page 
               handleCardClick={handleCardClick}
+              handleLotClick={handleLotClick}
               addCard={addCard}
               limit={limit}
             />
@@ -186,7 +201,7 @@ function App() {
         <Route
           path="/hanukkah_2024/lottery"
           element={
-            <LotteryHanukkah2024Page 
+            <LotteryHanukkah2024Page handleLotClick={handleLotClick}
             />
           }>
         </Route>
@@ -241,6 +256,12 @@ function App() {
       </Routes>  
 
       <MainFooter />
+
+      <LotteryPopup 
+          lot={selectedCard}
+          lotteryPopup={lotteryPopup}
+          onClose={closeAllPopups}
+      />
 
       <ImagePopup 
           card={selectedCard}

@@ -8,7 +8,7 @@ import TicketsStickyButton from '../../components/TicketsStickyButton/TicketsSti
 import Participants from '../../components/Participants/Participants'
 import OurPartners from '../../components/OurPartners/OurPartners'
 
-function Hanukkah2024Page({handleCardClick, addCard, limit}) {
+function Hanukkah2024Page({handleCardClick, addCard, limit, handleLotClick}) {
     return (
         <>
             <Hanukkah2024Banner/>
@@ -18,7 +18,7 @@ function Hanukkah2024Page({handleCardClick, addCard, limit}) {
             <SeparatorPage/>
             <VisitingRules/>
             <SeparatorPage/>
-            <LotterySection/>
+            <LotterySection handleLotClick={handleLotClick}/>
             <SeparatorPage/>
             <TicketsStickyButton/>
             <Participants addCard={addCard} limit={limit}/>

@@ -4,7 +4,7 @@ import LotterySlider from './LotterySlider/LotterySlider'
 
 import './LotterySection.css'
 
-function LotterySection() {
+function LotterySection({handleLotClick}) {
     return(
         <section className='lotteryNew_container' id='lottery'>
             <Heading>Лотерея</Heading>
@@ -49,7 +49,7 @@ function LotterySection() {
 */}
                 <h3 className='lotteryNew_title'>Лоты</h3>
                 
-                <LotterySlider></LotterySlider>
+                <LotterySlider handleLotClick={handleLotClick}/>
 
                 
             </div>

@@ -44,7 +44,7 @@
     align-items: flex-start;
     padding-bottom: 10px;
     justify-content: space-between;
-    
+    cursor: pointer;
 }
 
 .lotterySection__text-container {

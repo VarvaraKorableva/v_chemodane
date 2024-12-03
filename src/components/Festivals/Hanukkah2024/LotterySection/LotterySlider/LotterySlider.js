@@ -3,7 +3,7 @@ import './LotterySlider.css';
 import lots from '../../../../../data/hanukkah/lotshanukkah'
 import { Link } from 'react-router-dom'
 
-function LotterySlider() {
+function LotterySlider({handleLotClick}) {
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
@@ -54,7 +54,7 @@ function LotterySlider() {
           <ul className="lottery__ImgContainer">
             {Array.isArray(groupedLots[currentIndex])
               ? groupedLots[currentIndex].map((item) => (
-                  <li key={item.id} className="lottery__ImgItem">
+                  <li key={item.id} className="lottery__ImgItem" onClick={() => handleLotClick(item)}>
                     <img src={item.img} alt={item.name} className="lotterySection__Img" />
                     <div lassName="lotterySection__text-container">
                       <p className="lotterySection__text">{item.name}</p>
@@ -64,7 +64,7 @@ function LotterySlider() {
                   </li>
                 ))
               : (
-                <li key={groupedLots[currentIndex].id} className="lottery__ImgItem">
+                <li key={groupedLots[currentIndex].id} className="lottery__ImgItem" onClick={() => handleLotClick(groupedLots[currentIndex])}>
                   <img src={groupedLots[currentIndex].img} alt={groupedLots[currentIndex].name} className="lotterySection__Img" />
                   <div lassName="lotterySection__text-container">
                       <p className="lotterySection__text">{groupedLots[currentIndex].name}</p>
@@ -85,6 +85,10 @@ function LotterySlider() {
       
       <Link to={'/hanukkah_2024/lottery'} className='lotterySection_link'>Посмотреть все лоты</Link>
 
+
+      {isMobile?
+      <></>
+      :
       <div className="lotterySection__dots">
         {groupedLots.map((_, index) => (
           <span
@@ -94,6 +98,7 @@ function LotterySlider() {
           ></span>
         ))}
       </div>
+      }
     </section>
   );
 }

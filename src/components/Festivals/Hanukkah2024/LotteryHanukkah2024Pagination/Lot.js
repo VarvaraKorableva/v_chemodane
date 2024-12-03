@@ -1,11 +1,16 @@
 import './LotteryHanukkah2024Pagination.css'
 import { Link } from 'react-router-dom'
 
-function Lot ({item}) {
+function Lot ({item, handleLotClick}) {
+
+    function onLotClick() {
+        handleLotClick(item)
+    }
+
     return(
         <li className="lots__container">
             <div className="lots__imgContainer">
-                <img src={item.img} alt={item.name} className="lots__img"/>
+                <img src={item.img} alt={item.name} className="lots__img" onClick={onLotClick}/>
             </div>
 
             <div className="lots__textContainer">
