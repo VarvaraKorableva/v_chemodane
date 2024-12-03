@@ -1,6 +1,5 @@
-//hanukkahParticipantsData.js
-import redmax from '../images/logo/redmax.jpg'
-import pjlabrary from '../images/logo/pjlibrary.jpg'
+import redmax from '../../images/logo/redmax.jpg'
+import pjlabrary from '../../images/logo/pjlibrary.jpg'
 
 const hanukkahParticipantsData = [
     {
@@ -55,100 +54,7 @@ const hanukkahParticipantsData = [
         imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710274838958_975317700.png",
         id:7
     },
-    {
-        companyName:"Hobby Land",
-        previousParticipation:"Иерусалим, ТА",
-        nePo:"@hobbyland.il",
-        socialNetwork: {
-            instagram: "",
-            facebook: "",
-            personalSite: "",
-        },
-        description:"Hobby Land - магазин настольных игр и комиксов из Хайфы. Игры и комиксы на трех языках, иврит, английский, русский.",
-        participationInTheLottery:"Нет",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710274666572_893690848.jpg",
-        id:9
-    },
-    {
-        companyName:"d.shvarts.candles (Diana Shvarts)",
-        previousParticipation:"Ханука - тёплые встречи, музей АНУ",
-        socialNetwork: {
-            instagram: "d.shvarts.candles",
-            facebook: "",
-            personalSite: "",
-        },
-        description:"d.shvarts.candles - израильский бренд уютных интерьерных свечей. Это свечи ручной работы, которые создаются из натуральных и качественных материалов. d.shvarts.candles - это про любовь к своему делу, про внимание к мелочам, про уют и эстетику. Наши свечи больше, чем просто свечи, мы превращаем их в искусство.",
-        participationInTheLottery:"да",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710274465110_881076307.PNG",
-        id:10
-    },
-    {
-        companyName:"Сухоцветы в доме. pod_lopuhom",
-        previousParticipation:"Нет ",
-        socialNetwork: {
-            instagram: "https://www.instagram.com/pod_lopuhom",
-            facebook: "https://www.facebook.com/pod.lopuhom?mibextid=uzlsIk",
-            personalSite: "",
-        },
-        description:"Ольга Билак, создаю различные предметы декора для дома и сувениры из сухоцветов. На маркете фестиваля вас будут ждать новинки - украшения из сухоцветов и ювелирной смолы.",
-        participationInTheLottery:"Нет",
-        emal:"bolka1543@gmail.com",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710702045687_531183008.jpg",
-        id:11
-    },
 
-    {
-        companyName:"SMELLS",
-        previousParticipation:"Нет",
-        socialNetwork: {
-            instagram: "https://www.instagram.com/smells.tlv",
-            facebook: "",
-            personalSite: "",
-        },
-        description:"\n“SMELLS” — авторские бленды специй, которые расширяют привычные границы вкусовой палитры.\nНа данный момент в линейке представлены 3 бленда: для салата, для шакшуки и для курицы. А также купаж какао с согревающими специями.\nВсе специи тщательно отобраны и смешаны мной вручную, не содержат соли, искусственных добавок и консервантов. \nЭто уникальные авторские коллекции, созданные с любовью и страстью к кулинарии. Позволят придать твоим блюдам неповторимый вкус и аромат и помогут разнообразить привычный рацион чем-то новым и интересным.",
-        participationInTheLottery:"да",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710415976123_192780068.svg",
-        id:13,
-    },
-    {
-        companyName:"Tanya Romanov Jewellery",
-        previousParticipation:"Да, в нескольких",
-        socialNetwork: {
-            instagram: "https://www.instagram.com/tanya.romanov.jewellery?igsh=azJndWhyOHNidW50&utm_source=qr",
-            facebook: "",
-            personalSite: "",
-        },
-        description:"Tanya Romanov Jewellery - авторские украшения ручной работы из серебра и натуральных камней",
-        participationInTheLottery:"да",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710712327716_521194897.jpg",
-        id:14,
-    },
-    {
-        companyName:"Издательство \"Книга Сефер\"",
-        previousParticipation:"нет",
-        socialNetwork: {
-            instagram: "https://www.instagram.com/tanya.romanov.jewellery?igsh=azJndWhyOHNidW50&utm_source=qr",
-            facebook: "https://www.facebook.com/KnigaSefer/",
-            personalSite: "",
-        },
-        description:"Издательство \"Книга Сефер\" представляет книги, выпущенные в рамках двух проектов «Вольное книгопечатание» и «Написано в Израиле». Это первый книгоиздательский проект после начала войны в Украине, где выходят книги, авторов, пишущих на русском в разных странах. Среди авторов израильского издательства – как маститые классики, так и начинающие литераторы. Проект «Вольное книгопечатание» призван предоставить платформу и возможность для свободного бесцензурного издания книг вне России. Некоторые книги издаются совместно с украинскими издательствами. В рамках проекта «Написано в Израиле» публикуются авторы, живущие в нашей стране. Главный критерий нашего издательства – качество. На фестивале мы представим самую новую книгу издательства – «Когда цветет джакаранда» Аллы Борисовой-Линецкой. В этой встрече примут участие и другие авторы, а также издатель Виталий Кабаков. Издательство открыто для новых проектов и новых авторов.",
-        participationInTheLottery:"да",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710703510280_506668965.jpeg",
-        id:15
-    },
-    {
-        companyName:"Racheli's chocolate workshop",
-        previousParticipation:"только посещала как участник",
-        socialNetwork: {
-            instagram: "https://www.instagram.com/racheli.chocolate.workshop?igsh=MWp0dnRtN3g3bzBwZA==",
-            facebook: "",
-            personalSite: "",
-        },
-        description:"Racheli's chocolate workshop. Меня зовут Рахель и я верю, что от шоколада жизнь становится чуточку лучше. Я шоколатье, делаю шоколадные конфеты и провожу шоколадные мастер классы. Это может быть семейный праздник, корпоратив, детский день рождения, мальчишник или девишник. География: от Метулы до Эйлата. Возраст: от 0 до 120. \nРусский, украинский, иврит, английский. \nШоколад кошерный. ",
-        participationInTheLottery:"да",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710415808902_827150017.png",
-        id:16
-    },
     {
         companyName:"Brokain things",
         previousParticipation:"Пока нет",
@@ -163,49 +69,10 @@ const hanukkahParticipantsData = [
         id:17
     },
     {
-        companyName:"replastic.waves",
-        previousParticipation:"Нет",
-        socialNetwork: {
-            instagram: "https://www.instagram.com/replastic.waves?igsh=Z2w3N2ptZml2cDQ5",
-            facebook: "",
-            personalSite: "",
-        },
-        description:"@replastic.waves это бренд украшений и брелков, созданных из переработанного пластика  ♻️ Мы Адва и Яэль - даем новую жизнь крышечкам и бутылям. Мы превращаем их  в стильные аксессуары, которые подчеркнут ваш стиль и вызовут интерес у окружающих)",
-        participationInTheLottery:"да",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710701706094_920683951.jpg",
-        id:18
-    },
-    {
-        companyName:"Тюлька",
-        previousParticipation:"",
-        socialNetwork: {
-            instagram: "https://www.instagram.com/tyulka.workroom?igsh=MTlwd3B5OHRudmV2cQ==",
-            facebook: "",
-            personalSite: "",
-        },
-        description:"Керамика в японской технике нерикоми от @tyulka.workroom \n\nТюлька - это маленькая рыбка, живущая в Каспийском море - так меня называл мой дедушка, когда я была маленькой. \n\nМоя керамика отражает мои воспоминания о детстве и, смешивая различные глины и пигменты, создаю уникальные и неповторимые узоры. ",
-        participationInTheLottery:"Нет",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710703386304_606930678.jpg",
-        id:19
-    },
-    {
-        "companyName":"Milin jewelry",
-        "previousParticipation":"Нет",
-        socialNetwork: {
-            instagram: "https://www.instagram.com/milin.jewelry",
-            facebook: "",
-            personalSite: "",
-        },
-        "description":"Milin - это бренд украшений ручной работы из фарфора и из  бисера. Украшения из фарфора воплощают лаконичную женственность с намеком на иронию, в то время как украшения из бисера сверкают яркими красками и игривостью. Совершенно разные, но идеально дополняющие друг друга\n",
-        "participationInTheLottery":"да",
-        "imgLink":"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710274783304_662398802.jpeg",
-        "id":21
-    },
-    {
         companyName:"Финкель и Штейн",
         previousParticipation:"В музее Ану и в Иерусалиме",
         socialNetwork: {
-            instagram: "https://www.instagram.com/finkel__stein?igsh=N2ZybzFxYTJteTl2",
+            instagram: "https://www.instagram.com/finkel__shtein/",
             facebook: "",
             personalSite: "",
         },
@@ -240,19 +107,6 @@ const hanukkahParticipantsData = [
         participationInTheLottery:"да",
         imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710274686976_911517380.jpg",
         id:24,
-    },
-    {
-        companyName:"YANDA Sweets",
-        previousParticipation:'',
-        socialNetwork: {
-            instagram: "https://www.instagram.com/yanda_sweets/",
-            facebook: "",
-            personalSite: "",
-        },
-        description: "Вкусные десерты в Хайфе!\nДрузья, всем привет!\nМеня зовут Даша, и я готовлю очень вкусные десерты в YANDA Sweets!\nУ меня вы можете заказать:\n- медовик\n- птичье молоко\n- торты в садик и школу\n- капкейки и кейкпопсы\n- леденцы\n- торт в стакане (трайфл)\n- маршмеллоу\n- ириски\n- безе\nЯ использую только качественные ингредиенты! Оформляю десерты по вашему желанию!\nСвяжитесь со мной любым удобным способом:\nTelegram - @YandaSweets\nInstagram - @yanda_sweets\nWhatsApp - 0547987525",
-        participationInTheLottery:"",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710707144434_319744529.jpg",
-        id:25,
     },
     {
         companyName:"Sweet baby book",
@@ -308,19 +162,6 @@ const hanukkahParticipantsData = [
         id: 29,
     },
 /////new
-    {
-        companyName:"Пижамная библиотечка",
-        previousParticipation:"",
-        socialNetwork: {
-            instagram: "",
-            facebook: "",
-            personalSite: "",
-        },
-        description:'"Пижамная библиотечка" на русском языке представит новые книжки и 2 мастер-класса для детей и расскажет, как подписаться на бесплатные книги для детей 2-8 лет даже будучи в Израиле. Оформляйте подписку на российский адрес ваших родных или друзей: https://pjlibrary.ru/subscribe. Если вы уже были зарегистрированы в программе, поменяйте адрес доставки на адрес ваших родных или друзей в России в Личном кабинете: https://pjlibrary.ru/membership/address',
-        participationInTheLottery:"",
-        imgLink: pjlabrary,
-        id: 303,
-    },
 
     {
         companyName:"Маша и три медведя",
@@ -348,21 +189,7 @@ const hanukkahParticipantsData = [
         imgLink:"https://scontent.ftlv19-2.fna.fbcdn.net/v/t39.30808-6/308202555_457474363028983_4984378404630836471_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=8rKRCb-qUeMQ7kNvgEz9Yww&_nc_ht=scontent.ftlv19-2.fna&oh=00_AYBsn0ImF2rwVRbtvVNMdDjbU3532S4kxBoKoqQc5IPU6g&oe=6686DC4B",
         id:201
     },
-
-    {
-        companyName:"inesstudio",
-        previousParticipation:"",
-        socialNetwork: {
-            instagram: "",
-            facebook: "",
-            personalSite: "",
-        },
-        description:'Мы рисуем, делаем макеты, и бумажные костюмы. С нами не скучно, мы умеем придумывать и учим этому всех желающих. Еще мы делаем маски и наряды из бумаги, и мы еще и театр любим! И в него  со всеми играем. Приходите к нам мамы- папы с детьми и сами тоже приходите. Делаем украшения, и  бумажные открытки. Мы все делаем из бумаги , потому что мы художники, дизайнеры и архитекторы. Вообще то мы и из бетона можем, но это долго. Учим детей рисовать, макетировать и развиваем пространственное воображение. А пространственное изображение всем нужно и архитекторам и IT, и водителям автобуса и дизайнерам. Да вообще то всем нужно, что бы не заблудится в лесу!',
-        participationInTheLottery:"",
-        imgLink:"",
-        id:202
-    },
     
 ]
 
-export default hanukkahParticipantsDat
+export default hanukkahParticipantsData

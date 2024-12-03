@@ -1,4 +1,5 @@
 import participantsData from '../../data/participantsDataHaifa'
+import hanukkahParticipantsData from '../../data/hanukkah/hanukkahParticipantsData.js'
 import Participant from './Participant'
 import './Participants.css'
 import Heading from '../../UI-Kit/Heading/Heading'
@@ -29,15 +30,37 @@ function Participants({addCard, limit}) {
     return(
         <section className={location.pathname.includes("/hanukkah_2024")? "participant-section participant-section_orange" : "participant-section"} id='market'>
             <Heading>УЧАСТНИКИ МАРКЕТА</Heading>
-            <ul className="participant-main-container">
-            {participantsData.slice(0, limit).map((item) => (
-                <Participant key={item.id} item={item}></Participant>
-            ))}
-            </ul>
-            {participantsData.length <= limit? 
-            <button disabled={true} className="participant-btn-add_notactive">Вы видите всех участников</button>
+            {location.pathname.includes("/hanukkah_2024")?
+
+            <>
+                <ul className="participant-main-container">
+                    {hanukkahParticipantsData.slice(0, limit).map((item) => (
+                        <Participant key={item.id} item={item}></Participant>
+                    ))}
+                </ul>
+
+                {hanukkahParticipantsData.length <= limit?
+                    <button disabled={true} className="participant-btn-add_notactive">Вы видите всех участников</button>
+                :
+                    <button className="participant-btn-add" onClick={addCard}>Посмотреть еще</button>
+                }
+            </>
+
             :
-            <button className="participant-btn-add" onClick={addCard}>Посмотреть еще</button>
+
+            <>
+                <ul className="participant-main-container">
+                    {participantsData.slice(0, limit).map((item) => (
+                        <Participant key={item.id} item={item}></Participant>
+                    ))}
+                </ul>
+
+                {participantsData.length <= limit? 
+                    <button disabled={true} className="participant-btn-add_notactive">Вы видите всех участников</button>
+                :
+                    <button className="participant-btn-add" onClick={addCard}>Посмотреть еще</button>
+                }
+            </>
             }
             
         </section>

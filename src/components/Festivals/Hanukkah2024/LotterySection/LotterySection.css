@@ -52,6 +52,12 @@
     margin-bottom: 50px;
 }
 
+.lotteryNew_text_link {
+    text-decoration: none;
+    color: #374BA5;
+    cursor: pointer;
+}
+
 .lotteryNew_title {
     display: flex;
     margin: auto;

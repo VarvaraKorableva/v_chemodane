@@ -1,4 +1,5 @@
 import '../Hanukkah2024Banner/Hanukkah2024Banner.css'
+import {Link} from 'react-router-dom'
 
 function Hanuka2024NavContainer() {
     return(
@@ -14,7 +15,7 @@ function Hanuka2024NavContainer() {
                     <a href="#Partners" className="hanukaTelAviv2024Banner__link" href="#rules">Важные примечания</a>
                 </li>
                 <li className="hanukaTelAviv2024Banner__li">
-                    <a href="#Organizers" className="hanukaTelAviv2024Banner__link" href="#lottery">Лотерея</a>
+                    <Link to={`/hanukkah_2024/lottery`} className="hanukaTelAviv2024Banner__link">Лотерея</Link>
                 </li>
                 <li className="hanukaTelAviv2024Banner__li">
                     <a href="#Organizers" className="hanukaTelAviv2024Banner__link" href="#market">Участники маркета</a>

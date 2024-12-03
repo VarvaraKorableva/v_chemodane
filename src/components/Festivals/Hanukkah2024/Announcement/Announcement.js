@@ -6,7 +6,7 @@ function Announcement() {
     return(
         <section className="announcement_section" id='announcement'>
             <div className='announcement_pic_rounds'></div>
-            <Heading>Анонс</Heading>
+            <Heading></Heading>
             <div className="announcement_text_pics_wrapper">
               
               <div className='announcement_left_pics_wrapper'>

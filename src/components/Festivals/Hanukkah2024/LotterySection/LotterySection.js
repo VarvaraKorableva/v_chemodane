@@ -13,7 +13,7 @@ function LotterySection() {
             <div className="lotteryNew_hanukia"></div>
             <div className='lotteryNew_text_container'>
                 <h3 className='lotteryNew_text lotteryNew_text_bold'>Благотворительная лотерея на фестивале "В Чемодане"</h3>
-                <p className='lotteryNew_text lotteryNew_text_margin'>Фестиваль "В Чемодане" совместно с музеем еврейского народа АНУ организует благотворительную лотерею. Собранные средства будут направлены на помощь семьям, эвакуированным с юга и севера Израиля.</p>
+                <p className='lotteryNew_text lotteryNew_text_margin'>Фестиваль "В Чемодане" совместно с <a href="https://www.anumuseum.org.il/ru/" target="_blank" className="lotteryNew_text_link">музеем еврейского народа АНУ</a> организует благотворительную лотерею. Собранные средства будут направлены на помощь семьям, эвакуированным с юга и севера Израиля.</p>
 
                 <p className='lotteryNew_text'>Лоты для лотереи предоставлены:</p>
                 <ul>
@@ -50,7 +50,7 @@ function LotterySection() {
                 <p className='lotteryNew_text'>Розыгрыш ведет Лика Длугач.</p>  
             
                 <h3 className='lotteryNew_title'>Лоты</h3>
-                <p className='lotteryNew_text'>Разыгрывается {lots.length} лотов!</p>
+                <p className='lotteryNew_text'>Разыгрывается {lots.length} лотов</p>
                    
             </div>
 
