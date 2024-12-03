@@ -22,6 +22,7 @@ function LotterySection({handleLotClick}) {
                     <li className='lotteryNew_text'>Ювелирами и мастерами изделий ручной работы</li>
                     <li className='lotteryNew_text'>Израильскими русскоязычными театрами</li>
                     <li className='lotteryNew_text'>Организаторами мероприятий для детей и взрослых</li>
+                    <li className='lotteryNew_text'>Интернет провайдером</li>
                 </ul>
 
                 <p className='lotteryNew_text lotteryNew_text_bold'>На благотворительную лотерею нужно приобретать билеты заранее до 26 декабря включительно. Розыгрыш состоится 27 декабря 2024 г в 13.00 на фестивале в зале ТИШ.</p>

@@ -50,6 +50,7 @@ return (
                     <li className='lotteryNew_text'>Ювелирами и мастерами изделий ручной работы</li>
                     <li className='lotteryNew_text'>Израильскими русскоязычными театрами</li>
                     <li className='lotteryNew_text'>Организаторами мероприятий для детей и взрослых</li>
+                    <li className='lotteryNew_text'>Интернет провайдером</li>
                 </ul>
 
                 <p className='lotteryNew_text lotteryNew_text_bold'>На благотворительную лотерею нужно приобретать билеты заранее до 26 декабря включительно. Розыгрыш состоится 27 декабря 2024 г в 13.00 на фестивале в зале ТИШ.</p>
@@ -58,7 +59,10 @@ return (
                     Как участвовать?
                     <span className="lotteryNew_rounds"></span>
                 </h3>
-                <p className='lotteryNew_text'>Билеты можно приобрести онлайн по указанной ссылке во время фестиваля “В Чемодане” 26 и 27 декабря.</p>
+                <ul>
+                    <li className='lotteryNew_text'>Билеты можно приобрести онлайн по указанной ссылке</li>
+                    <li className='lotteryNew_text'>Во время фестиваля 'В Чемодане' 26 и 27 декабря.</li>
+                </ul>
                 <p className='lotteryNew_text'>Вы можете купить несколько билетов, увеличивая свои шансы на победу.</p>
 
                 <h3 className='lotteryNew_title lotteryNew_title_star_container'>
