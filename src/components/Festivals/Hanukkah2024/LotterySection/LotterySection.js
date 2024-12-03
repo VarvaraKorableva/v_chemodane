@@ -31,7 +31,10 @@ function LotterySection({handleLotClick}) {
                     Как участвовать?
                     <span className="lotteryNew_rounds"></span>
                 </h3>
-                <p className='lotteryNew_text'>Билеты можно приобрести онлайн по указанной ссылке во время фестиваля “В Чемодане” 26 и 27 декабря.</p>
+                <ul>
+                    <li className='lotteryNew_text'>Билеты можно приобрести онлайн по указанной ссылке</li>
+                    <li className='lotteryNew_text'>Во время фестиваля 'В Чемодане' 26 и 27 декабря.</li>
+                </ul>
                 <p className='lotteryNew_text'>Вы можете купить несколько билетов, увеличивая свои шансы на победу.</p>
 
                 <h3 className='lotteryNew_title lotteryNew_title_star_container'>
