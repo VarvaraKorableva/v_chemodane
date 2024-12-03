@@ -10,14 +10,14 @@ function LotteryPopup({ lot, onClose, lotteryPopup }) {
 
   return (
     <aside className={`img-popup ${lotteryPopup? 'img-popup__opened' : ''}`}>
-      <div className="img-popup__picture-container">
+      <div className="lottery-popup__picture-container">
         <button className="img-popup__close-button" type="button" onClick={handleClick}>
         </button>
         
           <img 
             src={lot.img}
             alt='Расписание'
-            className='img-popup__picture'
+            className='lottery-popup__picture'
           />
 
           <p className='img-popup__name'>{lot.name}</p>

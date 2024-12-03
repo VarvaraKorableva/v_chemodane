@@ -440,13 +440,43 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
+.lottery-popup__picture-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+  height: fit-content;
+  overflow: auto;
+  transition: visibility 1s, opacity 1s;
+}
+
+.lottery-popup__picture {
+  width: 100%;
+  height: fit-content;
+  overflow: auto;
+  margin-top: 8px;
+  margin-right: 0;
+  object-fit: contain;
+}
+
 @media screen and (max-width: 550px) {
   .sukkotPopup__event-btn {
     left: 20px;
     width: 200px;
     height: 35px;
-
     bottom: 100px;
+  }
+
+  .lottery-popup__picture-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 90%;
+    height: fit-content;
+    overflow: auto;
+    transition: visibility 1s, opacity 1s;
   }
 }
 
