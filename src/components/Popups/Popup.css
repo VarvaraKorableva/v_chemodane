@@ -52,8 +52,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 98%;
-    height: fit-content;
+    max-width: fit-content;
+    max-height: fit-content;
     overflow: auto;
     transition: visibility 1s, opacity 1s;
 }
@@ -87,8 +87,8 @@
 .img-popup__picture {
     /*max-width: calc(95vw - 32px);
     max-height: calc(95vh - 32px);*/
-    width: 98%;
-    height: fit-content;
+    width: fit-content;
+    height: 90vh;
     overflow: auto;
     margin-top: 8px;
     margin-right: 45px;
