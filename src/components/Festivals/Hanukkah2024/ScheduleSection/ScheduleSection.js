@@ -1,7 +1,7 @@
 import Heading from '../../../../UI-Kit/Heading/Heading'
 import schedulefirstday from '../../../../images//hanukkah/schedulefirstday.png'
 import schedulesecondday from '../../../../images/hanukkah/schedulesecondday.png'
-import schedule from '../../../../images/haifa/scheduleHaifa.pdf'
+import schedule from '../../../../images/hanukkah/schedulehanukkah2024.pdf'
 import './ScheduleSection.css'
 
 function ScheduleSection( {handleCardClick} ) {
@@ -21,9 +21,9 @@ function ScheduleSection( {handleCardClick} ) {
                 <Heading>РАСПИСАНИЕ</Heading>
 
                 <div className="schedule_section_zig_zag"></div>
-                {/*<div download="Расписание.pdf" className="schedule_section_btn">
+                <a href={schedule} download="Расписание.pdf" className="schedule_section_btn">
                     Скачать расписание
-                </div>*/}
+                </a>
             </div>
 
             

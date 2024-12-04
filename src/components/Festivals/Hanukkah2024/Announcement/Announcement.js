@@ -40,7 +40,7 @@ function Announcement() {
                     <li><span className="announcement_text_bold">Хакунальный стенд-ап</span> от раввина <a href="https://www.instagram.com/motlgordon" target="_blank" className="announcement_text_link"> Мотла Гордона</a> (с зажжением свечи и поеданием пончиков)</li>
                     <li><span className="announcement_text_bold">Специальный гость маркета</span> — представители фестиваля <a href='https://praguebooktower.cz/' target="_blank" className="announcement_text_link">Пражская Книжная Башня</a> с бестселлерами на русском языке, опубликованными новыми европейскими издательствами, так называемый современный “Тамиздат”. Это нельзя пропустить!</li>
                     <li><span className="announcement_text_bold">Игры и практикумы</span> от Анны Никулишевой и Евгения Заслоцкого</li>
-                    <li><span className="announcement_text_bold">Экскурсии по АНУ</span> - Музей еврейского народа для детей и взрослых с Александрой Андреевой, Зеевом Волком и Зоей Брук</li>
+                    <li><span className="announcement_text_bold">Экскурсии по АНУ</span> - Музей еврейского народа для детей и взрослых с <a href='https://www.instagram.com/artel_teatr/' target='_blank' className="announcement_text_link">Александрой Андреевой</a>, Зеевом Волком и Зоей Брук</li>
                     <li><span className="announcement_text_bold">Благотворительная лотерея</span> в пользу семей, перемещенных с Севера и Юга Израиля</li>
                     <li>A один из наших спонсоров компания <a href='https://www.redmax.tv' target="_blank" className="announcement_text_link">Redmax TV</a> даже <span className="announcement_text_bold">разыграет телевизор!</span> Розыгрыш лотереи проведет Лика Длугач</li>
                 </ul>
