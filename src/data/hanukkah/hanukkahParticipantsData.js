@@ -268,6 +268,35 @@ const hanukkahParticipantsData = [
            imgLink:"",
            id:306,
        },
+
+       {
+        companyName:"Книгвардс",
+           previousParticipation:true,
+           socialNetwork: {
+               instagram: "https://www.instagram.com/knigvards.knigi_il",
+               facebook: "https://www.facebook.com/knigvards.knigi.il?mibextid=ZbWKwL",
+               personalSite: "",
+           },
+           description:"Интернет магазин детских книг с радостью предоставит вам возможность познакомиться с лучшими новинками детской литературы",
+           participationInTheLottery:"да",
+           imgLink:"",
+           id:307,
+       },
+   
+   {
+        companyName:"AMITEA",
+           previousParticipation:true,
+           socialNetwork: {
+               instagram: "https://www.instagram.com/amitea.co.il",
+               facebook: "https://www.facebook.com/amitea.co.il?rdid=BauKguM02XUIjYUp",
+               personalSite: "https://www.amitea.co.il/",
+           },
+           description:"AMITEA — это семейный бренд, интернет-магазин чая и чайный клуб. Мы привозим качественный чай из Китая, Индии, Грузии, Японии, Тайваня, Лаоса. В общем, со всех чайных уголков мира. Пьем, изучаем и продаем чай с 2003 года, разбираемся во всем, от выращивания и производства до чайной церемонии. Проводим чайные встречи и дегустации по всей стране, рассказываем про чай и продвигаем чайную культуру",
+           participationInTheLottery:"да",
+           imgLink:"",
+           id:308,
+       },
+   
    
     
 ]
