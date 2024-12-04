@@ -61,7 +61,7 @@ function BurgerMainPopup({ isOpen, onClose }) {
               </Link>
             </li>
             <li className="burgerMainPopup-nav-link">
-              <Link to="/not-ready-page" className="burgerMainPopup-link">
+              <Link to="/contacts" className="burgerMainPopup-link" onClick={onClosePopup}>
                 Контакты
               </Link>
             </li>
