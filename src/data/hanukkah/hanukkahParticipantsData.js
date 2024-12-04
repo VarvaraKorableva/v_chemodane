@@ -226,7 +226,7 @@ const hanukkahParticipantsData = [
            },
            description:"Татьяна Кузьменко, создатель бренда Prima Naturalis, привезет на фестиваль ЭКО-продукцию ручной работы: потрясающее натуральное мыло, твердые шампуни, эфирные масла, ароматические свечи, бамбуковые зубные щётки и др.",
            participationInTheLottery:"да",
-           imgLink:"",
+           imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1733319154793_86267020",
            id:303,
        },
    {
@@ -239,7 +239,7 @@ const hanukkahParticipantsData = [
            },
            description:"Борис Войцеховский, художник. Участник многочисленных групповых и персональных выставок, привезет на фестиваль авторские принты, а так же футболки, шопер и открытки со своими рисунками",
            participationInTheLottery:"да",
-           imgLink:"",
+           imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1733319154782_639654819",
            id:304,
        },
    {
@@ -265,7 +265,7 @@ const hanukkahParticipantsData = [
            },
            description:"Мири Брагински (Miri Braginsky) - художник, писательница, учительница рисования, ловец чудес и 'спасатель всяких', бывшая 'отказница' и нынешняя жительница Самарии, мама неговорящего аутиста Даниэля и автор книг, среди которых сказки для детей и взрослых, альбом графики и новая уникальная книга 'Ловля китов в горах Бейт-Арье', ",
            participationInTheLottery:"да",
-           imgLink:"",
+           imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1733319154791_428067030",
            id:306,
        },
 
