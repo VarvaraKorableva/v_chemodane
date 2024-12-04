@@ -1,7 +1,7 @@
 .ourPartners__main-container {
     display: flex;
     flex-direction: column;
-    
+    width: calc(100% - 160px);
     padding-left: 80px;
     padding-right: 80px;
     padding-bottom: 80px;
@@ -13,6 +13,7 @@
     .ourPartners__main-container {
         padding-left: 12px;
         padding-right: 12px;
+        width: calc(100% - 24px);
     }
 }
 
