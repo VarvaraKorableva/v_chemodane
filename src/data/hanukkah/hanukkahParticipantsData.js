@@ -189,6 +189,86 @@ const hanukkahParticipantsData = [
         imgLink:"https://scontent.ftlv19-2.fna.fbcdn.net/v/t39.30808-6/308202555_457474363028983_4984378404630836471_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=8rKRCb-qUeMQ7kNvgEz9Yww&_nc_ht=scontent.ftlv19-2.fna&oh=00_AYBsn0ImF2rwVRbtvVNMdDjbU3532S4kxBoKoqQc5IPU6g&oe=6686DC4B",
         id:201
     },
+
+    {
+        companyName:"Книжная ярмарка Пражская книжная башня",
+           previousParticipation:true,
+           socialNetwork: {
+               instagram: "https://www.instagram.com/praguebooktower/",
+               facebook: "https://www.facebook.com/profile.php?id=61563883464215&mibextid=LQQJ4d&rdid=oNf7NRd1yHPmA1ng",
+               personalSite: "https://praguebooktower.cz/",
+           },
+           description:"Первая международная ярмарка неподцензурной русскоязычной литературы «Пражская книжная башня». Это ярмарка нового тамиздата, где можно найти произведения, запрещенные к изданию и продаже в России, и пообщаться с их авторами, некоторые из которых объявлены иностранными агентами или находятся в розыске",
+           participationInTheLottery:"да",
+           imgLink:"",
+           id:301,
+       },
+   {
+        companyName:"Masterskaya Ton",
+           previousParticipation:true,
+           socialNetwork: {
+               instagram: "",
+               facebook: "",
+               personalSite: "",
+           },
+           description:"Екатерина Остерман - автор бренда 'Masterskaya Ton' Керамика для дома и души. На маркете будут давно полюбившиеся всем работы и много новинок",
+           participationInTheLottery:"да",
+           imgLink:"",
+           id:302,
+       },
+   {
+        companyName:"Prima Naturalis",
+           previousParticipation:true,
+           socialNetwork: {
+               instagram: "https://www.instagram.com/prima_naturalis/",
+               facebook: "https://www.facebook.com/share/19cigeAuJ2/",
+               personalSite: "prima-naturalis.co.il",
+           },
+           description:"Татьяна Кузьменко, создатель бренда Prima Naturalis, привезет на фестиваль ЭКО-продукцию ручной работы: потрясающее натуральное мыло, твердые шампуни, эфирные масла, ароматические свечи, бамбуковые зубные щётки и др.",
+           participationInTheLottery:"да",
+           imgLink:"",
+           id:303,
+       },
+   {
+        companyName:"Борис Войцеховский",
+           previousParticipation:true,
+           socialNetwork: {
+               instagram: "https://www.instagram.com/voitsekh1",
+               facebook: "",
+               personalSite: "",
+           },
+           description:"Борис Войцеховский, художник. Участник многочисленных групповых и персональных выставок, привезет на фестиваль авторские принты, а так же футболки, шопер и открытки со своими рисунками",
+           participationInTheLottery:"да",
+           imgLink:"",
+           id:304,
+       },
+   {
+        companyName:"No Dark Factory",
+           previousParticipation:true,
+           socialNetwork: {
+               instagram: " https://www.instagram.com/nodark.factory",
+               facebook: "",
+               personalSite: "",
+           },
+           description:"Алина и Рома, основатели No Dark Factory, начали свое необычное путешествие, переехав в Израиль после многих лет жизни в Москве. No Dark Factory -- это уникальные свечи ручной работы с авторским дизайном и необычными ароматами. Каждая свеча отражает их опыт и вдохновение, почерпнутое в Хайфе и Израиле в целом. Их миссия — дарить свет, тепло и атмосферу уюта в дома по всему миру.",
+           participationInTheLottery:"да",
+           imgLink:"",
+           id:305,
+       },
+   {
+        companyName:"Мири Брагински (Miri Braginsky)",
+           previousParticipation:true,
+           socialNetwork: {
+               instagram: "",
+               facebook: "https://www.facebook.com/profile.php?id=100000135334467&mibextid=kFxxJD ",
+               personalSite: "https://gala-studio.com/braginsky/index.php",
+           },
+           description:"Мири Брагински (Miri Braginsky) - художник, писательница, учительница рисования, ловец чудес и 'спасатель всяких', бывшая 'отказница' и нынешняя жительница Самарии, мама неговорящего аутиста Даниэля и автор книг, среди которых сказки для детей и взрослых, альбом графики и новая уникальная книга 'Ловля китов в горах Бейт-Арье', ",
+           participationInTheLottery:"да",
+           imgLink:"",
+           id:306,
+       },
+   
     
 ]
 
