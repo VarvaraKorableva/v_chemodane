@@ -44,6 +44,7 @@ import MarketPatisipantsPage from './pages/MarketPatisipantsPage/MarketPatisipan
 import ReviewsPage from './pages/ReviewsPage/ReviewsPage'
 import Hanukkah2024Page from './pages/Hanukkah2024Page/Hanukkah2024Page'
 import LotteryHanukkah2024Page from './pages/Hanukkah2024Page/LotteryHanukkah2024Page'
+import ContactsPage from './pages/ContactsPage/ContactsPage'
 
 
 function App() {
@@ -234,6 +235,14 @@ function App() {
                 handleCardClick={handleCardClick}
                 addCard={addCard} limit={limit}
               ></Purim>
+            }
+        >
+        </Route>
+
+        <Route
+          path='/contacts'
+            element={
+              <ContactsPage />
             }
         >
         </Route>

@@ -50,7 +50,7 @@ function LotterySection() {
                 <p className='lotteryNew_text'>Розыгрыш ведет Лика Длугач.</p>  
             
                 <h3 className='lotteryNew_title'>Лоты</h3>
-                <p className='lotteryNew_text'>Разыгрывается {lots.length} лотов</p>
+                
                    
             </div>
 

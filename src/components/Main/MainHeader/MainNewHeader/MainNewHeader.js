@@ -38,7 +38,7 @@ function MainNewHeader({handleIsBurgerMainPopup, handleIsOurProjectPopup, handle
                             <Link to={'/reviews'}className="mainNewHeader-link">Отзывы</Link>
                         </li>
                         <li className="mainNewHeader-nav-link">
-                            <Link to={'/not-ready-page'}className="mainNewHeader-link">Контакты</Link>
+                            <Link to={'/contacts'}className="mainNewHeader-link">Контакты</Link>
                         </li>
                     </ul>
                     <img src={letters} className="mainNewHeader-letters"></img>
