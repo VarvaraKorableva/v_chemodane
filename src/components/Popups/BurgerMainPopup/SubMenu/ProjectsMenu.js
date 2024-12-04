@@ -9,37 +9,29 @@ function ProjectsMenu({onClosePopup, closeSubMenu}) {
         <ul className="burgerMainPopup__subMenu">
           <li>
             <p className='burgerMainPopup-subtitle'>ФЕСТИВАЛИ</p>
-            <ul className='burgerMainPopup-submenu-container'>
-              <li className='burgerMainPopup-submenu-link'>
-                <Link to='/hanukkah_2024' onClick={onClosePopup} className="burgerMainPopup-link">ТЕЛЬ-АВИВ, ХАНУКА, 2024</Link>
-              </li>
-              <li className='burgerMainPopup-submenu-link'>
-                <Link to='/haifa' onClick={onClosePopup} className="burgerMainPopup-link">ХАЙФА 2024</Link>
-              </li>
-              <li className='burgerMainPopup-submenu-link'>
-                <Link to='/purim' onClick={onClosePopup} className="burgerMainPopup-link">ТЕЛЬ-АВИВ 2024</Link>
-              </li>
-              <li className='burgerMainPopup-submenu-link'>ИЕРУСАЛИМ 2023</li>
-              <li className='burgerMainPopup-submenu-link'>ТЕЛЬ-АВИВ 2023</li>
-              <li className='burgerMainPopup-submenu-link'>ХАЙФА 2022</li>
-              <li className='burgerMainPopup-submenu-link'>ИЕРУСАЛИМ 2022</li>
-            </ul>
+            <div className='burgerMainPopup-submenu-container'>
+              
+              <Link to='/hanukkah_2024' onClick={onClosePopup} className="burgerMainPopup-submenu-link">ТЕЛЬ-АВИВ, ХАНУКА, 2024</Link>
+              <Link to='/haifa' onClick={onClosePopup} className="burgerMainPopup-submenu-link">ХАЙФА 2024</Link>
+              <Link to='/purim' onClick={onClosePopup} className="burgerMainPopup-submenu-link">ТЕЛЬ-АВИВ 2024</Link>
+
+              <p className='burgerMainPopup-submenu-link_notactive'>ИЕРУСАЛИМ 2023</p>
+              <p className='burgerMainPopup-submenu-link_notactive'>ТЕЛЬ-АВИВ 2023</p>
+              <p className='burgerMainPopup-submenu-link_notactive'>ХАЙФА 2022</p>
+              <p className='burgerMainPopup-submenu-link_notactive'>ИЕРУСАЛИМ 2022</p>
+            </div>
           </li>
           <li>
             <p className='burgerMainPopup-subtitle'>СОБЫТИЯ</p>
-            <ul className='burgerMainPopup-submenu-container'>
-              <li className='burgerMainPopup-submenu-link'>
-                <Link to='/story-time' onClick={onClosePopup} className="burgerMainPopup-link">ВРЕМЯ ИСТОРИЙ, НОЯБРЬ 2024</Link>
-              </li>
-              <li className='burgerMainPopup-submenu-link'>
-                ХАНУКА, декабрь 2023
-              </li>
-              <li className='burgerMainPopup-submenu-link'>МУЗЫКАЛЬНАЯ ЛАБОРАТОРИЯ ИЛЬИ КОЛМАНОВСКОГО, ИЮЛЬ 2023</li>
-              <li className='burgerMainPopup-submenu-link'>ЛЕКЦИЯ АЛЕКСАНДРА ТОЛМАЧЕВА, 2023</li>
-              <li className='burgerMainPopup-submenu-link'>КОНЦЕРТ ГУГНИНА, ИЮНЬ 2023</li>
-              <li className='burgerMainPopup-submenu-link'>JAFFA FEST, ИЮНЬ 2022</li>
-              <li className='burgerMainPopup-submenu-link'>КОЛМАНОВСКИЙ ФЕВРАЛЬ 2023</li>
-            </ul>
+            <div className='burgerMainPopup-submenu-container'>
+              <Link to='/story-time' onClick={onClosePopup} className="burgerMainPopup-submenu-link">ВРЕМЯ ИСТОРИЙ, НОЯБРЬ 2024</Link>
+              <p className='burgerMainPopup-submenu-link_notactive'>ХАНУКА, декабрь 2023</p>
+              <p className='burgerMainPopup-submenu-link_notactive'>МУЗЫКАЛЬНАЯ ЛАБОРАТОРИЯ ИЛЬИ КОЛМАНОВСКОГО, ИЮЛЬ 2023</p>
+              <p className='burgerMainPopup-submenu-link_notactive'>ЛЕКЦИЯ АЛЕКСАНДРА ТОЛМАЧЕВА, 2023</p>
+              <p className='burgerMainPopup-submenu-link_notactive'>КОНЦЕРТ ГУГНИНА, ИЮНЬ 2023</p>
+              <p className='burgerMainPopup-submenu-link_notactive'>JAFFA FEST, ИЮНЬ 2022</p>
+              <p className='burgerMainPopup-submenu-link_notactive'>КОЛМАНОВСКИЙ ФЕВРАЛЬ 2023</p>
+            </div>
           </li>
         </ul>
       </div>

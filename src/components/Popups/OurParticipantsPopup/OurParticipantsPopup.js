@@ -23,18 +23,16 @@ function OurParticipantsPopup({ isOpen, onClose }) {
         <button className="burgerMainPopup__closebtn" onClick={onClosePopup}></button>
         <div className="burger-main-popup-ourprojects-container">
         <h3 className="burgerMainPopup-title">Наши участники</h3>
-        <ul className="burgerMainPopup__participantSubMenu">
+        <div className="burgerMainPopup__participantSubMenu">
             {/*<li className="burgerMainPopup-nav-link">
                 <Link to="/not-ready-page" onClick={onClosePopup} className="burgerMainPopup-link">
                   Участники Фестиваля
                 </Link>
             </li>*/}
-            <li className="burgerMainPopup-nav-link">
-                <Link to="/marker-paticipants" onClick={onClosePopup} className="burgerMainPopup-link">
-                  Участники Маркета
-                </Link>
-            </li>
-        </ul>
+          <Link to="/marker-paticipants" onClick={onClosePopup} className="burgerMainPopup-submenu-link">
+            Участники Маркета
+          </Link>
+        </div>
        </div>
       </div>
     </aside>
