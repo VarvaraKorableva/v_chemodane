@@ -58,6 +58,24 @@
     cursor: pointer;
 }
 
+.lotteryNew_buy_btn {
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: #EF7936;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    width: 250px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .lotteryNew_title {
     display: flex;
     margin: auto;
@@ -236,11 +254,18 @@
             width: 250px;
             height: 250px;
     }
+
+    .lotteryNew_buy_btn {
+        margin-bottom: 40px;
+        font-size: 18px;
+        width: 250px;
+        height: 50px;
+    }
 }
 
 @media screen and (max-width: 700px) {
     .lotteryNew_hanukia {
-        top: 1000px;
+        top: 1100px;
         width: 100px;
         height: 150px;
         left: 20px;
@@ -277,7 +302,7 @@
 
     .lotteryNew_hanukia {
         transform: rotate(20deg);
-        top: 1000px;
+        top: 1100px;
         width: 80px;
         height: 100px;
     }
@@ -310,10 +335,6 @@
 @media screen and (max-width: 460px) {
     .lotteryNew_savivon {
         top: 220px;
-    }
-
-    .lotteryNew_hanukia {
-        top: 1000px;
     }
 
     .lotteryNew_star {
