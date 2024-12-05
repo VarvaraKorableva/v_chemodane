@@ -21,7 +21,7 @@ const LotteryStickyButton = () => {
 
   return (
     <a href='https://www.anumuseum.org.il/ru/events/lottery/' rel="noopener noreferrer" target='_blank' className={`lottery-sticky-button ${isVisible ? 'visible' : ''}`}>
-      <span>Купить билеты на ЛОТЫРЕЮ</span>
+      <span>Купить билеты на ЛОТЕРЕЮ</span>
     </a>
   );
 };
