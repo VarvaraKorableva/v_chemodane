@@ -4,6 +4,7 @@ import page0 from '../../../images/banners/hanukkah2024.png'
 import page1 from '../../../images/slider/timestory.png'
 import page2 from '../../../images/slider/apply.png'
 import page3 from '../../../images/slider/offer.png'
+import lottery from '../../../images/slider/lotterybanner.png'
 import './Slider.css'
 
 function Slider() {
@@ -18,9 +19,10 @@ function Slider() {
 
     const images = [
         { id: 0, src: page0, link: '/hanukkah_2024', text: NaN, trigger: false },
-        { id: 1, src: page1, link: '/story-time', text: NaN, trigger: false },
-        { id: 2, src: page2, link: 'https://forms.gle/USjZPq4y9WSDvLBy6', text: NaN, trigger: false },
-        { id: 3, src: page3, link: 'https://forms.gle/N4mSMeM2ZK5Fdw7f9', text: NaN, trigger: false },
+        { id: 1, src: lottery, link: '/hanukkah_2024/lottery', text: NaN, trigger: false },
+        { id: 2, src: page1, link: '/story-time', text: NaN, trigger: false },
+        { id: 3, src: page2, link: 'https://forms.gle/USjZPq4y9WSDvLBy6', text: NaN, trigger: false },
+        //{ id: 3, src: page3, link: 'https://forms.gle/N4mSMeM2ZK5Fdw7f9', text: NaN, trigger: false },
         ///////{ id: 4, src: page1, link: '/story-time', subtext: 'СЕМЕЙНАЯ ОНЛАЙН ЛАБОРАТОРИЯ',lastcall: 'OPEN CALL до 11.11.24',text: "ВРЕМЯ ИСТОРИЙ"},
     ];
 
