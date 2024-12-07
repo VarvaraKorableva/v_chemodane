@@ -8,8 +8,23 @@ const lots = [
         "Оформить тестовую подписку можно на сайте www.redmax.tv или по телефону *2186"
       ], 
     },    
+    { id: 19, 
+      img: "/images/lottery/Anu.png", 
+      name: "Частная экскурсия по музею АНУ для семьи", 
+      whoIsPlaying: "Музей АНУ", 
+      description: [
+        "Частная экскурсия по музею АНУ для семьи",
+      ], 
+    },
 
-    { id: 8, img: "/images/lottery/bookbabel.jpg", name: "Языки мира", whoIsPlaying: "Магазин 'Бабель'", description:[],},
+    { id: 59, 
+      img: "/images/lottery/makarevich.jpg", 
+      name: "Авторский скетч", 
+      whoIsPlaying: "Андрей Макаревич", 
+      description: [
+        "Авторский скетч в рамке от легендарного музыканта и общественного деятеля Андрей Макаревича.",
+      ], 
+    },
 
     { id: 48, 
       img: "/images/lottery/tea.jpg", 
@@ -107,7 +122,7 @@ const lots = [
 
     { id: 4, img: "/images/lottery/neckerchief.jpg", name: "Платок", whoIsPlaying: "Елена Уздельникова", description:[], },
     
-   
+    { id: 8, img: "/images/lottery/bookbabel.jpg", name: "Языки мира", whoIsPlaying: "Магазин 'Бабель'", description:[],},
     
     { id: 5, img: "/images/lottery/rubinart1.jpg", name: "Четверо в квартире", whoIsPlaying: "Рубин Арт", description:[], },
     { id: 6, img: "/images/lottery/rubinart2.jpg", name: "Верблюдуин", whoIsPlaying: "Рубин Арт", description:[], },
@@ -261,14 +276,6 @@ const lots = [
     },
 
 
-    { id: 19, 
-      img: "/images/lottery/Anu.png", 
-      name: "Частная экскурсия по музею АНУ для семьи", 
-      whoIsPlaying: "Музей АНУ", 
-      description: [
-        "Частная экскурсия по музею АНУ для семьи",
-      ], 
-    },
 ]
 
 export default lots
