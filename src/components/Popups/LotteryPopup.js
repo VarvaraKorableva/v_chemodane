@@ -16,7 +16,7 @@ function LotteryPopup({ lot, onClose, lotteryPopup }) {
         
           <img 
             src={lot.img}
-            alt='Расписание'
+            alt={lot.name}
             className='lottery-popup__picture'
           />
 
