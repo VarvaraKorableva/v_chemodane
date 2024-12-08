@@ -5,6 +5,8 @@ import redmax from '../../images/logo/redmax.jpg'
 import praguebooktower from '../../images/logo/praguebooktower.png'
 import latte from '../../images/logo/latte.png'
 import ujFederation from '../../images/logo/ujFederation.png'
+import nontechitechlogov from '../../images/logo/nontechitechlogov2.png'
+
 
 const ourPartnersHanukkahData = [
     {
@@ -50,10 +52,19 @@ const ourPartnersHanukkahData = [
     {
         name: 'Сообщество «Тыквенный латте»',
         logo: latte,
-        alt: 'logo Сообщество «Тыквенный латте»',
+        alt: ' Сообщество «Тыквенный латте»',
         link: 'https://www.facebook.com/share/97CiWAWWVZg9rVAW/?mibextid=K35XfP',
         description: '',
         id: 2230,
+    },
+
+    {
+        name: 'Nontechitech',
+        logo: nontechitechlogov,
+        alt: 'logo Nontechitech',
+        link: '',
+        description: '',
+        id: 2231,
     },
 ]
 
