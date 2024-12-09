@@ -22,7 +22,7 @@ function Announcement() {
                     <h3 className="announcement_title_container">
                         <span>26 и 27 декабря</span>
                         <span>хАНУка в музее</span>
-                        <span>фестивалем «В чемодане»</span>
+                        <span>c фестивалем «В чемодане»</span>
                     </h3>
                 </div>
                 <div className="announcement_pic_zig-zag"></div>

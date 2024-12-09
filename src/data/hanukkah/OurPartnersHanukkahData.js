@@ -62,7 +62,7 @@ const ourPartnersHanukkahData = [
         name: 'Nontechitech',
         logo: nontechitechlogov,
         alt: 'logo Nontechitech',
-        link: '',
+        link: 'https://t.me/nontechitech',
         description: '',
         id: 2231,
     },
