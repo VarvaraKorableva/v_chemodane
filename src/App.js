@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes, useNavigate } from 'react-router-dom'
 import './App.css';
-
+import { useEffect } from 'react';
 import StickyButton from './components/StickyButton/StickyButton'
 import MainPage from './pages/MainPage/MainPage'
 import Haifa from './pages/Haifa/Haifa'
@@ -61,6 +61,17 @@ function App() {
   const [limit, setLimit] = React.useState(8)
 
   const addCard = () => setLimit(limit + 4);
+
+  useEffect(() => {
+    const hash = window.location.hash;
+
+    if (hash) {
+        const element = document.querySelector(hash);
+        if (element) {
+            element.scrollIntoView();
+        }
+    }
+}, []);
 
   function handleLotteryPopupOpen() {
     setLotteryPopup(true)
