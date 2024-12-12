@@ -156,6 +156,16 @@ const lots = [
       description:[], 
     },
 
+    { id: 338, 
+      img: "", 
+      name: "2 билета на спектакль 'Когда я был маленьким'", 
+      whoIsPlaying: "Стерео-драма продюссер Мария Полушко", 
+      description: [
+        "Корчак.'Я снова стану маленьким' - самый трогательный и волшебный спектакль по книге Януша Корчака для всей семьи.", 
+        "2 января  в Тель-Авиве, Театр 'Ханут' Семён Штейнберг и 60 авторских кукол продлят ваше новогоднее настроение http://stanumalenkim.com",
+      ], 
+    },
+
     { id: 4, img: "/images/lottery/neckerchief.jpg", name: "Платок", whoIsPlaying: "Елена Уздельникова", description:[], },
     
     { id: 8, img: "/images/lottery/bookbabel.jpg", name: "Языки мира", whoIsPlaying: "Магазин 'Бабель'", description:[],},

@@ -30,7 +30,8 @@ function Announcement() {
                 <p className="announcement_text announcement_text_bold announcement_text_first_container">Мы собрали всё, что вы любите – разговоры о литературе, детские спектакли, авторские экскурсии для взрослых и детей по экспозиции музея, много музыки, света, хороших книжек для детей и взрослых, а также идей для подарков на маркете!</p>
 
                 <ul className="announcement_text announcement_text_margin">
-                    <li><span className="announcement_text_bold">Лекция о литературе</span> от <a href='https://t.me/dmibykov' target="_blank" className="announcement_text_link">Дмитрия Быкова</a></li>
+                
+                    <li><span className="announcement_text_bold">Зум-встреча с</span> от <a href='https://t.me/dmibykov' target="_blank" className="announcement_text_link">Дмитрием Быковым </a>(модератор <a href='https://shats.net' target='_blank' className="announcement_text_link"> Михаил Шац</a>).</li>
                     <li><span className="announcement_text_bold">Разговор о свободе слова с правозащитником</span> <a href='https://ru.wikipedia.org/wiki/Даниэль,_Александр_Юльевич' target="_blank" className="announcement_text_link">Александром Даниэлем</a></li>
                     <li><span className="announcement_text_bold">Встреча с писательницей</span><a href='https://www.facebook.com/marta.c.ketro' target="_blank" className="announcement_text_link"> Мартой Кетро</a> и <span className="announcement_text_bold">художником</span> <a href='https://www.facebook.com/p/Andrei-Popov-100001768221323/' target="_blank" className="announcement_text_link">Андреем Поповым</a></li>
                     <li><span className="announcement_text_bold">Автограф-сессия иллюстратора</span> <a href='https://www.eantonenkov.com/' target="_blank" className="announcement_text_link">Евгения Антоненкова</a></li>
