@@ -269,33 +269,48 @@ const hanukkahParticipantsData = [
            id:306,
        },
 
-       {
+    {
         companyName:"Книгвардс",
-           previousParticipation:true,
-           socialNetwork: {
+        previousParticipation:true,
+        socialNetwork: {
                instagram: "https://www.instagram.com/knigvards.knigi_il",
                facebook: "https://www.facebook.com/knigvards.knigi.il?mibextid=ZbWKwL",
                personalSite: "",
-           },
-           description:"Интернет магазин детских книг с радостью предоставит вам возможность познакомиться с лучшими новинками детской литературы",
-           participationInTheLottery:"да",
-           imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1733571156846_39147123",
-           id:307,
-       },
+        },
+        description:"Интернет магазин детских книг с радостью предоставит вам возможность познакомиться с лучшими новинками детской литературы",
+        participationInTheLottery:"да",
+        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1733571156846_39147123",
+        id:307,
+    },
    
-   {
+    {
         companyName:"AMITEA",
-           previousParticipation:true,
-           socialNetwork: {
+        previousParticipation:true,
+        socialNetwork: {
                instagram: "https://www.instagram.com/amitea.co.il",
                facebook: "https://www.facebook.com/amitea.co.il?rdid=BauKguM02XUIjYUp",
                personalSite: "https://www.amitea.co.il/",
-           },
-           description:"AMITEA — это семейный бренд, интернет-магазин чая и чайный клуб. Мы привозим качественный чай из Китая, Индии, Грузии, Японии, Тайваня, Лаоса. В общем, со всех чайных уголков мира. Пьем, изучаем и продаем чай с 2003 года, разбираемся во всем, от выращивания и производства до чайной церемонии. Проводим чайные встречи и дегустации по всей стране, рассказываем про чай и продвигаем чайную культуру",
-           participationInTheLottery:"да",
-           imgLink:"",
-           id:308,
-       },
+        },
+        description:"AMITEA — это семейный бренд, интернет-магазин чая и чайный клуб. Мы привозим качественный чай из Китая, Индии, Грузии, Японии, Тайваня, Лаоса. В общем, со всех чайных уголков мира. Пьем, изучаем и продаем чай с 2003 года, разбираемся во всем, от выращивания и производства до чайной церемонии. Проводим чайные встречи и дегустации по всей стране, рассказываем про чай и продвигаем чайную культуру",
+        participationInTheLottery:"да",
+        imgLink:"",
+        id:308,
+    },
+
+    {
+        companyName:"aescentics",
+        previousParticipation:true,
+        socialNetwork: {
+               instagram: "",
+               facebook: "",
+               personalSite: "",
+        },
+        description:
+            "aescentics – это израильский бренд премиальных ароматических свечей, созданных вручную с заботой о качестве и вашем комфорте. Для создания ароматических свечей aescentics мы используем только лучшие материалы: Натуральный соевый воск, который при горении не выделяет вредных веществ и способствует лучшей аромаотдаче. Высококачественные аромамасла с насыщенными и стойкими ароматами, которые наполнят ваш дом приятным благоуханием. Ароматические свечи aescentics не только дарят восхитительный аромат, но и станут стильным элементом декора, который добавит особый шарм вашему интерьеру.",
+        participationInTheLottery:"",
+        imgLink:"",
+        id:408,
+    },
    
    
     
