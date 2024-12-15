@@ -84,8 +84,13 @@ function LotterySlider({handleLotClick}) {
 
       
       <Link to={'/hanukkah_2024/lottery'} className='lotterySection_link'>Посмотреть все лоты</Link>
+    </section>
+  );
+}
 
+export default LotterySlider;
 
+/*
       {isMobile?
       <></>
       :
@@ -99,8 +104,4 @@ function LotterySlider({handleLotClick}) {
         ))}
       </div>
       }
-    </section>
-  );
-}
-
-export default LotterySlider;
+*/

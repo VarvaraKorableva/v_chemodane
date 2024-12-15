@@ -301,7 +301,7 @@ const hanukkahParticipantsData = [
         companyName:"aescentics",
         previousParticipation:true,
         socialNetwork: {
-               instagram: "",
+               instagram: "https://www.instagram.com/aescentics/",
                facebook: "",
                personalSite: "",
         },
