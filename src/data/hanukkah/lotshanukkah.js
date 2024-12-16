@@ -211,7 +211,7 @@ const lots = [
     { id: 1, img: "/images/lottery/bag.jpg", name: "Шоппер", whoIsPlaying: "Фестиваль в Чемодане", description:[], },
 
     { id: 17, 
-      img: "/images/lottery/Anu.png", 
+      img: "/images/lottery/2.jpg", 
       name: "Фотосессия в стенах музея АНУ", 
       whoIsPlaying: "Музей АНУ", 
       description: [
@@ -256,7 +256,7 @@ const lots = [
     },
 
     { id: 16, 
-      img: "/images/lottery/Anu.png", 
+      img: "/images/lottery/1.jpg", 
       name: "Билеты на фестиваль «В чемодане»", 
       whoIsPlaying: "Музей АНУ", 
       description: [
@@ -283,7 +283,7 @@ const lots = [
     },
 
     { id: 18, 
-      img: "/images/lottery/Anu.png", 
+      img: "/images/lottery/3.jpg", 
       name: "Билеты", 
       whoIsPlaying: "Музей АНУ", 
       description: [
