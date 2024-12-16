@@ -28,7 +28,7 @@ function Participants({addCard, limit}) {
   });
 
     return(
-        <section className={location.pathname.includes("/hanukkah_2024")? "participant-section participant-section_orange" : "participant-section"} id='market'>
+        <section className="participant-section" id='market'>
             <Heading>УЧАСТНИКИ МАРКЕТА</Heading>
             {location.pathname.includes("/hanukkah_2024")?
 

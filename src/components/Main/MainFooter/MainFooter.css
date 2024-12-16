@@ -2,7 +2,7 @@
     width: calc(100% - 86px);
     padding-left: 43px;
     padding-right: 43px;
-    padding-top: 300px;
+    /*padding-top: 300px;*/
     position: relative;
     background-color: #fff;
     display: flex;
@@ -12,13 +12,13 @@
 
 @media screen and (max-width: 1650px) {
     .main__footer {
-        padding-top: 200px;
+        /*padding-top: 200px;*/
     }
 }
 
 @media screen and (max-width: 1000px) {
     .main__footer {
-        padding-top: 150px;
+        /*padding-top: 150px;*/
     }
 }
 

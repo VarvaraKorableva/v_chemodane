@@ -17,7 +17,7 @@ function AboutFestival() {
             <div className="aboutFestival__text-and-circle-wrapper">
                 <img src={firstPic} className="aboutFestival__firstPic-img"></img>
                 <p className="aboutFestival__firstPic-text">
-                В дни Пурима 24-25 марта в музее Ану в Тель Авиве, при поддержке фонда НАДАВ, пройдет большой двухдневный фестиваль “В чемодане”, 
+                В дни Пурима 24-25 марта в музее Ану в Тель Авиве, при поддержке фонда НАДАВ, пройдет большой двухдневный фестиваль «В чемодане», 
                 посвященный театру, кино и, конечно, Пуриму – самому любимому и веселому еврейскому празднику!
                 </p>
                 <div className="aboutFestival__blue-circle"></div>

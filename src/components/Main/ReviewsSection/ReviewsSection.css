@@ -2,12 +2,14 @@
     width: calc(100% - 86px);
     padding-left: 43px;
     padding-right: 43px;
-    padding-top: 405px;
+    /*padding-top: 405px;
+    padding-bottom: 100px;
+    */
     position: relative;
     background-color: #fff;
     display: flex;
     flex-direction: column;  
-    padding-bottom: 100px;
+    
 }
 
 .reviewsSection__title {
@@ -157,7 +159,7 @@
 
 @media screen and (max-width: 1650px) {
     .reviewsSection__container {
-        padding-top: 300px;
+        /*padding-top: 300px;*/
     }
 
     .main-footer-book-page  {
@@ -177,7 +179,7 @@
     }
 
     .reviewsSection__container {
-        padding-top: 150px;
+        /*padding-top: 150px;*/
     }
 
     .reviewsSection__title {
@@ -255,7 +257,7 @@
         width: calc(100% - 40px);
         padding-left: 20px;
         padding-right: 20px;
-        padding-bottom: 25px;
+        /*padding-bottom: 25px;*/
     }
 }
 

@@ -24,10 +24,10 @@ function Hanukkah2024Page({handleCardClick, addCard, limit, handleLotClick}) {
             <LotterySection/>
             <LotterySlider handleLotClick={handleLotClick}/>
             <SeparatorPage/>
-            <TicketsStickyButton/>
             <Participants addCard={addCard} limit={limit}/>
             <SeparatorPage/>
             <OurPartners/>
+            <TicketsStickyButton/>
         </>
     )
 }

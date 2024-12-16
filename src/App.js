@@ -45,7 +45,7 @@ import ReviewsPage from './pages/ReviewsPage/ReviewsPage'
 import Hanukkah2024Page from './pages/Hanukkah2024Page/Hanukkah2024Page'
 import LotteryHanukkah2024Page from './pages/Hanukkah2024Page/LotteryHanukkah2024Page'
 import ContactsPage from './pages/ContactsPage/ContactsPage'
-
+import SeparatorPage from './components/SeparatorPage/SeparatorPage'
 
 function App() {
   //LotteryPopup
@@ -274,7 +274,7 @@ function App() {
         </Route>
 
       </Routes>  
-
+      <SeparatorPage/>
       <MainFooter />
 
       <LotteryPopup 

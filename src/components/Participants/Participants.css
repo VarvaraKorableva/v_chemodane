@@ -1,16 +1,10 @@
-
-.participant-section_grey {
-    background-color: #FDD256;
-    background-color: #FCBB01;
-    
-}
-
 .participant-section {
     background-color: #fff;
     display: flex;
     flex-direction: column;
     padding-left: 80px;
     padding-right: 80px;
+    padding-top: 0;
     width: calc(100% - 160px);
 }
 
@@ -25,6 +19,7 @@
 @media screen and (max-width: 770px) {
     .participant-section {
         padding-top: 40px;
+        padding-top: 0;
     }
 }
 

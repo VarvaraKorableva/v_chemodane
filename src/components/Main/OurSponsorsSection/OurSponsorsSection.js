@@ -7,7 +7,7 @@ function OurSponsorsSection() {
 
     return (
         <section className="our-sponsors-section-container">
-            <div className="our-sponsors-section-book-page"></div>
+            {/*<div className="our-sponsors-section-book-page"></div>*/}
             <Heading>НАШИ СПОНСОРЫ</Heading>
             <ul className="ourPartners__wrapper">
                 {

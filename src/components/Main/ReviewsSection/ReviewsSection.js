@@ -20,7 +20,7 @@ function ReviewsSection() {
 //h2 className="reviewsSection__title"
     return (
         <section className="reviewsSection__container">
-            <div className="main-footer-book-page"></div>
+           {/*<div className="main-footer-book-page"></div>*/}
             <Heading>ОТЗЫВЫ</Heading>
 
             <div className="reviewsSection__slider-container">

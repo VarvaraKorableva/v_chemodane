@@ -5,7 +5,7 @@ import { FaInstagram, FaTelegram, FaFacebook } from 'react-icons/fa'
 function MainFooter() {
     return(
         <footer className="main__footer" id="footer">
-           <div className="main-footer-book-page"></div>
+           {/*<div className="main-footer-book-page"></div>*/}
             <div className="main-footer-wrapper">
                 <div className="main-footer-letters-grey"></div>
                 <div className="main-footer__logo-support-wrapper">

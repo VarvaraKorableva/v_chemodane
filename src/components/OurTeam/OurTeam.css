@@ -10,16 +10,16 @@
     width: calc(100% - 86px);
     padding-left: 43px;
     padding-right: 43px;
-    padding-bottom: 100px;
-    padding-top: 75px;
+    /*padding-bottom: 100px;
+    padding-top: 75px;*/
     position: relative;
 }
-
+/*
 @media screen and (max-width: 1000px) {
     .ourTeam-section {
         padding-top: 50px;
     }
-}
+}*/
 
 @media screen and (max-width: 635px) {
     .ourTeam-section {

@@ -9,7 +9,7 @@ const lots = [
       ], 
     },    
     { id: 19, 
-      img: "/images/lottery/Anu.png", 
+      img: "/images/lottery/4.jpg", 
       name: "Частная экскурсия по музею АНУ для семьи", 
       whoIsPlaying: "Музей АНУ", 
       description: [
@@ -215,7 +215,7 @@ const lots = [
       name: "Фотосессия в стенах музея АНУ", 
       whoIsPlaying: "Музей АНУ", 
       description: [
-        "Фотосессия в стенах музея АНУ",
+        "Фотосессия в стенах музея АН",
       ], 
     },
 
