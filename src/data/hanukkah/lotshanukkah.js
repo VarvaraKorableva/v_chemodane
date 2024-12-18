@@ -73,6 +73,7 @@ const lots = [
         "https://yoffi.com/"
       ], 
     },
+
     { id: 8, 
       img: "/images/lottery/ringkaterabey.jpg", 
       name: "Кольцо с гравировкой", 
@@ -82,6 +83,7 @@ const lots = [
         "Размер 15. Материалы - латунь, порошковая покраска, серебро."
       ], 
     },
+
     { 
       id: 9, 
       img: "/images/lottery/hopescrolling.jpg", 
@@ -118,7 +120,7 @@ const lots = [
         "https://www.isradon.com/",
       ], 
     },
-    { id: 22, 
+    { id: 13, 
       img: "/images/lottery/HanukkahParty.png", 
       name: "Свеча с ароматом фисташковых пончиков", 
       whoIsPlaying: "NO DARK", 
@@ -131,7 +133,7 @@ const lots = [
       ], 
     },
 
-    { id: 13, 
+    { id: 14, 
       img: "/images/lottery/nontech.jpg", 
       name: "Профессиональная консультация хайтек-специалиста", 
       whoIsPlaying: "Телеграм-канал Нонтек", 
@@ -143,7 +145,7 @@ const lots = [
       ], 
     },
 
-    { id: 14, 
+    { id: 114, 
       img: "/images/lottery/femcards.jpg", 
       name: "Набор карточек KNOW YOUR FEMINISTS", 
       whoIsPlaying: "Саша Клячкина и Ира Симонович", 
