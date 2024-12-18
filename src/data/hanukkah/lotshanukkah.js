@@ -1,5 +1,5 @@
 const lots = [
-    { id: 30, 
+    { id: 1, 
       img: "/images/lottery/4k.jpg", 
       name: "4K приставка", 
       whoIsPlaying: "Видеосервис Redmax TV", 
@@ -8,7 +8,7 @@ const lots = [
         "Оформить тестовую подписку можно на сайте www.redmax.tv или по телефону *2186"
       ], 
     },    
-    { id: 19, 
+    { id: 2, 
       img: "/images/lottery/4.jpg", 
       name: "Частная экскурсия по музею АНУ для семьи", 
       whoIsPlaying: "Музей АНУ", 
@@ -17,7 +17,7 @@ const lots = [
       ], 
     },
 
-    { id: 60, 
+    { id: 3, 
       img: "/images/lottery/linor.jpg", 
       name: "Сертификат на 100$", 
       whoIsPlaying: "Линор Горалик", 
@@ -31,7 +31,7 @@ const lots = [
       ], 
     },
 
-    { id: 59, 
+    { id: 4, 
       img: "/images/lottery/makarevich.jpg", 
       name: "Авторский скетч", 
       whoIsPlaying: "Андрей Макаревич", 
@@ -40,7 +40,7 @@ const lots = [
       ], 
     },
 
-    { id: 48, 
+    { id: 5, 
       img: "/images/lottery/tea.jpg", 
       name: "Красный и белый чай", 
       whoIsPlaying: "AMETEA", 
@@ -54,7 +54,7 @@ const lots = [
       ], 
     },
 
-    { id: 28, 
+    { id: 6, 
       img: "/images/lottery/borisvaizehovski.jpg", 
       name: "Авторский принт на арт-бумаге с автографом автора", 
       whoIsPlaying: "Борис Войцеховский", 
@@ -63,7 +63,7 @@ const lots = [
       ], 
     },
 
-    { id: 68, 
+    { id: 7, 
       img: "/images/lottery/YOFFI.jpg", 
       name: "Подарочный набор Тель-Авив", 
       whoIsPlaying: "YOFFI - уникальные подарки из Израиля", 
@@ -73,8 +73,17 @@ const lots = [
         "https://yoffi.com/"
       ], 
     },
+    { id: 8, 
+      img: "/images/lottery/ringkaterabey.jpg", 
+      name: "Кольцо с гравировкой", 
+      whoIsPlaying: "Ювелир Катя Рабей", 
+      description: [
+        "Кольцо с гравировкой изображения канализационного люка Тель-Авива.",
+        "Размер 15. Материалы - латунь, порошковая покраска, серебро."
+      ], 
+    },
     { 
-      id: 12, 
+      id: 9, 
       img: "/images/lottery/hopescrolling.jpg", 
       name: "Толстовка «hope runs»", 
       whoIsPlaying: "Hopescrolling", 
@@ -82,7 +91,7 @@ const lots = [
         "Новые толстовки от проекта Hopescrolling hope runs in our veins согреют и всегда напомнят о главном: народ Израиля жив, и надежда жива вместе с ним."
       ] 
     },
-    { id: 21, 
+    { id: 10, 
       img: "/images/lottery/gesher.jpeg", 
       name: "2 билета на спектакль 'Самсон'", 
       whoIsPlaying: "театр ГЕШЕР", 
@@ -91,7 +100,7 @@ const lots = [
         "Спектакль поставлен по роману Зеева Жаботинского. В нем Жаботинский сравнил период судей со днями британского мандата. В наши дни эта история оказалась не менее актуальной."
       ], 
     },
-    { id: 58, 
+    { id: 11, 
       img: "/images/lottery/bookandtshirt.jpg", 
       name: "Футболка и две книги", 
       whoIsPlaying: "Сергей Ауслендер", 
@@ -100,7 +109,7 @@ const lots = [
         "Сергей Ауслендер — известный израильский военный журналист, которого многие из вас знают по каналу в YouTube и телеграм-каналу 'Война с Ордой'",
       ],   
     },
-    { id: 54, 
+    { id: 12, 
       img: "/images/lottery/shelkunchik.jpg", 
       name: "Набор щелкунчиков для елки", 
       whoIsPlaying: "Книжный магазин Исрадон", 
@@ -122,7 +131,7 @@ const lots = [
       ], 
     },
 
-    { id: 227, 
+    { id: 13, 
       img: "/images/lottery/nontech.jpg", 
       name: "Профессиональная консультация хайтек-специалиста", 
       whoIsPlaying: "Телеграм-канал Нонтек", 
@@ -134,7 +143,7 @@ const lots = [
       ], 
     },
 
-    { id: 118, 
+    { id: 14, 
       img: "/images/lottery/femcards.jpg", 
       name: "Набор карточек KNOW YOUR FEMINISTS", 
       whoIsPlaying: "Саша Клячкина и Ира Симонович", 
@@ -144,7 +153,7 @@ const lots = [
       ], 
     },
 
-    { id: 25, 
+    { id: 15, 
       img: "/images/lottery/FinkelandShtein.jpeg", 
       name: "Серьги-гвоздики из битой посуды", 
       whoIsPlaying: "Finkel and Shtein", 
@@ -153,7 +162,7 @@ const lots = [
       ], 
     },
 
-    { id: 15, 
+    { id: 16, 
       img: "/images/lottery/ticket.jpg", 
       name: "2 билета на спектакль Орфей и Эвридика", 
       whoIsPlaying: "Анатолий Белый", 
@@ -164,14 +173,14 @@ const lots = [
       ], 
     },
     { 
-      id: 2, 
+      id: 17, 
       img: "/images/lottery/tshirt.jpg", 
       name: "Футболка", 
       whoIsPlaying: "Фестиваль в Чемодане", 
       description:[], 
     },
 
-    { id: 1228, 
+    { id: 18, 
       img: "/images/lottery/test.jpg", 
       name: "Сказки на иврите", 
       whoIsPlaying: "Добрые сказки на ночь", 
@@ -181,7 +190,7 @@ const lots = [
       ], 
     },
 
-    { id: 1448, 
+    { id: 19, 
       img: "/images/lottery/chrtree.jpg", 
       name: "Композиция Израильская Ëлка", 
       whoIsPlaying: "Цветочный магазин Fleur Aviv", 
@@ -192,7 +201,7 @@ const lots = [
       ], 
     },
 
-    { id: 338, 
+    { id: 20, 
       img: "/images/lottery/wheniwassmall.jpg", 
       name: "2 билета на спектакль 'Я снова стану маленьким'", 
       whoIsPlaying: "Стерео-драма продюссер Мария Полушко", 
@@ -202,10 +211,10 @@ const lots = [
       ], 
     },
 
-    { id: 4, img: "/images/lottery/neckerchief.jpg", name: "Платок", whoIsPlaying: "Елена Уздельникова", description:[], },
+    { id: 21, img: "/images/lottery/neckerchief.jpg", name: "Платок", whoIsPlaying: "Елена Уздельникова", description:[], },
     
     { 
-      id: 8, 
+      id: 22, 
       img: "/images/lottery/bookbabel.jpg", 
       name: "Языки мира", 
       whoIsPlaying: "Книжный магазин 'Бабель'", 
@@ -217,15 +226,15 @@ const lots = [
       ]
     },
     
-    { id: 5, img: "/images/lottery/rubinart1.jpg", name: "Четверо в квартире", whoIsPlaying: "Рубин Арт", description:[], },
-    { id: 6, img: "/images/lottery/rubinart2.jpg", name: "Верблюдуин", whoIsPlaying: "Рубин Арт", description:[], },
+    { id: 23, img: "/images/lottery/rubinart1.jpg", name: "Четверо в квартире", whoIsPlaying: "Рубин Арт", description:[], },
+    { id: 24, img: "/images/lottery/rubinart2.jpg", name: "Верблюдуин", whoIsPlaying: "Рубин Арт", description:[], },
     
 
     //{ id: 9, img: "/images/lottery/bookmiribraginsky.jpg", name: "Книги", whoIsPlaying: "Мири Брагински", description:[],},
 
-    { id: 10, img: "/images/lottery/photogift.jpg", name: "Прогулка фото-сессия В Тель-авиве", whoIsPlaying: "Лера Яковлева", description: ["Сертификат на фотосъемку - прогулку в Тель-Авиве. 1 час , 60 фотографий."]},
-    { id: 11, img: "/images/lottery/rings.jpg", name: "Два кольца", whoIsPlaying: "Brokain things", description:["Два кольца - оба из фарфора, с золотыми надписями."]},
-    { id: 20, 
+    { id: 25, img: "/images/lottery/photogift.jpg", name: "Прогулка фото-сессия В Тель-авиве", whoIsPlaying: "Лера Яковлева", description: ["Сертификат на фотосъемку - прогулку в Тель-Авиве. 1 час , 60 фотографий."]},
+    { id: 26, img: "/images/lottery/rings.jpg", name: "Два кольца", whoIsPlaying: "Brokain things", description:["Два кольца - оба из фарфора, с золотыми надписями."]},
+    { id: 27, 
       img: "/images/lottery/nevzlinabook.jpg", 
       name: "Книга", 
       whoIsPlaying: "НАДАВ", 
@@ -234,9 +243,9 @@ const lots = [
       ], 
     },
 
-    { id: 1, img: "/images/lottery/bag.jpg", name: "Шоппер", whoIsPlaying: "Фестиваль в Чемодане", description:[], },
+    { id: 28, img: "/images/lottery/bag.jpg", name: "Шоппер", whoIsPlaying: "Фестиваль в Чемодане", description:[], },
 
-    { id: 17, 
+    { id: 29, 
       img: "/images/lottery/2.jpg", 
       name: "Фотосессия в стенах музея АНУ", 
       whoIsPlaying: "Музей АНУ", 
@@ -245,7 +254,7 @@ const lots = [
       ], 
     },
 
-    { id: 98, 
+    { id: 30, 
       img: "/images/lottery/pic.jpeg", 
       name: "Авторский рисунок с автографом", 
       whoIsPlaying: "Евгений Антоненков", 
@@ -254,7 +263,7 @@ const lots = [
       ], 
     },
 
-    { id: 13, 
+    { id: 40, 
       img: "/images/lottery/fulcro.jpeg", 
       name: "2 билета на кабаре Die Blumen", 
       whoIsPlaying: "Театр Fulcro", 
@@ -265,7 +274,7 @@ const lots = [
         "«Цветы» (Die Blumen) — антивоенная фантазия о лучшем мире, когда внешний мир уже потерян, вечеринка в аду. Это история о крахе человечества, шумная и трагическая одновременно."
       ],
     },
-    { id: 14, 
+    { id: 41, 
       img: "/images/lottery/cinemateka.jpg", 
       name: "2 билета в Синематеку Тель-Авив", 
       whoIsPlaying: "Проект 'Как в кино'", 
@@ -281,7 +290,7 @@ const lots = [
       ], 
     },
 
-    { id: 16, 
+    { id: 42, 
       img: "/images/lottery/1.jpg", 
       name: "Билеты на фестиваль «В чемодане»", 
       whoIsPlaying: "Музей АНУ", 
@@ -290,7 +299,7 @@ const lots = [
       ], 
     },
 
-    { id: 23, 
+    { id: 43, 
       img: "/images/lottery/brosh.jpg", 
       name: "Керамическая брошь 'Мишка'", 
       whoIsPlaying: "Екатерина Остерман", 
@@ -301,14 +310,14 @@ const lots = [
       ], 
     },
 
-    { id: 228, 
+    { id: 44, 
       img: "/images/lottery/TANYASHUBAR.png", 
       name: "Сертификат на покупку книг", 
       whoIsPlaying: "Книжный магазин Книгвардс", 
       description: ["Мы рады представить вам наш магазин детских книг! Мы специализируемся на разнообразной литературе для детей, от волшебных сказок до познавательных книг. Наша цель — вдохновить маленьких читателей и подарить им радость чтения. https://knigivisraile.com/"]
     },
 
-    { id: 18, 
+    { id: 45, 
       img: "/images/lottery/3.jpg", 
       name: "Билеты", 
       whoIsPlaying: "Музей АНУ", 
@@ -317,11 +326,16 @@ const lots = [
       ], 
     },
 
+    { 
+      id: 46, 
+      img: "/images/lottery/doll.jpg", 
+      name: "Куколка", 
+      whoIsPlaying: "AstaDolls", 
+      description:[],
+    }, 
 
-
-    { id: 7, img: "/images/lottery/doll.jpg", name: "Куколка", whoIsPlaying: "AstaDolls", description:[],}, 
-
-    { id: 26, 
+    { 
+      id: 47, 
       img: "/images/lottery/booktapuzim.jpg", 
       name: "Зимняя сказка от автора «Часодеев» Натальи Щербы", 
       whoIsPlaying: "Книжный онлайн-магазин Tapuzim.store", 
@@ -330,7 +344,7 @@ const lots = [
       ], 
     },
 
-    { id: 29, 
+    { id: 48, 
       img: "/images/lottery/alexandrkotler.jpg", 
       name: "Неизвестный С. Книга Александра Котлера", 
       whoIsPlaying: "Александр Котлер", 
@@ -340,7 +354,7 @@ const lots = [
       ], 
     },
 
-    { id: 78, 
+    { id: 49, 
       img: "/images/lottery/hodorkorskiy.jpg", 
       name: "Книга Михаила Ходорковского Тюрьма и воля с автографом", 
       whoIsPlaying: "Фестиваль Пражская книжная башня", 
@@ -353,9 +367,16 @@ const lots = [
     },
 
 
-    { id: 3, img: "/images/lottery/sheeps.jpg", name: "Игрушка-овечка", whoIsPlaying: "Елены Павловой", description:[], },
+    { 
+      id: 50, 
+      img: "/images/lottery/sheeps.jpg", 
+      name: "Игрушка-овечка", 
+      whoIsPlaying: "Елены Павловой", 
+      description:[], 
+    },
 
-    { id: 31, 
+    { 
+      id: 51, 
       img: "/images/lottery/bookmiribraginsky.jpg", 
       name: "Три книги Мири Брагински", 
       whoIsPlaying: "Мири Брагински", 
@@ -365,7 +386,7 @@ const lots = [
       ], 
     },
 
-    { id: 27, 
+    { id: 52, 
       img: "/images/lottery/PrimaNaturalis.jpeg", 
       name: "Подарочный набор Prima Naturalis", 
       whoIsPlaying: "Prima Naturalis", 
@@ -374,8 +395,6 @@ const lots = [
         "Татьяна Кузьменко, создатель бренда Prima Naturalis. ЭКО-продукция ручной работы: потрясающее натуральное мыло, твердые шампуни, эфирные масла, ароматические свечи, бамбуковые зубные щётки и др. Все изделия изготовлены из натуральных растительных материалов с любовью и заботой о вас и о нашей Планете"
       ], 
     },
-
-
 ]
 
 export default lots

@@ -2,28 +2,10 @@
     width: calc(100% - 86px);
     padding-left: 43px;
     padding-right: 43px;
-    /*padding-top: 405px;
-    padding-bottom: 100px;
-    */
     position: relative;
     background-color: #fff;
     display: flex;
     flex-direction: column;  
-    
-}
-
-.reviewsSection__title {
-    font-size: 60px;
-    font-family: "Mulish", sans-serif;
-    font-family: 'Karton', sans-serif;
-    color: #374BA5;
-    display: flex;
-    margin: auto;
-    margin-top: 0;
-    margin-bottom: 80px;
-    max-width: 796px;
-    z-index: 5px;
-    text-align: center;
 }
 
 .reviewsSection__slider-container {
