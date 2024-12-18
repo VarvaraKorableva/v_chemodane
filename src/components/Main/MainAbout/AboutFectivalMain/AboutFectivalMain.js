@@ -20,11 +20,11 @@ function AboutFectivalMain() {
                     <div className='aboutFectivalMain-stared-dots-pic'></div>
                 </div>
 
-                <p className="aboutFectivalMain-text aboutFectivalMain-text-first-p-margin">Уникальное событие, созданное представителями новой алии при поддержке местного профессионального сообщества летом 2022 года.</p>
+                <p className="aboutFectivalMain-text aboutFectivalMain-text-first-p-margin">Книжный семейный фестиваль «В чемодане» был основан в сентябре 2022 года и с тех пор стал главным культурным русскоязычным событием в Израиле.</p>
                 <div className="aboutFectivalMain-dots-pic"></div>
                 <div className="aboutFectivalMain-flex-container-lamed">
                     <div className="aboutFectivalMain-letters-lamed"></div>
-                    <p className="aboutFectivalMain-text aboutFectivalMain-shiftedText">Фестивалю удалось объединить издателей, авторов, иллюстраторов, переводчиков, ученых, музыкантов, педагогов и представителей различных творческих направлений и, конечно, читателей детской литературы на русском языке из разных стран.</p>
+                    <p className="aboutFectivalMain-text aboutFectivalMain-shiftedText">Фестиваль регулярно проводится в Тель-Авиве, Хайфе и Иерусалиме, собирая любителей литературы и семейного досуга.</p>
                 </div>
                 <div className='aboutFectivalMain-flex-container'>
                     <div className='aboutFectivalMain-flex-book-letters-pics'></div>
@@ -37,11 +37,11 @@ function AboutFectivalMain() {
 
                     <div className="aboutFectivalMain-rounds-pic"></div>
                     <div className="aboutFectivalMain-third-container-text-container">
-                        <p className="aboutFectivalMain-text">Это площадка, предлагающая специалистам по детской и подростковой литературе, педагогам, писателям, искусствоведам и иллюстраторам заявить о себе.</p>
+                        <p className="aboutFectivalMain-text">«В Чемодане» является единственным в Израиле книжным фестивалем литературы на русском  языке. На фестиваль привозят свои книги независимые издательства из России, Европы и Израиля, а также местные книжные магазины.</p>
                         <div className="aboutFectivalMain-one-blue-round"></div>
                         <div className="aboutFectivalMain-orange-round-text-container">
                             <div className="aboutFectivalMain-one-orange-round"></div>
-                            <p className="aboutFectivalMain-text aboutFectivalMain-shiftedText">Раскрыть свои таланты в работе с детьми и текстами, найти единомышленников и творческие проекты.</p>
+                            <p className="aboutFectivalMain-text aboutFectivalMain-shiftedText">Фестиваль «В Чемодане» славится своими активностями: чтениями, круглыми столами, мастер-классами, лекциями, экскурсиями, концертами и театральными постановками.</p>
                         </div>
                     </div>
                     <div className="aboutFectivalMain-letters-pic"></div>
@@ -51,13 +51,16 @@ function AboutFectivalMain() {
 
                 <div className="aboutFectivalMain-fourth-container">
                     <div className="aboutFectivalMain-fourth-container-letter-pey"></div>
-                    <p className="aboutFectivalMain-text aboutFectivalMain-down-the-same-margin">Уникальная возможность для детей и родителей приобрести книги на русском языке независимых издательств.</p>
+                    <p className="aboutFectivalMain-text aboutFectivalMain-down-the-same-margin">Мероприятия фестиваля ориентированы на детей, подростков и их родителей. Фестиваль предлагает помимо новинок и хитов авторитетных 
+издательств, насыщенную программу с участием известных писателей, переводчиков, иллюстраторов, издателей,общественных и театральных деятелей.
+</p>
                     
                     <div className="aboutFectivalMain-fourth-container-text-wrapper">
                         <div className="aboutFectivalMain-fourth-container-three-zigzags"></div>
                         <div className="aboutFectivalMain-fourth-container-text-container">
                             <p className="aboutFectivalMain-text aboutFectivalMain-shiftedText aboutFectivalMain-down-margin">Встретиться со специалистами по детскому чтению.</p>
-                            <p className="aboutFectivalMain-text aboutFectivalMain-shiftedText">Поговорить напрямую с создателями книг: редакторами, писателями, переводчиками и иллюстраторами, популяризаторами науки и педагогами.</p>
+                            <p className="aboutFectivalMain-text aboutFectivalMain-shiftedText">Задача фестиваля — познакомить новых репатриантов с еврейской культурой и литературой через искусство. Важно, чтобы через мероприятия фестиваля “В Чемодане” участники могли найти свою еврейскую идентичность и почувствовать связь с традициями и историей народа Израиля.
+</p>
                         </div>
                     </div>
                         <div className="aboutFectivalMain-fourth-container-dots-pic"></div>
@@ -67,15 +70,16 @@ function AboutFectivalMain() {
                     </div>
                 </div>
                 <div className="aboutFectivalMain-fifth-container">
-                    <p className="aboutFectivalMain-text">Незабываемая атмосфера мастер-классов и лекций, встреч с друзьями и коллегами.</p>
+                    <p className="aboutFectivalMain-text">Наши мероприятия создают пространство для общения и обмена опытом, предоставляют площадку новым коллективам и творческим деятелям, помогая семьям чувствовать себя  комфортно в привычном кругу, а также укреплять свою связь с еврейским наследием.
+</p>
                     <div className="aboutFectivalMain-letters-container">
                         <div className="aboutFectivalMain-letter-dalet"></div>
                         <div className="aboutFectivalMain-letter-l"></div>
                     </div>
-                    <p className="aboutFectivalMain-text aboutFectivalMain-down-the-same-margin">Это совместное творчество, обсуждение актуальных тем.</p>
+                    
                     <div className="aboutFectivalMain-letters-i-container">
                         <div className="aboutFectivalMain-letter-i"></div>
-                        <p className="aboutFectivalMain-text">Специально организованный профессионалами маркет, на котором представлены книги независимых издательств, работы современных художников, керамистов и других мастеров.</p>
+                        <p className="aboutFectivalMain-text">Мы уверены, что «В чемодане» помогает людям найти моменты радости и уюта, несмотря на вызовы внешнего мира.</p>
                     </div>
 
                     <div className="aboutFectivalMain-open-book"></div>
