@@ -36,7 +36,7 @@ const reviews = [
     },
     {
         id:6,
-        img:"",
+        img:"./images/reviews/avibinymin.jpg",
         name:"Ави Биньямин",
         job:"композитор",
         text:"Очень теплая, дружеская атмосфера - спасибо огромное!",

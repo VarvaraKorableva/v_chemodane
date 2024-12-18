@@ -73,9 +73,15 @@ const lots = [
         "https://yoffi.com/"
       ], 
     },
-    
-    
-    { id: 12, img: "/images/lottery/hopescrolling.jpg", name: "Тостовка «hope runs»", whoIsPlaying: "Hopescrolling", description:["Новые толстовки от проекта Hopescrolling hope runs in our veins согреют и всегда напомнят о главном: народ Израиля жив, и надежда жива вместе с ним."] },
+    { 
+      id: 12, 
+      img: "/images/lottery/hopescrolling.jpg", 
+      name: "Толстовка «hope runs»", 
+      whoIsPlaying: "Hopescrolling", 
+      description: [
+        "Новые толстовки от проекта Hopescrolling hope runs in our veins согреют и всегда напомнят о главном: народ Израиля жив, и надежда жива вместе с ним."
+      ] 
+    },
     { id: 21, 
       img: "/images/lottery/gesher.jpeg", 
       name: "2 билета на спектакль 'Самсон'", 
@@ -92,6 +98,15 @@ const lots = [
       description: [
         "Футболка и книги “Собственный корреспондент” и “Интересный пациент” от одного из самого популярных израильских русскоязычных блогеров Сергея Ауслендера.", 
         "Сергей Ауслендер — известный израильский военный журналист, которого многие из вас знают по каналу в YouTube и телеграм-каналу 'Война с Ордой'",
+      ],   
+    },
+    { id: 54, 
+      img: "/images/lottery/shelkunchik.jpg", 
+      name: "Набор щелкунчиков для елки", 
+      whoIsPlaying: "Книжный магазин Исрадон", 
+      description: [
+        "'Исрадон' уже без малого 30 лет привозит в Израиль книги на русском языке для читателей всех возрастов. На сегодняшний день в семье 'Исрадон' 12 филиалов, а также интернет-магазин с более чем 100 000 наименований книг. Мы делаем доставку по всему Израилю и за его пределы, привозим новинки еженедельно и принимаем индивидуальные заказы.", 
+        "https://www.isradon.com/",
       ], 
     },
     { id: 22, 
@@ -179,7 +194,7 @@ const lots = [
 
     { id: 338, 
       img: "/images/lottery/wheniwassmall.jpg", 
-      name: "2 билета на спектакль 'Когда я был маленьким'", 
+      name: "2 билета на спектакль 'Я снова стану маленьким'", 
       whoIsPlaying: "Стерео-драма продюссер Мария Полушко", 
       description: [
         "Корчак.'Я снова стану маленьким' - самый трогательный и волшебный спектакль по книге Януша Корчака для всей семьи.", 
@@ -189,7 +204,18 @@ const lots = [
 
     { id: 4, img: "/images/lottery/neckerchief.jpg", name: "Платок", whoIsPlaying: "Елена Уздельникова", description:[], },
     
-    { id: 8, img: "/images/lottery/bookbabel.jpg", name: "Языки мира", whoIsPlaying: "Магазин 'Бабель'", description:[],},
+    { 
+      id: 8, 
+      img: "/images/lottery/bookbabel.jpg", 
+      name: "Языки мира", 
+      whoIsPlaying: "Книжный магазин 'Бабель'", 
+      description:[
+        "Книга Жоан Негресколор, Пако Инклан 'Языки мира'.", 
+        "Красочно иллюстрированный атлас планеты, на которой живут языки.",
+        "Бабель Хайфа - Книжный магазин в Хайфе",
+        "https://babelhaifa.co.il/"
+      ]
+    },
     
     { id: 5, img: "/images/lottery/rubinart1.jpg", name: "Четверо в квартире", whoIsPlaying: "Рубин Арт", description:[], },
     { id: 6, img: "/images/lottery/rubinart2.jpg", name: "Верблюдуин", whoIsPlaying: "Рубин Арт", description:[], },
