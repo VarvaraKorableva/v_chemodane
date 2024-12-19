@@ -62,7 +62,7 @@
 }
 
 .aboutFectivalMain-shiftedText {
-    align-self: flex-end;
+    /*align-self: flex-end;*/
     max-width: 594px;
     text-align: start;
 }
@@ -129,6 +129,8 @@
 
 .aboutFectivalMain-flex-book-letters-pics {
     background-image: url(../../../../images/mainPage/bookandletters.png);
+    background-image: url(../../../../images/mainPage/openbook.png);
+    
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -712,6 +714,11 @@
         height: 82px;
         align-self: center;
         margin-right: 10px;
+        position: absolute;
+        left: 40px;
+        top: 80px;
+
+        display: none;
     }
 
     .aboutFectivalMain-down-margin {
@@ -724,12 +731,6 @@
 
     .aboutFectivalMain-fourth-container-text-wrapper {
         position: relative;
-    }
-
-    .aboutFectivalMain-fourth-container-three-zigzags {
-        position: absolute;
-        left: 40px;
-        top: 80px;
     }
 
     .aboutFectivalMain-fourth-container-dots-pic {
@@ -781,10 +782,10 @@
 
     .aboutFectivalMain-stared-dots-pic {
         position: absolute;
-        top: 130px;
-        right: -35px;
-        width: 80px;
-        height: 90px;
+        top: 190px;
+        right: -55px;
+        width: 100px;
+        height: 100px;
     }
 }
 
@@ -816,5 +817,9 @@
         width: 80px;
         height: 55px;
         transform: rotate(-60deg);
+    }
+
+    .aboutFectivalMain-stared-dots-pic {
+        right: -35px;
     }
 }
