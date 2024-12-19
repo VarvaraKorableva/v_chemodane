@@ -128,7 +128,6 @@
 }
 
 .aboutFectivalMain-flex-book-letters-pics {
-    background-image: url(../../../../images/mainPage/bookandletters.png);
     background-image: url(../../../../images/mainPage/openbook.png);
     
     background-repeat: no-repeat;
@@ -821,5 +820,8 @@
 
     .aboutFectivalMain-stared-dots-pic {
         right: -35px;
+        transform: rotate(90deg);    
+        margin-top: 0;
+        top: 175px;
     }
 }
