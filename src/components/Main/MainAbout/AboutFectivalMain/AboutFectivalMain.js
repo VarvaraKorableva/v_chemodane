@@ -7,22 +7,20 @@ function AboutFectivalMain() {
 
                 <div className='aboutFectivalMain-title-sub-title-pic-container'>
                     <div className='aboutFectivalMain-zigZag-pic'></div>
-                        <div className='aboutFectivalMain-main-title-container'>
-                            <h2 className="aboutFectivalMain-title">О ФЕСТИВАЛЕ</h2>
                             <h3 className="aboutFectivalMain-subtitle">
-                                <span className="aboutFectivalMain-subtitle-one-line">СЕМЕЙНЫЙ ФЕСТИВАЛЬ КНИГ</span>
-                                <span className="aboutFectivalMain-subtitle-one-line"> НА РУССКОМ ЯЗЫКЕ</span> 
-                                <span className="aboutFectivalMain-subtitle-bold"> «В ЧЕМОДАНЕ»</span>
-                                <span>ЭТО</span>
-                                <span className="aboutFectivalMain-subtitle-bold">ГЛАВНОЕ КУЛЬТУРНОЕ СОБЫТИЕ</span>
+                                <span className="aboutFectivalMain-subtitle-one-line-main-title">Семейный книжный фестиваль</span>
+                                <span className="aboutFectivalMain-subtitle-one-line-main-title aboutFectivalMain-subtitle-bold"> «В ЧЕМОДАНЕ»</span>
+                                 
+                                <span className="aboutFectivalMain-subtitle-one-line-main-title">главное русскоязычное культурное событие в Израиле</span>
+                                
                             </h3>
-                            
-                        </div>
                     <div className='aboutFectivalMain-stared-dots-pic'></div>
                 </div>
 
-                <p className="aboutFectivalMain-text aboutFectivalMain-text-first-p-margin">Книжный семейный фестиваль <span className="aboutFectivalMain-subtitle-one-line">«В чемодане»</span> – главное русскоязычное культурное событие в Израиле</p>
+                {/*
                 <div className="aboutFectivalMain-dots-pic"></div>
+                <p className="aboutFectivalMain-text aboutFectivalMain-text-first-p-margin">Книжный семейный фестиваль <span className="aboutFectivalMain-subtitle-one-line">«В чемодане»</span> – главное русскоязычное культурное событие в Израиле</p>*/}
+                
                 <div className="aboutFectivalMain-flex-container-lamed">
                     <div className="aboutFectivalMain-letters-lamed"></div>
                     <p className="aboutFectivalMain-text aboutFectivalMain-shiftedText">С сентября 2022 года фестиваль регулярно проводится в Тель-Авиве, Хайфе и Иерусалиме</p>

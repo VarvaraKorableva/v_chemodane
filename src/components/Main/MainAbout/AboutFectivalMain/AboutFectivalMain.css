@@ -25,10 +25,6 @@
 }
 
 .aboutFectivalMain-title {
-    font-size: 60px;
-    font-family: "Mulish", sans-serif;
-    font-family: 'Karton', sans-serif;
-    
     font-family: "Mulish", sans-serif;
     font-size: 45px;
     color: #374BA5;
@@ -43,21 +39,32 @@
     font-family: "Martel", serif;
     text-align: center;
     font-weight: 400;
-    margin-bottom: 113px;
-    max-width: 796px;
+    margin-bottom: 0;
+    width: 100%;
+    color: #374BA5;
     z-index: 5px;
     display: flex;
     flex-direction: column;
+    text-transform: uppercase;
 }
 
 .aboutFectivalMain-subtitle-bold {
     font-weight: bold;
     font-size: 30px;
     white-space: nowrap;
+    text-transform: uppercase;
+    font-family: "Mulish", sans-serif !important;
+    font-size: 45px;
+    color: #374BA5;
+    margin-top: 30px;
+    margin-bottom: 30px;
     
 }
 
 .aboutFectivalMain-subtitle-one-line {
+    white-space: nowrap;
+}
+.aboutFectivalMain-subtitle-one-line-main-title {
     white-space: nowrap;
 }
 
@@ -91,7 +98,10 @@
     background-size: contain;
     width: 241px;
     height: 317px;
-    align-self: flex-end;
+    position: absolute;
+    top: -100px;
+    right: -10px;
+    transform: rotate(90deg);
 }
 
 .aboutFectivalMain-zigZag-pic {
@@ -102,6 +112,11 @@
     width: 243px;
     height: 163px;
     align-self: flex-start;
+
+    position: absolute;
+
+    top: -10px;
+    left: -10px;
 }
 
 .aboutFectivalMain-title-sub-title-pic-container {
@@ -109,6 +124,7 @@
     margin-bottom: 52px;
     width: 100%;
     justify-content: space-between; 
+    position: relative;
 }
 
 .aboutFectivalMain-flex-container {
@@ -425,7 +441,27 @@
     .aboutFectivalMain-fourth-container-letter-pey {
         margin-left: 200px;
     }
+
+    .aboutFectivalMain-stared-dots-pic {
+        width: 200px;
+        height: 300px;
+    }
     
+}
+
+@media screen and (max-width: 1150px) {
+    .aboutFectivalMain-stared-dots-pic {
+        width: 150px;
+        height: 250px;
+    }
+
+    .aboutFectivalMain-zigZag-pic {
+        width: 200px;
+        height: 150px;
+    
+        top: -10px;
+        left: -10px;
+    }
 }
 /*//////////////////////////////////////////////////*/
 /*//////////////////////////////////////////////////*/
@@ -433,6 +469,12 @@
 /*//////////////////////////////////////////////////*/
 
 @media screen and (max-width: 1000px) {
+    .aboutFectivalMain-stared-dots-pic {
+        width: 120px;
+        height: 200px;
+        top: -50px;
+        right: 0;
+    }
     .aboutFectivalMain-title {
         /*font-size: 48px;*/
         margin-bottom: 35px;
@@ -441,12 +483,14 @@
 
     .aboutFectivalMain-subtitle {
         font-size: 21px;
-        max-width: 460px;
+        /*max-width: 460px;*/
         margin-bottom: 90px;
     }
 
     .aboutFectivalMain-subtitle-bold  {
         font-size: 22px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 
     .aboutFectivalMain-text {
@@ -458,12 +502,6 @@
         width: 151px;
         height: 101px;
         
-    }
-
-    .aboutFectivalMain-stared-dots-pic {
-        width: 124px;
-        height: 164px;
-        margin-left: 30px;
     }
 
     .aboutFectivalMain-title-sub-title-pic-container {
@@ -586,6 +624,10 @@
 /*//////////////////////////////////////////////////*/
 
 @media screen and (max-width: 746px) {
+    .aboutFectivalMain-stared-dots-pic {
+        top: -70px;
+        right: 0;
+    }
     .aboutFectivalMain-title {
         font-size: 24px;
         margin-bottom: 32px;
@@ -594,7 +636,7 @@
 
     .aboutFectivalMain-subtitle {
         font-size: 15px;
-        max-width: 339px;
+        
         margin-bottom: 50px;
     }
 
@@ -636,13 +678,10 @@
 /*//////////////////////////////////////////////////*/
 
 @media screen and (max-width: 630px) {
-    .aboutFectivalMain-zigZag-pic {
-        width: 120px;
-        height: 80px;
-    }
     .aboutFectivalMain-stared-dots-pic {
         width: 120px;
         height: 100px;
+        top: -30px;
     }
 
 }
@@ -764,6 +803,9 @@
 /*//////////////////////////////////////////////////*/
 
 @media screen and (max-width: 530px) {
+    .aboutFectivalMain-subtitle-one-line-main-title {
+        white-space: wrap;
+    }
 
     .aboutFectivalMain-title-sub-title-pic-container {
         position: relative;
@@ -772,17 +814,14 @@
     }
 
     .aboutFectivalMain-zigZag-pic {
-        position: absolute;
-        top: -40px;
-        left: -75px;
-        width: 85px;
-        height: 60px;
+        top: -60px;
+        left: 0;
     }
 
     .aboutFectivalMain-stared-dots-pic {
         position: absolute;
-        top: 190px;
-        right: -55px;
+        top: 120px;
+        right: 0;
         width: 100px;
         height: 100px;
     }
@@ -808,20 +847,5 @@
 
     .aboutFectivalMain-main-title-container {
         max-width: calc(100% - 20px);
-    }
-
-    .aboutFectivalMain-zigZag-pic {
-        top: -20px;
-        left: -50px;
-        width: 80px;
-        height: 55px;
-        transform: rotate(-60deg);
-    }
-
-    .aboutFectivalMain-stared-dots-pic {
-        right: -35px;
-        transform: rotate(90deg);    
-        margin-top: 0;
-        top: 175px;
     }
 }
