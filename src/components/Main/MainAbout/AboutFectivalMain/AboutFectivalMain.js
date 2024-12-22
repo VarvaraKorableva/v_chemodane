@@ -47,13 +47,13 @@ function AboutFectivalMain() {
                 </div>
 
                 <div className="aboutFectivalMain-fourth-container">
-                    {/*<div className="aboutFectivalMain-fourth-container-letter-pey"></div>*/}
+                    <div className="aboutFectivalMain-fourth-container-letter-pey"></div>
                     
                     <div className="aboutFectivalMain-fourth-container-text-wrapper">
                         <div className="aboutFectivalMain-fourth-container-three-zigzags"></div>
                         <div className="aboutFectivalMain-fourth-container-text-container">
                             
-                            <p className="aboutFectivalMain-text aboutFectivalMain-shiftedText">Задача фестиваля — знакомить новых репатриантов с еврейской культурой и литературой через искусство. Важно, чтобы мероприятия фестиваля «В Чемодане» помогали участникам прочувствовать свою связь с еврейскими традициями и историей народа Израиля</p>
+                            <p className="aboutFectivalMain-shiftedText-full-text">Задача фестиваля — знакомить новых репатриантов с еврейской культурой и литературой через искусство. Важно, чтобы мероприятия фестиваля <span className="aboutFectivalMain-subtitle-one-line">«В Чемодане»</span> помогали участникам прочувствовать свою связь с еврейскими традициями и историей народа Израиля</p>
                         </div>
                     </div>
                         <div className="aboutFectivalMain-fourth-container-dots-pic"></div>
