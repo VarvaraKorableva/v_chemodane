@@ -2,6 +2,7 @@ import './OurTeam.css'
 import ourTeam from '../../data/ourTeam'
 import OneCard from './OneCard'
 import Heading from '../../UI-Kit/Heading/Heading'
+import HeadingPage from '../../UI-Kit/Heading/HeadingPage'
 
 function OurTeam() {
     return(

@@ -23,3 +23,30 @@
         margin-top: 25px;
     }
 }
+
+.headingPage {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: "Mulish", sans-serif;
+    color: #374BA5;
+    margin-bottom: 60px;
+    margin-top: 85px;
+    margin-left: 43px;
+    max-width: 796px;
+    text-align: start;
+}
+
+
+@media screen and (max-width: 840px) {
+    .headingPage { 
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .headingPage { 
+        font-size: 24px;
+        margin-top: 25px;
+    }
+}
+
