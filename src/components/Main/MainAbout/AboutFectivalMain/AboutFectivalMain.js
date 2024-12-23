@@ -72,7 +72,7 @@ function AboutFectivalMain() {
                     
                     <div className="aboutFectivalMain-letters-i-container">
                         <div className="aboutFectivalMain-letter-i"></div>
-                        <p className="aboutFectivalMain-text">С фестивалем <span className="aboutFectivalMain-subtitle-one-line">«В чемодане»</span> дает людям  моменты радости и уюта, несмотря на вызовы внешнего мира</p>
+                        <p className="aboutFectivalMain-text">Фестиваль <span className="aboutFectivalMain-subtitle-one-line">«В чемодане»</span> дает людям  моменты радости и уюта, несмотря на вызовы внешнего мира</p>
                     </div>
 
                     <div className="aboutFectivalMain-open-book"></div>
