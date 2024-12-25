@@ -1,13 +1,19 @@
 import { useParams } from 'react-router-dom'
+import { useEffect } from 'react'
 import { FaInstagram, FaTelegram, FaFacebook, FaExternalLinkAlt } from 'react-icons/fa'
-import participantsData from '../../data/participantsDataHaifa'
+//import participantsData from '../../data/participantsDataHaifa'
+import participantsData from '../../data/hanukkah/hanukkahParticipantsData'
 import './IndividualPageOfParticipants.css'
 
 function IndividualPageOfParticipants() {
 
-    let { id } = useParams();
+    let { slag } = useParams();
 
-    const participant = participantsData.find(f => f.id == id)
+    const participant = participantsData.find(f => f.slag == slag)
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return(
         <section className='individualPageOfParticipants-section'>

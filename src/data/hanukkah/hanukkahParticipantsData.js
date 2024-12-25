@@ -3,6 +3,7 @@ import redmax from '../../images/logo/redmax.jpg'
 const hanukkahParticipantsData = [
     {
         companyName:"Babel Haifa",
+        slag: "babel-haifa",
         npreviousParticipation:"да",
         socialNetwork: {
             instagram: "",
@@ -12,23 +13,12 @@ const hanukkahParticipantsData = [
         description:"«Бабель. Книги. Хайфа» (Babel Haifa. Art & Books) всего за год успел собрать вокруг себя верную аудиторию, которая оценила отличный подбор книг для детей и взрослых на русском и английском языке. Как и в других магазинах франшизы «Бабель» в Хайфе проходят мастер-классы и лекции для детей и взрослых, открываются выставки современных художников. \nАдрес магазина: Хайфа, Хатиб, 10. Следить за новостями магазина можно в фб https://www.facebook.com/babelhaifabooks и инстаграме @babel_haifa\n\n",
         participationInTheLottery:"да",
         imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710277229436_302850514.svg",
-        id:1
+        id:1,
+        slag: "babel_haifa",
     },
-    /*{
-        companyName:"Издательство «Август»",
-        npreviousParticipation:"Да",
-        socialNetwork: {
-            instagram: "",
-            facebook: "https://www.facebook.com/profile.php?id=100077282155339&mibextid=uzlsIk",
-            personalSite: "",
-        },
-        description:"Издательство «Август» работает с 2000 года. Вышло множество очень красивых книг из русской  литературы и поэзии, среди них есть то, что раньше отдельной книгой для детей не издавалось. Сейчас издательство переехало в Израиль и выпустило первую книгу на иврите .",
-        participationInTheLottery:"да",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710712074695_565886293.jpg",
-        id:5
-    },*/
     {
         companyName:"Bilberry Forest",
+        slag: "bilberry-forest",
         previousParticipation:"Да, во всех, начиная с первого тель-авивского",
         socialNetwork: {
             instagram: "https://www.instagram.com/bilberry_forest/",
@@ -38,10 +28,12 @@ const hanukkahParticipantsData = [
         description:"Светлана Соловая, автор проекта \"Bilberry Forest\" и постоянный участник наших фестивалей привезёт в Тель-Авив новые коллекции керамической посуды и украшений.",
         participationInTheLottery:"да",
         imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710273291901_646709829.png",
-        id:2
+        id:2,
+        
     },
     {
         companyName:"TAPUZIM.STORE",
+        slag:"TAPUZIM-STORE",
         previousParticipation:"Иерусалим, Музей АНУ",
         socialNetwork: {
             facebook: "https://www.facebook.com/tapuzimstore", 
@@ -51,11 +43,12 @@ const hanukkahParticipantsData = [
         description:"Детский книжный интернет-магазин Tapuzim.store открыт ежедневно для мам, пап и их замечательных детей! В нашем ассортименте самые топовые книги от крупнейших издательств России - \"АСТ\", \"Азбука-Аттикус\", Voicebook, \"МИФ\", Мелик-Пашаев, Росмэн, Умка, замечательные книги издательства Англии Walker Books LTD.\nА также:\n- Развивающие пособия по ивриту, русскому языку,  математике, логике, психологии.\n- Увлекательные карточные и настольные игры;\n- Наборы для творчества и хобби\n- Канцелярская продукция и сопутствующие товары\nДоставка по всему Израилю в течение 1-3 дней! Самовывоз из офиса по адресу: Тель-Авив, Тель Гиборим, 5, офис 321. \nНе можете определиться с выбором? Растерялись от огромного количества книг и игр? Мы вам подскажем и поможем!",
         participationInTheLottery:"да",
         imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710274838958_975317700.png",
-        id:3
+        id:3,
     },
 
     {
         companyName:"Brokain things",
+        slug: "brokain-things",
         previousParticipation:"Пока нет",
         socialNetwork: {
             instagram: "https://www.instagram.com/brokain.things\nhttps://www.facebook.com/brokain.things",
@@ -69,6 +62,7 @@ const hanukkahParticipantsData = [
     },
     {
         companyName:"Финкель и Штейн",
+        slug: "finkel-i-shtein",
         previousParticipation:"В музее Ану и в Иерусалиме",
         socialNetwork: {
             instagram: "https://www.instagram.com/finkel__shtein/",
@@ -83,6 +77,7 @@ const hanukkahParticipantsData = [
     },
     {
         companyName:"RABEYKA",
+        slug: "rabeyka",
         previousParticipation:"нет",
         socialNetwork: {
             instagram: "@rabeyka",
@@ -96,6 +91,7 @@ const hanukkahParticipantsData = [
     },
     {
         companyName:"Исрадон",
+        slug: "isradon",
         previousParticipation:true,
         socialNetwork: {
             instagram: "",
@@ -109,6 +105,7 @@ const hanukkahParticipantsData = [
     },
     {
         companyName:"Sweet baby book",
+        slug: "sweet-baby-book",
         previousParticipation:"",
         socialNetwork: {
             instagram: "https://www.instagram.com/sweet_baby_book",
@@ -122,6 +119,7 @@ const hanukkahParticipantsData = [
     },
     {
         companyName:"Polonskybooks",
+        slug: "polonskybooks",
         previousParticipation:"",
         socialNetwork: {
             instagram: "",
@@ -135,6 +133,7 @@ const hanukkahParticipantsData = [
     },
     {
         companyName:"АКАК",
+        slag: "akak",
         previousParticipation:"",
         socialNetwork: {
             instagram: "https://www.instagram.com/akakbook?igsh=MWM2YmxpbjdhZm93eg==",
@@ -149,6 +148,7 @@ const hanukkahParticipantsData = [
 
     {
         companyName:"РэдМакс",
+        slag: "redmax",
         previousParticipation:"",
         socialNetwork: {
             instagram: "",
@@ -164,6 +164,7 @@ const hanukkahParticipantsData = [
 
     {
         companyName:"Маша и три медведя",
+        slag: "masha-and-three-bears",
         previousParticipation:'',
         socialNetwork: {
             instagram: "https://www.instagram.com/mashaandthreebears?igsh=NmE1ZjNhYWx3ZDdr",
@@ -177,6 +178,7 @@ const hanukkahParticipantsData = [
 
     {
         companyName:"RubinArt",
+        slag: "rubinart", 
         previousParticipation:"",
         socialNetwork: {
             instagram: "https://www.instagram.com/rubinartbooks/",
@@ -191,6 +193,7 @@ const hanukkahParticipantsData = [
 
     {
         companyName:"Книжная ярмарка Пражская книжная башня",
+        slag: "prague-book-tower",
            previousParticipation:true,
            socialNetwork: {
                instagram: "https://www.instagram.com/praguebooktower/",
@@ -204,6 +207,7 @@ const hanukkahParticipantsData = [
        },
    {
         companyName:"Masterskaya Ton",
+        slag: "masterskaya-ton",
            previousParticipation:true,
            socialNetwork: {
                instagram: "",
@@ -217,6 +221,7 @@ const hanukkahParticipantsData = [
        },
    {
         companyName:"Prima Naturalis",
+        slag:  "prima-naturalis",
            previousParticipation:true,
            socialNetwork: {
                instagram: "https://www.instagram.com/prima_naturalis/",
@@ -230,6 +235,7 @@ const hanukkahParticipantsData = [
        },
    {
         companyName:"Борис Войцеховский",
+        slag: "boris-voitsekhovsky",
            previousParticipation:true,
            socialNetwork: {
                instagram: "https://www.instagram.com/voitsekh1",
@@ -243,6 +249,7 @@ const hanukkahParticipantsData = [
        },
    {
         companyName:"No Dark Factory",
+        slag: "no-dark-factory",
            previousParticipation:true,
            socialNetwork: {
                instagram: " https://www.instagram.com/nodark.factory",
@@ -256,6 +263,7 @@ const hanukkahParticipantsData = [
        },
    {
         companyName:"Мири Брагински (Miri Braginsky)",
+        slag:  "miri-braginsky",
            previousParticipation:true,
            socialNetwork: {
                instagram: "",
@@ -270,6 +278,7 @@ const hanukkahParticipantsData = [
 
     {
         companyName:"Книгвардс",
+        slag:  "knigvards",
         previousParticipation:true,
         socialNetwork: {
                instagram: "https://www.instagram.com/knigvards.knigi_il",
@@ -284,6 +293,7 @@ const hanukkahParticipantsData = [
    
     {
         companyName:"AMITEA",
+        slag:  "amitea",
         previousParticipation:true,
         socialNetwork: {
                instagram: "https://www.instagram.com/amitea.co.il",
@@ -298,6 +308,7 @@ const hanukkahParticipantsData = [
 
     {
         companyName:"aescentics",
+        slag: "aescentics",
         previousParticipation:true,
         socialNetwork: {
                instagram: "https://www.instagram.com/aescentics/",
@@ -313,6 +324,7 @@ const hanukkahParticipantsData = [
 
     {
         companyName:"«Книжники - Израиль»",
+        slag: "knizhniki-israel",
         previousParticipation:true,
         socialNetwork: {
                instagram: "https://www.instagram.com/knizhniki_ru?igsh=MWJrcnAxNHkwcnRrZg==",

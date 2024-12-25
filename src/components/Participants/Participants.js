@@ -30,9 +30,6 @@ function Participants({addCard, limit}) {
     return(
         <section className="participant-section" id='market'>
             <Heading>УЧАСТНИКИ МАРКЕТА</Heading>
-            {location.pathname.includes("/hanukkah_2024")?
-
-            <>
                 <ul className="participant-main-container">
                     {hanukkahParticipantsData.slice(0, limit).map((item) => (
                         <Participant key={item.id} item={item}></Participant>
@@ -44,25 +41,6 @@ function Participants({addCard, limit}) {
                 :
                     <button className="participant-btn-add" onClick={addCard}>Посмотреть еще</button>
                 }
-            </>
-
-            :
-
-            <>
-                <ul className="participant-main-container">
-                    {participantsData.slice(0, limit).map((item) => (
-                        <Participant key={item.id} item={item}></Participant>
-                    ))}
-                </ul>
-
-                {participantsData.length <= limit? 
-                    <button disabled={true} className="participant-btn-add_notactive">Вы видите всех участников</button>
-                :
-                    <button className="participant-btn-add" onClick={addCard}>Посмотреть еще</button>
-                }
-            </>
-            }
-            
         </section>
     )
 }

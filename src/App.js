@@ -219,7 +219,7 @@ function App() {
         </Route>
 
         <Route 
-          path='/participant/:id'
+          path='/participant/:slag'
             element={
               <IndividualPageOfParticipants />
             }
