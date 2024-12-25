@@ -13,7 +13,7 @@ function Participants({addCard, limit}) {
     return firstThreeChars.match(/[a-zA-Z]/) ? 'english' : 'russian';
   }
 
-  const sortedData = participantsData.sort((a, b) => {
+  /*const sortedData = hanukkahParticipantsData.sort((a, b) => {
     const languageA = getLanguage(a.companyName);
     const languageB = getLanguage(b.companyName);
 
@@ -25,7 +25,7 @@ function Participants({addCard, limit}) {
     } else {
         return 1;
     }
-  });
+  });*/
 
     return(
         <section className="participant-section" id='market'>

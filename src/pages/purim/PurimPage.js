@@ -11,7 +11,7 @@ function Purim({handleCardClick, addCard, limit}) {
         <NewAnnounce />
         <AboutFestival />
         <NewSchedule handleCardClick={handleCardClick}/>
-        <Participants addCard={addCard} limit={limit}/>
+        {/*<Participants addCard={addCard} limit={limit}/>*/}
         </>
     )
 }

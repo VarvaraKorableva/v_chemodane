@@ -3,7 +3,7 @@ import redmax from '../../images/logo/redmax.jpg'
 const hanukkahParticipantsData = [
     {
         companyName:"Babel Haifa",
-        slag: "babel-haifa",
+        slug: "babel-haifa",
         npreviousParticipation:"да",
         socialNetwork: {
             instagram: "",
@@ -14,11 +14,10 @@ const hanukkahParticipantsData = [
         participationInTheLottery:"да",
         imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710277229436_302850514.svg",
         id:1,
-        slag: "babel_haifa",
     },
     {
         companyName:"Bilberry Forest",
-        slag: "bilberry-forest",
+        slug: "bilberry-forest",
         previousParticipation:"Да, во всех, начиная с первого тель-авивского",
         socialNetwork: {
             instagram: "https://www.instagram.com/bilberry_forest/",
@@ -33,7 +32,7 @@ const hanukkahParticipantsData = [
     },
     {
         companyName:"TAPUZIM.STORE",
-        slag:"TAPUZIM-STORE",
+        slug:"TAPUZIM-STORE",
         previousParticipation:"Иерусалим, Музей АНУ",
         socialNetwork: {
             facebook: "https://www.facebook.com/tapuzimstore", 
@@ -133,7 +132,7 @@ const hanukkahParticipantsData = [
     },
     {
         companyName:"АКАК",
-        slag: "akak",
+        slug: "akak",
         previousParticipation:"",
         socialNetwork: {
             instagram: "https://www.instagram.com/akakbook?igsh=MWM2YmxpbjdhZm93eg==",
@@ -148,7 +147,7 @@ const hanukkahParticipantsData = [
 
     {
         companyName:"РэдМакс",
-        slag: "redmax",
+        slug: "redmax",
         previousParticipation:"",
         socialNetwork: {
             instagram: "",
@@ -164,7 +163,7 @@ const hanukkahParticipantsData = [
 
     {
         companyName:"Маша и три медведя",
-        slag: "masha-and-three-bears",
+        slug: "masha-and-three-bears",
         previousParticipation:'',
         socialNetwork: {
             instagram: "https://www.instagram.com/mashaandthreebears?igsh=NmE1ZjNhYWx3ZDdr",
@@ -178,7 +177,7 @@ const hanukkahParticipantsData = [
 
     {
         companyName:"RubinArt",
-        slag: "rubinart", 
+        slug: "rubinart", 
         previousParticipation:"",
         socialNetwork: {
             instagram: "https://www.instagram.com/rubinartbooks/",
@@ -193,7 +192,7 @@ const hanukkahParticipantsData = [
 
     {
         companyName:"Книжная ярмарка Пражская книжная башня",
-        slag: "prague-book-tower",
+        slug: "prague-book-tower",
            previousParticipation:true,
            socialNetwork: {
                instagram: "https://www.instagram.com/praguebooktower/",
@@ -207,7 +206,7 @@ const hanukkahParticipantsData = [
        },
    {
         companyName:"Masterskaya Ton",
-        slag: "masterskaya-ton",
+        slug: "masterskaya-ton",
            previousParticipation:true,
            socialNetwork: {
                instagram: "",
@@ -221,7 +220,7 @@ const hanukkahParticipantsData = [
        },
    {
         companyName:"Prima Naturalis",
-        slag:  "prima-naturalis",
+        slug:  "prima-naturalis",
            previousParticipation:true,
            socialNetwork: {
                instagram: "https://www.instagram.com/prima_naturalis/",
@@ -235,7 +234,7 @@ const hanukkahParticipantsData = [
        },
    {
         companyName:"Борис Войцеховский",
-        slag: "boris-voitsekhovsky",
+        slug: "boris-voitsekhovsky",
            previousParticipation:true,
            socialNetwork: {
                instagram: "https://www.instagram.com/voitsekh1",
@@ -249,7 +248,7 @@ const hanukkahParticipantsData = [
        },
    {
         companyName:"No Dark Factory",
-        slag: "no-dark-factory",
+        slug: "no-dark-factory",
            previousParticipation:true,
            socialNetwork: {
                instagram: " https://www.instagram.com/nodark.factory",
@@ -263,7 +262,7 @@ const hanukkahParticipantsData = [
        },
    {
         companyName:"Мири Брагински (Miri Braginsky)",
-        slag:  "miri-braginsky",
+        slug:  "miri-braginsky",
            previousParticipation:true,
            socialNetwork: {
                instagram: "",
@@ -278,7 +277,7 @@ const hanukkahParticipantsData = [
 
     {
         companyName:"Книгвардс",
-        slag:  "knigvards",
+        slug:  "knigvards",
         previousParticipation:true,
         socialNetwork: {
                instagram: "https://www.instagram.com/knigvards.knigi_il",
@@ -293,7 +292,7 @@ const hanukkahParticipantsData = [
    
     {
         companyName:"AMITEA",
-        slag:  "amitea",
+        slug:  "amitea",
         previousParticipation:true,
         socialNetwork: {
                instagram: "https://www.instagram.com/amitea.co.il",
@@ -308,7 +307,7 @@ const hanukkahParticipantsData = [
 
     {
         companyName:"aescentics",
-        slag: "aescentics",
+    slug: "aescentics",
         previousParticipation:true,
         socialNetwork: {
                instagram: "https://www.instagram.com/aescentics/",
@@ -324,7 +323,7 @@ const hanukkahParticipantsData = [
 
     {
         companyName:"«Книжники - Израиль»",
-        slag: "knizhniki-israel",
+        slug: "knizhniki-israel",
         previousParticipation:true,
         socialNetwork: {
                instagram: "https://www.instagram.com/knizhniki_ru?igsh=MWJrcnAxNHkwcnRrZg==",

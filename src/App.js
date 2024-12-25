@@ -219,7 +219,7 @@ function App() {
         </Route>
 
         <Route 
-          path='/participant/:slag'
+          path='/marker-paticipants/:slug'
             element={
               <IndividualPageOfParticipants />
             }

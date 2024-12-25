@@ -21,7 +21,7 @@ function Haifa({addCard, limit, handleCardClick}) {
         <TheaterHaifa />
         <MasterClassHaifa />
         <LecturesAndPresentations />
-        <Participants addCard={addCard} limit={limit}/>
+        {/*<Participants addCard={addCard} limit={limit}/>*/}
         <OurPartners />
         <OurTeam />
     </>

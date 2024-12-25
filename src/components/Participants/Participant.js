@@ -3,9 +3,12 @@ import {Link} from 'react-router-dom'
 
 
 function Paticipant({item}) {
+    function test(){
+        console.log('item', item)
+    }
 
     return (
-        <Link to={`/participant/${item.slag}`} className="paticipant-container">
+        <Link to={`/marker-paticipants/${item.slug}`} className="paticipant-container" onClick={test}>
 
            {item.imgLink === ''?
             <p className="paticipant-img">Участник скоро добавит свой логотип</p>

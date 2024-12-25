@@ -1,15 +1,15 @@
 import { useParams } from 'react-router-dom'
 import { useEffect } from 'react'
 import { FaInstagram, FaTelegram, FaFacebook, FaExternalLinkAlt } from 'react-icons/fa'
-//import participantsData from '../../data/participantsDataHaifa'
-import participantsData from '../../data/hanukkah/hanukkahParticipantsData'
+import participantsData from '../../data/participantsData'
+//import participantsData from '../../data/hanukkah/hanukkahParticipantsData'
 import './IndividualPageOfParticipants.css'
 
 function IndividualPageOfParticipants() {
 
-    let { slag } = useParams();
+    let { slug } = useParams();
 
-    const participant = participantsData.find(f => f.slag == slag)
+    const participant = participantsData.find(f => f.slug == slug)
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -43,11 +43,3 @@ function IndividualPageOfParticipants() {
 }
 
 export default IndividualPageOfParticipants;
-
-/*
-                    <div className='individualPageOfParticipants-links-container'>
-                        {participant.socialNetwork.instagram.length? <a className='individualPageOfParticipants-link' target='_blank' href={participant.socialNetwork.instagram}><FaInstagram /></a> : <></>}
-                        {participant.socialNetwork.facebook.length? <a className='individualPageOfParticipants-link' target='_blank' href={participant.socialNetwork.facebook}><FaFacebook /></a> : <></>}
-                        {participant.socialNetwork.personalSite.length? <></> : <a className='individualPageOfParticipants-link' target='_blank' href={participant.socialNetwork.personalSite}><FaExternalLinkAlt /></a>}
-                    </div>
-*/
