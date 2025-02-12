@@ -11,7 +11,8 @@ import Schedule from './components/Schedule/Schedule'
 import NewAnnounce from './components/CurrentAnnounce/HaifaNewAnnounce'
 import HaifaSchedule from './components/HaifaSchedule/HaifaSchedule'
 import ScheduleHaifa from './components/ScheduleHaifa/ScheduleHaifa'
-import Purim from './pages/purim/PurimPage'
+import Purim2024 from './pages/Purim/Purim2024/purim/PurimPage'
+import Purim2025 from './pages/Purim/Purim2025/Purim2025'
 import EventAddress from './components/EventAddress/EventAddress'
 import CampHaifa from './components/Camp/CampHaifa'
 //import Performances from './components/Performances/Performances' <Performances />
@@ -240,12 +241,23 @@ function App() {
         />
 
         <Route
-          path='/purim'
+          path='/purim_2024'
             element={
-              <Purim
+              <Purim2024
                 handleCardClick={handleCardClick}
                 addCard={addCard} limit={limit}
-              ></Purim>
+              ></Purim2024>
+            }
+        >
+        </Route>
+
+        <Route
+          path='/purim_2025'
+            element={
+              <Purim2025
+                //handleCardClick={handleCardClick}
+                //addCard={addCard} limit={limit}
+              ></Purim2025>
             }
         >
         </Route>

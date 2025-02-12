@@ -1,6 +1,6 @@
 import './NewSchedule.css'
-import scheduleFirstPart from '../../../images/scheduleFirstPart.png'
-import scheduleSecondPart from '../../../images/scheduleSecondPart.png'
+import scheduleFirstPart from '../../../../images/scheduleFirstPart.png'
+import scheduleSecondPart from '../../../../images/scheduleSecondPart.png'
 
 function NewSchedule({handleCardClick}) {
 

@@ -62,7 +62,7 @@
 }
 
 .aboutFestival__blue-circle {
-    background-image: url(../../../images/aboutFesImages/bluecircle.svg);
+    background-image: url(../../../../images/aboutFesImages/bluecircle.svg);
     background-repeat: no-repeat;
     background-position: center;
     width: 835px;
@@ -260,7 +260,7 @@
 }
 
 .aboutFestival__green-circle {
-    background-image: url(../../../images/aboutFesImages/greencircle.svg);
+    background-image: url(../../../../images/aboutFesImages/greencircle.svg);
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -282,7 +282,7 @@
 }
 
 .aboutFestival__yellow-circle {
-    background-image: url(../../../images/aboutFesImages/yellowcircle.svg);
+    background-image: url(../../../../images/aboutFesImages/yellowcircle.svg);
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;

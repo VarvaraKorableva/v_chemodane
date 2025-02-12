@@ -50,3 +50,20 @@
     }
 }
 
+.headingClean {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: "Mulish", sans-serif;
+    color: #374BA5;
+    margin: 0;
+    max-width: 796px;
+    text-align: start;
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 550px) {
+    .headingClean { 
+        font-size: 24px;
+    }
+}
+

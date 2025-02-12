@@ -1,0 +1,95 @@
+.importantNotes__section {
+    background-color: #fff;
+    padding: 43px;
+}
+
+.importantNotes__squares-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.importantNotes__triangles {
+    background-image: url(../../../../images/purim/purim2025/Group.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 956px;
+    height: 332px;
+    display: flex;
+    margin: auto;
+}
+
+.importantNotes__squares {
+    background-image: url(../../../../images/purim/purim2025/squares.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 275px;
+    height: 142px;
+}
+
+.importantNotes__subtitle { 
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.importantNotes__wrapper {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.importantNotes__container {
+    list-style-type: none;
+    padding-bottom: 12px;
+    border-bottom: 0.5px solid #1f1f1f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-start;
+    text-align: start;
+    width: 100%;
+    margin-top: 10px;
+    min-height: 57px;
+}
+
+.importantNotes__title {
+    font-size: 24px;
+    margin: 0;
+    max-width: 761px;
+}
+
+.importantNotes__ticketPurchasingSystemPrice {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+}
+.importantNotes__time-container {
+    max-width: 355px;
+    font-size: 24px;
+    text-align: end;
+
+}
+
+.importantNotes__title-notes {
+    max-width: 756px;
+    font-size: 16px;
+}
+
+.importantNotes__text {
+    font-size: 24px;
+    margin: 0;
+    text-align: start;
+    margin-bottom: 100px; 
+}
+
+.importantNotes__time {
+    font-weight: bold;
+}
+
+.importantNotes__note {
+    font-weight: bold;
+}

@@ -1,10 +1,10 @@
 import './AboutFestival.css'
-import firstPic from '../../../images/aboutFesImages/firstPic.jpg'
-import secondPic from '../../../images/aboutFesImages/secondPic.jpg'
-import thirdPic from '../../../images/aboutFesImages/thirdPic.jpeg'
-import sixPic from '../../../images/aboutFesImages/sixPic.jpg'
-import thirdContainerPic from '../../../images/aboutFesImages/thirdContainerpic.png'
-import fourPic from '../../../images/aboutFesImages/fourPic.jpg'
+import firstPic from '../../../../images/aboutFesImages/firstPic.jpg'
+import secondPic from '../../../../images/aboutFesImages/secondPic.jpg'
+import thirdPic from '../../../../images/aboutFesImages/thirdPic.jpeg'
+import sixPic from '../../../../images/aboutFesImages/sixPic.jpg'
+import thirdContainerPic from '../../../../images/aboutFesImages/thirdContainerpic.png'
+import fourPic from '../../../../images/aboutFesImages/fourPic.jpg'
 
 function AboutFestival() {
     return(
