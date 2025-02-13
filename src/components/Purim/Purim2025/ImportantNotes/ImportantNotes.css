@@ -135,3 +135,50 @@
     display: flex;
     margin-top: 100px;
 }
+
+.importantNotes__important-container {
+    display: flex;
+}
+
+.importantNotes__pics-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 83px;
+}
+
+.importantNotes__pics-first {
+    background-image: url(../../../../images/purim/purim2025/pictureofthreesquares.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100px;
+    height: 197px;
+}
+
+.importantNotes__pics-second {
+    background-image: url(../../../../images/purim/purim2025/pictureofsevensquares.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 87px;
+    height: 308px;
+}
+
+.importantNotes__pics-third {
+    background-image: url(../../../../images/purim/purim2025/alotofsquares.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 131px;
+    height: 302px;
+}
+
+.importantNotes__pics-last {
+    background-image: url(../../../../images/purim/purim2025/lastsquaresinnotes.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 131px;
+    height: 347px;
+}

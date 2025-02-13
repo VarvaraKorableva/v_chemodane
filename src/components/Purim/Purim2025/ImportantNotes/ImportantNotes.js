@@ -65,6 +65,8 @@ function ImportantNotes() {
                 <div className='importantNotes__squares'></div>
             </div>
             <h3 className='importantNotes__subtitle'>система покупки билетов</h3>
+            <div className='importantNotes__important-container'>
+            <div>
             <ul className='importantNotes__wrapper'>
                 {
                    ticketPurchasingSystem.map((i) => (
@@ -125,7 +127,19 @@ function ImportantNotes() {
             <p className='importantNotes__text'>На некоторые мастер-классы и экскурсии ведущие не могут принять более определенного числа посетителей. Это будет некомфортно ни для гостей, ни для ведущих. Поэтому для того, чтобы попасть на нужные активности, нужна регистрация.</p>
             <p className='importantNotes__text'>Регистрация будет проходить в дни фестиваля прямо на стойке Ресепшн Главный вход Музея АНУ. Когда вы придёте на фестиваль, необходимо подойти на стойку регистрации, чтобы записаться.</p>
             <p className='importantNotes__text'>Многие активности повторяются, как раз для того, чтобы смогло попасть, как можно большее количество участников.</p>
+            </div>
 
+            <div className='importantNotes__pics-container'>
+                <div className='importantNotes__pics-first'>
+                </div>
+                <div className='importantNotes__pics-second'>
+                </div>
+                <div className='importantNotes__pics-third'>
+                </div>
+                <div className='importantNotes__pics-last'>
+                </div>
+            </div>
+            </div>
             <div className='importantNotes__threelinesofsquares'></div>
 
         </section>
