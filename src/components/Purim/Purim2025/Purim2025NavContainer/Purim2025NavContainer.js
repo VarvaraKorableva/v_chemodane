@@ -5,16 +5,16 @@ function Purim2025NavContainer() {
         <nav className="hanukaTelAviv2024Banner__nav-container">
             <ul className="hanukaTelAviv2024Banner__ul-container">
                 <li className="hanukaTelAviv2024Banner__li">
-                    <a href="#schedulehanukkah" className="hanukaTelAviv2024Banner__link" href="#schedulehanukkah">Расписание</a>
+                    <a className="hanukaTelAviv2024Banner__link" href="#schedulehanukkah">Расписание</a>
                 </li>
                 <li className="hanukaTelAviv2024Banner__li">
-                    <a href="#Partners" className="hanukaTelAviv2024Banner__link" href="#rules">Важные примечания</a>
+                    <a className="hanukaTelAviv2024Banner__link" href="#importantNotes">Важные примечания</a>
                 </li>
                 <li className="hanukaTelAviv2024Banner__li">
-                    <a href="#Organizers" className="hanukaTelAviv2024Banner__link" href="#market">Участники маркета</a>
+                    <a className="hanukaTelAviv2024Banner__link" href="#market">Участники маркета</a>
                 </li>
                 <li className="hanukaTelAviv2024Banner__li">
-                    <a href="#Organizers" className="hanukaTelAviv2024Banner__link" href="#partners">Партнеры</a>
+                    <a className="hanukaTelAviv2024Banner__link" href="#partners">Партнеры</a>
                 </li>
             </ul>
             <a 

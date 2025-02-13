@@ -2,13 +2,43 @@
     background-color: #fff;
     width: calc(100% - 86px);
     padding: 43px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.presentation__title-container {
+    display: flex;
+}
 
+.presentation__first-pic {
+    background-image: url(../../../../images/purim/purim2025/presentationfirstpic.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 479px;
+    height: 84px;
+    align-self: flex-start;
+}
+
+.presentation__left-pic {
+    background-image: url(../../../../images/purim/purim2025/presentationleftpic.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 174px;
+    height: 222px;
+    margin-top: 50px;
+}
+.presentation__right-pic {
+    background-image: url(../../../../images/purim/purim2025/presentationrightpic.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 135px;
+    height: 173px;
+    margin-top: 50px;
+}
 .presentation__text-container {
     display: flex;
     flex-direction: column;
@@ -135,10 +165,16 @@
     font-size: 24px;
     border-radius: 12px;
     height: 42px;
+
     padding-left: 16px;
     padding-right: 16px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+
     border: none;
     cursor: pointer;
+    text-decoration: none;
 }
 .presentation__li-btn:hover {
 
@@ -154,6 +190,9 @@
     background-position: center;
     background-size: contain;
 }
+.presentation__li-triangles-last-of-type {
+    display: none;
+} 
 
 .presentation__presentationsquares {
     width: 478px;
@@ -166,4 +205,148 @@
 
     display: flex;
     align-self: flex-end;
+}
+
+@media screen and (max-width: 900px) {
+    .presentation__section {
+        width: calc(100% - 64px);
+        padding: 32px;
+    }
+    .presentation__li-text-container {
+        max-width: 460px;
+        line-height: unset;
+        font-size: 18px;
+    }
+    .presentation__li-arrow {
+        width: 46px;
+        height: 46px;
+    }
+    .presentation__li-triangles {
+        width: 330px;
+        height: 63px;
+    }
+    .presentation__li-title {
+        line-height: unset;
+        font-size: 18px;
+    }
+    .presentation__li-text {
+        line-height: unset;
+        font-size: 18px;
+    }
+    .presentation__li-notes {
+        line-height: unset;
+        font-size: 18px;
+    }
+    .presentation__li-triangles {
+        line-height: unset;
+        font-size: 18px;
+    }
+    .presentation__li-btn {
+        line-height: unset;
+        font-size: 18px;
+    }
+    .presentation__li-link {
+        line-height: unset;
+        font-size: 18px;
+    }
+    .presentation__presentationsquares {
+        width: 419px;
+        height: 115px;
+    }
+    .presentation__fourhorizontalsquares {
+        width: 137px;
+        height: 31px;
+    }
+
+    .presentation__first-pic {
+        width: 393px;
+        height: 69px;
+        margin-bottom: 45px;
+    }
+
+    .presentation__left-pic {
+        width: 123px;
+        height: 179px;
+    }
+    .presentation__right-pic {
+        width: 89px;
+        height: 138px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .presentation__li-text-container {
+        max-width: 311px;
+        line-height: 28px;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .presentation__li-triangles {
+        width: 222px;
+        height: 42px;
+        margin: auto;
+        margin-top: 35px;
+        margin-bottom: 35px;
+
+
+        line-height: 28px;
+        font-size: 16px;
+    }
+
+    .presentation__li-triangles-last-of-type {
+        display: unset;
+    }
+
+    .presentation__li-title {
+        line-height: 28px;
+        font-size: 16px;
+    }
+    .presentation__li-text {
+        line-height: 28px;
+        font-size: 16px;
+    }
+    .presentation__li-notes {
+        line-height: 28px;
+        font-size: 16px;
+    }
+    .presentation__li-btn {
+        line-height: 28px;
+        font-size: 16px;
+    }
+    .presentation__li-link {
+        line-height: 28px;
+        font-size: 16px;
+    }
+    .presentation__presentationsquares {
+        width: 183px;
+        height: 50px;
+    }
+    .presentation__li-arrow {
+        display: none;
+    }
+    .presentation__fourhorizontalsquares {
+        width: 69px;
+        height: 16px;
+    }
+    .presentation__text {
+        font-size: 16px;
+    }
+
+    .presentation__title {
+        font-size: 30px;
+    }
+    .presentation__first-pic {
+        width: 199px;
+        height: 35px;
+        margin-bottom: 45px;
+    }
+
+    .presentation__left-pic {
+        display: none;
+    }
+    .presentation__right-pic {
+        display: none;
+    }
 }

@@ -65,7 +65,7 @@ function ImportantNotes() {
     ]
 
     return (
-        <section className='importantNotes__section'>
+        <section className='importantNotes__section' id='importantNotes'>
             <div className='importantNotes__squares-container'>
                 <Heading>Важные примечания</Heading>
                 <div className='importantNotes__squares'></div>
