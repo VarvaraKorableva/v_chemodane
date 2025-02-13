@@ -1,15 +1,6 @@
 import './Presentation.css'
 
 function Presentation() {
-    const data = [
-        {
-            id: 1,
-            title: "Израильская премьера спектакля «Вещи»,",
-            text: "специально приехавшего к нам из Лондона. Режиссёр Сергей Карабань и актриса Дина Бердникова представят постановку, в которой каждое воспоминание оживает через личные истории.",
-            link: "https://bukutoku.com/theatreprogramme",
-            notes: "Подробности в разделе",
-        }
-    ]
     return(
         <section className="presentation__section">
             <div className="presentation__first-pic"></div>
