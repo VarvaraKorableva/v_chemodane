@@ -1,0 +1,91 @@
+.presentation__section {
+    background-color: #fff;
+    width: 100%;
+}
+
+.presentation__text-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.presentation__fourhorizontalsquares {
+    background-image: url(../../../../images/purim/purim2025/fourhorizontalsquares.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 169px;
+    height: 40px;
+    margin: auto;
+}
+
+.presentation__text {
+    font-size: 24px;
+    margin: 10px;
+}
+.presentation__title {
+    font-size: 48px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.presentation__bold {
+    font-weight: bold;
+}
+
+.presentation__wrapper {
+    padding: 0;
+}
+.presentation__li {
+    list-style-type: none;
+    display: flex;
+}
+.presentation__li-arrow {
+    width: 82px;
+    height: 75px;
+    margin-right: 21px; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transform: rotate(-90deg);
+}
+
+.importantNotes__triangle-yellow-violet {
+    background-image: url(../../../../images/purim/purim2025/yellowviolet.png);
+}
+
+.importantNotes__triangle-pink-violet {
+    background-image: url(../../../../images/purim/purim2025/pinkviolet.png);
+}
+.presentation__li-text-container {
+    max-width: 803px;
+    text-align: start;
+}
+.presentation__li-title {
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.presentation__li-text{
+    font-weight: 300;
+    font-size: 24px;
+}
+.presentation__li-link {
+    color: #1563ff;
+    font-weight: 300;
+    font-size: 24px;
+}
+.presentation__li-notes {
+    font-weight: 300;
+    font-size: 24px;
+}
+.presentation__li-btn {
+    color: #fff;
+    background-color: #7D26bf;
+    font-weight: 300;
+    font-size: 24px;
+}
+.presentation__li-triangles {
+    width: 286px;
+    height: 42px;
+    margin-bottom: 58px;
+}
