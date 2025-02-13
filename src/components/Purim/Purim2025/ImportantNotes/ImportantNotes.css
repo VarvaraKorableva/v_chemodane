@@ -9,12 +9,12 @@
 }
 
 .importantNotes__triangles {
-    background-image: url(../../../../images/purim/purim2025/Group.png);
+    background-image: url(../../../../images/purim/purim2025/triangles.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 956px;
-    height: 332px;
+    width: 618px;
+    height: 77px;
     display: flex;
     margin: auto;
 }
@@ -33,6 +33,8 @@
     font-weight: bold;
     text-transform: uppercase;
     text-align: left;
+
+    margin-top: 60px;
 }
 
 .importantNotes__wrapper {
@@ -45,7 +47,7 @@
 .importantNotes__container {
     list-style-type: none;
     padding-bottom: 12px;
-    border-bottom: 0.5px solid #1f1f1f;
+    border-bottom: 0.5px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,6 +57,35 @@
     margin-top: 10px;
     min-height: 57px;
 }
+
+.importantNotes__triangles-container {
+    display: flex;
+}
+
+.importantNotes__triangle-color {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 82px;
+    height: 75px;
+}
+
+.importantNotes__triangle-yellow-violet {
+    background-image: url(../../../../images/purim/purim2025/yellowviolet.png);
+}
+
+.importantNotes__triangle-pink-violet {
+    background-image: url(../../../../images/purim/purim2025/pinkviolet.png);
+}
+
+.importantNotes__triangle-blue-violet {
+    background-image: url(../../../../images/purim/purim2025/blueviolet.png);
+}
+
+.importantNotes__triangle-yellow-blue {
+    background-image: url(../../../../images/purim/purim2025/yellowblue.png);
+}
+ 
 
 .importantNotes__title {
     font-size: 24px;
@@ -83,7 +114,7 @@
     font-size: 24px;
     margin: 0;
     text-align: start;
-    margin-bottom: 100px; 
+    margin-bottom: 30px; 
 }
 
 .importantNotes__time {
@@ -92,4 +123,15 @@
 
 .importantNotes__note {
     font-weight: bold;
+}
+
+.importantNotes__threelinesofsquares {
+    background-image: url(../../../../images/purim/purim2025/threelinesofsquares.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 478px;
+    height: 131px;
+    display: flex;
+    margin-top: 100px;
 }

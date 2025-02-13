@@ -7,16 +7,37 @@ function ImportantNotes() {
             id: 1,
             title: "Билет на фестиваль только в зал ТИШ (без спектаклей, некоторых Мастер Классов и литературной программы)",
             price: "65 ₪",
+            link: "",
         },
         {
             id: 2,
             title: "Полный билет на фестиваль (всё включено)",
             price: "100 ₪",
+            link: "",
         },
         {
             id: 3,
+            title: "Семейный билет на 3 человека (всё включено)",
+            price: "255 ₪",
+            link: "",
+        },
+        {
+            id: 4,
+            title: "Семейный билет на 4 человека (всё включено)",
+            price: "340 ₪",
+            link: "",
+        },
+        {
+            id: 5,
+            title: "Билет на спектакль 'Вещи' возможно приобрести отдельно, без покупки билета на фестиваль",
+            price: "",
+            link: "http",
+        },
+        {
+            id: 6,
             title: "Детям до 5 лет",
             price: "Бесплатно",
+            link: "",
         },
     ]
 
@@ -54,6 +75,12 @@ function ImportantNotes() {
                    )) 
                 }
             </ul>
+
+            <div className='importantNotes__triangles-container'>
+                <div className='importantNotes__triangle-pink-violet importantNotes__triangle-color'></div>
+                <div className='importantNotes__triangles'></div>
+            </div>
+
             <h3 className='importantNotes__subtitle'>работа костюмерной</h3>
             <ul className='importantNotes__wrapper'>
                 {
@@ -71,12 +98,36 @@ function ImportantNotes() {
                     ))
                 }
             </ul>
+
+            <div className='importantNotes__triangles-container'>
+                <div className='importantNotes__triangle-yellow-violet importantNotes__triangle-color'></div>
+                <div className='importantNotes__triangles'></div>
+            </div>
+
             <h3 className='importantNotes__subtitle'>спектакль "Вещи"</h3>
             <p className='importantNotes__text'>Для спектакля "Вещи" зрители могут принести какой-то памятный предмет, который станет частью спектакля. Не волнуйтесь, после показа вам всё вернут!</p>
+            
+            <div className='importantNotes__triangles-container'>
+                <div className='importantNotes__triangle-blue-violet importantNotes__triangle-color'></div>
+                <div className='importantNotes__triangles'></div>
+            </div>
+
             <h3 className='importantNotes__subtitle'>Дильяго</h3>
             <p className='importantNotes__text'>На маркетe будет работать студия Линогравюры Ильи Diliago Викторова «Оттиск-шмоттиск». Если вы принесёте футболку или шоппер, то сможете бесплатно нанести на них рисунок из ассортимента студии.</p>
+            
+            <div className='importantNotes__triangles-container'>
+                <div className='importantNotes__triangle-yellow-blue importantNotes__triangle-color'></div>
+                <div className='importantNotes__triangles'></div>
+            </div>
 
-            <div className='importantNotes__triangles'></div>
+            <h3 className='importantNotes__subtitle'>Правила посещения мероприятий и часы работы фестиваля</h3>
+            <p className='importantNotes__text'>В вокресенье 16 марта фестиваль начинает работу в 12:00</p>
+            <p className='importantNotes__text'>На некоторые мастер-классы и экскурсии ведущие не могут принять более определенного числа посетителей. Это будет некомфортно ни для гостей, ни для ведущих. Поэтому для того, чтобы попасть на нужные активности, нужна регистрация.</p>
+            <p className='importantNotes__text'>Регистрация будет проходить в дни фестиваля прямо на стойке Ресепшн Главный вход Музея АНУ. Когда вы придёте на фестиваль, необходимо подойти на стойку регистрации, чтобы записаться.</p>
+            <p className='importantNotes__text'>Многие активности повторяются, как раз для того, чтобы смогло попасть, как можно большее количество участников.</p>
+
+            <div className='importantNotes__threelinesofsquares'></div>
+
         </section>
     )
 }
