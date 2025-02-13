@@ -33,7 +33,6 @@
     font-weight: bold;
     text-transform: uppercase;
     text-align: left;
-
     margin-top: 60px;
 }
 
@@ -56,6 +55,10 @@
     width: 100%;
     margin-top: 10px;
     min-height: 57px;
+}
+
+.importantNotes__container:last-of-type {
+    border-bottom: none;
 }
 
 .importantNotes__triangles-container {
@@ -99,10 +102,23 @@
     font-weight: bold;
 }
 .importantNotes__time-container {
-    max-width: 355px;
+    max-width: 190px;
     font-size: 24px;
     text-align: end;
+}
 
+.importantNotes__buy-tikets-btn {
+    text-decoration: none;
+    width: 185px;
+    height: 50px;
+    color: #fff;
+    background-color: #1563FF;
+    border-radius: 12px;
+    text-transform: uppercase;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .importantNotes__title-notes {
@@ -145,6 +161,7 @@
     flex-direction: column;
     justify-content: space-between;
     margin-left: 83px;
+    align-items: flex-end;
 }
 
 .importantNotes__pics-first {
@@ -181,4 +198,182 @@
     background-size: contain;
     width: 131px;
     height: 347px;
+}
+
+@media screen and (max-width: 1320px) {
+    .importantNotes__title {
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .importantNotes__title {
+        max-width: 500px;
+    }
+
+    .importantNotes__pics-container {
+        margin-left: 20px;
+    }
+
+    .importantNotes__squares-container {
+        flex-direction: column-reverse;
+    }
+
+    .importantNotes__squares {
+        align-self: flex-end;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .importantNotes__wrapper {
+        margin-bottom: 50px;
+    }
+
+    .importantNotes__title {
+        max-width: 340px;
+        font-size: 18px;
+    }
+
+    .importantNotes__subtitle { 
+        font-size: 18px;
+        margin-top: 43px;
+    }
+
+    .importantNotes__text {
+        font-size: 18px;
+    }
+
+    .importantNotes__ticketPurchasingSystemPrice {
+        font-size: 18px;
+    }
+
+    .importantNotes__time-container {
+        font-size: 18px;
+    }
+
+    .importantNotes__buy-tikets-btn {
+        font-size: 18px;
+        height: 40px;
+    }
+
+    .importantNotes__triangles {
+        width: 443px;
+        height: 56px;
+    }
+
+    .importantNotes__triangle-color {
+        width: 60px;
+        height: 55px;
+    }
+
+    .importantNotes__squares {
+        width: 209px;
+        height: 101px;
+    }
+
+    .importantNotes__pics-first {
+        width: 65px;
+        height: 130px;
+    }
+    
+    .importantNotes__pics-second {
+        width: 65px;
+        height: 232px;
+    }
+    
+    .importantNotes__pics-third {
+        width: 101px;
+        height: 232px;
+    }
+    
+    .importantNotes__pics-last {
+        width: 101px;
+        height: 267px;
+    }
+
+    .importantNotes__threelinesofsquares {
+        width: 367px;
+        height: 101px;
+        margin-top: 56px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .importantNotes__secondcontainer {
+        flex-direction: column;
+    }
+
+    .importantNotes__time-container {
+        max-width: 100%;
+    }
+
+    .importantNotes__wrapper {
+        margin-bottom: 43px;
+    }
+
+    .importantNotes__squares {
+        width: 104px;
+        height: 50px;
+    }
+
+    .importantNotes__title {
+        max-width: 201px;
+        font-size: 16px;
+    }
+
+    .importantNotes__title-notes-tel {
+        max-width: 100%;
+        display: flex;
+        align-items: flex-start;
+        text-align: start;
+    }
+
+    .importantNotes__subtitle { 
+        font-size: 16px;
+    }
+
+    .importantNotes__text {
+        font-size: 16px;
+    }
+
+    .importantNotes__ticketPurchasingSystemPrice {
+        font-size: 16px;
+    }
+
+    .importantNotes__time-container {
+        font-size: 16px;
+        align-items: flex-start;
+    }
+
+    .importantNotes__buy-tikets-btn {
+        font-size: 16px;
+        width: 104px;
+    }
+
+    .importantNotes__triangles {
+        width: 221px;
+        height: 28px;
+    }
+
+    .importantNotes__pics-first {
+        display: none;
+    }
+    
+    .importantNotes__pics-second {
+        display: none;
+    }
+    
+    .importantNotes__pics-third {
+        display: none;
+    }
+    
+    .importantNotes__pics-last {
+        display: none;
+    }
+
+    .importantNotes__threelinesofsquares {
+        width: 182px;
+        height: 50px;
+        margin-top: 30px;
+    }
 }

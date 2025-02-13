@@ -8,36 +8,42 @@ function ImportantNotes() {
             title: "Билет на фестиваль только в зал ТИШ (без спектаклей, некоторых Мастер Классов и литературной программы)",
             price: "65 ₪",
             link: "",
+            btn: NaN
         },
         {
             id: 2,
             title: "Полный билет на фестиваль (всё включено)",
             price: "100 ₪",
             link: "",
+            btn: NaN
         },
         {
             id: 3,
             title: "Семейный билет на 3 человека (всё включено)",
             price: "255 ₪",
             link: "",
+            btn: NaN
         },
         {
             id: 4,
             title: "Семейный билет на 4 человека (всё включено)",
             price: "340 ₪",
             link: "",
+            btn: NaN
         },
         {
             id: 5,
             title: "Билет на спектакль 'Вещи' возможно приобрести отдельно, без покупки билета на фестиваль",
             price: "",
             link: "http",
+            btn: "Купить"
         },
         {
             id: 6,
             title: "Детям до 5 лет",
             price: "Бесплатно",
             link: "",
+            btn: NaN
         },
     ]
 
@@ -72,7 +78,12 @@ function ImportantNotes() {
                    ticketPurchasingSystem.map((i) => (
                        <li key={i.id} className='importantNotes__container'>
                            <p className='importantNotes__title'>{i.title}</p>
-                           <p className='importantNotes__ticketPurchasingSystemPrice'>{i.price}</p>
+
+                           {i.btn? 
+                                <a href={`${i.link}`} className='importantNotes__buy-tikets-btn' target="_blank" rel="noopener noreferrer">{i.btn}</a>
+                            :
+                                <p className='importantNotes__ticketPurchasingSystemPrice'>{i.price}</p>
+                            }
                        </li>
                    )) 
                 }
@@ -87,9 +98,9 @@ function ImportantNotes() {
             <ul className='importantNotes__wrapper'>
                 {
                     costumeWork.map((i) => (
-                        <li key={i.id} className='importantNotes__container'>
+                        <li key={i.id} className='importantNotes__container importantNotes__secondcontainer'>
                             <div>
-                                <p className='importantNotes__title'>{i.title}</p>
+                                <p className='importantNotes__title importantNotes__title-notes-tel'>{i.title}</p>
                                 <p className='importantNotes__title-notes'>{i.titleNotes}</p>
                             </div>
                             <p className='importantNotes__time-container'>
