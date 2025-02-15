@@ -27,7 +27,7 @@ function Hanukkah2024Page({handleCardClick, addCard, limit, handleLotClick}) {
             <Participants addCard={addCard} limit={limit}/>
             <SeparatorPage/>
             <OurPartners/>
-           
+            <SeparatorPage/>
         </>
     )
 }

@@ -1,6 +1,7 @@
 import { FaInstagram, FaTelegram, FaFacebook } from 'react-icons/fa'
 import Heading from '../../UI-Kit/Heading/Heading'
 import MarkupLayout from '../../components/Layout/MarkupLayout'
+import SeparatorPage from '../../components/SeparatorPage/SeparatorPage'
 import './ContactsPage.css'
 
 function ContactsPage() {
@@ -29,7 +30,9 @@ function ContactsPage() {
                 </li>
             </ul>
         </div>
+        
       </MarkupLayout>
+     
     )
 }
 

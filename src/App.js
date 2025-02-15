@@ -286,7 +286,7 @@ function App() {
         </Route>
 
       </Routes>  
-      <SeparatorPage/>
+      
       <MainFooter />
 
       <LotteryPopup 

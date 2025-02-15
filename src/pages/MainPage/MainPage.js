@@ -19,6 +19,7 @@ function MainPage() {
             <ReviewsSection/>
             <SeparatorPage/>
             <OurSponsorsSection/>
+            <SeparatorPage/>
         </>
     )
 } 

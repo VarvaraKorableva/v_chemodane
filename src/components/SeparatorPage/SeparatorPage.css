@@ -34,3 +34,27 @@
         height: 100px;
     }
 }
+
+.separator_page_img_gray {
+    background-image: url(../../images/storytime/bookpagegrey.png);
+}
+
+.separator_page_img_blue {
+    background-image: url(../../images/separatePages/bluepage.png);
+}
+
+.separator_page_img_purple {
+    background-image: url(../../images/separatePages/purplepage.png);
+}
+
+.separator_page_img_pink {
+    background-image: url(../../images/separatePages/pinkyellow.png);
+}
+
+.separator_page_img_yellow {
+    background-image: url(../../images/separatePages/yellowpage.png);
+}
+
+.separator_page_img_another {
+    background-image: url(../../images/separatePages/pagecolarfooter.png);
+}

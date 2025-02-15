@@ -1,6 +1,7 @@
 import { useLocation } from 'react-router-dom'
 import ourPartnersData from '../../data/OurPartnersData'
 import ourPartnersHanukkahData from '../../data/hanukkah/OurPartnersHanukkahData'
+import purim2025participantsData from '../../data/purim/purim2025participants'
 import './OurPartners.css'
 //import Heading from '../../UI-Kit/Heading/Heading'
 import Heading from '../../UI-Kit/Heading/HeadingClean'
@@ -8,25 +9,24 @@ import OnePartner from './OnePartner.js'
 
 function OurPartners() {
     const location = useLocation()
-    return (
-        <section className="ourPartners__main-container" id='partners'>
-            <Heading>НАШИ ПАРТНЕРЫ</Heading>
-            <ul className="ourPartners__wrapper">
 
-                {location.pathname.includes("/hanukkah_2024")?
-                    ourPartnersHanukkahData.map((item) => (
-                        <OnePartner key={item.id} item={item}></OnePartner>
-                    ))
-                
-                    :
-                 
-                    ourPartnersData.map((item) => (
-                        <OnePartner key={item.id} item={item}></OnePartner>
-                    ))
-                }    
-                 
-            </ul>
-        </section>
+    let data = ourPartnersData;
+
+    if (location.pathname.includes("/hanukkah_2024")) {
+      data = ourPartnersHanukkahData;
+    } else if (location.pathname.includes("/purim_2025")) {
+      data = purim2025participantsData;
+    }
+
+    return (
+        <section className="ourPartners__main-container" id="partners">
+        <Heading>НАШИ ПАРТНЕРЫ</Heading>
+        <ul className="ourPartners__wrapper">
+          {data.map((item) => (
+            <OnePartner key={item.id} item={item} />
+          ))}
+        </ul>
+      </section>
     )
 }
 

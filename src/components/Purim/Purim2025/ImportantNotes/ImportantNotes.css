@@ -1,6 +1,7 @@
 .importantNotes__section {
     background-color: #fff;
     padding: 43px;
+    width: calc(100% - 86px);
 }
 
 .importantNotes__squares-container {
