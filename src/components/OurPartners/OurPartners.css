@@ -1,26 +1,19 @@
 .ourPartners__main-container {
     display: flex;
     flex-direction: column;
-    width: calc(100% - 160px);
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-bottom: 80px;
+    background-color: #fff;
+    width: calc(100% - 86px);
+    padding: 0;
+    padding-left: 43px;
+    padding-right: 43px;
     position: relative;
     background-color: #fff;
 }
 
-@media screen and (max-width: 1065px) {
+@media screen and (max-width: 900px) {
     .ourPartners__main-container {
-        padding-left: 12px;
-        padding-right: 12px;
-        width: calc(100% - 24px);
-    }
-}
-
-@media screen and (max-width: 770px) {
-    .ourPartners__main-container {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        width: calc(100% - 64px);
+        padding: 32px;
     }
 }
 
@@ -29,7 +22,6 @@
     font-size: 32px;
     text-align: start;
     margin-top: 0;
-    
     margin-bottom: 80px;
 }
 
@@ -83,6 +75,7 @@
     flex-wrap: wrap;
     width: 100%;
     margin: auto;
+    margin-top: 50px;
     align-items: center;
     justify-content: center;
 }

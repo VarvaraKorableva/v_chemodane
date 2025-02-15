@@ -1,4 +1,4 @@
-import './Participants.css' 
+/*import './Participants.css' 
 import {Link} from 'react-router-dom'
 
 
@@ -23,6 +23,6 @@ function Paticipant({item}) {
     )
 }
 
-export default Paticipant;
+export default Paticipant;*/
 
 //<h3 className="paticipant-companyName-title">{item.companyName}</h3>

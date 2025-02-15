@@ -1,4 +1,4 @@
-import participantsData from '../../../data/participantsData'
+/*import participantsData from '../../../data/participantsData'
 import Participant from './Participant'
 import './Participants.css'
 
@@ -41,4 +41,4 @@ function Participants({addCard, limit}) {
     )
 }
 
-export default Participants;
+export default Participants;*/

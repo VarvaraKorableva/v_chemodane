@@ -2,7 +2,8 @@ import { useLocation } from 'react-router-dom'
 import ourPartnersData from '../../data/OurPartnersData'
 import ourPartnersHanukkahData from '../../data/hanukkah/OurPartnersHanukkahData'
 import './OurPartners.css'
-import Heading from '../../UI-Kit/Heading/Heading'
+//import Heading from '../../UI-Kit/Heading/Heading'
+import Heading from '../../UI-Kit/Heading/HeadingClean'
 import OnePartner from './OnePartner.js'
 
 function OurPartners() {

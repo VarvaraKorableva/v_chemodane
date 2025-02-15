@@ -2,7 +2,8 @@ import participantsData from '../../data/participantsDataHaifa'
 import hanukkahParticipantsData from '../../data/hanukkah/hanukkahParticipantsData.js'
 import Participant from './Participant'
 import './Participants.css'
-import Heading from '../../UI-Kit/Heading/Heading'
+//import Heading from '../../UI-Kit/Heading/Heading'
+import Heading from '../../UI-Kit/Heading/HeadingClean'
 import { useLocation } from 'react-router-dom'
 
 function Participants({addCard, limit}) {
@@ -25,7 +26,7 @@ function Participants({addCard, limit}) {
     } else {
         return 1;
     }
-  });*/
+  }); */
 
     return(
         <section className="participant-section" id='market'>

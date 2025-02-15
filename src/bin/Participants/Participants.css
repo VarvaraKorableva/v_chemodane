@@ -1,4 +1,4 @@
-.paticipant-section {
+/*.paticipant-section {
     display: flex;
     flex-direction: column;
     background-color: #FDD256;
@@ -79,7 +79,6 @@
 .paticipant-companyName-description {
     width: 250px;
     height: 145px;
-    /*overflow: ;*/
     overflow-x: hidden;
     overflow-y: scroll;
     margin: 0;
@@ -89,24 +88,21 @@
 }
 
 ::-webkit-scrollbar {
-    background-color: #f1f1f1; /* Цвет фона скроллбара */
-    width: 5px; /* Ширина скроллбара */
+    background-color: #f1f1f1;
+    width: 5px;
     
   }
   
-  /* Для Chrome, Safari и Opera */
   ::-webkit-scrollbar-thumb {
-    background-color: #2f80ed; /* Цвет ползунка */
-    border-radius: 6px; /* Радиус закругления углов ползунка */
+    background-color: #2f80ed;
+    border-radius: 6px;
     
   }
-  
-  /* Для Firefox */
-  /* Заменяем стандартный скроллбар на псевдоскроллбар */
+
   * {
     
-    scrollbar-width: thin; /* Толщина скроллбара */
-    scrollbar-color: #2f80ed #f1f1f1; /* Цвет ползунка и фона скроллбара */
+    scrollbar-width: thin;
+    scrollbar-color: #2f80ed #f1f1f1;
   }
 
   .paticipant-img {
@@ -117,7 +113,6 @@
       margin: auto;
       margin-bottom: 20px;
       object-fit: contain;
-      /*object-fit: scale-down;*/
   }
 
 .paticipant-btn-add {
@@ -147,4 +142,4 @@
     margin: auto;
     margin-top: 25px;
     margin-bottom: 50px;
-}
+}*/

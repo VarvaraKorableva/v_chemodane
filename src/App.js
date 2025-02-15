@@ -256,7 +256,7 @@ function App() {
             element={
               <Purim2025
                 //handleCardClick={handleCardClick}
-                //addCard={addCard} limit={limit}
+                addCard={addCard} limit={limit}
               ></Purim2025>
             }
         >

@@ -11,7 +11,7 @@ function Purim2025NavContainer() {
                     <a className="hanukaTelAviv2024Banner__link" href="#importantNotes">Важные примечания</a>
                 </li>
                 <li className="hanukaTelAviv2024Banner__li">
-                    <a className="hanukaTelAviv2024Banner__link" href="#market">Участники маркета</a>
+                    <a className="hanukaTelAviv2024Banner__link" >Участники маркета</a> {/*href="#market"*/}
                 </li>
                 <li className="hanukaTelAviv2024Banner__li">
                     <a className="hanukaTelAviv2024Banner__link" href="#partners">Партнеры</a>
