@@ -40,7 +40,14 @@
 
 .ourPartners__logo-wrapper {
     list-style-type: none;
-    margin: 20px;
+    margin: 50px 100px 50px 100px;
+    
+}
+
+@media screen and (max-width:1300px) {
+    .ourPartners__logo-wrapper {
+        margin: 50px;
+    }
 }
 
 .ourPartners__logo-container {
