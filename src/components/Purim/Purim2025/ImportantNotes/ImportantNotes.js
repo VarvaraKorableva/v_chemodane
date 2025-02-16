@@ -35,7 +35,7 @@ function ImportantNotes() {
             id: 5,
             title: "Билет на спектакль 'Вещи' возможно приобрести отдельно, без покупки билета на фестиваль",
             price: "",
-            link: "http",
+            link: "https://www.anumuseum.org.il/ru/events/arbuzz/",
             btn: "Купить"
         },
         {

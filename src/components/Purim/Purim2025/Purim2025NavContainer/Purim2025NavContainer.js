@@ -18,7 +18,7 @@ function Purim2025NavContainer() {
                 </li>
             </ul>
             <a 
-                href='https://www.anumuseum.org.il/ru/events/hanukah-festival-russian/'
+                href='https://www.anumuseum.org.il/ru/events/purim-russian/'
                 className="hanukaTelAviv2024Banner__link-btn" 
                 target='_blank'
                 rel="noopener noreferrer"
