@@ -86,3 +86,48 @@
     align-items: center;
     justify-content: center;
 }
+
+.ourPartners__triangles_up {
+    position: absolute;
+    top: -50px;
+    right: 50px;
+    background-image: url(../../images/purim/purim2025/ourpartnersup.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    width: 373px;
+    height: 171px;
+}
+
+.ourPartners__triangles_down {
+    position: absolute;
+    bottom: -50px;
+    left: 50px;
+    background-image: url(../../images/purim/purim2025/ourpartnersdown.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    width: 448px;
+    height: 145px;
+}
+
+@media screen and (max-width: 900px) {
+    .ourPartners__triangles_up {
+        width: 202px;
+        height: 93px;
+    }
+    
+    .ourPartners__triangles_down {
+        width: 307px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .ourPartners__triangles_down {
+        width: 235px;
+        height: 81px;
+    }
+}

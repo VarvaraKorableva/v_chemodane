@@ -33,9 +33,7 @@ function Presentation() {
                         <div className="presentation__li-triangles"></div>
                     </div>
                 </li>
-            </ul>
 
-            <ul className="presentation__wrapper">
                 <li className="presentation__li">
                     <div className="presentation__li-arrow importantNotes__triangle-yellow-violet"></div>
                     <div className="presentation__li-text-container">
@@ -48,9 +46,7 @@ function Presentation() {
                         <div className="presentation__li-triangles"></div>
                     </div>
                 </li>
-            </ul>
 
-            <ul className="presentation__wrapper">
                 <li className="presentation__li">
                     <div className="presentation__li-arrow importantNotes__triangle-blue-violet"></div>
                     <div className="presentation__li-text-container">
@@ -63,9 +59,7 @@ function Presentation() {
                         <div className="presentation__li-triangles"></div>
                     </div>
                 </li>
-            </ul>
 
-            <ul className="presentation__wrapper">
                 <li className="presentation__li">
                     <div className="presentation__li-arrow importantNotes__triangle-yellow-blue1"></div>
                     <div className="presentation__li-text-container">
@@ -82,9 +76,7 @@ function Presentation() {
                         <div className="presentation__li-triangles"></div>
                     </div>
                 </li>
-            </ul>
 
-            <ul className="presentation__wrapper">
                 <li className="presentation__li">
                     <div className="presentation__li-arrow importantNotes__triangle-lightblue-blue"></div>
                     <div className="presentation__li-text-container">
@@ -95,9 +87,7 @@ function Presentation() {
                         <div className="presentation__li-triangles"></div>
                     </div>
                 </li>
-            </ul>
 
-            <ul className="presentation__wrapper">
                 <li className="presentation__li">
                     <div className="presentation__li-arrow importantNotes__triangle-blue-pink"></div>
                     <div className="presentation__li-text-container">
@@ -108,9 +98,7 @@ function Presentation() {
                         <div className="presentation__li-triangles"></div>
                     </div>
                 </li>
-            </ul>
 
-            <ul className="presentation__wrapper">
                 <li className="presentation__li">
                     <div className="presentation__li-arrow importantNotes__triangle-pink-yellow"></div>
                     <div className="presentation__li-text-container">
@@ -126,9 +114,7 @@ function Presentation() {
                         <div className="presentation__li-triangles"></div>
                     </div>
                 </li>
-            </ul>
 
-            <ul className="presentation__wrapper">
                 <li className="presentation__li">
                     <div className="presentation__li-arrow importantNotes__triangle-yellow-lightblue"></div>
                     <div className="presentation__li-text-container">
@@ -139,9 +125,7 @@ function Presentation() {
                         <div className="presentation__li-triangles"></div>
                     </div>
                 </li>
-            </ul>
 
-            <ul className="presentation__wrapper">
                 <li className="presentation__li">
                     <div className="presentation__li-arrow importantNotes__triangle-lightblue-violet"></div>
                     <div className="presentation__li-text-container">
@@ -153,9 +137,7 @@ function Presentation() {
                         <div className="presentation__li-triangles"></div>
                     </div>
                 </li>
-            </ul>
 
-            <ul className="presentation__wrapper">
                 <li className="presentation__li">
                     <div className="presentation__li-arrow importantNotes__triangle-violet-pink"></div>
                     <div className="presentation__li-text-container">
@@ -167,9 +149,7 @@ function Presentation() {
                         <div className="presentation__li-triangles"></div>
                     </div>
                 </li>
-            </ul>
 
-            <ul className="presentation__wrapper">
                 <li className="presentation__li">
                     <div className="presentation__li-arrow importantNotes__triangle-pink-violet"></div>
                     <div className="presentation__li-text-container">
@@ -179,9 +159,7 @@ function Presentation() {
                         <div className="presentation__li-triangles"></div>
                     </div>
                 </li>
-            </ul>
 
-            <ul className="presentation__wrapper">
                 <li className="presentation__li">
                     <div className="presentation__li-arrow importantNotes__triangle-blue-violet"></div>
                     <div className="presentation__li-text-container">

@@ -20,12 +20,24 @@ function OurPartners() {
 
     return (
         <section className="ourPartners__main-container" id="partners">
+          {location.pathname.includes("/purim_2025")? 
+            <div className="ourPartners__triangles_up">
+            </div>
+          :
+            <></>
+          } 
         <Heading>НАШИ ПАРТНЕРЫ</Heading>
         <ul className="ourPartners__wrapper">
           {data.map((item) => (
             <OnePartner key={item.id} item={item} />
           ))}
         </ul>
+        {location.pathname.includes("/purim_2025")? 
+            <div className="ourPartners__triangles_down">
+            </div>
+          :
+            <></>
+          }
       </section>
     )
 }

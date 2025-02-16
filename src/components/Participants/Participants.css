@@ -47,7 +47,7 @@
     list-style-type: none;
     background-color: #fff;
     border-radius: 6px;
-    border: 3px solid #f1f1f1;
+    border: 1px solid #f1f1f1;;
     width: 260px;
     height: 300px;
     padding: 10px;
@@ -58,7 +58,7 @@
 }
 
 .paticipant-container:hover {
-    border: 5px solid #fff;
+    border: 3px solid #f1f1f1;
 }
 
 .participant-companyName-title {
