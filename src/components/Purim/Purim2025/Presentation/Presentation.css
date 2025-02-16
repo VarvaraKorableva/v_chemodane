@@ -133,6 +133,7 @@
 
 .presentation__li-text-container {
     max-width: 803px;
+    width: 100%;
     text-align: start;
     line-height: 50px;
 }
