@@ -65,7 +65,7 @@ function ImportantNotes() {
     ]
 
     return (
-        <section className='importantNotes__section' id='importantNotes'>
+        <section className='importantNotes__section' id='importantNotes_purim_2025'>
             <div className='importantNotes__squares-container'>
                 <Heading>Важные примечания</Heading>
                 <div className='importantNotes__squares'></div>
@@ -99,7 +99,7 @@ function ImportantNotes() {
                 {
                     costumeWork.map((i) => (
                         <li key={i.id} className='importantNotes__container importantNotes__secondcontainer'>
-                            <div>
+                            <div className='importantNotes__title_container'>
                                 <p className='importantNotes__title importantNotes__title-notes-tel'>{i.title}</p>
                                 <p className='importantNotes__title-notes'>{i.titleNotes}</p>
                             </div>

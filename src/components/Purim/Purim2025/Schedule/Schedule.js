@@ -3,7 +3,7 @@ import './Schedule.css'
 
 function Schedule() {
     return(
-        <section className='schedule__section'>
+        <section className='schedule__section' id='schedule_purim_2025'>
             <Heading>Расписание</Heading>
 
             <div className='schedule__container'>

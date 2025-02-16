@@ -24,7 +24,7 @@ function Presentation() {
                         <div>
                         <p className="presentation__li-title">Израильская премьера спектакля «Вещи»,</p>
                             <span className="presentation__li-text"> специально приехавшего к нам из Лондона. Режиссёр Сергей Карабань и актриса Дина Бердникова представят постановку, в которой каждое воспоминание оживает через личные истории.  
-                                <a className="presentation__li-link" href='https://bukutoku.com/theatreprogramme' target="_blank" rel="noopener noreferrer"> https://bukutoku.com/theatreprogramme</a>
+                                <a className="presentation__li-link" href='https://bukutoku.com/theatreprogramme' target="_blank" rel="noopener noreferrer"> →</a>
                             </span>
                         
                         <p className="presentation__li-notes">Подробности в разделе</p>
@@ -40,7 +40,7 @@ function Presentation() {
                         <div>
                         <p className="presentation__li-title">«Бабушка Фрида» — детский спектакль от театра «Давай»</p>
                             <span className="presentation__li-text">Весёлый спектакль, который придётся по душе как ивритоязычным, так и русскоязычным детям и взрослым. 
-                                <a className="presentation__li-link" href='https://davai-group.org/' target="_blank" rel="noopener noreferrer"> https://davai-group.org/</a>
+                                <a className="presentation__li-link" href='https://davai-group.org/' target="_blank" rel="noopener noreferrer"> →</a>
                             </span>
                         </div>
                         <div className="presentation__li-triangles"></div>
@@ -53,7 +53,7 @@ function Presentation() {
                         <div>
                         <p className="presentation__li-title">Театрализованная читка детской книги «Я — это Я» от книжного клуба «Букутоку» </p>
                             <span className="presentation__li-text">Актриса Дина Бердникова прочитает несколько глав, а автор книги Мария Дубова расскажет историю её создания. Эта озорная книжка способна заинтересовать и детей, и их родителей. 
-                                <a className="presentation__li-link" href='https://bukutoku.com/' target="_blank" rel="noopener noreferrer"> https://bukutoku.com/</a>
+                                <a className="presentation__li-link" href='https://bukutoku.com/' target="_blank" rel="noopener noreferrer"> →</a>
                             </span>
                         </div>
                         <div className="presentation__li-triangles"></div>
@@ -66,10 +66,10 @@ function Presentation() {
                         <div>
                             <p className="presentation__li-title">Мастер-классы для детей и взрослых:</p>
                             <span className="presentation__li-text">– Мастер-класс по анимации от студии «Синий домик»  
-                                <a className="presentation__li-link" href='https://www.littleblue.space' target="_blank" rel="noopener noreferrer"> https://www.littleblue.space</a>
+                                <a className="presentation__li-link" href='https://www.littleblue.space' target="_blank" rel="noopener noreferrer"> →</a>
                                 </span>
                             <span className="presentation__li-text">– Мастер-класс по созданию индивидуального украшения от Аси Финкельштейн   
-                                <a className="presentation__li-link" href='https://www.instagram.com/finkel__shtein/' target="_blank" rel="noopener noreferrer"> https://www.instagram.com/finkel__shtein/</a>
+                                <a className="presentation__li-link" href='https://www.instagram.com/finkel__shtein/' target="_blank" rel="noopener noreferrer"> →</a>
                             </span>
                             <span className="presentation__li-text">– И многое другое</span>
                         </div>
@@ -107,7 +107,7 @@ function Presentation() {
                             <span className="presentation__li-text">– Круглый стол: встреча профессиональных издателей и владельцев книжных магазинов с обсуждением перспектив развития русскоязычного книжного рынка в Израиле.</span>
                             <span className="presentation__li-text">– Встреча с писательницей Евгенией Пастернак </span>
                             <span className="presentation__li-text">– Презентация нового издания романа Ури Орлева “Зверь из темноты”  
-                                <a className="presentation__li-link" href='https://www.littleblue.space' target="_blank" rel="noopener noreferrer"> https://samokatbook.ru/book/zver-iz-temnoty/?utm_source=telegram&utm_medium=organic&utm_campaign=legends</a>
+                                <a className="presentation__li-link" href='https://samokatbook.ru/book/zver-iz-temnoty/?utm_source=telegram&utm_medium=organic&utm_campaign=legends' target="_blank" rel="noopener noreferrer"> →</a>
                             </span>
                             <span className="presentation__li-text">– Представляет переводчик романа Рина Юсин-Фульмахт</span>
                         </div>    
@@ -166,7 +166,7 @@ function Presentation() {
                         <div>
                             <p className="presentation__li-title">Студия Линогравюры Ильи Diliago Викторова «Оттиск-шмоттиск»</p>
                             <span className="presentation__li-text">   
-                                <a className="presentation__li-link" href='https://www.ottiskshmottisk.com/ ' target="_blank" rel="noopener noreferrer"> https://www.ottiskshmottisk.com/ </a>
+                                <a className="presentation__li-link" href='https://www.ottiskshmottisk.com/ ' target="_blank" rel="noopener noreferrer"> →</a>
                             </span>
                         
                             <p className="presentation__li-notes">Подробности в разделе</p>
