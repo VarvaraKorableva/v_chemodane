@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom'
 import { useEffect } from 'react'
 import { FaInstagram, FaTelegram, FaFacebook, FaExternalLinkAlt } from 'react-icons/fa'
-import participantsData from '../../data/participantsData'
+import participantsDataHaifa from '../../data/participantsDataHaifa'
 //import participantsData from '../../data/hanukkah/hanukkahParticipantsData'
 import './IndividualPageOfParticipants.css'
 
@@ -9,7 +9,9 @@ function IndividualPageOfParticipants() {
 
     let { slug } = useParams();
 
-    const participant = participantsData.find(f => f.slug == slug)
+    const participant = participantsDataHaifa.find(f => f.slug == slug)
+
+    console.log(participant)
 
     useEffect(() => {
         window.scrollTo(0, 0);

@@ -4,6 +4,7 @@ import pjlabrary from '../images/logo/pjlibrary.jpg'
 const participantsData = [
     {
         companyName:"Перелётный чайник",
+        slug: "pereletnyi_chainic",
         previousParticipation:"В музее Ану и в Иерусалиме",
         socialNetwork: {
             instagram: "",
@@ -16,46 +17,8 @@ const participantsData = [
         id:1
     },
     {
-        companyName:"Leybova Jewelry",
-        npreviousParticipation:"Нет",
-        socialNetwork: {
-            instagram: "https://www.instagram.com/leybova_jewelry?igsh=MXduMHlyOTdndmttZw==",
-            facebook: "",
-            personalSite: "",
-        },
-        description:"Leybova jewelry - израильский бренд украшений из бисера и кристаллов, выполненных в технике ручной вышивки. Дизайнер создает броши, украшения для волос, серьги и другие аксессуары, а также выполняет индивидуальные заказы по эскизу или идее клиента. Приходите 24-25 марта в музей Ану знакомиться, смотреть, трогать, примерять и покупать себе и в подарок. Ведь броши упакованные в красивые мешочки с элегантными бантиками, можно дарить по поводу и без!",
-        participationInTheLottery:"да",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710702525685_898549139.png",
-        id:2
-    },
-    {
-        companyName:"Babel Haifa",
-        npreviousParticipation:"да",
-        socialNetwork: {
-            instagram: "",
-            facebook: "https://www.facebook.com/babelhaifabooks",
-            personalSite: "",
-        },
-        description:"«Бабель. Книги. Хайфа» (Babel Haifa. Art & Books) всего за год успел собрать вокруг себя верную аудиторию, которая оценила отличный подбор книг для детей и взрослых на русском и английском языке. Как и в других магазинах франшизы «Бабель» в Хайфе проходят мастер-классы и лекции для детей и взрослых, открываются выставки современных художников. \nАдрес магазина: Хайфа, Хатиб, 10. Следить за новостями магазина можно в фб https://www.facebook.com/babelhaifabooks и инстаграме @babel_haifa\n\n",
-        participationInTheLottery:"да",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710277229436_302850514.svg",
-        id:3
-    },
-    {
-        companyName:"Di-Glypto",
-        npreviousParticipation:"Да, в Иерусалиме и в Тель-Авиве",
-        socialNetwork: {
-            instagram: "https://instagram.com/di_glypto\nhttps://www.facebook.com/DiGlypto",
-            facebook: "",
-            personalSite: "",
-        },
-        description:"Мы - Николай и Ася Дионисиади - создаем дизайнерские украшения из фарфора и серебра под брендом Di-Glypto. Это не только бизнес, но и любимое дело. Для нас в создании украшений одинаково важны как дизайн, так и тот смысл, который мы в него вкладываем\nУ каждого нашего украшения есть своя ассоциация, своя история. Вы можете ознакомиться с нашей коллекцией, на нашем сайте и в соц сетях.\nwww.diglypto.com\nhttps://instagram.com/di_glypto\nhttps://www.facebook.com/DiGlypto",
-        participationInTheLottery:"Нет",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710274369147_370892659.jpg",
-        id:4
-    },
-    {
         companyName:"Издательство «Август»",
+        slug: "august",
         npreviousParticipation:"Да",
         socialNetwork: {
             instagram: "",
@@ -68,7 +31,36 @@ const participantsData = [
         id:5
     },
     {
+        companyName:"Leybova Jewelry",
+        slug: "Leybova_Jewelry",
+        npreviousParticipation:"Нет",
+        socialNetwork: {
+            instagram: "https://www.instagram.com/leybova_jewelry?igsh=MXduMHlyOTdndmttZw==",
+            facebook: "",
+            personalSite: "",
+        },
+        description:"Leybova jewelry - израильский бренд украшений из бисера и кристаллов, выполненных в технике ручной вышивки. Дизайнер создает броши, украшения для волос, серьги и другие аксессуары, а также выполняет индивидуальные заказы по эскизу или идее клиента. Приходите 24-25 марта в музей Ану знакомиться, смотреть, трогать, примерять и покупать себе и в подарок. Ведь броши упакованные в красивые мешочки с элегантными бантиками, можно дарить по поводу и без!",
+        participationInTheLottery:"да",
+        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710702525685_898549139.png",
+        id:2
+    },
+    {
+        companyName:"Di-Glypto",
+        slug: "Di-Glypto",
+        npreviousParticipation:"Да, в Иерусалиме и в Тель-Авиве",
+        socialNetwork: {
+            instagram: "https://instagram.com/di_glypto\nhttps://www.facebook.com/DiGlypto",
+            facebook: "",
+            personalSite: "",
+        },
+        description:"Мы - Николай и Ася Дионисиади - создаем дизайнерские украшения из фарфора и серебра под брендом Di-Glypto. Это не только бизнес, но и любимое дело. Для нас в создании украшений одинаково важны как дизайн, так и тот смысл, который мы в него вкладываем\nУ каждого нашего украшения есть своя ассоциация, своя история. Вы можете ознакомиться с нашей коллекцией, на нашем сайте и в соц сетях.\nwww.diglypto.com\nhttps://instagram.com/di_glypto\nhttps://www.facebook.com/DiGlypto",
+        participationInTheLottery:"Нет",
+        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710274369147_370892659.jpg",
+        id:4
+    },
+    {
         companyName:"Bilberry Forest",
+        slug: "Bilberry_Forest",
         previousParticipation:"Да, во всех, начиная с первого тель-авивского",
         socialNetwork: {
             instagram: "https://www.instagram.com/bilberry_forest/",
@@ -81,20 +73,8 @@ const participantsData = [
         id:6
     },
     {
-        companyName:"TAPUZIM.STORE",
-        previousParticipation:"Иерусалим, Музей АНУ",
-        socialNetwork: {
-            facebook: "https://www.facebook.com/tapuzimstore", 
-            instagram: "https://www.instagram.com/tapuzim.store", 
-            personalSite: "https://t.me/tapuzimstore",
-        },
-        description:"Детский книжный интернет-магазин Tapuzim.store открыт ежедневно для мам, пап и их замечательных детей! В нашем ассортименте самые топовые книги от крупнейших издательств России - \"АСТ\", \"Азбука-Аттикус\", Voicebook, \"МИФ\", Мелик-Пашаев, Росмэн, Умка, замечательные книги издательства Англии Walker Books LTD.\nА также:\n- Развивающие пособия по ивриту, русскому языку,  математике, логике, психологии.\n- Увлекательные карточные и настольные игры;\n- Наборы для творчества и хобби\n- Канцелярская продукция и сопутствующие товары\nДоставка по всему Израилю в течение 1-3 дней! Самовывоз из офиса по адресу: Тель-Авив, Тель Гиборим, 5, офис 321. \nНе можете определиться с выбором? Растерялись от огромного количества книг и игр? Мы вам подскажем и поможем!",
-        participationInTheLottery:"да",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710274838958_975317700.png",
-        id:7
-    },
-    {
         companyName:"Городец",
+        slug: "gorodez",
         previousParticipation:"Бегин центр, сентябрь 2023",
         socialNetwork: {
             instagram: "",
@@ -108,6 +88,7 @@ const participantsData = [
     },
     {
         companyName:"Geexit",
+        slug: "Geexit",
         previousParticipation:"Иерусалим, ТА",
         nePo:"@hobbyland.il",
         socialNetwork: {
@@ -122,6 +103,7 @@ const participantsData = [
     },
     {
         companyName:"d.shvarts.candles (Diana Shvarts)",
+        slug: "d.shvarts.candles",
         previousParticipation:"Ханука - тёплые встречи, музей АНУ",
         socialNetwork: {
             instagram: "d.shvarts.candles",
@@ -135,6 +117,7 @@ const participantsData = [
     },
     {
         companyName:"Сухоцветы в доме. pod_lopuhom",
+        slug: "sychozveti",
         previousParticipation:"Нет ",
         socialNetwork: {
             instagram: "https://www.instagram.com/pod_lopuhom",
@@ -162,33 +145,8 @@ const participantsData = [
         id:13,
     },
     {
-        companyName:"Tanya Romanov Jewellery",
-        previousParticipation:"Да, в нескольких",
-        socialNetwork: {
-            instagram: "https://www.instagram.com/tanya.romanov.jewellery?igsh=azJndWhyOHNidW50&utm_source=qr",
-            facebook: "",
-            personalSite: "",
-        },
-        description:"Tanya Romanov Jewellery - авторские украшения ручной работы из серебра и натуральных камней",
-        participationInTheLottery:"да",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710712327716_521194897.jpg",
-        id:14,
-    },
-    {
-        companyName:"Издательство \"Книга Сефер\"",
-        previousParticipation:"нет",
-        socialNetwork: {
-            instagram: "https://www.instagram.com/tanya.romanov.jewellery?igsh=azJndWhyOHNidW50&utm_source=qr",
-            facebook: "https://www.facebook.com/KnigaSefer/",
-            personalSite: "",
-        },
-        description:"Издательство \"Книга Сефер\" представляет книги, выпущенные в рамках двух проектов «Вольное книгопечатание» и «Написано в Израиле». Это первый книгоиздательский проект после начала войны в Украине, где выходят книги, авторов, пишущих на русском в разных странах. Среди авторов израильского издательства – как маститые классики, так и начинающие литераторы. Проект «Вольное книгопечатание» призван предоставить платформу и возможность для свободного бесцензурного издания книг вне России. Некоторые книги издаются совместно с украинскими издательствами. В рамках проекта «Написано в Израиле» публикуются авторы, живущие в нашей стране. Главный критерий нашего издательства – качество. На фестивале мы представим самую новую книгу издательства – «Когда цветет джакаранда» Аллы Борисовой-Линецкой. В этой встрече примут участие и другие авторы, а также издатель Виталий Кабаков. Издательство открыто для новых проектов и новых авторов.",
-        participationInTheLottery:"да",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710703510280_506668965.jpeg",
-        id:15
-    },
-    {
         companyName:"Racheli's chocolate workshop",
+        slug: "chocolate_workshop",
         previousParticipation:"только посещала как участник",
         socialNetwork: {
             instagram: "https://www.instagram.com/racheli.chocolate.workshop?igsh=MWp0dnRtN3g3bzBwZA==",
@@ -202,6 +160,7 @@ const participantsData = [
     },
     {
         companyName:"Brokain things",
+        slug: "Brokain_things",
         previousParticipation:"Пока нет",
         socialNetwork: {
             instagram: "https://www.instagram.com/brokain.things\nhttps://www.facebook.com/brokain.things",
@@ -215,6 +174,7 @@ const participantsData = [
     },
     {
         companyName:"replastic.waves",
+        slug: "replastic.waves",
         previousParticipation:"Нет",
         socialNetwork: {
             instagram: "https://www.instagram.com/replastic.waves?igsh=Z2w3N2ptZml2cDQ5",
@@ -228,6 +188,7 @@ const participantsData = [
     },
     {
         companyName:"Тюлька",
+        slug: "tulka",
         previousParticipation:"",
         socialNetwork: {
             instagram: "https://www.instagram.com/tyulka.workroom?igsh=MTlwd3B5OHRudmV2cQ==",
@@ -240,34 +201,22 @@ const participantsData = [
         id:19
     },
     {
-        "companyName":"Milin jewelry",
-        "previousParticipation":"Нет",
+        companyName:"Milin jewelry",
+        slug: "Milinjewelry",
+        previousParticipation:"Нет",
         socialNetwork: {
             instagram: "https://www.instagram.com/milin.jewelry",
             facebook: "",
             personalSite: "",
         },
-        "description":"Milin - это бренд украшений ручной работы из фарфора и из  бисера. Украшения из фарфора воплощают лаконичную женственность с намеком на иронию, в то время как украшения из бисера сверкают яркими красками и игривостью. Совершенно разные, но идеально дополняющие друг друга\n",
-        "participationInTheLottery":"да",
-        "imgLink":"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710274783304_662398802.jpeg",
-        "id":21
-    },
-    {
-        companyName:"Финкель и Штейн",
-        previousParticipation:"В музее Ану и в Иерусалиме",
-        socialNetwork: {
-            instagram: "https://www.instagram.com/finkel__stein?igsh=N2ZybzFxYTJteTl2",
-            facebook: "",
-            personalSite: "",
-        },
-        
-        description:"Финкель и Штейн - это украшения из битой посуды (да-да из осколков), созданные Асей Финкельштейн. Ходит по блошиным рынкам и антикварным лавкам в поисках разбитого фарфора, чтобы дать ему вторую жизнь. Если вы любите необычные серьги и нестандартные концепции, вам понравится ",
-        participationInTheLottery:"Нет",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710274589064_681552992.jpg",
-        id:22
+        description:"Milin - это бренд украшений ручной работы из фарфора и из  бисера. Украшения из фарфора воплощают лаконичную женственность с намеком на иронию, в то время как украшения из бисера сверкают яркими красками и игривостью. Совершенно разные, но идеально дополняющие друг друга\n",
+        participationInTheLottery:"да",
+        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710274783304_662398802.jpeg",
+        id:21
     },
     {
         companyName:"RABEYKA",
+        slug: "RABEYKA",
         previousParticipation:"нет",
         socialNetwork: {
             instagram: "@rabeyka",
@@ -280,20 +229,8 @@ const participantsData = [
         id:23
     },
     {
-        companyName:"Исрадон",
-        previousParticipation:true,
-        socialNetwork: {
-            instagram: "",
-            facebook: "https://www.facebook.com/isradon.net?mibextid=LQQJ4d",
-            personalSite: "",
-        },
-        description:"“Исрадон” уже без малого 30 лет привозит в Израиль книги на русском языке для читателей всех возрастов. На сегодняшний день в семье “Исрадон” 12 филиалов, а также интернет-магазин с более чем 100 000 наименований книг. Мы делаем доставку по всему Израилю и за его пределы, привозим новинки еженедельно и принимаем индивидуальные заказы. С нами выросло уже не одно поколение детей, для чьих родителей важно сохранить в семье русский язык!",
-        participationInTheLottery:"да",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710274686976_911517380.jpg",
-        id:24,
-    },
-    {
         companyName:"YANDA Sweets",
+        slug: "YANDA-Sweets",
         previousParticipation:'',
         socialNetwork: {
             instagram: "https://www.instagram.com/yanda_sweets/",
@@ -307,6 +244,7 @@ const participantsData = [
     },
     {
         companyName:"Sweet baby book",
+        slug: "Sweet_baby_book",
         previousParticipation:"",
         socialNetwork: {
             instagram: "https://www.instagram.com/sweet_baby_book",
@@ -320,6 +258,7 @@ const participantsData = [
     },
     {
         companyName:"Polonskybooks",
+        slug: "Polonskybooks",
         previousParticipation:"",
         socialNetwork: {
             instagram: "",
@@ -332,21 +271,8 @@ const participantsData = [
         id: 27,
     },
     {
-        companyName:"АКАК",
-        previousParticipation:"",
-        socialNetwork: {
-            instagram: "",
-            facebook: "",
-            personalSite: "",
-        },
-        description:"АКАК - это авторский книжный магазин детской современной литературы и мы скоро откроемся! Наши дети и дети наших друзей читают взахлёб, любят обсуждать книги и изучать иллюстрации. Здесь мы будем делиться с вами лучшими книгами, рассказывать о независимых издательствах, авторах и иллюстраторах. Передавая новости о книжных новинках, которые принесла нам 'Сорока на хвосте', мы решили назвать магазин по израильски: АКАК, что означает СОРОКА.",
-        participationInTheLottery:"",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1711225493864_61029240.jpeg",
-        id: 28,
-    },
-
-    {
         companyName:"РэдМакс",
+        slug: "redmax",
         previousParticipation:"",
         socialNetwork: {
             instagram: "",
@@ -361,6 +287,7 @@ const participantsData = [
 /////new
     {
         companyName:"Пижамная библиотечка",
+        slug: "pizamnay_bibliotechka",
         previousParticipation:"",
         socialNetwork: {
             instagram: "",
@@ -374,20 +301,8 @@ const participantsData = [
     },
 
     {
-        companyName:"Маша и три медведя",
-        previousParticipation:'',
-        socialNetwork: {
-            instagram: "https://www.instagram.com/mashaandthreebears?igsh=NmE1ZjNhYWx3ZDdr",
-            facebook: "https://www.facebook.com/mashaand3bears?mibextid=ZbWKwL",
-        },
-        description:'Тот самый детский книжный магазин, который еще недавно назывался "Маша и Медведь". У нас на полках отличный выбор детских книг для всех возрастов на русском, иврите, украинском и английском – и дорогая сердцу классика, и новинки от лучших современных авторов. Мы верим, что любовь к чтению зажигается с детства, и стараемся создать такую атмосферу, чтоб каждый маленький читатель чувствовал себя у нас как дома и мог найти для себя что-то особенное, а наша команда всегда рядом, чтобы помочь в выборе идеальной книги. По выходным в нашем магазине проходят очень разные и очень интересные мастер-классы, игры, квесты, квизы, викторины и спектакли. Или можно просто прийти понаблюдать за жизнью хомячков, полистать книжки и отдохнуть в игровой зоне.',
-        participationInTheLottery:"",
-        imgLink:"https://scontent.ftlv19-1.fna.fbcdn.net/v/t39.30808-6/438328510_122123009840245994_579715423834513606_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=LaRL6hZk-MEQ7kNvgFtKErf&_nc_ht=scontent.ftlv19-1.fna&oh=00_AYDAwnLBtMVBa9zQCQNYdOoQSiesKEwgUy3dE23XOfW3VA&oe=66870195",
-        id: 281,
-    },
-
-    {
         companyName:"RubinArt",
+        slug: "RubinArt",
         previousParticipation:"",
         socialNetwork: {
             instagram: "https://www.instagram.com/rubinartbooks/",
@@ -402,6 +317,7 @@ const participantsData = [
 
     {
         companyName:"inesstudio",
+        slug: "inesstudio",
         previousParticipation:"",
         socialNetwork: {
             instagram: "",
@@ -413,25 +329,137 @@ const participantsData = [
         imgLink:"",
         id:202
     },
+    {
+        companyName:"АКАК",
+        slug: "akak",
+        previousParticipation:"",
+        socialNetwork: {
+            instagram: "https://www.instagram.com/akakbook?igsh=MWM2YmxpbjdhZm93eg==",
+            facebook: "https://www.facebook.com/share/17ppKe1TPZ/?mibextid=LQQJ4d",
+            personalSite: "",
+        },
+        description:"АКАК - это авторский книжный магазин детской современной литературы. Наши дети и дети наших друзей читают взахлёб, любят обсуждать книги и изучать иллюстрации. Здесь мы будем делиться с вами лучшими книгами, рассказывать о независимых издательствах, авторах и иллюстраторах. Передавая новости о книжных новинках, которые принесла нам 'Сорока на хвосте', мы решили назвать магазин по израильски: АКАК, что означает СОРОКА.",
+        participationInTheLottery:"",
+        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1711225493864_61029240.jpeg",
+        id:10,
+    },
+    {
+        companyName:"Babel Haifa",
+        slug: "babel-haifa",
+        npreviousParticipation:"да",
+        socialNetwork: {
+            instagram: "",
+            facebook: "https://www.facebook.com/babelhaifabooks",
+            personalSite: "",
+        },
+        description:"«Бабель. Книги. Хайфа» (Babel Haifa. Art & Books) всего за год успел собрать вокруг себя верную аудиторию, которая оценила отличный подбор книг для детей и взрослых на русском и английском языке. Как и в других магазинах франшизы «Бабель» в Хайфе проходят мастер-классы и лекции для детей и взрослых, открываются выставки современных художников. \nАдрес магазина: Хайфа, Хатиб, 10. Следить за новостями магазина можно в фб https://www.facebook.com/babelhaifabooks и инстаграме @babel_haifa\n\n",
+        participationInTheLottery:"да",
+        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710277229436_302850514.svg",
+        id:1,
+    },
+    {
+        companyName:"Издательство «Книга Сефер»",
+        slug: "book_sefer",
+        previousParticipation:"нет",
+        socialNetwork: {
+            instagram: "https://www.instagram.com/tanya.romanov.jewellery?igsh=azJndWhyOHNidW50&utm_source=qr",
+            facebook: "https://www.facebook.com/KnigaSefer/",
+            personalSite: "",
+        },
+        description:"Издательство \"Книга Сефер\" представляет книги, выпущенные в рамках двух проектов «Вольное книгопечатание» и «Написано в Израиле». Это первый книгоиздательский проект после начала войны в Украине, где выходят книги, авторов, пишущих на русском в разных странах. Среди авторов израильского издательства – как маститые классики, так и начинающие литераторы. Проект «Вольное книгопечатание» призван предоставить платформу и возможность для свободного бесцензурного издания книг вне России. Некоторые книги издаются совместно с украинскими издательствами. В рамках проекта «Написано в Израиле» публикуются авторы, живущие в нашей стране. Главный критерий нашего издательства – качество. На фестивале мы представим самую новую книгу издательства – «Когда цветет джакаранда» Аллы Борисовой-Линецкой. В этой встрече примут участие и другие авторы, а также издатель Виталий Кабаков. Издательство открыто для новых проектов и новых авторов.",
+        participationInTheLottery:"да",
+        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710703510280_506668965.jpeg",
+        id:15
+    },
+
+    {
+        companyName:"Исрадон",
+        slug: "isradon",
+        previousParticipation:true,
+        socialNetwork: {
+            instagram: "",
+            facebook: "https://www.facebook.com/isradon.net?mibextid=LQQJ4d",
+            personalSite: "",
+        },
+        description:"“Исрадон” уже без малого 30 лет привозит в Израиль книги на русском языке для читателей всех возрастов. На сегодняшний день в семье “Исрадон” 12 филиалов, а также интернет-магазин с более чем 100 000 наименований книг. Мы делаем доставку по всему Израилю и за его пределы, привозим новинки еженедельно и принимаем индивидуальные заказы. С нами выросло уже не одно поколение детей, для чьих родителей важно сохранить в семье русский язык!",
+        participationInTheLottery:"да",
+        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710274686976_911517380.jpg",
+        id:7,
+    },
+
+    {
+        companyName:"TAPUZIM.STORE",
+        slug:"TAPUZIM-STORE",
+        previousParticipation:"Иерусалим, Музей АНУ",
+        socialNetwork: {
+            facebook: "https://www.facebook.com/tapuzimstore", 
+            instagram: "https://www.instagram.com/tapuzim.store", 
+            personalSite: "https://t.me/tapuzimstore",
+        },
+        description:"Детский книжный интернет-магазин Tapuzim.store открыт ежедневно для мам, пап и их замечательных детей! В нашем ассортименте самые топовые книги от крупнейших издательств России - \"АСТ\", \"Азбука-Аттикус\", Voicebook, \"МИФ\", Мелик-Пашаев, Росмэн, Умка, замечательные книги издательства Англии Walker Books LTD.\nА также:\n- Развивающие пособия по ивриту, русскому языку,  математике, логике, психологии.\n- Увлекательные карточные и настольные игры;\n- Наборы для творчества и хобби\n- Канцелярская продукция и сопутствующие товары\nДоставка по всему Израилю в течение 1-3 дней! Самовывоз из офиса по адресу: Тель-Авив, Тель Гиборим, 5, офис 321. \nНе можете определиться с выбором? Растерялись от огромного количества книг и игр? Мы вам подскажем и поможем!",
+        participationInTheLottery:"да",
+        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710274838958_975317700.png",
+        id:3,
+    },
+
+    {
+        companyName:"Tanya Romanov Jewellery",
+        slug: "tanya-romanov-jewellery",
+        previousParticipation:"Да, в нескольких",
+        socialNetwork: {
+            instagram: "https://www.instagram.com/tanya.romanov.jewellery?igsh=azJndWhyOHNidW50&utm_source=qr",
+            facebook: "",
+            personalSite: "",
+        },
+        description:"Tanya Romanov Jewellery - авторские украшения ручной работы из серебра и натуральных камней",
+        participationInTheLottery:"да",
+        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710712327716_521194897.jpg",
+        id:1114,
+    },
+    {
+        companyName:"Финкель и Штейн",
+        slug: "finkel-i-shtein",
+        previousParticipation:"В музее Ану и в Иерусалиме",
+        socialNetwork: {
+            instagram: "https://www.instagram.com/finkel__shtein/",
+            facebook: "",
+            personalSite: "",
+        },
+        
+        description:"Финкель и Штейн - это украшения из битой посуды (да-да из осколков), созданные Асей Финкельштейн. Ходит по блошиным рынкам и антикварным лавкам в поисках разбитого фарфора, чтобы дать ему вторую жизнь. Если вы любите необычные серьги и нестандартные концепции, вам понравится ",
+        participationInTheLottery:"Нет",
+        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710274589064_681552992.jpg",
+        id:5
+    },
+    {
+        companyName:"Prima Naturalis",
+        slug:  "prima-naturalis",
+            previousParticipation:true,
+            socialNetwork: {
+                instagram: "https://www.instagram.com/prima_naturalis/",
+                facebook: "https://www.facebook.com/share/19cigeAuJ2/",
+                personalSite: "prima-naturalis.co.il",
+            },
+        description:"Татьяна Кузьменко, создатель бренда Prima Naturalis, привезет на фестиваль ЭКО-продукцию ручной работы: потрясающее натуральное мыло, твердые шампуни, эфирные масла, ароматические свечи, бамбуковые зубные щётки и др.",
+        participationInTheLottery:"да",
+        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1733319154793_86267020",
+        id:16,
+    },
+
+    {
+        companyName:"Маша и три медведя",
+        slug: "masha-and-three-bears",
+        previousParticipation:'',
+        socialNetwork: {
+            instagram: "https://www.instagram.com/mashaandthreebears?igsh=NmE1ZjNhYWx3ZDdr",
+            facebook: "https://www.facebook.com/mashaand3bears?mibextid=ZbWKwL",
+        },
+        description:'Тот самый детский книжный магазин, который еще недавно назывался "Маша и Медведь". У нас на полках отличный выбор детских книг для всех возрастов на русском, иврите, украинском и английском – и дорогая сердцу классика, и новинки от лучших современных авторов. Мы верим, что любовь к чтению зажигается с детства, и стараемся создать такую атмосферу, чтоб каждый маленький читатель чувствовал себя у нас как дома и мог найти для себя что-то особенное, а наша команда всегда рядом, чтобы помочь в выборе идеальной книги. По выходным в нашем магазине проходят очень разные и очень интересные мастер-классы, игры, квесты, квизы, викторины и спектакли. Или можно просто прийти понаблюдать за жизнью хомячков, полистать книжки и отдохнуть в игровой зоне.',
+        participationInTheLottery:"",
+        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1733571156847_228674644",
+        id:12,
+    },
     
 ]
 
 export default participantsData;
-
-
-/*
-    /*{
-        companyName:"Story Store",
-        previousParticipation:"Нет",
-        socialNetwork: {
-            instagram: "https://www.instagram.com/storystore.books?igsh=NTc4MTIwNjQ2YQ==",
-            facebook: "",
-            personalSite: "",
-        },
-        description:"Story Store - книжный магазин онлайн, доставка по Израилю и миру. Автор Екатерина Врублевская - опыт работы в поле культурной журналистки более 10 лет, как литературного обозревателя вылился в проект Story Store. Это не просто магазин, но полноценный журнал о литературе. Здесь есть наши рецензии о книгах, разговоры с писателями и тд. Также мы проводим лекции и мероприятия. И делаем ещё массу интересного ",
-        participationInTheLottery:"Нет",
-        imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710701968010_305267914.png",
-        id:12
-    },
-    
-*/

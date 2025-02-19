@@ -3,13 +3,14 @@ import {Link} from 'react-router-dom'
 
 
 function Paticipant({item}) {
+console.log(item.companyName)
     return (
         <Link to={`/marker-paticipants/${item.slug}`} className="paticipant-container">
-
+    
            {item.imgLink === ''?
             <p className="paticipant-img">Участник скоро добавит свой логотип</p>
             :
-            <img className="paticipant-img" src={item.imgLink} alt={`Логотип компании ${item.companyName}`}></img>
+            <img className="paticipant-img" src={item.imgLink} alt={`Логотип компании`}></img> // ${item.companyName}
            }
             
            {item.description.length? 

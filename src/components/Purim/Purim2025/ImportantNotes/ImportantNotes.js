@@ -125,7 +125,7 @@ function ImportantNotes() {
                 <div className='importantNotes__triangles'></div>
             </div>
 
-            <h3 className='importantNotes__subtitle'>Дильяго</h3>
+            <h3 className='importantNotes__subtitle'>Студия Линогравюры Ильи Diliago Викторова «ОТТИСК-ШМОТТИСК»</h3>
             <p className='importantNotes__text'>На маркетe будет работать студия Линогравюры Ильи Diliago Викторова «Оттиск-шмоттиск». Если вы принесёте футболку или шоппер, то сможете бесплатно нанести на них рисунок из ассортимента студии.</p>
             
             <div className='importantNotes__triangles-container'>
