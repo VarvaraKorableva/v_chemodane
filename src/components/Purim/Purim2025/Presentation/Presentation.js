@@ -37,7 +37,18 @@ function Presentation() {
                     <div className="presentation__li-text-container">
                         <div>
                         <h3 className="presentation__li-title">«Бабушка Фрида» — детский спектакль от <a className="presentation__li-link" href='https://davai-group.org/' target="_blank" rel="noopener noreferrer"> театра «Давай»</a></h3>
-                            <p className="presentation__li-text">Весёлый спектакль, который придётся по душе как ивритоязычным, так и русскоязычным детям и взрослым.</p>
+                            <p className="presentation__li-text">Весёлый спектакль, который придётся по душе как ивритоязычным, так и русскоязычным детям и взрослым</p>
+                        </div>
+                        <div className="presentation__li-triangles"></div>
+                    </div>
+                </li>
+
+                <li className="presentation__li">
+                    <div className="presentation__li-arrow importantNotes__triangle-yellow-violet"></div>
+                    <div className="presentation__li-text-container">
+                        <div>
+                        <h3 className="presentation__li-title">Встреча с раввином Йосефом Херсонским</h3>
+                            <p className="presentation__li-text">Чтение по ролям свитка Эстер с участием посетителей фестиваля</p>
                         </div>
                         <div className="presentation__li-triangles"></div>
                     </div>
@@ -87,7 +98,8 @@ function Presentation() {
                     <div className="presentation__li-text-container">
                         <div>
                             <h3 className="presentation__li-title">Книжный маркет</h3>
-                            <span className="presentation__li-text">Новинки литературы на русском языке для детей и взрослых </span>
+                            <p className="presentation__li-text">- Новинки литературы на русском языке для детей и взрослых </p>
+                            <p className="presentation__li-text">- Уникальные ювелирные украшения от художниц Аси Финкельштейн и Тани Романов</p>
                         </div>    
                         <div className="presentation__li-triangles"></div>
                     </div>
@@ -100,7 +112,6 @@ function Presentation() {
                             <h3 className="presentation__li-title">Литературная программа для взрослых и подростков</h3>
                                 <p className="presentation__li-text">– Круглый стол: встреча профессиональных издателей и владельцев книжных магазинов с обсуждением перспектив развития русскоязычного книжного рынка в Израиле.</p>
                                 <p className="presentation__li-text">– Встреча с писательницей Евгенией Пастернак </p>
-                                <p className="presentation__li-text">– Представляет переводчик романа Рина Юсин-Фульмахт</p>
                         </div>    
                         <div className="presentation__li-triangles"></div>
                     </div>
@@ -111,7 +122,7 @@ function Presentation() {
                     <div className="presentation__li-text-container">
                         <div>
                             <h3 className="presentation__li-title">Парад костюмов и дискотека</h3>
-                            <p className="presentation__li-text">Мечта каждого – пройти по красной дорожке в пуримском наряде и танцевать на настоящей дискотеке. Ждем вас в пуримских нарядах</p>
+                            <p className="presentation__li-text">Мечта каждого – пройти по красной дорожке в пуримском наряде и танцевать на настоящей дискотеке.</p>
                             </div>
                         <div className="presentation__li-triangles"></div>
                     </div>
@@ -121,7 +132,7 @@ function Presentation() {
                     <div className="presentation__li-arrow importantNotes__triangle-lightblue-violet"></div>
                     <div className="presentation__li-text-container">
                         <div>
-                            <h3 className="presentation__li-title">Фотозона со специальной костюмерной и профессиональным макияжем от профессионального театрального гримера.</h3>
+                            <h3 className="presentation__li-title">Фотозона со специальной костюмерной и профессиональным макияжем от настоящего театрального гримера.</h3>
                             <p className="presentation__li-notes">Подробности в разделе</p>
                             <a a href="#importantNotes" className="presentation__li-btn">Важные примечания</a>
                         </div>
