@@ -1,10 +1,31 @@
+import React, { useState, useEffect } from 'react';
 import Heading from '../../../../UI-Kit/Heading/HeadingClean'
 import './Schedule.css'
+import schedule from '../../../../images/schedulepurim2025.pdf'
 
 function Schedule() {
+    const [width, setWidth] = useState(window.innerWidth);
+
+    const handleResize = () => {
+        setWidth(window.innerWidth);
+      };
+    
+      useEffect(() => {
+        window.addEventListener('resize', handleResize);
+        return () => {
+          window.removeEventListener('resize', handleResize);
+        };
+      }, []);
+
     return(
         <section className='schedule__section' id='schedule_purim_2025'>
-            <Heading>Расписание</Heading>
+
+            <div className='schedule__title-btn__container'>
+                <Heading>Расписание</Heading>
+                <a  download="Расписание.pdf" href={schedule} className="schedule__download-btn">
+                    {width > 700 ? 'Скачать расписание' : 'Скачать'}
+                </a>
+            </div>
 
             <div className='schedule__container'>
                 <p className='schedule__date'>16 марта</p>
@@ -14,6 +35,7 @@ function Schedule() {
                 <div className='schedule__triangle schedule__triangle_4'></div>
                 <div className='schedule__triangle schedule__triangle_5'></div>
                 <div className='schedule__triangle schedule__triangle_6'></div>
+
             </div>
 
         </section>

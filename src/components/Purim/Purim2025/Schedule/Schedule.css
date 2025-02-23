@@ -18,6 +18,31 @@
     margin-bottom: 200px;
     font-weight: 200;
 }
+.schedule__title-btn__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.schedule__download-btn {
+    width: fit-content;
+    height: fit-content;
+    padding: 15px 20px 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    margin: 0;
+    color: #fff;
+    background-color: #1563FF;
+    border-radius: 12px;
+    text-transform: uppercase;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.schedule__download-btn:hover {
+    background-color: #7D26BF;
+}
 .schedule__triangle {
     background-repeat: no-repeat;
     background-position: center;
@@ -124,6 +149,10 @@
 }
 
 @media screen and (max-width: 900px) {
+    .schedule__download-btn {
+        font-size: 18px;
+        padding: 10px;
+    }
     .schedule__section {
         width: calc(100% - 64px);
         padding: 32px;
@@ -164,6 +193,13 @@
         background-image: url(../../../../images/purim/purim2025/6.png);
         top: 100px;
         right: 50px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .schedule__download-btn {
+        font-size: 16px;
+        padding: 5px 10px 5px 10px;
     }
 }
 
@@ -213,5 +249,13 @@
     .schedule__date {
         margin-top: 150px;
         margin-bottom: 150px;
+    }
+
+    .schedule__title-btn__container {
+        flex-direction: column;
+    }
+    .schedule__download-btn { 
+        align-self: flex-start;
+        margin-top: 20px;
     }
 }
