@@ -5,7 +5,7 @@ function ImportantNotes() {
     const ticketPurchasingSystem = [
         {
             id: 1,
-            title: "Билет на фестиваль только в зал ТИШ (без спектаклей и некоторых Мастер Классов)",
+            title: "Билет на фестиваль только в зал ТИШ (без спектаклей)",
             price: "65 ₪",
             link: "",
             btn: NaN
