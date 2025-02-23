@@ -1,6 +1,6 @@
 .tickets-sticky-button {
     position: fixed;
-    bottom: 50%;
+    bottom: 60px;
     right: 0;
     display: flex;
     justify-content: center;
