@@ -21,7 +21,7 @@ function Purim2025({handleCardClick, addCard, limit}) {
             <Purim2025Banner></Purim2025Banner>
             <Presentation></Presentation>
             <SeparatorPage color={colors.pink}></SeparatorPage>
-            <Schedule></Schedule>
+            <Schedule handleCardClick={handleCardClick}></Schedule>
             <SeparatorPage color={colors.purple}></SeparatorPage>
             <ImportantNotes></ImportantNotes>
             <SeparatorPage color={colors.yellow}></SeparatorPage>

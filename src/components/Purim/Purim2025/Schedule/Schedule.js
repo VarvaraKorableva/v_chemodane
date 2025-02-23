@@ -2,9 +2,14 @@ import React, { useState, useEffect } from 'react';
 import Heading from '../../../../UI-Kit/Heading/HeadingClean'
 import './Schedule.css'
 import schedule from '../../../../images/schedulepurim2025.pdf'
+import schedulePurim2025 from '../../../../images/schedulepurim2025.png'
 
-function Schedule() {
+function Schedule({handleCardClick}) {
     const [width, setWidth] = useState(window.innerWidth);
+
+    function onDateClick() {
+        handleCardClick(schedulePurim2025)
+    }
 
     const handleResize = () => {
         setWidth(window.innerWidth);
@@ -28,14 +33,13 @@ function Schedule() {
             </div>
 
             <div className='schedule__container'>
-                <p className='schedule__date'>16 марта</p>
+                <p className='schedule__date' onClick={onDateClick}>16 марта</p>
                 <div className='schedule__triangle schedule__triangle_1'></div>
                 <div className='schedule__triangle schedule__triangle_2'></div>
                 <div className='schedule__triangle schedule__triangle_3'></div>
                 <div className='schedule__triangle schedule__triangle_4'></div>
                 <div className='schedule__triangle schedule__triangle_5'></div>
                 <div className='schedule__triangle schedule__triangle_6'></div>
-
             </div>
 
         </section>
