@@ -1,5 +1,5 @@
 import './MainFooter.css'
-import { FaInstagram, FaTelegram, FaFacebook } from 'react-icons/fa'
+import { FaInstagram, FaTelegram, FaFacebook, FaWhatsapp } from 'react-icons/fa'
 
 
 function MainFooter() {
@@ -15,18 +15,23 @@ function MainFooter() {
                         <p className="main-footer-contacts-number">info@vchemodane.com</p>
                         <ul className="footer__links-container">
                             <li className='footer__link'>
-                                <a className='footer__contact-item-link' href='https://www.instagram.com/vchemodanefest/' target='_blank'>
+                                <a className='footer__contact-item-link' href='https://www.instagram.com/vchemodanefest/' target='_blank' rel="noopener noreferrer">
                                 <FaInstagram />
                                 </a>
                             </li>
                             <li className='footer__link'>
-                                <a className='footer__contact-item-link' href='https://www.facebook.com/vchemodanefest/' target='_blank'>
+                                <a className='footer__contact-item-link' href='https://www.facebook.com/vchemodanefest/' target='_blank' rel="noopener noreferrer">
                                 <FaFacebook />
                                 </a>
                             </li>
                             <li className='footer__link'>
-                                <a className='footer__contact-item-link' href='https://t.me/chemodanfest' target='_blank'>
+                                <a className='footer__contact-item-link' href='https://t.me/chemodanfest' target='_blank' rel="noopener noreferrer">
                                 <FaTelegram />
+                                </a>
+                            </li>
+                            <li className='footer__link'>
+                                <a className='footer__contact-item-link' href="https://wa.me/+972534701675" target="_blank" rel="noopener noreferrer">
+                                <FaWhatsapp />
                                 </a>
                             </li>
                         </ul>
