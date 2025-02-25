@@ -9,10 +9,14 @@ function MainFooter() {
             <div className="main-footer-wrapper">
                 <div className="main-footer-letters-grey"></div>
                 <div className="main-footer__logo-support-wrapper">
-                    <div className="main-footer-logo"></div>
                     <div className="main-footer-contacts-container">
-                        <p className="main-footer__title">Контакты:</p>
-                        <p className="main-footer-contacts-number">info@vchemodane.com</p>
+                        <div className="main-footer-flex">
+                            <div className="main-footer-logo"></div>
+                            <div>
+                                <p className="main-footer__title">Контакты:</p>
+                                <p className="main-footer-contacts-number">info@vchemodane.com</p>
+                            </div>
+                        </div>
                         <ul className="footer__links-container">
                             <li className='footer__link'>
                                 <a className='footer__contact-item-link' href='https://www.instagram.com/vchemodanefest/' target='_blank' rel="noopener noreferrer">
