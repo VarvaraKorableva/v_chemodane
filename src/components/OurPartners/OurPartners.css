@@ -129,5 +129,10 @@
     .ourPartners__triangles_down {
         width: 235px;
         height: 81px;
+        bottom: -20px;
+    }
+
+    .ourPartners__triangles_up {
+        top: -30px;
     }
 }
