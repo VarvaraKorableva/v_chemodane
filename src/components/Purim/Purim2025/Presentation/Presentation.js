@@ -53,6 +53,16 @@ function Presentation() {
                         <div className="presentation__li-triangles"></div>
                     </div>
                 </li>
+                <li>
+                    <div className="presentation__li-arrow importantNotes__triangle-yellow-lightblue"></div>
+                        <div className="presentation__li-text-container">
+                            <div>
+                            <h3 className="presentation__li-title">Шир Иврит: История Израиля через знаковые песни</h3>
+                                <p className="presentation__li-text">Лекция и урок иврита от гида и лектора Зеева Волка и учителя иврита Евгения Трайбермана. Будем слушать песни, узнавать их истории и изучать язык.</p>
+                            </div>
+                        <div className="presentation__li-triangles"></div>
+                    </div>
+                </li>
 
                 <li className="presentation__li">
                     <div className="presentation__li-arrow importantNotes__triangle-blue-violet"></div>
@@ -153,16 +163,6 @@ function Presentation() {
                 </li>
 
                 <li className="presentation__li">
-                    <div className="presentation__li-arrow importantNotes__triangle-pink-violet"></div>
-                    <div className="presentation__li-text-container">
-                        <div>
-                            <h3 className="presentation__li-title">Дегустация вина</h3>
-                        </div>
-                        <div className="presentation__li-triangles"></div>
-                    </div>
-                </li>
-
-                <li className="presentation__li">
                     <div className="presentation__li-arrow importantNotes__triangle-blue-violet"></div>
                     <div className="presentation__li-text-container">
                         <div>
@@ -171,8 +171,19 @@ function Presentation() {
                             </h3>
                             <p className="presentation__li-notes">Подробности в разделе</p>
                             <a href="#importantNotes" className="presentation__li-btn">Важные примечания</a>
-                        </div>  
-                        <div className="presentation__li-triangles presentation__li-triangles-last-of-type"></div>  
+                        </div> 
+                        <div className="presentation__li-triangles"></div> 
+                         
+                    </div>
+                </li>
+
+                <li className="presentation__li">
+                    <div className="presentation__li-arrow importantNotes__triangle-pink-violet"></div>
+                    <div className="presentation__li-text-container">
+                        <div>
+                            <h3 className="presentation__li-title">Дегустация вина</h3>
+                        </div>
+                        <div className="presentation__li-triangles presentation__li-triangles-last-of-type"></div> 
                     </div>
                 </li>
             </ul>

@@ -255,8 +255,9 @@ function App() {
           path='/purim_2025'
             element={
               <Purim2025
-                //handleCardClick={handleCardClick}
-                addCard={addCard} limit={limit} handleCardClick={handleCardClick}
+                addCard={addCard} 
+                limit={limit} 
+                handleCardClick={handleCardClick}
               ></Purim2025>
             }
         >
