@@ -53,7 +53,7 @@ function Presentation() {
                         <div className="presentation__li-triangles"></div>
                     </div>
                 </li>
-                <li>
+                <li className="presentation__li">
                     <div className="presentation__li-arrow importantNotes__triangle-yellow-lightblue"></div>
                         <div className="presentation__li-text-container">
                             <div>
