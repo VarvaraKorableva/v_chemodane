@@ -6,7 +6,7 @@ import './Slider.css';
 
 function Slider() {
     const images = [
-        { id: 1, src: page1, link: '/purim_2025', text: '', trigger: false },
+        //{ id: 1, src: page1, link: '/purim_2025', text: '', trigger: false },
         { id: 2, src: page2, link: 'https://forms.gle/USjZPq4y9WSDvLBy6', text: '', trigger: false },
         { id: 3, src: page3, link: 'https://forms.gle/N4mSMeM2ZK5Fdw7f9', text: '', trigger: false },
     ];
