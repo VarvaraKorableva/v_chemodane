@@ -8,25 +8,25 @@ import Haifa from './pages/Haifa/Haifa'
 //import Header from './components/Header/Header'
 import MainNewHeader from './components/Main/MainHeader/MainNewHeader/MainNewHeader'
 import Schedule from './components/Schedule/Schedule'
-import NewAnnounce from './components/CurrentAnnounce/HaifaNewAnnounce'
-import HaifaSchedule from './components/HaifaSchedule/HaifaSchedule'
+//import NewAnnounce from './components/CurrentAnnounce/HaifaNewAnnounce'
+//import HaifaSchedule from './components/HaifaSchedule/HaifaSchedule'
 import ScheduleHaifa from './components/ScheduleHaifa/ScheduleHaifa'
 import Purim2024 from './pages/Purim/Purim2024/purim/PurimPage'
 import Purim2025 from './pages/Purim/Purim2025/Purim2025'
-import EventAddress from './components/EventAddress/EventAddress'
-import CampHaifa from './components/Camp/CampHaifa'
+//import EventAddress from './components/EventAddress/EventAddress'
+//import CampHaifa from './components/Camp/CampHaifa'
 //import Performances from './components/Performances/Performances' <Performances />
-import TheaterHaifa from './components/Theater/TheaterHaifa'
-import MasterClassHaifa from './components/MasterClass/MasterClassHaifa'
-import LecturesAndPresentations from './components/LecturesAndPresentations/LecturesAndPresentations'
-import OurPartners from './components/OurPartners/OurPartners'
+//import TheaterHaifa from './components/Theater/TheaterHaifa'
+//import MasterClassHaifa from './components/MasterClass/MasterClassHaifa'
+//import LecturesAndPresentations from './components/LecturesAndPresentations/LecturesAndPresentations'
+//import OurPartners from './components/OurPartners/OurPartners'
 //import InfoHaifaPopup from './components/Popups/InfoHaifaPopup'
 //import SukkotPopup from './components/Popups/SukkotPopup'
 import NotReadyPage from './pages/NotReadyPage/NotReadyPage'
 
-import AboutFestival from './components/AboutFestival/AboutFestival'
-import Participants from './components/Participants/Participants'
-import Footer from './bin/Footer/Footer'
+//import AboutFestival from './components/AboutFestival/AboutFestival'
+//import Participants from './components/Participants/Participants'
+//import Footer from './bin/Footer/Footer'
 import MainFooter from './components/Main/MainFooter/MainFooter'
 
 import LotteryPopup from './components/Popups/LotteryPopup'
@@ -35,7 +35,7 @@ import ContactsPopup from './components/Popups/ContactsPopup'
 import BurgerMainPopup from './components/Popups/BurgerMainPopup/BurgerMainPopup'
 import OurProjectPopup from './components/Popups/OurProjectPopup/OurProjectPopup'
 import OurParticipantsPopup from './components/Popups/OurParticipantsPopup/OurParticipantsPopup'
-import OurTeam from './components/OurTeam/OurTeam'
+//import OurTeam from './components/OurTeam/OurTeam'
 import IndividualPageOfParticipants from './components/IndividualPageOfParticipants/IndividualPageOfParticipants'
 import IndividualPage from './components/IndividualPage/IndividualPage'
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage'
@@ -46,7 +46,9 @@ import ReviewsPage from './pages/ReviewsPage/ReviewsPage'
 import Hanukkah2024Page from './pages/Hanukkah2024Page/Hanukkah2024Page'
 import LotteryHanukkah2024Page from './pages/Hanukkah2024Page/LotteryHanukkah2024Page'
 import ContactsPage from './pages/ContactsPage/ContactsPage'
-import SeparatorPage from './components/SeparatorPage/SeparatorPage'
+//import SeparatorPage from './components/SeparatorPage/SeparatorPage'
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage/PrivacyPolicyPage'
+import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 
 function App() {
   //LotteryPopup
@@ -56,7 +58,7 @@ function App() {
   const [isBurgerMainPopup, setIsBurgerMainPopup] = React.useState(false)
   const [isOurProjectPopup, setIsOurProjectPopup] = React.useState(false)
   const [isOurParticipantsPopup, setIsOurParticipantsPopup] = React.useState(false)
-  const [isSukkotPopupClicked, setIsSukkotPopupClicked] = React.useState(true)
+  //const [isSukkotPopupClicked, setIsSukkotPopupClicked] = React.useState(true)
   const [selectedCard, setSelectedCard] = React.useState({})
 
   const [limit, setLimit] = React.useState(8)
@@ -136,7 +138,9 @@ function App() {
         handleIsOurProjectPopup={handleIsOurProjectPopup}
         handleOurParticipantsPopup={handleOurParticipantsPopup}
       />
+      <ScrollToTop />
       <Routes>
+        
         <Route
           exact path="/haifa"
           element={
@@ -285,7 +289,13 @@ function App() {
             <NotFoundPage />
           }>
         </Route>
-
+        
+        <Route
+          path="/privacy-policy"
+          element={
+            <PrivacyPolicyPage />
+          }>
+        </Route>
       </Routes>  
       
       <MainFooter />

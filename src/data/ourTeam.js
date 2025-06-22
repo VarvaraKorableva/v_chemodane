@@ -2,32 +2,32 @@ const ourTeam = [
     {
         name: 'Наталия Бражникова', 
         info: 'Генеральный директор. Aвтор идеи фестиваля. Занимается выбором площадок для фестиваля, маркетом и финансами, общими вопросами',
-        img: 'https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710408040570_988088894.jpg',
-        id: '12345',
+        img: './images/team/1.jpeg',
+        id: '1',
     },
     {
         name: 'Маша Гельштейн', 
         info: 'Искусствовед. Арт-директор. Пишет тексты, ведет соцсети, подбирает участников фестиваля',
-        img: 'https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710408536906_338738985.jpg',
-        id: '123456',
+        img: './images/team/2.jpeg',
+        id: '2',
     },
     {
         name: 'Даша Грозовская', 
         info: 'Журналист. Директор по развитию. Составляет программу и курирует участников фестиваля',
-        img: 'https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710408621373_378876236.jpg',
-        id: '1234567',
+        img: './images/team/3.jpeg',
+        id: '3',
     },
     {
         name: 'Маша Дубова', 
         info: 'Писательница. Пиар-директор. Организует эфиры, публикации в прессе и переводит всю документацию на иврит',
-        img: 'https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710408074049_169806615.jpg',
-        id: '12345678',
+        img: './images/team/4.jpeg',
+        id: '4',
     },
     {
         name: 'Кира Орадовская', 
         info: 'Психолог. Операционный директор фестиваля. Курирует команду волонтеров и следит, чтобы на площадке все было в порядке',
-        img: 'https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710408656457_430720246.jpg',
-        id: '123456789',
+        img: './images/team/5.jpeg',
+        id: '5',
     }
 
 ]

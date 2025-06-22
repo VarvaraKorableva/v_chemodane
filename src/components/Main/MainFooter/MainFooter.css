@@ -26,6 +26,18 @@
     display: flex;
 }
 
+.privacy-policy-link {
+    color: #374BA5;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.privacy-policy-link:hover {
+    color: #374BA5;
+    opacity: 0.7;
+}
+
 @media screen and (max-width: 1650px) {
     .main__footer {
         /*padding-top: 200px;*/

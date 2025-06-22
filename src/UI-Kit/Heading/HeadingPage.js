@@ -1,9 +1,11 @@
 import './Heading.css'
 
-function HeadingPage({children}) {
-    return(
-        <h2 className='headingPage'>{children}</h2>
-    )
-}
+export default function Heading({
+  children,
+  as: Tag = 'h2',
+  className = '',
+  baseClassName = 'heading'
+}) {
 
-export default HeadingPage
+  return <Tag className={`${baseClassName} ${className}`}>{children}</Tag>
+}

@@ -4,13 +4,7 @@
     align-items: flex-start;
     justify-content: center;
     align-self: flex-end;
-    margin-left: 43px;
-}
-
-@media screen and (max-width: 840px) {
-    .ContactsPage_container { 
-        margin-left: 20px;
-    }
+    margin-top: 60px;
 }
 
 .ContactsPage__links-container {
@@ -48,4 +42,10 @@
 
 .ContactsPage__title {
     font-weight: bold;
+}
+
+@media screen and (max-width: 550px) {
+    .ContactsPage_container {
+        margin-top: 25px;
+    }
 }

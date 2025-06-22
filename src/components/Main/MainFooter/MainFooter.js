@@ -1,6 +1,6 @@
 import './MainFooter.css'
 import { FaInstagram, FaTelegram, FaFacebook, FaWhatsapp } from 'react-icons/fa'
-
+import {Link} from 'react-router-dom'
 
 function MainFooter() {
     return(
@@ -39,6 +39,8 @@ function MainFooter() {
                                 </a>
                             </li>
                         </ul>
+                        <Link to='/privacy-policy' className="privacy-policy-link">Политика конфиденциальности</Link>
+                        
                     </div>
                 </div>
             </div>

@@ -1,9 +1,11 @@
 import './Heading.css'
 
-function HeadingClean({children}) {
-    return(
-        <h2 className='headingClean'>{children}</h2>
-    )
-}
+export default function Heading({
+  children,
+  as: Tag = 'h2',
+  className = '',
+  baseClassName = 'heading'
+}) {
 
-export default HeadingClean
+  return <Tag className={`${baseClassName} ${className}`}>{children}</Tag>
+}

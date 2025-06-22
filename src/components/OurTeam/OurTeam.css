@@ -1,10 +1,57 @@
 .ourTeam-section {
-    background-color:#F5F5F5;
     background-color:#fff;
     width: calc(100% - 86px);
     padding-left: 43px;
     padding-right: 43px;
     position: relative;
+}
+
+.ourTeam__main-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 60px;
+    padding: 0;
+    justify-content: center;
+    max-width: 1000%;
+    gap: 10px;
+}
+
+.ourTeam__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    margin-bottom: 20px;
+}
+
+.ourTeam__pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.ourTeam__name {
+    font-weight: bold;
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+}
+
+.ourTeam__info {
+    margin: 0;
+    font-size: 18px;
+    font-family: "Mulish", sans-serif;
+}
+
+@media screen and (max-width: 870px) {
+    .ourTeam__name {
+        font-size: 16px;
+    }
+
+    .ourTeam__info {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 635px) {
@@ -16,62 +63,19 @@
     }
 }
 
-.ourTeam__main-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    padding: 0;
-    justify-content: center;
-    max-width: 850px;
-}
-
-.ourTeam__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 250px;
-    margin: 10px;
-    margin-bottom: 20px;
+@media screen and (max-width: 550px) {
+    .ourTeam__main-container {
+        margin-top: 25px;
+    }
 }
 
 @media screen and (max-width: 400px) {
     .ourTeam__container {
         margin: 10px;
     }
-}
 
-.ourTeam__pic {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-@media screen and (max-width: 400px) {
     .ourTeam__pic {
         width: 170px;
         height: 170px;
-    }
-}
-
-.ourTeam__name {
-    font-weight: bold;
-    font-family: "Mulish", sans-serif;
-    font-size: 20px;
-}
-
-.ourTeam__info {
-    margin: 0;
-    font-size: 20px;
-    font-family: "Mulish", sans-serif;
-}
-
-@media screen and (max-width: 870px) {
-    .ourTeam__name {
-        font-size: 16px;
-    }
-
-    .ourTeam__info {
-        font-size: 16px;
     }
 }

@@ -1,0 +1,20 @@
+.privacyPolicy__section {
+    background-color: #fff;
+}
+
+.privacyPolicy__container {
+    padding: 0;
+    list-style-type: none;
+    text-align: start;
+    font-size: 18px;
+    font-family: "Mulish", sans-serif;
+}
+
+.privacyPolicy__title {
+    font-size: 18px;
+    font-family: "Mulish", sans-serif;
+}
+
+.privacyPolicy__mainTitle {
+    margin-top: 50px;
+}
