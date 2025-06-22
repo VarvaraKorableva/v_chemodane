@@ -1,7 +1,8 @@
 .schedule_section {
     background-color:#fff;
     padding-bottom: 150px;
-    width: 100%;
+    width: calc(100% - 86px);
+    padding: 43px;
 }
 
 .schedule_section__date-container {

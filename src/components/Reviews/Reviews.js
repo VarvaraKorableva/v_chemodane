@@ -3,6 +3,7 @@ import reviews from '../../data/DataReviews.js'
 import Review from './Review/Review'
 import './Reviews.css'
 import Heading from '../../UI-Kit/Heading/Heading'
+import Container from '../..//UI-Kit/Container/Container'
 
 function Reviews() {
     const reviewsPerPage = 4;
@@ -27,7 +28,7 @@ function Reviews() {
     };
 
     return (
-        <section className="reviews__section">
+        <Container as="section">
             <Heading>ОТЗЫВЫ</Heading>
 
             <ul className="reviews__wrapper">
@@ -54,7 +55,7 @@ function Reviews() {
                 </div>
 
             </div>
-        </section>
+        </Container>
     );
 }
 

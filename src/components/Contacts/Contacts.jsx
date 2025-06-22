@@ -1,11 +1,11 @@
 import { FaInstagram, FaTelegram, FaFacebook, FaWhatsapp } from 'react-icons/fa'
 import Heading from '../../UI-Kit/Heading/Heading'
-import MarkupLayout from '../../components/Layout/MarkupLayout'
+import Container from '../..//UI-Kit/Container/Container'
 import './Contacts.css'
 
 function Contacts() {
     return(
-      <MarkupLayout>
+      <Container as="section">
         <Heading>КОНТАКТЫ</Heading>
         <div className='ContactsPage_container'>
             <p className='ContactsPage__text ContactsPage__title'>Вы всегда можете связаться с нами по электронной почте:</p>
@@ -34,7 +34,7 @@ function Contacts() {
                 </li>
             </ul>
         </div>
-      </MarkupLayout>
+      </Container>
      
     )
 }

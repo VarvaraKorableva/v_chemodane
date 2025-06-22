@@ -1,11 +1,11 @@
 import Heading from '../../../../UI-Kit/Heading/Heading'
-import lots from '../../../../data/hanukkah/lotshanukkah'
+import Container from '../../../../UI-Kit/Container/Container'
 
 import './LotterySection.css'
 
 function LotterySection() {
     return(
-        <section className='lotteryNew_container' id='lottery'>
+        <Container as="section" id='lottery'>
             <Heading>Лотерея</Heading>
             <div className="lotteryNew_ordered_circles"></div>
             <div className="lotteryNew_savivon"></div>
@@ -54,7 +54,7 @@ function LotterySection() {
                    
             </div>
 
-        </section>
+        </Container>
     )
 }
 

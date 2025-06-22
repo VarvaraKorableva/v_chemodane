@@ -1,6 +1,8 @@
 .section__schedule {
     background-color:#F5F5F5;
+    background-color:#fff;
     padding-top: 80px;
+    padding-bottom: 0!important;
 }
 
 @media screen and (max-width: 770px) {
@@ -53,7 +55,7 @@
 
 .section__date:last-of-type {
     border-bottom: none;
-    margin-bottom: 277px;
+    /*margin-bottom: 277px;*/
 }
 
 @media screen and (max-width: 1065px) {
@@ -63,21 +65,9 @@
     }
 }
 
-@media screen and (max-width: 1065px) {
-    .section__date:last-of-type {
-        margin-bottom: 100px;
-    }
-}
-
 @media screen and (max-width: 770px) {
     .section__date {
         font-size: 50px;
-    }
-}
-
-@media screen and (max-width: 770px) {
-    .section__date:last-of-type {
-        margin-bottom: 80px;
     }
 }
 

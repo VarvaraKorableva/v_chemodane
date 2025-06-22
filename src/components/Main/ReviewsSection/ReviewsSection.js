@@ -2,6 +2,7 @@ import { useState } from 'react';
 import reviews from '../../../data/DataReviews'
 import './ReviewsSection.css'
 import Heading from '../../../UI-Kit/Heading/Heading'
+import Container from '../../../UI-Kit/Container/Container'
 
 function ReviewsSection() {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -17,12 +18,10 @@ function ReviewsSection() {
     const goToSlide = (index) => {
         setCurrentIndex(index);
     };
-//h2 className="reviewsSection__title"
-    return (
-        <section className="reviewsSection__container">
-           {/*<div className="main-footer-book-page"></div>*/}
-            <Heading>ОТЗЫВЫ</Heading>
 
+    return (
+        <Container as="section" className='ourTeam-section'>
+            <Heading>ОТЗЫВЫ</Heading>
             <div className="reviewsSection__slider-container">
                 <button onClick={prevReview} className="slider-btn"><div className="slider-btn-left"></div></button>
                 <div className="review">
@@ -48,7 +47,7 @@ function ReviewsSection() {
                 ))}
             </div>
 
-        </section>
+        </Container>
     );
 }
 

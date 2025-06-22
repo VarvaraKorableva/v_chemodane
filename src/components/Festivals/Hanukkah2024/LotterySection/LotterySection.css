@@ -3,7 +3,8 @@
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 100%;
+    width: calc(100% - 86px);
+    padding: 43px;
     position: relative;
 }
 

@@ -5,6 +5,7 @@ import Lot from './Lot'
 import './LotteryHanukkah2024Pagination.css'
 import Heading from '../../../../UI-Kit/Heading/Heading'
 import LotterySection from '../LotterySection/LotterySection'
+import Container from '../../../../UI-Kit/Container/Container'
 
 function LotteryHanukkah2024Pagination({handleLotClick}) {
 const navigate = useNavigate()

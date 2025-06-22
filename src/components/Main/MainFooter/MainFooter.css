@@ -1,12 +1,4 @@
-.main__footer {
-    width: calc(100% - 86px);
-    padding-left: 43px;
-    padding-right: 43px;
-    /*padding-top: 300px;*/
-    position: relative;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;  
+.main__footer { 
     padding-bottom: 100px;
 }
 
@@ -38,17 +30,7 @@
     opacity: 0.7;
 }
 
-@media screen and (max-width: 1650px) {
-    .main__footer {
-        /*padding-top: 200px;*/
-    }
-}
-
 @media screen and (max-width: 1000px) {
-    .main__footer {
-        /*padding-top: 150px;*/
-    }
-
     .main-footer__logo-support-wrapper {
         align-self: flex-start;
     }
@@ -73,9 +55,6 @@
 
 @media screen and (max-width: 635px) {
     .main__footer {
-        width: calc(100% - 40px);
-        padding-left: 20px;
-        padding-right: 20px;
         padding-bottom: 25px;
     }
 }

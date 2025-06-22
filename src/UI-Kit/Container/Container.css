@@ -1,33 +1,28 @@
 .container {
-    width: 100%;
-    max-width: 1400px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
     margin: auto;
+    /*width: calc(100% - 86px);*/
+    width: 100%;
+    padding: 0 43px 0 43px;
+    position: relative;
     box-sizing: border-box;
-   /*padding: 0;*/
-    padding: 0 40px 0 40px;
 }
 
-.wrapper {width: 100%;
+.wrapper {
+    width: 100%;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-@media screen and (max-width: 1300px) {
-.container {
-    padding: 0 20px 0 20px;
-}
-}
-
-@media screen and (max-width: 500px) {
-.container {
-    padding: 50px 10px 50px 10px;
-}
-}
-
-@media screen and (max-width: 450px) {
-.container {
-    padding: 25px 10px 25px 10px;
-}
+@media screen and (max-width: 635px) {
+    .container {
+        /*width: calc(100% - 40px);*/
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 25px;
+    }
 }
