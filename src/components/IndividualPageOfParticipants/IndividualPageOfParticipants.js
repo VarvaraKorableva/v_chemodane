@@ -11,8 +11,6 @@ function IndividualPageOfParticipants() {
 
     const participant = participantsDataHaifa.find(f => f.slug == slug)
 
-    console.log(participant)
-
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);

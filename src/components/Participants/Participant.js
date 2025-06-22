@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 
 function Paticipant({item}) {
-console.log(item.companyName)
+
     return (
         <Link to={`/marker-paticipants/${item.slug}`} className="paticipant-container">
     

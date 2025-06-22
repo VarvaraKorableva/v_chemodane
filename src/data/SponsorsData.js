@@ -1,11 +1,12 @@
 import ole from '../images/logo/ole.png'
-import any from '../images/logo/Anu.png'
+import any from '../images/logo/anublack.png'
 import nadav from '../images/logo/Nadav.png'
 import redmax from '../images/logo/redmax.jpg'
 import interesno from '../images/logo/interesno.jpeg'
 import srzit from '../images/logo/srzit.png'
 import latte from '../images/logo/latte.png'
 import beithagefen from '../images/logo/beithagefen.png'
+import ujFederation from '../images/logo/ujFederation.png'
 
 const SponsorsData = [
 
@@ -15,7 +16,7 @@ const SponsorsData = [
         alt: 'logo МУЗЕЙ АНУ',
         link: 'https://www.anumuseum.org.il/ru/',
         description: '',
-        id: 2223,
+        id: 1,
     },
     {
         name: 'ФОНД НАДАВ',
@@ -23,7 +24,15 @@ const SponsorsData = [
         alt: 'logo ФОНД НАДАВ',
         link: 'https://nadavfoundation.org',
         description: '',
-        id: 2224,
+        id: 2,
+    },
+    {
+        name: 'UJAFederation',
+        logo: ujFederation,
+        alt: 'logo UJAFederation',
+        link: '',
+        description: '',
+        id: 3,
     },
  
 ]

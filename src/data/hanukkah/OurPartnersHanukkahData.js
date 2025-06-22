@@ -1,5 +1,5 @@
 import ole from '../../images/logo/ole.png'
-import any from '../../images/logo/Anu.png'
+import any from '../../images/logo/anublack.png'
 import nadav from '../../images/logo/Nadav.png'
 import redmax from '../../images/logo/redmax.jpg'
 import praguebooktower from '../../images/logo/praguebooktower.png'

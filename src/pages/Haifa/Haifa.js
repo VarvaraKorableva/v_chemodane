@@ -9,6 +9,7 @@ import OurPartners from '../../components/OurPartners/OurPartners'
 import AboutFestival from '../../components/AboutFestival/AboutFestival'
 import Participants from '../../components/Participants/Participants'
 import OurTeam from '../../components/OurTeam/OurTeam'
+import SeparatorPage from '../../components/SeparatorPage/SeparatorPage'
 
 function Haifa({addCard, limit, handleCardClick}) {
     return(
@@ -24,6 +25,7 @@ function Haifa({addCard, limit, handleCardClick}) {
         {/*<Participants addCard={addCard} limit={limit}/>*/}
         <OurPartners />
         <OurTeam />
+        <SeparatorPage/>
     </>
     )
 }

@@ -18,7 +18,7 @@ function MainHeader() {
                         <li className="main-header-nav-link">О фестивале</li>
                         <li className="main-header-nav-link">Наша миссия</li>
                         <li to={`/story-time`} className="main-header-nav-link">Кто мы</li>
-                        <Link to={`/story-time`} className="main-header-nav-link">Наши участники</Link>
+                        {/*<Link to={`/story-time`} className="main-header-nav-link">Наши участники</Link>*/}
                         <Link to={`/story-time`} className="main-header-nav-link">Наши проекты</Link>
                         <Link to={`/story-time`} className="main-header-nav-link">Отзывы</Link>
                         <Link to={`/story-time`} className="main-header-nav-link">Контакты</Link>

@@ -2,7 +2,6 @@
     width: calc(100% - 86px);
     padding-left: 43px;
     padding-right: 43px;
-    /*padding-top: 405px;padding-bottom: 100px;*/
     position: relative;
     background-color: #fff;
     display: flex;
@@ -12,7 +11,6 @@
 
 .our-sponsors-section-title {
     font-size: 60px;
-    font-family: "Mulish", sans-serif;
     font-family: 'Karton', sans-serif;
     color: #374BA5;
     display: flex;
@@ -44,7 +42,7 @@
 
 .ourPartners__logo-wrapper {
     list-style-type: none;
-    margin: 20px;
+    margin: 0!important;
 }
 
 .ourPartners__logo-container {
@@ -54,9 +52,10 @@
 
 .ourPartners__img {
     max-width: 200px;
-    max-height: 200px;
+    max-height: 120px;
     object-fit: fill;
     cursor: pointer;
+    margin: 0;
 }
 
 @media screen and (max-width: 800px) {
@@ -79,8 +78,11 @@
     flex-wrap: wrap;
     width: 100%;
     margin: auto;
+    margin-bottom: 100px!important;
     align-items: center;
     justify-content: center;
+    height: fit-content;
+    gap: 50px;
 }
 
 .our-sponsors-section-book-page {
@@ -96,18 +98,12 @@
 }
 
 @media screen and (max-width: 1650px) {
-    /*.our-sponsors-section-container {
-        padding-top: 300px;
-    }*/
     .our-sponsors-section-book-page  {
         height: 200px;
     }
 }
 
 @media screen and (max-width: 1000px) {
-    /*.our-sponsors-section-container {
-        padding-top: 150px;
-    }*/
     .our-sponsors-section-book-page  {
         height: 150px;
     }
@@ -118,7 +114,10 @@
         width: calc(100% - 40px);
         padding-left: 20px;
         padding-right: 20px;
-        /*padding-bottom: 25px;*/
+    }
+
+    .ourPartners__wrapper {
+        margin-bottom: 50px!important;
     }
 }
 
