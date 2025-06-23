@@ -7,52 +7,61 @@ export default function PrivacyPolicy() {
   return (
     <Container as='section' baseClassName='wrapper' className='privacyPolicy__section'>
       <Container as='div' baseClassName='container'>
-      <Heading baseClassName='heading'>Политика конфиденциальности</Heading>
-      <p className='privacyPolicy__title privacyPolicy__mainTitle'><strong>Дата последнего обновления:</strong> 22.06.2025 г.</p>
+        <Heading baseClassName='heading'>ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</Heading>
+        <p className='privacyPolicy__title privacyPolicy__mainTitle'><strong>Обновлено:</strong>июнь 2025</p>
 
-      <p className='privacyPolicy__title'>
-        Мы, организаторы фестиваля «В чемодане», уважаем вашу конфиденциальность и обязуемся защищать персональные данные, которые вы предоставляете при использовании нашего сайта.
-      </p>
+        <Heading as='h2' baseClassName='subTitle'>1. ОБЩИЕ ПОЛОЖЕНИЯ</Heading>
+        <p className='privacyPolicy__container'>1.1. Настоящая Политика описывает, какие персональные данные мы собираем, как обрабатываем и защищаем их.<br/>1.2. Мы соблюдаем положения Закона о защите персональных данных Израиля (Privacy Protection Law, 1981) и Общего регламента по защите данных Европейского Союза (GDPR).</p>
 
-      <Heading as="h2" baseClassName='subTitle'>Какие данные мы собираем</Heading>
-      <ul className='privacyPolicy__container'>
-        <li>Имя, email, номер телефона — при регистрации, подписке на новости или покупке билетов.</li>
-        <li>Данные о действиях на сайте (через файлы cookie и аналитику).</li>
-      </ul>
+        <Heading as='h2' baseClassName='subTitle'>2. КАКИЕ ДАННЫЕ МЫ СОБИРАЕМ</Heading>
+        <ul className='privacyPolicy__container'>
+          <li>- имя, фамилия, адрес электронной почты, номер телефона;</li>
+          <li>- информация, введённая при регистрации, подписке или анкетировании;</li>
+          <li>- IP-адрес, cookies, информация об устройстве и браузере;</li>
+          <li>- действия пользователя на Сайте (через Google Analytics и иные платформы).</li>
+        </ul>
 
-      <Heading as="h2" baseClassName='subTitle'>Как мы используем данные</Heading>
-      <ul className='privacyPolicy__container'>
-        <li>Для обратной связи с вами.</li>
-        <li>Для отправки новостей и обновлений о фестивале (при вашем согласии).</li>
-        <li>Для обработки регистрации и покупки билетов.</li>
-      </ul>
+        <Heading as='h2' baseClassName='subTitle'>3. ЦЕЛИ ОБРАБОТКИ ДАННЫХ</Heading>
+        <ul className='privacyPolicy__container'>
+          <li>- информирование пользователей о мероприятиях, фестивалях, партнёрских проектах;</li>
+          <li>- предоставление доступа к регистрации, анкетам, рассылкам;</li>
+          <li>- статистический анализ и улучшение пользовательского опыта;</li>
+          <li>- исполнение обязательств перед пользователями;</li>
+          <li>- соблюдение законов и нормативных требований.</li>
+        </ul>
 
-      <Heading as="h2" baseClassName='subTitle'>Как мы храним данные</Heading>
-      <p className='privacyPolicy__container'>
-        Ваши данные хранятся в надёжно защищённых системах. Доступ к ним имеют только уполномоченные лица.
-      </p>
+        <Heading as='h2' baseClassName='subTitle'>4. РАССЫЛКИ И ОТКАЗ ОТ ПОДПИСКИ</Heading>
+        <p className='privacyPolicy__container'>
+          4.1. Мы отправляем новости, обновления и предложения по e-mail.<br/>
+          4.2. Вы вправе отказаться от получения рассылки в любой момент, перейдя по ссылке «Отписаться» внизу письма.
+        </p>
 
-      <Heading as="h2" baseClassName='subTitle'>Передача данных третьим лицам</Heading>
-      <p className='privacyPolicy__container'>
-        Мы не передаём ваши данные третьим лицам, за исключением случаев, предусмотренных законодательством.
-      </p>
+        <Heading as='h2' baseClassName='subTitle'>5. ПЕРЕДАЧА ДАННЫХ ТРЕТЬИМ СТОРОНАМ</Heading>
+        <p className='privacyPolicy__container'>
+          5.1. Мы используем сторонние сервисы: Google Analytics, SendGrid, CRM-системы и т.п. Передача данных возможна за пределы Израиля, в том числе в ЕС и РФ, в рамках действующего законодательства.<br/>
+          5.2. Мы не продаём ваши данные и не передаём их третьим лицам вне целей, описанных в настоящей Политике.
+        </p>
 
-      <Heading as="h2" baseClassName='subTitle'>Ваши права</Heading>
-      <ul className='privacyPolicy__container'>
-        <li>Запросить доступ к своим данным.</li>
-        <li>Потребовать удаления или изменения данных.</li>
-        <li>Отозвать согласие на получение рассылки.</li>
-      </ul>
+        <Heading as='h2' baseClassName='subTitle'>6. БЕЗОПАСНОСТЬ</Heading>
+        <p className='privacyPolicy__container'>
+          6.1. Мы принимаем разумные меры для защиты данных от несанкционированного доступа, потери или изменения.<br/>
+          6.2. В случае утечки данных мы уведомим пользователей в разумный срок.
+        </p>
 
-      <Heading as="h2" baseClassName='subTitle'>Контакты</Heading>
-      <p className='privacyPolicy__title'>
-        Если у вас есть вопросы, напишите нам: <a href="mailto:info@vchemodane.com">info@vchemodane.com</a>
-      </p>
+        <Heading as='h2' baseClassName='subTitle'>7. ПРАВА ПОЛЬЗОВАТЕЛЕЙ</Heading>
+        <ul className='privacyPolicy__container'>
+          <li>- запросить копию ваших данных;</li>
+          <li>- потребовать исправления или удаления данных;</li>
+          <li>- ограничить обработку;</li>
+          <li>- подать жалобу в надзорный орган.</li>
+        </ul>
 
-      <p className='privacyPolicy__title'>
-        Продолжая использовать сайт, вы соглашаетесь с нашей Политикой конфиденциальности.
-      </p>
-    </Container>
+        <Heading as='h2' baseClassName='subTitle'>8. СРОКИ ХРАНЕНИЯ</Heading>
+        <p className='privacyPolicy__container'>8.1. Мы храним персональные данные столько, сколько необходимо для достижения целей их обработки, или до получения от вас запроса на удаление.</p>
+
+        <Heading as='h2' baseClassName='subTitle'>9. КОНТАКТЫ</Heading>
+        <p className='privacyPolicy__title'>Для запросов и вопросов по обработке данных: <a href="mailto:info@vchemodane.com">info@vchemodane.com</a></p>
+      </Container>
     </Container>
   )
 }
