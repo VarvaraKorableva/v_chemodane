@@ -3,7 +3,7 @@ import Container from '../../../UI-Kit/Container/Container'
 
 function Benefits() {
     return (
-        <Container as="section">
+        <Container as="section" id="benefits_FamilyRelicOnStage">
             <Heading>Что даст участие мне и моему ребёнку?</Heading>
             <ul className='list'>
                 <li>Новый опыт совместного творчества и партнёрства.</li>

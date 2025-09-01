@@ -3,7 +3,7 @@ import Container from '../../../UI-Kit/Container/Container'
 
 function EventTime() {
     return (
-        <Container Container as="section">
+        <Container Container as="section" id="schedule_FamilyRelicOnStage">
             <Heading>Когда?</Heading>   
             <ul className='list'>
                 <li>Первая встреча — 5 октября</li>

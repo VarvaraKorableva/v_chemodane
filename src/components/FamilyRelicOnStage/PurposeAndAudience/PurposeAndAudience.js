@@ -3,7 +3,7 @@ import Container from '../../../UI-Kit/Container/Container'
 
 function PurposeAndAudience() {
      return(
-         <Container as="section">
+         <Container as="section" id="audience_FamilyRelicOnStage">
              <Heading>Зачем и для кого?</Heading>
              <p className='text'>
                 Лаборатория — это опыт <strong>объединения семьи с помощью театра</strong>. 

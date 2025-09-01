@@ -3,7 +3,7 @@ import Container from '../../../UI-Kit/Container/Container'
 
 function WhatWillHappen() {
     return (
-        <Container as='section'>
+        <Container as='section' id="about_FamilyRelicOnStage">
             <Heading>Что будет происходить?</Heading>
             <p className='text'>В течение шести дней семьи вместе работают над созданием спектакля. 
                 В основу постановки ложатся ваши собственные воспоминания, семейные истории и предметы, 
