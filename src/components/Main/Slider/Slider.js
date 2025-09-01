@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import page1 from '../../../images/slider/purim2025.png';
+import page1 from '../../../images/slider/Relic.jpeg';
 import page2 from '../../../images/slider/apply.png';
 import page3 from '../../../images/slider/offer.png';
 import './Slider.css';
 
 function Slider() {
     const images = [
-        //{ id: 1, src: page1, link: '/purim_2025', text: '', trigger: false },
+        { id: 1, src: page1, link: '/family-relic-on-stage', text: '', trigger: false },
         { id: 2, src: page2, link: 'https://forms.gle/USjZPq4y9WSDvLBy6', text: '', trigger: false },
         { id: 3, src: page3, link: 'https://forms.gle/N4mSMeM2ZK5Fdw7f9', text: '', trigger: false },
     ];
@@ -70,7 +70,7 @@ function Slider() {
             onTouchEnd={handleTouchEnd}>
             <div className="slides" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
                 {images.map((image, index) => (
-                    <a key={image.id} href={image.link} target='_blank' className={`slide ${currentSlide === index ? 'active' : ''}`}>
+                    <a key={image.id} href={image.link} className={`slide ${currentSlide === index ? 'active' : ''}`}>
                         <div>
                             <img src={image.src} alt={`Slide ${image.id + 1}`} />
                         </div>

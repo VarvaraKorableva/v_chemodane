@@ -9,6 +9,8 @@
     display: flex;
     transition: transform 0.5s ease-in-out;
     min-height: 311px;
+
+    
 }
 
 .slide {
@@ -16,7 +18,9 @@
     transition: opacity 0.5s ease-in-out; /* Плавный переход для прозрачности */
     opacity: 0; /* Начальная непрозрачность */
     min-height: 100%;
+    
 }
+
 
 .slide.active {
     opacity: 1; /* Активный слайд становится видимым */

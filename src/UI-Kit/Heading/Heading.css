@@ -18,6 +18,19 @@
     text-align: start;
 }
 
+.EventIntroHeading {
+    text-transform: uppercase;
+    font-size: 46px;
+    font-family: "Mulish", sans-serif;
+    color: #374BA5;
+    margin: 0;
+    max-width: 796px;
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+    align-self: center;
+}
+
 
 @media screen and (max-width: 550px) {
     .heading { 
@@ -28,6 +41,11 @@
     .subTitle {
         font-size: 18px;
         margin-top: 25px;
+    }
+
+    .EventIntroHeading {
+        font-size: 28px;
+        margin-top: 35px;
     }
 }
 

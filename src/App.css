@@ -2,6 +2,42 @@
   white-space: nowrap;
 }
 
+.text {
+  font-weight: 300;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  line-height: 50px;
+  text-align: start;
+}
+
+.text-center {
+  margin: 30px;
+  text-align: center;
+  align-self: center;
+}
+
+.sub-title {
+  font-weight: 300;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  align-self: center;
+  text-transform: uppercase;
+  
+  font-family: "Mulish", sans-serif;
+  color: #374BA5;
+}
+
+.list {
+  font-weight: 300;
+  font-size: 24px;
+  width: 100%;
+  line-height: 50px;
+  text-align: start;
+}
+
 .App {
   text-align: center;
   background-color: #fff;
