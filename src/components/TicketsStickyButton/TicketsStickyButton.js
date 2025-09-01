@@ -20,7 +20,7 @@ const TicketsStickyButton = () => {
   }, []);
 
   return (
-    <a href='https://www.anumuseum.org.il/ru/events/purim-russian/' rel="noopener noreferrer" target='_blank' className={`tickets-sticky-button ${isVisible ? 'visible' : ''}`}>
+    <a href='https://www.anumuseum.org.il/ru/events/docu-theater/#anu_tickets_sales' rel="noopener noreferrer" target='_blank' className={`tickets-sticky-button ${isVisible ? 'visible' : ''}`}>
       {/*<span>Купить билеты</span>*/}
     </a>
   );

@@ -25,7 +25,6 @@
   text-align: center;
   align-self: center;
   text-transform: uppercase;
-  
   font-family: "Mulish", sans-serif;
   color: #374BA5;
 }
@@ -37,6 +36,40 @@
   line-height: 50px;
   text-align: start;
 }
+
+@media screen and (max-width: 900px) {
+  .text {
+      line-height: unset;
+      font-size: 18px;
+  } 
+
+  .sub-title {
+    font-size: 20px;
+  }
+
+  .list {
+    font-size: 18px;
+    max-width: 100%;
+    line-height: unset;
+    padding-left: 25px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .text {
+      line-height: 28px;
+      font-size: 16px;
+  }
+
+  .sub-title {
+    font-size: 18px;
+  }
+
+  .list {
+    font-size: 16px;
+  }
+}  
 
 .App {
   text-align: center;
