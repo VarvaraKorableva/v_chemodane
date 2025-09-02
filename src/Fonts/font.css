@@ -12,3 +12,24 @@
     font-weight: normal; /* Укажите нужный вес */
     font-style: normal; /* Укажите стиль, если нужно */
 }
+
+@font-face {
+    font-family: "Anomalia";
+    src: url("./anomalia-regular-aaa.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Anomalia";
+    src: url("./anomalia-light-aaa.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Anomalia";
+    src: url("./anomalia-medium-aaa.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+  }

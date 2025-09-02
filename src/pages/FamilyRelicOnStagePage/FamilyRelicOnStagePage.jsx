@@ -35,6 +35,7 @@ function FamilyRelicOnStagePage({}) {
             <PriceInfo/>
             <SeparatorPage color={colors.blue}></SeparatorPage>
             <Benefits/>
+            
             <SeparatorPage color={colors.another}></SeparatorPage>
             <TicketsStickyButton/>
         </>

@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+
 }
 
 .FamilyRelicOnStageBanner__pic-container {
@@ -10,15 +11,176 @@
     min-height: 451px;
     margin: 0;
     padding: 0;
-    background-image: url(../../../images/slider/Relic.jpeg);
+    background-image: url(../../../images/banners/Relic/Relic.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: space-between;
-    position: relative;
     object-fit: cover;
-   
+    position: relative;
+}
+
+.FamilyRelicOnStageBanner__pic {
+    background-image: url(../../../images/banners/Relic/6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 350px;
+    width: 150px;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+}
+
+.FamilyRelicOnStageBanner__pic-one {
+    background-image: url(../../../images/banners/Relic/1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    width: 200px;
+    
+}
+
+.FamilyRelicOnStageBanner__pic-two {
+    background-image: url(../../../images/banners/Relic/2.png);
+}
+
+.FamilyRelicOnStageBanner__pic-three {
+    background-image: url(../../../images/banners/Relic/3.png);
+}
+
+.FamilyRelicOnStageBanner__pic-four{
+    background-image: url(../../../images/banners/Relic/4.png);
+}
+
+.FamilyRelicOnStageBanner__pic-five {
+    background-image: url(../../../images/banners/Relic/5.png);
+}
+
+.FamilyRelicOnStageBanner__pic-general {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 130px;
+    width: 130px;
+}
+
+.FamilyRelicOnStageBanner__column-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.FamilyRelicOnStageBanner__row-container {
+    display: flex;
+    align-self: flex-end;
+    
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 20px;
+
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+}
+
+.FamilyRelicOnStageBanner__text-container {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    color: #fff;
+    justify-content: center;
+    margin: auto;
+}
+
+.FamilyRelicOnStageBanner__margin {
+    margin-bottom: 30px!important;
+}
+
+.FamilyRelicOnStageBanner__shadow {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    font-size: 46px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    font-family: "Anomalia";
+    font-weight: 500 !important;
+    box-sizing: border-box;
+}
+
+.FamilyRelicOnStageBanner__title {
+    color: #346eab;
+    background-color: #fff;
+    padding: 3px;
+    font-weight: 500;
+}
+
+.FamilyRelicOnStageBanner__text {
+    font-family: "Anomalia";
+    font-weight: 400;
+    margin: 0;
+    font-size: 28px;
+}
+
+@media screen and (max-width: 1250px) {
+    .FamilyRelicOnStageBanner__pic-general {
+        height: 100px;
+        width: 100px;
+    }
+
+    .FamilyRelicOnStageBanner__pic-one {
+        height: 120px;
+        width: 150px;
+    }
+
+    .FamilyRelicOnStageBanner__column-container {
+        gap: 20px;
+    }
+    
+    .FamilyRelicOnStageBanner__row-container {
+        gap: 10px;
+    }
+
+    .FamilyRelicOnStageBanner__pic {
+        height: 250px;
+        width: 150px;
+        left: 20px;
+    }
+
+    .FamilyRelicOnStageBanner__row-container {
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .FamilyRelicOnStageBanner__pic-general {
+        height: 80px;
+        width: 80px;
+    }
+
+    .FamilyRelicOnStageBanner__column-container {
+        gap: 15px;
+    }
+    
+    .FamilyRelicOnStageBanner__row-container {
+        gap: 5px;
+    }
+
+    .FamilyRelicOnStageBanner__pic {
+        height: 200px;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .FamilyRelicOnStageBanner__text {
+        font-size: 24px;
+    }
+
+    .FamilyRelicOnStageBanner__shadow {
+        font-size: 40px !important;
+    }
 }
 
 @media screen and (max-width: 883px) {
@@ -28,9 +190,118 @@
     }
 }
 
+@media screen and (max-width: 780px) {
+    .FamilyRelicOnStageBanner__pic-general {
+        height: 80px;
+        width: 80px;
+    }
+
+    .FamilyRelicOnStageBanner__pic-one {
+        height: 100px;
+        width: 120px;
+    }
+
+    .FamilyRelicOnStageBanner__column-container {
+        gap: 10px;
+    }
+    
+    .FamilyRelicOnStageBanner__row-container {
+        gap: 10px;
+    }
+
+    .FamilyRelicOnStageBanner__pic {
+        height: 200px;
+        width: 100px;
+        left: 15px;
+    }
+
+    .FamilyRelicOnStageBanner__row-container {
+        right: 15px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .FamilyRelicOnStageBanner__pic {
+        display: none;
+    }
+
+    .FamilyRelicOnStageBanner__text-container {
+        margin-left: 15px;
+    }
+
+    .FamilyRelicOnStageBanner__shadow {
+        font-size: 36px !important;
+    }
+    .FamilyRelicOnStageBanner__text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .FamilyRelicOnStageBanner__row-container {
+        flex-direction: column-reverse;
+        bottom: 15px;
+    }
+
+    .FamilyRelicOnStageBanner__pic-one {
+        width: 100px;
+        height: 60px;
+    }
+
+    .FamilyRelicOnStageBanner__pic-general {
+        height: 60px;
+        width: 60px;
+    }
+
+    .FamilyRelicOnStageBanner__pic-three {
+        display: none;
+    }
+    
+    .FamilyRelicOnStageBanner__pic-four{
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 430px) {
+    .FamilyRelicOnStageBanner__row-container {
+        flex-direction: row;
+        bottom: 10px;
+        right: 0px;
+        
+    }
+
+    .FamilyRelicOnStageBanner__shadow {
+        font-size: 30px !important;
+    }
+
+    .FamilyRelicOnStageBanner__text {
+        font-size: 18px;
+    }
+
+    .FamilyRelicOnStageBanner__text-container {
+        margin-top: 30px;
+    }
+}
+
 @media screen and (max-width: 400px) {
     .FamilyRelicOnStageBanner__pic-container {
         height: 311px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .FamilyRelicOnStageBanner__row-container {
+        display: none;
+        
+    }
+
+    .FamilyRelicOnStageBanner__text-container {
+        margin: auto;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 }
 

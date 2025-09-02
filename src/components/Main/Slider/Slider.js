@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import page1 from '../../../images/slider/Relic.jpeg';
+import page1 from '../../../images/slider/Relic.png';
 import page2 from '../../../images/slider/apply.png';
 import page3 from '../../../images/slider/offer.png';
 import './Slider.css';
