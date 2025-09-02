@@ -18,7 +18,7 @@ function NavContainer() {
                 </li>
             </ul>
             <a 
-                href='https://www.anumuseum.org.il/ru/events/purim-russian/'
+                href='https://www.anumuseum.org.il/ru/events/docu-theater/#anu_tickets_sales'
                 className="hanukaTelAviv2024Banner__link-btn" 
                 target='_blank'
                 rel="noopener noreferrer"
