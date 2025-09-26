@@ -31,6 +31,7 @@ import LotteryHanukkah2024Page from './pages/Hanukkah2024Page/LotteryHanukkah202
 import ContactsPage from './pages/ContactsPage/ContactsPage'
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage/PrivacyPolicyPage'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
+import MainLayout from './pages/Layout'
 
 function App() {
   
@@ -114,15 +115,14 @@ function App() {
 
   return (
     <div className="App">
-      {/*<Header handleContactsPopupOpen={handleContactsPopupOpen}></Header>*/}
-      <MainNewHeader 
-        handleIsBurgerMainPopup={handleIsBurgerMainPopup}
-        handleIsOurProjectPopup={handleIsOurProjectPopup}
-        handleOurParticipantsPopup={handleOurParticipantsPopup}
-      />
       <ScrollToTop />
       <Routes>
-        
+        <Route 
+          element={<MainLayout 
+            handleIsBurgerMainPopup={handleIsBurgerMainPopup} 
+            handleIsOurProjectPopup={handleIsOurProjectPopup} 
+            handleOurParticipantsPopup={handleOurParticipantsPopup}/>
+            }>
         <Route
           exact path="/haifa"
           element={
@@ -285,10 +285,9 @@ function App() {
           element={
             <PrivacyPolicyPage />
           }>
+          </Route>
         </Route>
       </Routes>  
-      
-      <MainFooter />
 
       <LotteryPopup 
           lot={selectedCard}
