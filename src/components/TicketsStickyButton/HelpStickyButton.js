@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './TicketsStickyButton.css';
+import { FaWhatsapp } from 'react-icons/fa'
+import contacts from '../../data/contacts.json'
 
-const TicketsStickyButton = ({link}) => {
+const HelpStickyButton = ({link}) => {
   const [isVisible, setIsVisible] = useState(false);
 
 
@@ -20,9 +22,10 @@ const TicketsStickyButton = ({link}) => {
   }, []);
 
   return (
-    <a href={link} rel="noopener noreferrer" target='_blank' className={`tickets-sticky-button ${isVisible ? 'visible' : ''}`}>
-    </a>
+    <a href={`https://wa.me/${contacts[0].whatsapp}`} rel="noopener noreferrer" target='_blank' className={`help-sticky-button ${isVisible ? 'visible' : ''}`}>
+        <FaWhatsapp /> Вопросы?
+    </a>        
   );
 };
 
-export default TicketsStickyButton;
+export default HelpStickyButton;

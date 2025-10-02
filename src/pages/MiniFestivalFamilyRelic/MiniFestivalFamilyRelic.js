@@ -3,6 +3,7 @@ import Info from '../../components/Festivals/MiniFestivalFamilyRelic/Info/Info'
 import EventInfo from '../../components/Festivals/MiniFestivalFamilyRelic/EventInfo/EventInfo'
 import Schedule from '../../components/Festivals/MiniFestivalFamilyRelic/Schedule/Schedule'
 import TicketsStickyButton from '../../components/TicketsStickyButton/TicketsStickyButton'
+import HelpStickyButton from '../../components/TicketsStickyButton/HelpStickyButton'
 import SeparatorPage from '../../components/SeparatorPage/SeparatorPage'
 
 function MiniFestivalFamilyRelic({}) {
@@ -23,6 +24,7 @@ function MiniFestivalFamilyRelic({}) {
             <SeparatorPage color={colors.yellow}></SeparatorPage>
             <Schedule/>
             <SeparatorPage color={colors.another}></SeparatorPage>
+            <HelpStickyButton/>
             <TicketsStickyButton link={link}/>
         </>
     )
