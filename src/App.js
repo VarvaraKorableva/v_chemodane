@@ -11,6 +11,7 @@ import ScheduleHaifa from './components/ScheduleHaifa/ScheduleHaifa'
 import Purim2024 from './pages/Purim/Purim2024/purim/PurimPage'
 import Purim2025 from './pages/Purim/Purim2025/Purim2025'
 import FamilyRelicOnStagePage from './pages/FamilyRelicOnStagePage/FamilyRelicOnStagePage'
+import MiniFestivalFamilyRelic from './pages/MiniFestivalFamilyRelic/MiniFestivalFamilyRelic'
 import NotReadyPage from './pages/NotReadyPage/NotReadyPage'
 import MainFooter from './components/Main/MainFooter/MainFooter'
 import LotteryPopup from './components/Popups/LotteryPopup'
@@ -253,6 +254,14 @@ function App() {
           path='/family-relic-on-stage'
             element={
               <FamilyRelicOnStagePage/>
+            }
+        >
+        </Route>
+
+        <Route
+          path='/mini-festival-family-relic'
+            element={
+              <MiniFestivalFamilyRelic/>
             }
         >
         </Route>
