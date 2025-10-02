@@ -6,7 +6,7 @@ import TicketsStickyButton from '../../components/TicketsStickyButton/TicketsSti
 import HelpStickyButton from '../../components/TicketsStickyButton/HelpStickyButton'
 import SeparatorPage from '../../components/SeparatorPage/SeparatorPage'
 
-function MiniFestivalFamilyRelic({}) {
+function MiniFestivalFamilyRelic({handleCardClick}) {
     const link = 'https://www.anumuseum.org.il/ru/events/the-suitcase/'
     const colors = {
         pink: 'pink',
@@ -22,7 +22,7 @@ function MiniFestivalFamilyRelic({}) {
             <SeparatorPage color={colors.pink}></SeparatorPage>
             <Info/>
             <SeparatorPage color={colors.yellow}></SeparatorPage>
-            <Schedule/>
+            <Schedule handleCardClick={handleCardClick}/>
             <SeparatorPage color={colors.another}></SeparatorPage>
             <HelpStickyButton/>
             <TicketsStickyButton link={link}/>

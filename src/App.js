@@ -261,7 +261,7 @@ function App() {
         <Route
           path='/mini-festival-family-relic'
             element={
-              <MiniFestivalFamilyRelic/>
+              <MiniFestivalFamilyRelic handleCardClick={handleCardClick}/>
             }
         >
         </Route>

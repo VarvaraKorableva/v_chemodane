@@ -2,12 +2,13 @@ import React, { useState, useEffect } from 'react';
 import Heading from '../../../../UI-Kit/Heading/HeadingClean'
 import './Schedule.css'
 import schedule from '../../../../images/Scheduleminifestival.pdf'
+import scheduleMini from '../../../../images/schedule/scheduleminfest.jpg'
 
 function Schedule({handleCardClick}) {
     const [width, setWidth] = useState(window.innerWidth);
 
     function onDateClick() {
-        handleCardClick(schedule)
+        handleCardClick(scheduleMini)
     }
 
     const handleResize = () => {
