@@ -1,0 +1,12 @@
+.schedule__img-container_mini {
+    padding-top: 50px;
+    min-width: 100%;
+
+
+}
+
+.schedule__img_mini {
+    object-fit: contain;
+    width: 100%;
+    height: fit-content;
+}

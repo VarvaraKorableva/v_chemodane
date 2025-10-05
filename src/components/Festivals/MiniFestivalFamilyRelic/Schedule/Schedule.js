@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Heading from '../../../../UI-Kit/Heading/HeadingClean'
 import './Schedule.css'
 import schedule from '../../../../images/Scheduleminifestival.pdf'
-import scheduleMini from '../../../../images/schedule/scheduleminfest.jpg'
+//import scheduleMini from '../../../../images/schedule/scheduleminfest.jpg'
+import scheduleMini from '../../../../images/minifestival.jpg'
 
 function Schedule({handleCardClick}) {
     const [width, setWidth] = useState(window.innerWidth);
@@ -32,6 +33,10 @@ function Schedule({handleCardClick}) {
                 </a>
             </div>
 
+            <div className='schedule__img-container_mini'>
+                <img src={scheduleMini} alt="schedule" className='schedule__img_mini'></img>
+            </div>
+{/*
             <div className='schedule__container'>
                 <p className='schedule__date' onClick={onDateClick}>15 октября</p>
                 <div className='schedule__triangle schedule__triangle_1'></div>
@@ -41,7 +46,7 @@ function Schedule({handleCardClick}) {
                 <div className='schedule__triangle schedule__triangle_5'></div>
                 <div className='schedule__triangle schedule__triangle_6'></div>
             </div>
-
+*/}
         </section>
     )
 }
