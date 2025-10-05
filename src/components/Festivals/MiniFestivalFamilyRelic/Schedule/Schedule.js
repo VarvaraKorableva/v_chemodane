@@ -4,6 +4,7 @@ import './Schedule.css'
 import schedule from '../../../../images/Scheduleminifestival.pdf'
 //import scheduleMini from '../../../../images/schedule/scheduleminfest.jpg'
 import scheduleMini from '../../../../images/minifestival.jpg'
+import Container from '../../../../UI-Kit/Container/Container'
 
 function Schedule({handleCardClick}) {
     const [width, setWidth] = useState(window.innerWidth);
@@ -24,7 +25,7 @@ function Schedule({handleCardClick}) {
       }, []);
 
     return(
-        <section className='schedule__section' id='schedule_MiniFestivalFamilyRelic'>
+        <Container as="section" id='schedule_MiniFestivalFamilyRelic'>
 
             <div className='schedule__title-btn__container'>
                 <Heading>Расписание</Heading>
@@ -47,7 +48,7 @@ function Schedule({handleCardClick}) {
                 <div className='schedule__triangle schedule__triangle_6'></div>
             </div>
 */}
-        </section>
+        </Container>
     )
 }
 
