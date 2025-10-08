@@ -62,10 +62,11 @@ export default function RegistrationForm() {
 
   return (
     <Container>
-        <Heading>Регистрация</Heading>
+        <h2 className="title">Регистрационная форма подписки на новости</h2>
+        <h3 className="sub__title">Подпишись на нашу новостную рассылку, чтобы узнавать первым о новых мероприятиях и акциях фестиваля.</h3>
     <form onSubmit={handleSubmit} className='RegistrationForm__form'>
       <div className='RegistrationForm__container'>
-        <label className='text'>Имя пользователя</label>
+        <label className='text'>Имя и Фамилия</label>
         <input
           type="text"
           name="username"
@@ -118,9 +119,9 @@ export default function RegistrationForm() {
             name="subscribed"
             checked={form.subscribed}
             onChange={handleChange}
-            className=''
+            className='checkbox'
           />
-          Подписаться на рассылку
+          Я согласен(а) получать электронные письма от фестиваля "В чемодане"
         </label>
       </div>
 
@@ -129,7 +130,7 @@ export default function RegistrationForm() {
           className={`RegistrationForm__button ${!isFormValid ? 'disabled' : ''}`}
           disabled={!isFormValid}
       >
-        Зарегистрироваться
+        Подписаться
       </button>
       {message && <p>{message}</p>}
     </form>
