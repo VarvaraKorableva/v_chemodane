@@ -1,0 +1,100 @@
+
+.title {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: "Mulish", sans-serif;
+    color: #374BA5;
+    margin: 0;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.sub__title {
+    width: 800px;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    line-height: 42px;
+    font-size: 24px;
+}
+
+.checkbox {
+    width: 40px;
+    height: 40px;
+}
+
+.RegistrationForm__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.RegistrationForm__input {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #1f1f1f;
+    border-radius: 30px;
+    border-radius: 8px;
+}
+
+.RegistrationForm__checkbox {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.RegistrationForm__button {
+    border: 1px solid #1f1f1f;
+    border-radius: 30px;
+    border-radius: 8px;
+    width: 300px;
+    height: 50px;
+    color: #fff;
+    background-color: #1f1f1f;
+    font-size: 20px;
+    margin-top: 14px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.disabled {
+    opacity: 0.5;
+    cursor: unset;
+}
+
+.RegistrationForm__container {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .RegistrationForm__form {
+        width: 350px;
+    }
+
+    .RegistrationForm__button {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .RegistrationForm__form {
+        width: 100%;
+    }
+
+    .RegistrationForm__button {
+        font-size: 14px;
+    }
+
+    .RegistrationForm__button {
+        width: 100%;
+    }
+}

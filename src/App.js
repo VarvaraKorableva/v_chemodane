@@ -31,6 +31,7 @@ import Hanukkah2024Page from './pages/Hanukkah2024Page/Hanukkah2024Page'
 import LotteryHanukkah2024Page from './pages/Hanukkah2024Page/LotteryHanukkah2024Page'
 import ContactsPage from './pages/ContactsPage/ContactsPage'
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage/PrivacyPolicyPage'
+import RegistrationPage from './pages/RegistrationPage/RegistrationPage'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 
 function App() {
@@ -123,6 +124,13 @@ function App() {
       />
       <ScrollToTop />
       <Routes>
+
+        <Route
+          exact path="/registration"
+          element={
+            <RegistrationPage />
+          }>
+        </Route>
         
         <Route
           exact path="/haifa"
