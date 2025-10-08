@@ -1,4 +1,7 @@
-export const BASE_URL = '//localhost:8080'
+//export const BASE_URL = '//localhost:8080'
+export const BASE_URL = '//v-chemodane-api.onrender.com'
+
+
 
 /*export const checkResponse = (res) => {
     if (res.ok) {
