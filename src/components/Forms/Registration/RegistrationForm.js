@@ -1,7 +1,7 @@
-import Container from '../../UI-Kit/Container/Container'
-import Heading from '../../UI-Kit/Heading/Heading'
+import Container from '../../../UI-Kit/Container/Container'
+import Heading from '../../../UI-Kit/Heading/Heading'
 import { useState } from "react";
-import { register, getAllUsers } from "../../API/Api";
+import { register, getAllUsers } from "../../../API/Api";
 import './RegistrationForm.css'
 
 export default function RegistrationForm() {
@@ -13,7 +13,6 @@ export default function RegistrationForm() {
     subscribed: true,
   });
 
-  //const [isFormValid, setFormvalid] = useState(false)
   const [message, setMessage] = useState("");
 
   const handleChange = (e) => {
@@ -23,27 +22,31 @@ export default function RegistrationForm() {
       [name]: type === "checkbox" ? checked : value,
     }));
 
-
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
       const data = await register(form);
+      
+      //<h2 className="title">успех</h2>
       setMessage("Регистрация прошла успешно ✅");
-      setForm({
-        username: "",
-        email: "",
-        password: "",
-        phone: "",
-        subscribed: false,
-      });
+        setForm({
+          username: "",
+          email: "",
+          password: "",
+          phone: "",
+          subscribed: true,
+        });
+
+      
     } catch (err) {
       if (err && err.msg === 'Email is already registered') {
         setMessage(`Email ${form.email} уже зарегистрирован`);
       } else {
         setMessage("Ошибка регистрации ❌, попробуйте еще раз");
       }
+      
       console.error(err);
     }
   };
@@ -134,7 +137,6 @@ export default function RegistrationForm() {
       </button>
       {message && <p>{message}</p>}
     </form>
-
     {/*<button onClick={handleGetAllUsers}>Получить всех клиентов</button>*/}
     </Container>   
   );

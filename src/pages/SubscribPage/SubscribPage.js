@@ -1,7 +1,7 @@
-import RegistrationForm from '../../components/Forms/Registration/RegistrationForm'
-import SeparatorPage from '../..//components/SeparatorPage/SeparatorPage'
+import SubscribForm from '../../components/Forms/SubscribForm/SubscribForm'
+import SeparatorPage from '../../components/SeparatorPage/SeparatorPage'
 
-export default function RegistrationPage() {
+export default function SubscribPage() {
     const colors = {
         pink: 'pink',
         purple: 'purple',
@@ -11,7 +11,7 @@ export default function RegistrationPage() {
     }
     return (
         <>
-            <RegistrationForm></RegistrationForm>
+            <SubscribForm></SubscribForm>
             <SeparatorPage color={colors.another}></SeparatorPage>
         </>
     )
