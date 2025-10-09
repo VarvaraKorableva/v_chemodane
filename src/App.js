@@ -32,6 +32,7 @@ import LotteryHanukkah2024Page from './pages/Hanukkah2024Page/LotteryHanukkah202
 import ContactsPage from './pages/ContactsPage/ContactsPage'
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage/PrivacyPolicyPage'
 import RegistrationPage from './pages/RegistrationPage/RegistrationPage'
+import SubscribPage from './pages/SubscribPage/SubscribPage'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 
 function App() {
@@ -124,11 +125,18 @@ function App() {
       />
       <ScrollToTop />
       <Routes>
-
+      {/*}
         <Route
           exact path="/registration"
           element={
             <RegistrationPage />
+          }>
+        </Route>*/}
+
+        <Route
+          exact path="/subscrib-page"
+          element={
+            <SubscribPage />
           }>
         </Route>
         

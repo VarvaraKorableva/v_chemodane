@@ -66,7 +66,7 @@ function BurgerMainPopup({ isOpen, onClose }) {
               </Link>
             </li>
             <li className="burgerMainPopup-nav-link">
-              <Link to={'/registration'}className="burgerMainPopup-link">Подписка на новости</Link>
+              <Link to={'/subscrib-page'}className="burgerMainPopup-link">Подписка на новости</Link>
             </li>
           </ul>
         )}
