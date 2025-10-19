@@ -11,6 +11,7 @@ import ScheduleHaifa from './components/ScheduleHaifa/ScheduleHaifa'
 import Purim2024 from './pages/Purim/Purim2024/purim/PurimPage'
 import Purim2025 from './pages/Purim/Purim2025/Purim2025'
 import FamilyRelicOnStagePage from './pages/FamilyRelicOnStagePage/FamilyRelicOnStagePage'
+import MiniFestivalFamilyRelic from './pages/MiniFestivalFamilyRelic/MiniFestivalFamilyRelic'
 import NotReadyPage from './pages/NotReadyPage/NotReadyPage'
 import MainFooter from './components/Main/MainFooter/MainFooter'
 import LotteryPopup from './components/Popups/LotteryPopup'
@@ -30,6 +31,8 @@ import Hanukkah2024Page from './pages/Hanukkah2024Page/Hanukkah2024Page'
 import LotteryHanukkah2024Page from './pages/Hanukkah2024Page/LotteryHanukkah2024Page'
 import ContactsPage from './pages/ContactsPage/ContactsPage'
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage/PrivacyPolicyPage'
+import RegistrationPage from './pages/RegistrationPage/RegistrationPage'
+import SubscribPage from './pages/SubscribPage/SubscribPage'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import MainLayout from './pages/Layout'
 
@@ -117,174 +120,198 @@ function App() {
     <div className="App">
       <ScrollToTop />
       <Routes>
-        <Route 
-          element={<MainLayout 
+      {/*}
+        <Route
+          exact path="/registration"
+          element={
+            <RegistrationPage />
+          }>
+        </Route>*/}
+        <Route element={
+          <MainLayout 
             handleIsBurgerMainPopup={handleIsBurgerMainPopup} 
             handleIsOurProjectPopup={handleIsOurProjectPopup} 
-            handleOurParticipantsPopup={handleOurParticipantsPopup}/>
+            handleOurParticipantsPopup={handleOurParticipantsPopup}
+            />
+          }>
+
+          <Route
+            exact path="/subscrib-page"
+            element={
+              <SubscribPage />
             }>
-        <Route
-          exact path="/haifa"
-          element={
-            <Haifa 
-              handleCardClick={handleCardClick} 
-              addCard={addCard} 
-              limit={limit}
-            />
-          }>
-        </Route>
-
-        <Route
-          path="/"
-          element={
-            <MainPage
-            
-            />
-          }>
-        </Route>
-
-        <Route
-          path="/story-time"
-          element={
-            <StoryTimePage 
-            />
-          }>
-        </Route>
-
-        <Route
-          path="/our-team"
-          element={
-            <OurTeamPage 
-            />
-          }>
-        </Route>
-
-        <Route
-          path="/reviews"
-          element={
-            <ReviewsPage
-            />
-          }>
-        </Route>
-
-        <Route
-          path="/schedule"
-          element={
-            <Schedule 
-              handleCardClick={handleCardClick}
-            />
-          }>
-        </Route>
-
-        <Route
-          path="/haifa-2024-schedule"
-          element={
-            <ScheduleHaifa 
-              handleCardClick={handleCardClick}
-            />
-          }>
-        </Route>
-
-        <Route
-          path="/hanukkah_2024"
-          element={
-            <Hanukkah2024Page 
-              handleCardClick={handleCardClick}
-              handleLotClick={handleLotClick}
-              addCard={addCard}
-              limit={limit}
-            />
-          }>
-        </Route>
-
-        <Route
-          path="/hanukkah_2024/lottery"
-          element={
-            <LotteryHanukkah2024Page handleLotClick={handleLotClick}
-            />
-          }>
-        </Route>
-
-        <Route 
-          path='/marker-paticipants/:slug'
+          </Route>
+          
+          <Route
+            exact path="/haifa"
             element={
-              <IndividualPageOfParticipants />
-            }
-        />
-
-        <Route 
-          path='/master-class-theater/:id'
-            element={
-              <IndividualPage />
-            }
-        />
-
-        <Route 
-          path='/marker-paticipants'
-            element={
-              <MarketPatisipantsPage addCard={addCard} limit={limit}/>
-            }
-        />
-
-        <Route
-          path='/purim_2024'
-            element={
-              <Purim2024
-                handleCardClick={handleCardClick}
-                addCard={addCard} limit={limit}
-              ></Purim2024>
-            }
-        >
-        </Route>
-
-        <Route
-          path='/purim_2025'
-            element={
-              <Purim2025
+              <Haifa 
+                handleCardClick={handleCardClick} 
                 addCard={addCard} 
-                limit={limit} 
+                limit={limit}
+              />
+            }>
+          </Route>
+
+          <Route
+            path="/"
+            element={
+              <MainPage
+              
+              />
+            }>
+          </Route>
+
+          <Route
+            path="/story-time"
+            element={
+              <StoryTimePage 
+              />
+            }>
+          </Route>
+
+          <Route
+            path="/our-team"
+            element={
+              <OurTeamPage 
+              />
+            }>
+          </Route>
+
+          <Route
+            path="/reviews"
+            element={
+              <ReviewsPage
+              />
+            }>
+          </Route>
+
+          <Route
+            path="/schedule"
+            element={
+              <Schedule 
                 handleCardClick={handleCardClick}
-              ></Purim2025>
-            }
-        >
-        </Route>
+              />
+            }>
+          </Route>
 
-        <Route
-          path='/family-relic-on-stage'
+          <Route
+            path="/haifa-2024-schedule"
             element={
-              <FamilyRelicOnStagePage/>
-            }
-        >
-        </Route>
+              <ScheduleHaifa 
+                handleCardClick={handleCardClick}
+              />
+            }>
+          </Route>
 
-        <Route
-          path='/contacts'
+          <Route
+            path="/hanukkah_2024"
             element={
-              <ContactsPage />
-            }
-        >
-        </Route>
+              <Hanukkah2024Page 
+                handleCardClick={handleCardClick}
+                handleLotClick={handleLotClick}
+                addCard={addCard}
+                limit={limit}
+              />
+            }>
+          </Route>
 
-        <Route
-          path='/not-ready-page'
+          <Route
+            path="/hanukkah_2024/lottery"
             element={
-              <NotReadyPage />
-            }
-        >
-        </Route>
+              <LotteryHanukkah2024Page handleLotClick={handleLotClick}
+              />
+            }>
+          </Route>
 
-        <Route
-          path="*"
-          element={
-            <NotFoundPage />
-          }>
-        </Route>
-        
-        <Route
-          path="/privacy-policy"
-          element={
-            <PrivacyPolicyPage />
-          }>
+          <Route 
+            path='/marker-paticipants/:slug'
+              element={
+                <IndividualPageOfParticipants />
+              }
+          />
+
+          <Route 
+            path='/master-class-theater/:id'
+              element={
+                <IndividualPage />
+              }
+          />
+
+          <Route 
+            path='/marker-paticipants'
+              element={
+                <MarketPatisipantsPage addCard={addCard} limit={limit}/>
+              }
+          />
+
+          <Route
+            path='/purim_2024'
+              element={
+                <Purim2024
+                  handleCardClick={handleCardClick}
+                  addCard={addCard} limit={limit}
+                ></Purim2024>
+              }
+          >
+          </Route>
+
+          <Route
+            path='/purim_2025'
+              element={
+                <Purim2025
+                  addCard={addCard} 
+                  limit={limit} 
+                  handleCardClick={handleCardClick}
+                ></Purim2025>
+              }
+          >
+          </Route>
+
+          <Route
+            path='/family-relic-on-stage'
+              element={
+                <FamilyRelicOnStagePage/>
+              }
+          >
+          </Route>
+
+          <Route
+            path='/mini-festival-family-relic'
+              element={
+                <MiniFestivalFamilyRelic handleCardClick={handleCardClick}/>
+              }
+          >
+          </Route>
+
+          <Route
+            path='/contacts'
+              element={
+                <ContactsPage />
+              }
+          >
+          </Route>
+
+          <Route
+            path='/not-ready-page'
+              element={
+                <NotReadyPage />
+              }
+          >
+          </Route>
+
+          <Route
+            path="*"
+            element={
+              <NotFoundPage />
+            }>
+          </Route>
+          
+          <Route
+            path="/privacy-policy"
+            element={
+              <PrivacyPolicyPage />
+            }>
           </Route>
         </Route>
       </Routes>  

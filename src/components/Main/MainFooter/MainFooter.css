@@ -125,7 +125,7 @@
 
 .main-footer__logo-support-wrapper {
     display: flex;
-    z-index: 21;
+    z-index: 2;
     justify-content: space-between;
 }
 

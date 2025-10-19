@@ -12,7 +12,7 @@ import Participants from '../../components/Participants/Participants'
 import OurPartners from '../../components/OurPartners/OurPartners'
 
 import SeparatorPage from '../../components/SeparatorPage/SeparatorPage'
-
+const link = 'https://www.anumuseum.org.il/ru/events/docu-theater/#anu_tickets_sales'
 function FamilyRelicOnStagePage({}) {
     const colors = {
         pink: 'pink',
@@ -37,7 +37,7 @@ function FamilyRelicOnStagePage({}) {
             <Benefits/>
             
             <SeparatorPage color={colors.another}></SeparatorPage>
-            <TicketsStickyButton/>
+            <TicketsStickyButton link={link}/>
         </>
     )
 }

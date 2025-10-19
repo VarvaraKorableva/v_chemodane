@@ -24,6 +24,8 @@ function ProjectsMenu({onClosePopup, closeSubMenu}) {
           <li>
             <p className='burgerMainPopup-subtitle'>СОБЫТИЯ</p>
             <div className='burgerMainPopup-submenu-container'>
+              <Link to='/mini-festival-family-relic' onClick={onClosePopup} className='burgerMainPopup-submenu-link'>Мини-фестиваль «Семейная реликвия»</Link>
+              <Link to='/family-relic-on-stage' onClick={onClosePopup} className='burgerMainPopup-submenu-link'>Театральная лаборатория «Семейная реликвия»</Link>
               <Link to='/story-time' onClick={onClosePopup} className="burgerMainPopup-submenu-link">ВРЕМЯ ИСТОРИЙ, НОЯБРЬ 2024</Link>
               <p className='burgerMainPopup-submenu-link_notactive'>ХАНУКА, декабрь 2023</p>
               <p className='burgerMainPopup-submenu-link_notactive'>МУЗЫКАЛЬНАЯ ЛАБОРАТОРИЯ ИЛЬИ КОЛМАНОВСКОГО, ИЮЛЬ 2023</p>

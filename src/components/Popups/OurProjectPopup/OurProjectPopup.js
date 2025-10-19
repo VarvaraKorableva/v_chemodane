@@ -42,7 +42,8 @@ function OurProjectPopup({isOpen, onClose}) {
                 <li>
                   <p className='ourProjectPopup-subtitle'>СОБЫТИЯ</p>
                   <div className='ourProjectPopup-submenu-container'>
-                    
+                    <Link to='/mini-festival-family-relic' onClick={onClosePopup} className='burgerMainPopup-submenu-link'>Мини-фестиваль «Семейная реликвия»</Link>
+                    <Link to='/family-relic-on-stage' onClick={onClosePopup} className='ourProjectPopup-submenu-link'>Театральная лаборатория «Семейная реликвия»</Link>
                     <Link to='/story-time' onClick={onClosePopup} className='ourProjectPopup-submenu-link'>ВРЕМЯ ИСТОРИЙ, НОЯБРЬ 2024</Link>
                     
                     <p className='ourProjectPopup-submenu-link_notactive'>ХАНУКА, декабрь 2023</p>

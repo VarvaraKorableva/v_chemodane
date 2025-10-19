@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './TicketsStickyButton.css';
 
-const TicketsStickyButton = () => {
+const TicketsStickyButton = ({link}) => {
   const [isVisible, setIsVisible] = useState(false);
 
 
@@ -20,8 +20,7 @@ const TicketsStickyButton = () => {
   }, []);
 
   return (
-    <a href='https://www.anumuseum.org.il/ru/events/docu-theater/#anu_tickets_sales' rel="noopener noreferrer" target='_blank' className={`tickets-sticky-button ${isVisible ? 'visible' : ''}`}>
-      {/*<span>Купить билеты</span>*/}
+    <a href={link} rel="noopener noreferrer" target='_blank' className={`tickets-sticky-button ${isVisible ? 'visible' : ''}`}>
     </a>
   );
 };
