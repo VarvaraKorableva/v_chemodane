@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.container img {
+  border-radius: 50px;
+  aspect-ratio: 1.25;
+  flex-grow: 0;
+  width: max(45%, 500px);
+}
+
+.container img:first {
+  margin-right: auto;
+}
+
+.container img:last-of-type {
+  margin-left: auto;
+}
