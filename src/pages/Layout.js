@@ -2,6 +2,7 @@ import MainNewHeader from '../components/Main/MainHeader/MainNewHeader/MainNewHe
 import MainFooter from '../components/Main/MainFooter/MainFooter';
 import { Outlet } from 'react-router-dom';
 import styles from './Layout.module.css'
+import StickyButton from '../components/StickyButton/StickyButton';
 
 function Layout({
   handleIsBurgerMainPopup,
@@ -17,6 +18,7 @@ function Layout({
       />
       <Outlet />
       <MainFooter />
+      <StickyButton />
     </div>
   );
 }

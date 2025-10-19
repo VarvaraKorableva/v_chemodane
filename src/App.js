@@ -2,7 +2,6 @@ import React from 'react'
 import { Route, Routes, useNavigate } from 'react-router-dom'
 import './App.css';
 import { useEffect } from 'react';
-import StickyButton from './components/StickyButton/StickyButton'
 import MainPage from './pages/MainPage/MainPage'
 import Haifa from './pages/Haifa/Haifa'
 import MainNewHeader from './components/Main/MainHeader/MainNewHeader/MainNewHeader'
@@ -345,7 +344,6 @@ function App() {
         isOpen={isOurParticipantsPopup}
         onClose={closeAllPopups}
       />
-      <StickyButton/>
     </div>
   );
 }
