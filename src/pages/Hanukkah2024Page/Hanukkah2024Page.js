@@ -5,7 +5,7 @@ import SeparatorPage from '../../components/SeparatorPage/SeparatorPage'
 import ScheduleSection from '../../components/Festivals/Hanukkah2024/ScheduleSection/ScheduleSection'
 import VisitingRules from '../../components/Festivals/Hanukkah2024/VisitingRules/VisitingRules'
 import LotterySection from '../../components/Festivals/Hanukkah2024/LotterySection/LotterySection'
-
+import ourPartnersHanukkahData from '../../data/hanukkah/OurPartnersHanukkahData'
 import Participants from '../../components/Participants/Participants'
 import OurPartners from '../../components/OurPartners/OurPartners'
 import LotterySlider from '../../components/Festivals/Hanukkah2024/LotterySection/LotterySlider/LotterySlider'
@@ -26,7 +26,7 @@ function Hanukkah2024Page({handleCardClick, addCard, limit, handleLotClick}) {
             <SeparatorPage/>
             <Participants addCard={addCard} limit={limit}/>
             <SeparatorPage/>
-            <OurPartners/>
+            <OurPartners dataArr={ourPartnersHanukkahData}/>
             <SeparatorPage/>
         </>
     )

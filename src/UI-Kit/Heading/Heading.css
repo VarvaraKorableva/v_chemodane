@@ -31,6 +31,42 @@
     align-self: center;
 }
 
+.PhotoStoriesTimeHeading {
+    font-family: "Mulish", sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.PhotoStoriesTimeHeading__red {
+    color: #b8542c;
+}
+
+
+.PhotoStoriesTimeHeading__green {
+    color: #D9D983;
+}
+
+.PhotoStoriesTimeHeading__orange {
+    color: #EB892C;
+}
+
+.PhotoStoriesTimeHeading__blue {
+    color: #82AFBE;
+}
+
+.PhotoStoriesTimeHeading__mint {
+    color: #97BFA0;
+}
+
+.PhotoStoriesTimeHeading__light__blue {
+    color: #A1BDBF;
+}
+
+.PhotoStoriesTimeHeading__violet {
+    color: #374BA5;
+}
+
 @media screen and (max-width: 850px) {
     .heading { 
         font-size: 24px;
@@ -40,6 +76,10 @@
     .subTitle {
         font-size: 18px;
         margin-top: 25px;
+    }
+
+    .PhotoStoriesTimeHeading {
+        font-size: 32px;
     }
 
     .EventIntroHeading {
@@ -63,6 +103,10 @@
     .EventIntroHeading {
         font-size: 28px;
         margin-top: 35px;
+    }
+
+    .PhotoStoriesTimeHeading {
+        font-size: 24px;
     }
 }
 

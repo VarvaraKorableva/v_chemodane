@@ -10,6 +10,8 @@
   width: 100%;
   line-height: 50px;
   text-align: start;
+
+  box-sizing: border-box;
 }
 
 .text-center {
@@ -35,6 +37,10 @@
   width: 100%;
   line-height: 50px;
   text-align: start;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 900px) {
