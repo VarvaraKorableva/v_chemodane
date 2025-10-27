@@ -33,7 +33,7 @@ import PrivacyPolicyPage from './pages/PrivacyPolicyPage/PrivacyPolicyPage';
 import RegistrationPage from './pages/RegistrationPage/RegistrationPage';
 import SubscribPage from './pages/SubscribPage/SubscribPage';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
-import MainLayout from './pages/Layout';
+import MainLayout from './pages/MainLayout/MainLayout';
 
 function App() {
   const [lotteryPopup, setLotteryPopup] = React.useState(false);
