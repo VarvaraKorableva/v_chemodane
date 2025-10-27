@@ -10,6 +10,7 @@ import AboutFestival from '../../components/AboutFestival/AboutFestival'
 import Participants from '../../components/Participants/Participants'
 import OurTeam from '../../components/OurTeam/OurTeam'
 import SeparatorPage from '../../components/SeparatorPage/SeparatorPage'
+import ourPartnersData from '../../data/OurPartnersData'
 
 function Haifa({addCard, limit, handleCardClick}) {
     return(
@@ -23,7 +24,7 @@ function Haifa({addCard, limit, handleCardClick}) {
         <MasterClassHaifa />
         <LecturesAndPresentations />
         {/*<Participants addCard={addCard} limit={limit}/>*/}
-        <OurPartners />
+        <OurPartners dataArr={ourPartnersData}/>
         <OurTeam />
         <SeparatorPage/>
     </>

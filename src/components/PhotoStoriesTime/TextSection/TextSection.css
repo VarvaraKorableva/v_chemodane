@@ -1,0 +1,12 @@
+.TextSection__container {
+    /*max-width: 811px;*/
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.TextSection__text {
+    margin: 0;
+}

@@ -1,7 +1,6 @@
 .heading {
     text-transform: uppercase;
     font-size: 40px;
-    font-family: "Mulish", sans-serif;
     color: #374BA5;
     margin: 0;
     max-width: 796px;
@@ -29,6 +28,39 @@
     margin: auto;
     margin-top: 80px;
     align-self: center;
+}
+
+.heading__red {
+    color: #b8542c;
+}
+
+
+.heading__green {
+    color: #D9D983;
+}
+
+.heading__orange {
+    color: #EB892C;
+}
+
+.heading__blue {
+    color: #82AFBE;
+}
+
+.heading__mint {
+    color: #97BFA0;
+}
+
+.heading__light__blue {
+    color: #A1BDBF;
+}
+
+.heading__violet {
+    color: #374BA5;
+}
+
+.heading__white {
+    color: #fff;
 }
 
 @media screen and (max-width: 850px) {

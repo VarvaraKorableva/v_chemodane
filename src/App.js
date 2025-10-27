@@ -23,6 +23,7 @@ import IndividualPageOfParticipants from './components/IndividualPageOfParticipa
 import IndividualPage from './components/IndividualPage/IndividualPage';
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
 import StoryTimePage from './pages/StoryTimePage/StoryTimePage';
+import PhotoStoriesTimePage from './pages/PhotoStoriesTimePage/PhotoStoriesTimePage';
 import OurTeamPage from './pages/OurTeamPage/OurTeamPage';
 import MarketPatisipantsPage from './pages/MarketPatisipantsPage/MarketPatisipantsPage';
 import ReviewsPage from './pages/ReviewsPage/ReviewsPage';
@@ -41,7 +42,8 @@ function App() {
   const [imgPopup, setImgPopup] = React.useState(false);
   const [isBurgerMainPopup, setIsBurgerMainPopup] = React.useState(false);
   const [isOurProjectPopup, setIsOurProjectPopup] = React.useState(false);
-  const [isOurParticipantsPopup, setIsOurParticipantsPopup] = React.useState(false);
+  const [isOurParticipantsPopup, setIsOurParticipantsPopup] =
+    React.useState(false);
   //const [isSukkotPopupClicked, setIsSukkotPopupClicked] = React.useState(true)
   const [selectedCard, setSelectedCard] = React.useState({});
 
@@ -150,6 +152,11 @@ function App() {
           <Route path="/" element={<MainPage />}></Route>
 
           <Route path="/story-time" element={<StoryTimePage />}></Route>
+
+          <Route
+            path="/photo-stories-time"
+            element={<PhotoStoriesTimePage />}
+          ></Route>
 
           <Route path="/our-team" element={<OurTeamPage />}></Route>
 

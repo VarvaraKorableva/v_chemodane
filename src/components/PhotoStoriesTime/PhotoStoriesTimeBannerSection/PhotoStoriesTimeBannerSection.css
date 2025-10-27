@@ -1,0 +1,483 @@
+.banner__section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__pic-container {
+    width: 100%;
+    height: fit-content;
+    min-height: 451px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../../../images/photoStoriesTime/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.PhotoStoriesTimeBannerSection__stright-container {
+    /*position: absolute;
+    top: 0;
+    left: 0;*/
+    display: flex;
+    z-index: 2;
+    min-height: 100%;
+    width: fit-content;
+}
+
+.PhotoStoriesTimeBannerSection__right-stright-container {
+    /*position: absolute;
+    top: 0;
+    right: 0;*/
+    display: flex;
+    z-index: 2;
+    min-height: 100%;
+    width: fit-content;
+}
+
+.PhotoStoriesTimeBannerSection__stright-orange {
+    background-image: url(../../../images/photoStoriesTime/orangestright.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    width: 35px;
+    margin-right: 30px;
+}
+
+.PhotoStoriesTimeBannerSection__stright-blue {
+    background-image: url(../../../images/photoStoriesTime/bleurightstraight.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    width: 35px;
+    margin-right: 4px;
+}
+
+.PhotoStoriesTimeBannerSection__stright-yellow {
+    background-image: url(../../../images/photoStoriesTime/yellowstraight.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    width: 74px;
+    margin-right: 41px;
+}
+.PhotoStoriesTimeBannerSection__stright-red {
+    background-image: url(../../../images/photoStoriesTime/redstraight.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    width: 53px;
+    margin-right: 7px;
+}
+.PhotoStoriesTimeBannerSection__stright-green {
+    background-image: url(../../../images/photoStoriesTime/greenstraight.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    width: 82px;
+}
+
+
+.PhotoStoriesTimeBannerSection__stright-green-right {
+    background-image: url(../../../images/photoStoriesTime/green2straight.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    width: 60px;
+    margin-right: 41px;
+}
+.PhotoStoriesTimeBannerSection__stright-blue-right {
+    background-image: url(../../../images/photoStoriesTime/bleurightstraight.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    width: 39px;
+    margin-right: 33px;
+}
+
+.PhotoStoriesTimeBannerSection-main-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100%;
+
+    position: relative;
+}
+
+.PhotoStoriesTimeBannerSection-title-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.PhotoStoriesTimeBannerSection-title {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 3;
+    font-size: 67px;
+    margin: 0;
+}
+
+.PhotoStoriesTimeBannerSection-subtitle {
+    text-transform: uppercase;
+    z-index: 3;
+    font-size: 24px;
+    margin-top: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.PhotoStoriesTimeBannerSection-subtitle-start {
+    align-self: flex-start;
+    text-align: start;
+}
+
+.PhotoStoriesTimeBannerSection-subtitle-end {
+    align-self: flex-end;
+    text-align: end;
+}
+
+.PhotoStoriesTimeBannerSection-title-white {
+    color: #fff;
+}
+
+.PhotoStoriesTimeBannerSection-pic-three {
+    background-image: url(../../../images/photoStoriesTime/pic1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 219px;
+    height: 307px;
+    position: absolute;
+    right: -30px;
+    top: 80px;
+    z-index: 2;
+    object-fit: contain;
+    background-size: contain;
+}
+
+.PhotoStoriesTimeBannerSection-pic-two {
+    background-image: url(../../../images/photoStoriesTime/pic2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 210px;
+    height: 252px;
+    position: absolute;
+    left: -15px;
+    bottom: 15px;
+    z-index: 2;
+    object-fit: contain;
+    background-size: contain;
+}
+
+.PhotoStoriesTimeBannerSection-pic-one {
+    background-image: url(../../../images/photoStoriesTime/pic3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 318px;
+    height: 238px;
+    position: absolute;
+    left: -450px;
+    bottom: 50px;
+    z-index: 2;
+    object-fit: contain;
+    background-size: contain;
+}
+
+.PhotoStoriesTimeBannerSection-pic-logo {
+    background-image: url(../../../images/photoStoriesTime/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 116px;
+    height: 127px;
+    position: absolute;
+    left: -250px;
+    top: 20px;
+    z-index: 2;
+    object-fit: contain;
+    background-size: contain;
+}
+
+@media screen and (max-width: 1200px) {
+    .PhotoStoriesTimeBannerSection-title {
+        font-size: 60px;
+    }
+    
+    .PhotoStoriesTimeBannerSection-subtitle {
+        font-size: 18px;
+    }
+
+    .PhotoStoriesTimeBannerSection-pic-three {
+        width: 179px;
+        height: 251px;
+        right: -25px;
+        top: 80px;
+    }
+    
+    .PhotoStoriesTimeBannerSection-pic-two {
+        width: 168px;
+        height: 201px;
+        left: 50px;
+        bottom: 10px;
+    }
+    
+    .PhotoStoriesTimeBannerSection-pic-one {
+        width: 270px;
+        height: 202px;
+        left: -250px;
+        bottom: 50px;
+    }
+    
+    .PhotoStoriesTimeBannerSection-pic-logo {
+        width: 80px;
+        height: 88px;
+        left: -100px;
+        top: 10px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .PhotoStoriesTimeBannerSection__right-stright-container {
+        display: none;
+    }
+
+    .banner__pic-container {
+        justify-content: flex-start;
+    }
+
+    .PhotoStoriesTimeBannerSection-main-text-container {
+        margin-left: -50px;
+    }
+}
+
+@media screen and (max-width: 883px) {
+    .banner__pic-container {
+        height: 451px;
+    }
+
+    .PhotoStoriesTimeBannerSection-main-text-container {
+        margin-left: -80px;
+    }
+}
+
+@media screen and (max-width: 774px) {
+    .PhotoStoriesTimeBannerSection-pic-two {
+        left: 48px;
+    }
+
+    .PhotoStoriesTimeBannerSection-main-text-container {
+        margin-left: -90px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .PhotoStoriesTimeBannerSection-title {
+        font-size: 40px;
+    }
+    
+    .PhotoStoriesTimeBannerSection-subtitle {
+        font-size: 16px;
+    }
+
+    .PhotoStoriesTimeBannerSection-pic-three {
+        right: -70px;
+    }
+    
+    .PhotoStoriesTimeBannerSection-pic-two {
+        left: -80px
+    }
+
+    .PhotoStoriesTimeBannerSection-pic-one {
+        display: none;
+    }
+
+    .PhotoStoriesTimeBannerSection-main-text-container {
+        margin-left: -150px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    .PhotoStoriesTimeBannerSection-pic-three {
+        width: 127px;
+        height: 178px;
+        right: -20px;
+    }
+    
+    .PhotoStoriesTimeBannerSection-pic-two {
+        width: 128px;
+        height: 154px;
+        left: -35px;
+        bottom: 50px;
+    }
+    
+    .PhotoStoriesTimeBannerSection-pic-logo {
+        width: 49px;
+        height: 53px;
+        left: -40px;
+        top: 20px;
+    }
+
+    .PhotoStoriesTimeBannerSection-main-text-container {
+        margin-left: -250px;
+    }
+
+    .PhotoStoriesTimeBannerSection-subtitle {
+        margin-bottom: 50px;
+    }
+
+    .PhotoStoriesTimeBannerSection-subtitle-start {
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    .banner__pic-container {
+        min-height: 311px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .PhotoStoriesTimeBannerSection-pic-three {
+        width: 127px;
+        height: 178px;
+        right: -20px;
+    }
+    
+    .PhotoStoriesTimeBannerSection-pic-two {
+        width: 128px;
+        height: 154px;
+        left: -35px;
+        bottom: 20px;
+        z-index: 2;
+    }
+    
+    .PhotoStoriesTimeBannerSection-pic-logo {
+        width: 49px;
+        height: 53px;
+        left: -40px;
+        top: 20px;
+    }
+
+    .PhotoStoriesTimeBannerSection-main-text-container {
+        margin-left: -250px;
+    }
+
+    .PhotoStoriesTimeBannerSection-subtitle {
+        margin-bottom: 50px;
+    }
+
+    .PhotoStoriesTimeBannerSection-subtitle-start {
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    .PhotoStoriesTimeBannerSection-subtitle-end {
+        margin-bottom: 20px;
+    }
+
+    .banner__pic-container {
+        max-height: 311px;
+    }
+
+    .PhotoStoriesTimeBannerSection__stright-orange {
+        width: 25px;
+        margin-right: 5px;
+    }
+    
+    .PhotoStoriesTimeBannerSection__stright-blue {
+        width: 24px;
+        margin-right: 5px;
+    }
+    
+    .PhotoStoriesTimeBannerSection__stright-yellow {
+        width: 51px;
+        margin-right: 5px;
+    }
+    .PhotoStoriesTimeBannerSection__stright-red {
+        width: 37px;
+        margin-right: 5px;
+    }
+    .PhotoStoriesTimeBannerSection__stright-green {
+        width: 57px;
+    }
+
+    .PhotoStoriesTimeBannerSection-main-text-container {
+        margin-left: -150px;
+    }
+
+    .PhotoStoriesTimeBannerSection__right-stright-container {
+        display: flex;
+        z-index: 1;
+    }
+
+    .PhotoStoriesTimeBannerSection__stright-green-right {
+        display: none;
+    }
+
+    .PhotoStoriesTimeBannerSection__stright-blue-right {
+        margin-right: 0;
+        width: 27px;
+    }
+}
+
+@media screen and (max-width: 387px) {
+    .PhotoStoriesTimeBannerSection-main-text-container {
+        margin-left: -185px;
+    }
+
+    .PhotoStoriesTimeBannerSection-subtitle-end {
+        margin-right: -15px;
+    }
+
+    .PhotoStoriesTimeBannerSection-pic-two {
+        left: -20px;
+    }
+
+    .PhotoStoriesTimeBannerSection-pic-logo {
+        left: -20px;
+    }
+}    
+
+@media screen and (max-width: 349px) {
+    .PhotoStoriesTimeBannerSection-title {
+        font-size: 36px;
+    }
+    .PhotoStoriesTimeBannerSection-subtitle {
+        font-size: 14px;
+    }
+
+    .PhotoStoriesTimeBannerSection-subtitle-end {
+        margin-right: -25px;
+    }
+
+    .PhotoStoriesTimeBannerSection-pic-three {
+        right: -30px;
+    }
+
+}    
+
+
+@media screen and (max-width: 324px) {
+    .PhotoStoriesTimeBannerSection-title {
+        font-size: 32px;
+    }
+    .PhotoStoriesTimeBannerSection-subtitle {
+        font-size: 12px;
+    }
+
+    .PhotoStoriesTimeBannerSection-subtitle-end {
+        margin-right: -25px;
+    }
+
+    .PhotoStoriesTimeBannerSection-pic-three {
+        right: -40px;
+    }
+
+} 
