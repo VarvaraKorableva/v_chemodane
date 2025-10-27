@@ -5,7 +5,7 @@ import Heading from '../../../UI-Kit/Heading/Heading'
 export default function TextSection() {
     return(
         <Container as="section" id='PhotoStoriesTime__TextSection'>
-            <Heading className="PhotoStoriesTimeHeading PhotoStoriesTimeHeading__red">О Проекте</Heading>
+            <Heading className="heading heading__red">О Проекте</Heading>
           <div className='TextSection__container text'>
             <p className='TextSection__text'>
                 У каждой семьи есть альбомы и коробки со старыми снимками. На них — люди, чьи лица кажутся знакомыми, места, о которых мы мало знаем, и события, о которых хочется спросить. Эта программа — про то, как научиться «слушать» фотографии и находить в них больше, чем просто изображение.

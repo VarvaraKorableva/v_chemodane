@@ -5,7 +5,7 @@ import Heading from '../../../UI-Kit/Heading/Heading'
 function HowToParticipate() {
   return (
     <Container as="section">
-      <Heading className="PhotoStoriesTimeHeading PhotoStoriesTimeHeading__mint">Как участвовать</Heading>
+      <Heading className="heading heading__mint">Как участвовать</Heading>
       <ul className='text'>
         <li>
           <a href="https://forms.gle/dE6kVfazs55X3NrB8" target="_blank" rel="noopener noreferrer">

@@ -5,7 +5,7 @@ import Heading from '../../../UI-Kit/Heading/Heading'
 function ProgramSchedule() {
   return (
     <Container as="section" id='PhotoStoriesTime__ProgramSchedule'>
-      <Heading className="PhotoStoriesTimeHeading PhotoStoriesTimeHeading__blue">Расписание встреч</Heading>
+      <Heading className="heading heading__blue">Расписание встреч</Heading>
       <ul className='text'>
         <li>
           <strong className='uppercase'>23 ноября 2025</strong><br />

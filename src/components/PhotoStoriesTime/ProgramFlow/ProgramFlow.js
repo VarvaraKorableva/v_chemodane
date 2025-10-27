@@ -5,7 +5,7 @@ import Heading from '../../../UI-Kit/Heading/Heading'
 function ProgramFlow() {
   return (
     <Container as="section">
-        <Heading className="PhotoStoriesTimeHeading PhotoStoriesTimeHeading__orange">Как будет проходить программа</Heading>
+        <Heading className="heading heading__orange">Как будет проходить программа</Heading>
         <ul className='text'>
             <li>В программе будет две онлайн - встречи и групповые консультации с специалистами по архивным исследованиям изображений и музейными педагогами. Они помогут вам задать правильные вопросы именно к вашей истории и найти недостающую информацию.</li>
             <li>Позже при поддержке художественного куратора вы оформите результаты исследования в собственный арт-объект и получите возможность поучаствовать в настоящем биеннале в Иерусалиме.</li>

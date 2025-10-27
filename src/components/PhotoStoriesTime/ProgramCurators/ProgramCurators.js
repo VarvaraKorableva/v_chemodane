@@ -5,7 +5,7 @@ import Heading from '../../../UI-Kit/Heading/Heading'
 function ProgramCurators() {
   return (
     <Container as="section">
-      <Heading className="PhotoStoriesTimeHeading PhotoStoriesTimeHeading__light__blue">Ведущие</Heading>
+      <Heading className="heading heading__light__blue">Ведущие</Heading>
       <ul className='text'>
         <li>
           <strong>Вера Ярилина</strong><br />

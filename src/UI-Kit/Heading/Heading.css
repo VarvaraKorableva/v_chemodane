@@ -1,7 +1,6 @@
 .heading {
     text-transform: uppercase;
     font-size: 40px;
-    font-family: "Mulish", sans-serif;
     color: #374BA5;
     margin: 0;
     max-width: 796px;
@@ -31,40 +30,37 @@
     align-self: center;
 }
 
-.PhotoStoriesTimeHeading {
-    font-family: "Mulish", sans-serif;
-    text-transform: uppercase;
-    font-size: 36px;
-    font-weight: 900;
-}
-
-.PhotoStoriesTimeHeading__red {
+.heading__red {
     color: #b8542c;
 }
 
 
-.PhotoStoriesTimeHeading__green {
+.heading__green {
     color: #D9D983;
 }
 
-.PhotoStoriesTimeHeading__orange {
+.heading__orange {
     color: #EB892C;
 }
 
-.PhotoStoriesTimeHeading__blue {
+.heading__blue {
     color: #82AFBE;
 }
 
-.PhotoStoriesTimeHeading__mint {
+.heading__mint {
     color: #97BFA0;
 }
 
-.PhotoStoriesTimeHeading__light__blue {
+.heading__light__blue {
     color: #A1BDBF;
 }
 
-.PhotoStoriesTimeHeading__violet {
+.heading__violet {
     color: #374BA5;
+}
+
+.heading__white {
+    color: #fff;
 }
 
 @media screen and (max-width: 850px) {
@@ -76,10 +72,6 @@
     .subTitle {
         font-size: 18px;
         margin-top: 25px;
-    }
-
-    .PhotoStoriesTimeHeading {
-        font-size: 32px;
     }
 
     .EventIntroHeading {
@@ -103,10 +95,6 @@
     .EventIntroHeading {
         font-size: 28px;
         margin-top: 35px;
-    }
-
-    .PhotoStoriesTimeHeading {
-        font-size: 24px;
     }
 }
 
