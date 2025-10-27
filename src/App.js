@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes, useNavigate } from 'react-router-dom';
+import { Route, Routes, useNavigate, Navigate } from 'react-router-dom';
 import './App.css';
 import { useEffect } from 'react';
 import MainPage from './pages/MainPage/MainPage';
@@ -34,6 +34,7 @@ import RegistrationPage from './pages/RegistrationPage/RegistrationPage';
 import SubscribPage from './pages/SubscribPage/SubscribPage';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import MainLayout from './pages/Layout';
+import Anitime from './pages/Anitime/Anitime.tsx';
 
 function App() {
   const [lotteryPopup, setLotteryPopup] = React.useState(false);
@@ -242,6 +243,11 @@ function App() {
 
           <Route path="/privacy-policy" element={<PrivacyPolicyPage />}></Route>
         </Route>
+        <Route path="/anitime-2025/:lang" element={<Anitime />} />
+        <Route
+          path="/anitime-2025"
+          element={<Navigate to={`/anitime-2025/en`} replace />}
+        />
       </Routes>
 
       <LotteryPopup
