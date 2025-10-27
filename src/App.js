@@ -41,8 +41,7 @@ function App() {
   const [imgPopup, setImgPopup] = React.useState(false);
   const [isBurgerMainPopup, setIsBurgerMainPopup] = React.useState(false);
   const [isOurProjectPopup, setIsOurProjectPopup] = React.useState(false);
-  const [isOurParticipantsPopup, setIsOurParticipantsPopup] =
-    React.useState(false);
+  const [isOurParticipantsPopup, setIsOurParticipantsPopup] = React.useState(false);
   //const [isSukkotPopupClicked, setIsSukkotPopupClicked] = React.useState(true)
   const [selectedCard, setSelectedCard] = React.useState({});
 
