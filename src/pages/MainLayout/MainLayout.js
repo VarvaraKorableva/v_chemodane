@@ -1,10 +1,10 @@
-import MainNewHeader from '../components/Main/MainHeader/MainNewHeader/MainNewHeader';
-import MainFooter from '../components/Main/MainFooter/MainFooter';
+import MainNewHeader from '../../components/Main/MainHeader/MainNewHeader/MainNewHeader';
+import MainFooter from '../../components/Main/MainFooter/MainFooter';
 import { Outlet } from 'react-router-dom';
-import styles from './Layout.module.css'
-import StickyButton from '../components/StickyButton/StickyButton';
+import styles from './MainLayout.module.css';
+import StickyButton from '../../components/StickyButton/StickyButton';
 
-function Layout({
+function MainLayout({
   handleIsBurgerMainPopup,
   handleIsOurProjectPopup,
   handleOurParticipantsPopup
@@ -23,4 +23,4 @@ function Layout({
   );
 }
 
-export default Layout;
+export default MainLayout;

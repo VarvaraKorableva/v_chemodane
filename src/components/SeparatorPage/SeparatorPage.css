@@ -1,11 +1,8 @@
 .separator_page_container {
     width: 100%;
-    height: fit-content;
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    /*padding-top: 50px;
-    padding-bottom: 50px;*/
 } 
 
 .separator_page_img {
@@ -13,26 +10,16 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    min-width: 100%;
-    height: 300px;
+    width: 100%;
+    
 }
 
-@media screen and (max-width: 1650px) {
-    .separator_page_img  {
-        height: 200px;
-    }
+.separator_page_img_wide {
+    height: clamp(100px, 15vw, 300px);
 }
 
-@media screen and (max-width: 1000px) {
-    .separator_page_img  {
-        height: 150px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .separator_page_img  {
-        height: 100px;
-    }
+.separator_page_img_tall {
+    height: clamp(100px, 60vw, 700px);
 }
 
 .separator_page_img_gray {
@@ -58,3 +45,36 @@
 .separator_page_img_another {
     background-image: url(../../images/separatePages/pagecolarfooter.png);
 }
+
+.separator_page_img_three_lines {
+    background-image: url(../../images/separatePages/photoStoriesTime/3lines2.png);
+}
+
+.separator_page_img_three_lines_redline {
+    background-image: url(../../images/separatePages/photoStoriesTime/3lines.png);
+}
+
+.separator_page_img_blueline_middle {
+    background-image: url(../../images/separatePages/photoStoriesTime/blue.png);
+}
+
+.separator_page_img_blue_bigline {
+    background-image: url(../../images/separatePages/photoStoriesTime/bluebigline.png);
+}
+
+.separator_page_img_blueline {
+    background-image: url(../../images/separatePages/photoStoriesTime/blueline.png);
+}
+
+.separator_page_img_orangeline {
+    background-image: url(../../images/separatePages/photoStoriesTime/orangeline.png);
+}
+
+.separator_page_img_redline {
+    background-image: url(../../images/separatePages/photoStoriesTime/redline.png);
+}
+
+.separator_page_img_yellowline {
+    background-image: url(../../images/separatePages/photoStoriesTime/yellowline.png);
+}
+

@@ -23,6 +23,7 @@ import IndividualPageOfParticipants from './components/IndividualPageOfParticipa
 import IndividualPage from './components/IndividualPage/IndividualPage';
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
 import StoryTimePage from './pages/StoryTimePage/StoryTimePage';
+import PhotoStoriesTimePage from './pages/PhotoStoriesTimePage/PhotoStoriesTimePage';
 import OurTeamPage from './pages/OurTeamPage/OurTeamPage';
 import MarketPatisipantsPage from './pages/MarketPatisipantsPage/MarketPatisipantsPage';
 import ReviewsPage from './pages/ReviewsPage/ReviewsPage';
@@ -33,7 +34,7 @@ import PrivacyPolicyPage from './pages/PrivacyPolicyPage/PrivacyPolicyPage';
 import RegistrationPage from './pages/RegistrationPage/RegistrationPage';
 import SubscribPage from './pages/SubscribPage/SubscribPage';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
-import MainLayout from './pages/Layout';
+import MainLayout from './pages/MainLayout/MainLayout';
 import Anitime from './pages/Anitime/Anitime.tsx';
 
 function App() {
@@ -152,6 +153,11 @@ function App() {
           <Route path="/" element={<MainPage />}></Route>
 
           <Route path="/story-time" element={<StoryTimePage />}></Route>
+
+          <Route
+            path="/photo-stories-time"
+            element={<PhotoStoriesTimePage />}
+          ></Route>
 
           <Route path="/our-team" element={<OurTeamPage />}></Route>
 
