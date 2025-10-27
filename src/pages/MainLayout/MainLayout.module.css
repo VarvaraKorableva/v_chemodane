@@ -1,11 +1,11 @@
 .regularPage {
   text-align: center;
   background-color: #fff;
-  background-color: #D6D6D6;
+  background-color: #d6d6d6;
   max-width: 2250px;
   padding: 32px;
   min-height: 100vh;
-  font-family: "Mulish", sans-serif;
+  font-family: 'Mulish', sans-serif;
   overflow: hidden;
   display: flex;
   flex-direction: column;

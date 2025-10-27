@@ -1,8 +1,8 @@
-import MainNewHeader from '../components/Main/MainHeader/MainNewHeader/MainNewHeader';
-import MainFooter from '../components/Main/MainFooter/MainFooter';
+import MainNewHeader from '../../components/Main/MainHeader/MainNewHeader/MainNewHeader';
+import MainFooter from '../../components/Main/MainFooter/MainFooter';
 import { Outlet } from 'react-router-dom';
 import styles from './MainLayout.module.css';
-import StickyButton from '../components/StickyButton/StickyButton';
+import StickyButton from '../../components/StickyButton/StickyButton';
 
 function MainLayout({
   handleIsBurgerMainPopup,
