@@ -149,10 +149,10 @@
 
 .visible {
   position: absolute;
-  top: 0;
-  right: 50%;
-  transform: translateX(50%);
-  transition: width 0.5s, top 0.5s;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.5s, top 0.5s, left 0.5s;
 }
 
 .visible.fixed {
