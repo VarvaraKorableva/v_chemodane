@@ -36,6 +36,7 @@ import SubscribPage from './pages/SubscribPage/SubscribPage';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import MainLayout from './pages/MainLayout/MainLayout';
 import Anitime from './pages/Anitime/Anitime.tsx';
+import AnitimeDetectLangRedirect from './components/Anitime/AnitimeDetectLangRedirect/AnitimeDetectLangRedirect.tsx';
 
 function App() {
   const [lotteryPopup, setLotteryPopup] = React.useState(false);
@@ -252,7 +253,7 @@ function App() {
         <Route path="/anitime-2025/:lang" element={<Anitime />} />
         <Route
           path="/anitime-2025"
-          element={<Navigate to={`/anitime-2025/en`} replace />}
+          element={<AnitimeDetectLangRedirect/>}
         />
       </Routes>
 
