@@ -2,7 +2,7 @@ import type { Messages } from './base';
 
 export default {
   aboutFestival: {
-    title: 'О ФЕСТИВАЛЕ',
+    title: 'ABOUT FESTIVAL',
     content: (
       <>
         <strong>ANITIME is a new animation festival in Tel Aviv,</strong>
@@ -19,7 +19,7 @@ export default {
     )
   },
   inProgram: {
-    title: 'В ПРОГРАММЕ',
+    title: 'PROGRAM INCLUDES',
     content: (
       <>
         <ul>
