@@ -19,33 +19,28 @@ const useLinks = (isFixed: boolean = false) => {
         originX={50}
         originY={50}
       /> */}
-      {isFixed ? (
+      <>
         <div className={styles.firstLine}>
-          <a>{messages.menu.buyTickets}</a>
+          <a>{messages.menu.submitYourFilm}</a>
+          <a
+            href="https://www.anumuseum.org.il/ru/events/animation-films/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.buyTickets}
+          >
+            {messages.menu.buyTickets}
+          </a>
         </div>
-      ) : (
-        <>
-          <div className={styles.firstLine}>
-            <a>{messages.menu.submitYourFilm}</a>
-            <a
-              href="https://www.anumuseum.org.il/ru/events/animation-films/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {messages.menu.buyTickets}
-            </a>
-          </div>
 
-          <div className={styles.secondLine}>
-            <a>{messages.menu.films}</a>
-            <a href="#anitimeAbout">{messages.menu.aboutFestival}</a>
-            <a>{messages.menu.marketParticipants}</a>
-            <a>{messages.menu.team}</a>
-            <a href="#anitimeSponsors">{messages.menu.ourSponsors}</a>
-            <a href="#anitimeContacts">{messages.menu.contacts}</a>
-          </div>
-        </>
-      )}
+        <div className={styles.secondLine}>
+          <a>{messages.menu.films}</a>
+          <a href="#anitimeAbout">{messages.menu.aboutFestival}</a>
+          <a>{messages.menu.marketParticipants}</a>
+          <a>{messages.menu.team}</a>
+          <a href="#anitimeSponsors">{messages.menu.ourSponsors}</a>
+          <a href="#anitimeContacts">{messages.menu.contacts}</a>
+        </div>
+      </>
     </div>
   );
 };
@@ -66,25 +61,10 @@ const Links = ({
 
   const onScroll = useCallback(() => {
     const rect = plugRef.current!.getBoundingClientRect();
-    // if (rect.top >= 10) {
-    //   positionRef.current = 'above';
-    // } else if (rect.bottom <= 10) {
-    //   positionRef.current = 'below';
-    // } else {
-    //   positionRef.current = 'within';
-    // }
-    if (
-      !isFixedRef.current! &&
-      rect.top < 10
-      // positionRef.current! !== 'below'
-    ) {
+    if (!isFixedRef.current! && rect.top < 10) {
       setIsFixed(true);
       isFixedRef.current = true;
-    } else if (
-      isFixedRef.current &&
-      rect.top > 10
-      // positionRef.current! !== 'above'
-    ) {
+    } else if (isFixedRef.current && rect.top > 10) {
       setIsFixed(false);
       isFixedRef.current = false;
     }
