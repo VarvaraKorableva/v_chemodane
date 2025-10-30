@@ -52,7 +52,7 @@ const Information = ({}) => {
             rotate="90deg"
           />
         </Group> */}
-        <div className={styles.center}>
+        <div className={styles.center} id="anitimeAbout">
           <Heading
             color={undefined}
             fontVariant="amatic"
@@ -84,7 +84,7 @@ const Information = ({}) => {
         </div>
       </section> */}
       <section className={styles.sponsors}>
-        <div className={styles.center}>
+        <div className={styles.center} id="anitimeSponsors">
           <Heading
             color={undefined}
             fontVariant="amatic"
@@ -96,7 +96,7 @@ const Information = ({}) => {
         <Sponsors />
       </section>
       <section>
-        <div className={styles.center}>
+        <div className={styles.center} id="anitimeContacts">
           <Heading
             color={undefined}
             fontVariant="amatic"
