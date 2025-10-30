@@ -27,7 +27,13 @@ const useLinks = (isFixed: boolean = false) => {
         <>
           <div className={styles.firstLine}>
             <a>{messages.menu.submitYourFilm}</a>
-            <a>{messages.menu.buyTickets}</a>
+            <a
+              href="https://www.anumuseum.org.il/ru/events/animation-films/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {messages.menu.buyTickets}
+            </a>
           </div>
 
           <div className={styles.secondLine}>
