@@ -26,6 +26,7 @@ export default function TextSection() {
                 </a>. Те, кто будут несколько месяцев работать над проектами с творческими кураторами и посещать музейные мероприятия, оплачивают участие 
                 <a href="https://tickets.anumuseum.org.il/ru/event/33819" class="link">{' '} здесь</a>.
             </p>
+            <p>Мероприятие проходит при поддержке Фонда НАДАВ и UJA Federation of New York.</p>
           </div>
         </Container>
     )
