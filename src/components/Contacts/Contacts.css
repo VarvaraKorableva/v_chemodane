@@ -40,6 +40,8 @@
     text-align: start;
     font-size: 18px;
     font-family: "Mulish", sans-serif;
+    text-decoration: none;
+    color: #1f1f1f;
 }
 
 .ContactsPage__title {

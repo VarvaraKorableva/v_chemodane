@@ -16,6 +16,11 @@ function MainFooter() {
                             <div>
                                 <p className="main-footer__title">Контакты:</p>
                                 <p className="main-footer-contacts-number">{`${contacts[0].email}`}</p>
+             
+                                <a className="main-footer-contacts-number" href="https://www.google.com/maps/search/?api=1&query=Tsidkiyahu%2024%20Haifa"
+                                   target="_blank" rel="noopener noreferrer">
+                                    {contacts[0].adressRus} — показать на карте
+                                </a>
                             </div>
                         </div>
                         <ul className="footer__links-container">

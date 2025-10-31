@@ -9,6 +9,10 @@ function Contacts() {
       <Container as="section">
         <Heading>КОНТАКТЫ</Heading>
         <div className='ContactsPage_container'>
+            <a className="ContactsPage__text" href="https://www.google.com/maps/search/?api=1&query=Tsidkiyahu%2024%20Haifa"
+               target="_blank" rel="noopener noreferrer">
+                {contacts[0].adressRus} — показать на карте
+            </a>
             <p className='ContactsPage__text ContactsPage__title'>Вы всегда можете связаться с нами по электронной почте:</p>
             <p className='ContactsPage__text'>{`${contacts[0].email}`}</p>
             <p className='ContactsPage__text ContactsPage__title'>Или любым другим способом:</p>

@@ -205,6 +205,8 @@
 .main-footer-contacts-number {
     margin-top: 10px;
     font-size: 20px;
+    text-decoration: none;
+    color: #1f1f1f;
 }
 
 .footer__contact-item-link {
@@ -242,6 +244,7 @@
 @media screen and (max-width: 500px) {
     .main-footer-contacts-number {
         font-size: 14px;
+        text-align: start;
     }
     .main-footer__title {
         font-size: 16px;
