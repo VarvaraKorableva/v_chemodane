@@ -1,0 +1,22 @@
+.regularPage {
+  text-align: center;
+  background-color: #fff;
+  background-color: #d6d6d6;
+  max-width: 2250px;
+  padding: 32px;
+  min-height: 100vh;
+  font-family: 'Mulish', sans-serif;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+@media screen and (max-width: 1073px) {
+  .regularPage {
+    padding: 0;
+    background-color: #fff;
+  }
+}
