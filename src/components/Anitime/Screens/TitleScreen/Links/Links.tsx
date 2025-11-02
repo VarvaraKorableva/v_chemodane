@@ -39,10 +39,10 @@ const useLinks = (isFixed: boolean = false) => {
         </div>
 
         <div className={styles.secondLine}>
-          <a>{messages.menu.films}</a>
+          {/* <a>{messages.menu.films}</a> */}
           <a href="#anitimeAbout">{messages.menu.aboutFestival}</a>
-          <a>{messages.menu.marketParticipants}</a>
-          <a>{messages.menu.team}</a>
+          {/* <a>{messages.menu.marketParticipants}</a> */}
+          {/* <a>{messages.menu.team}</a> */}
           <a href="#anitimeSponsors">{messages.menu.ourSponsors}</a>
           <a href="#anitimeContacts">{messages.menu.contacts}</a>
         </div>
