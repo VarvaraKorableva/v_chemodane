@@ -21,7 +21,13 @@ const useLinks = (isFixed: boolean = false) => {
       /> */}
       <>
         <div className={styles.firstLine}>
-          <a>{messages.menu.submitYourFilm}</a>
+          <a
+            href="https://filmfreeway.com/anitime"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {messages.menu.submitYourFilm}
+          </a>
           <a
             href="https://www.anumuseum.org.il/ru/events/animation-films/"
             target="_blank"
