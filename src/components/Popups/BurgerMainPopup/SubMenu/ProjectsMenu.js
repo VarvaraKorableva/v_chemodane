@@ -10,6 +10,7 @@ function ProjectsMenu({onClosePopup, closeSubMenu}) {
           <li>
             <p className='burgerMainPopup-subtitle'>ФЕСТИВАЛИ</p>
             <div className='burgerMainPopup-submenu-container'>
+              <Link to='https://anitimefest.com/ru' onClick={onClosePopup} className="burgerMainPopup-submenu-link" target="_blank">ANITIME 2025</Link>
               <Link to='/purim_2025' onClick={onClosePopup} className="burgerMainPopup-submenu-link">ПУРИМ 2025</Link>
               <Link to='/hanukkah_2024' onClick={onClosePopup} className="burgerMainPopup-submenu-link">ТЕЛЬ-АВИВ, ХАНУКА, 2024</Link>
               <Link to='/haifa' onClick={onClosePopup} className="burgerMainPopup-submenu-link">ХАЙФА 2024</Link>
