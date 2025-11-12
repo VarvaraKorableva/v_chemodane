@@ -28,7 +28,7 @@ function OurProjectPopup({isOpen, onClose}) {
                 <li>
                   <p className='ourProjectPopup-subtitle'>ФЕСТИВАЛИ</p>
                   <div className='ourProjectPopup-submenu-container'>
-                    <Link to='https://anitimefest.com/ru' onClick={onClosePopup} className='ourProjectPopup-submenu-link' target="_blank">ANITIME 2025</Link>
+
                     <Link to='/purim_2025' onClick={onClosePopup} className='ourProjectPopup-submenu-link'>ПУРИМ 2025</Link>
                     <Link to='/hanukkah_2024' onClick={onClosePopup} className='ourProjectPopup-submenu-link'>ТЕЛЬ-АВИВ, ХАНУКА, 2024</Link>
                     <Link to='/haifa' onClick={onClosePopup} className='ourProjectPopup-submenu-link'>ХАЙФА 2024</Link>
@@ -43,6 +43,7 @@ function OurProjectPopup({isOpen, onClose}) {
                 <li>
                   <p className='ourProjectPopup-subtitle'>СОБЫТИЯ</p>
                   <div className='ourProjectPopup-submenu-container'>
+                    <Link to='https://anitimefest.com/ru' onClick={onClosePopup} className='ourProjectPopup-submenu-link' target="_blank">ANITIME 2025</Link>
                     <Link to='/mini-festival-family-relic' onClick={onClosePopup} className='burgerMainPopup-submenu-link'>Мини-фестиваль «Семейная реликвия»</Link>
                     <Link to='/family-relic-on-stage' onClick={onClosePopup} className='ourProjectPopup-submenu-link'>Театральная лаборатория «Семейная реликвия»</Link>
                     <Link to='/story-time' onClick={onClosePopup} className='ourProjectPopup-submenu-link'>ВРЕМЯ ИСТОРИЙ, НОЯБРЬ 2024</Link>

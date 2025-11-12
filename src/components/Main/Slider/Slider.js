@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-//import page0 from '../../../images/slider/web.jpg';
+import page0 from '../../../images/slider/antiime.png';
 import page1 from '../../../images/slider/banner_site.jpg';
 import page2 from '../../../images/slider/apply.png';
 import page3 from '../../../images/slider/offer.png';
@@ -7,10 +7,10 @@ import './Slider.css';
 
 function Slider() {
     const images = [
-        { id: 1, src: page1, link: '/photo-stories-time', text: '', trigger: false },
-        //{ id: 2, src: page0, link: '/mini-festival-family-relic', text: '', trigger: false },
-        { id: 3, src: page2, link: 'https://forms.gle/USjZPq4y9WSDvLBy6', text: '', trigger: false },
-        { id: 4, src: page3, link: 'https://forms.gle/N4mSMeM2ZK5Fdw7f9', text: '', trigger: false },
+        { id: 1, src: page0, link: 'https://www.anitimefest.com/ru', text: '', trigger: false, newTab: true },
+        { id: 2, src: page1, link: '/photo-stories-time', text: '', trigger: false },
+        { id: 3, src: page2, link: 'https://forms.gle/USjZPq4y9WSDvLBy6', text: '', trigger: false, newTab: true },
+        { id: 4, src: page3, link: 'https://forms.gle/N4mSMeM2ZK5Fdw7f9', text: '', trigger: false, newTab: true },
     ];
 
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -72,7 +72,11 @@ function Slider() {
             onTouchEnd={handleTouchEnd}>
             <div className="slides" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
                 {images.map((image, index) => (
-                    <a key={image.id} href={image.link} className={`slide ${currentSlide === index ? 'active' : ''}`}>
+                    <a 
+                        key={image.id} href={image.link} 
+                        className={`slide ${currentSlide === index ? 'active' : ''}`}
+                        {...(image.newTab ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                    >
                         <div>
                             <img src={image.src} alt={`Slide ${image.id + 1}`} />
                         </div>
