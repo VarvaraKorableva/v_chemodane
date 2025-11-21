@@ -8,6 +8,32 @@
     margin-top: 104px;
 }
 
+.scienceProgram__lastPic {
+    background-image: url(../../../../images/hanukkah2025/Program/3.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 479px;
+    height: 180px;
+    margin-top: 54px;
+}
+
+.scienceProgram__title__container {
+    max-width: 550px;
+}
+
+.scienceProgram__first__right__pic {
+    background-image: url(../../../../images/hanukkah2025/Program/7.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -90px;
+    right: -100px;
+    width: 197px;
+    height: 122px;
+}
+
 .program_ul {
     padding: 0;
     list-style-type: none;
@@ -45,11 +71,39 @@
     height: 260px;
 }
 
+.scienceProgram__second__right__pic {
+    background-image: url(../../../../images/hanukkah2025/Program/5.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 20px;
+    right: -140px;
+    width: 161px;
+    height: 101px;
+}
+
 @media screen and (max-width: 1227px) {
     .TheatreProgram__second_left_pic {
         width: 141px;
         height: 181px;
         left: -110px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .scienceProgram__first__right__pic {
+        top: -90px;
+        right: 0;
+        width: 161px;
+        height: 100px;
+    }
+
+    .scienceProgram__second__right__pic {
+        width: 111px;
+        height: 70px;
+        right: 150;
+        bottom: -20px;
     }
 }
 
@@ -78,6 +132,17 @@
         height: 60px;
         margin-top: 74px;
     }
+
+    .scienceProgram__lastPic {
+        width: 352px;
+        height: 132px;
+        margin-top: 18px;
+    }
+
+    .scienceProgram__first__right__pic {
+        top: -100px;
+        right: -50px;
+    }
 }
 
 @media screen and (max-width: 665px) {
@@ -103,9 +168,19 @@
         left: 0;
         bottom: -60px;
     }
+
+    .scienceProgram__first__right__pic {
+        width: 108px;
+        height: 67px;
+        top: -70px;
+        right: 20px;
+    }
 }
 
 @media screen and (max-width: 485px) {
+    .scienceProgram__short__title {
+        max-width: 250px;
+    }
     .TheatreProgram__first_right_pic_2 {
         top: 30px;
     }
@@ -114,6 +189,12 @@
         width: 199px;
         height: 34px;
         margin-top: 37px;
+    }
+
+    .scienceProgram__lastPic {
+        width: 196px;
+        height: 74px;
+        margin-top: 0;
     }
 }
 
@@ -126,6 +207,10 @@
 @media screen and (max-width: 339px) {
     .TheatreProgram__first_right_pic_2 {
         display: none;
+    }
+
+    .scienceProgram__first__right__pic {
+        right: -5px;
     }
 }
 
