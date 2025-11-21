@@ -1,0 +1,216 @@
+.mainInfo_center_container_hanukkha2025 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+    max-width: 550px;
+    position: relative;
+}
+
+.hanukkha2025__subtitle {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hanukkha2025__text__margin {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.hanukkha2025__text__center {
+    line-height: 50px;
+}
+
+.hanukkha2025__mainInfo__lastpic {
+    background-image: url(../../../../images/hanukkah2025/MainInfo/3.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 569px;
+    height: 139px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.hanukkha2025__mainInfo__first_left_pic {
+    background-image: url(../../../../images/hanukkah2025/MainInfo/4.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -80px;
+    left: -250px;
+    width: 174px;
+    height: 189px;
+}
+
+.hanukkha2025__mainInfo__second_left_pic {
+    background-image: url(../../../../images/hanukkah2025/MainInfo/1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: calc(189px + 150px); /*hanukkha2025__mainInfo__first_left_pic heigt + margin botton*/ 
+    left: -240px;
+    width: 226px;
+    height: 191px;
+}
+
+.hanukkha2025__mainInfo__ticket_pic {
+    background-image: url(../../../../images/hanukkah2025/MainInfo/ticket.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -80px;
+    right: -250px;
+    width: 176px;
+    height: 142px;
+}
+
+.hanukkha2025__mainInfo__second_right_pic {
+    background-image: url(../../../../images/hanukkah2025/MainInfo/2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: calc(142px + 104px); /*hanukkha2025__mainInfo__first_left_pic heigt + margin botton*/ 
+    right: -350px;
+    width: 250px;
+    height: 170px;
+    transform: rotate(90deg);
+}
+
+@media screen and (max-width: 1125px) {
+
+    .hanukkha2025__mainInfo__lastpic {
+        width: 352px;
+        height: 86px;
+    }
+    
+    .hanukkha2025__mainInfo__first_left_pic {
+        top: -80px;
+        left: -100px;
+        width: 122px;
+        height: 132px;
+    }
+    
+    .hanukkha2025__mainInfo__second_left_pic {
+        top: calc(189px + 150px); /*hanukkha2025__mainInfo__first_left_pic heigt + margin botton*/ 
+        left: -100px;
+        width: 126px;
+        height: 106px;
+    }
+    
+    .hanukkha2025__mainInfo__ticket_pic {
+        top: -80px;
+        right: -250px;
+        width: 138px;
+        height: 111px;
+    }
+    
+    .hanukkha2025__mainInfo__second_right_pic {
+        top: calc(142px + 104px); /*hanukkha2025__mainInfo__first_left_pic heigt + margin botton*/ 
+        right: -130px;
+        width: 150px;
+        height: 126px;
+    }
+}
+
+@media screen and (max-width: 738px) {
+
+    .hanukkha2025__mainInfo__lastpic {
+        width: 200px;
+        height: 49px;
+    }
+    
+    .hanukkha2025__mainInfo__first_left_pic {
+        top: -80px;
+        left: 0px;
+        width: 56px;
+        height: 61px;
+    }
+    
+    .hanukkha2025__mainInfo__ticket_pic {
+        top: -80px;
+        right: -250px;
+        width: 138px;
+        height: 111px;
+    }
+
+    .hanukkha2025__mainInfo__second_left_pic {
+        top: calc(189px + 150px); /*hanukkha2025__mainInfo__first_left_pic heigt + margin botton*/ 
+        left: 0px;
+    }
+}
+
+@media screen and (max-width: 738px) {
+    .mainInfo_center_container_hanukkha2025 {
+        margin-top: 50px;
+        max-width: 500px;
+        width: calc(100% - 40px);
+    }
+
+    .hanukkha2025__subtitle {
+        font-size: 30px;
+    }
+
+    .hanukkha2025__text__margin {
+        margin-bottom: 10px;
+    }
+    
+    .hanukkha2025__text__center {
+        line-height: 40px;
+    }
+
+    .hanukkha2025__mainInfo__first_left_pic {
+        top: -50px;
+    }
+    
+}
+
+@media screen and (max-width: 555px) {
+    .hanukkha2025__mainInfo__second_left_pic {
+        width: 88px;
+        height: 74px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .hanukkha2025__mainInfo__second_left_pic {
+        top: unset;
+        left: -20px;
+        bottom: calc(50px + 45px);
+
+        width: 88px;
+        height: 74px;
+    }
+
+    .hanukkha2025__mainInfo__second_right_pic {
+        width: 69px;
+        height: 46px;
+        top: 130px;
+        right: -40px;
+    }
+}
+
+@media screen and (max-width: 438px) {
+    .hanukkha2025__mainInfo__lastpic {
+        margin-top: 125px;
+        margin-bottom: 0;
+    }
+
+    .hanukkha2025__text__center {
+        line-height: 25px;
+    }
+    
+}
+
+@media screen and (max-width: 330px) {
+    .hanukkha2025__mainInfo__second_right_pic {
+        top: 100px;
+    }
+}

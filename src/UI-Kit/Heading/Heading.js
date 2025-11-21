@@ -8,6 +8,7 @@ export default function Heading({
     baseClassName = 'heading',
     fontVariant = 'default',
     color,
+    
   }) {
 
   const fontVariants = {
@@ -19,6 +20,6 @@ export default function Heading({
     fontFamily: fontVariants[fontVariant],
     ...(color && { color }),
   };
-
+  
   return <Tag className={`${baseClassName} ${className}`} style={style}>{children}</Tag>
 }

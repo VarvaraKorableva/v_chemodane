@@ -28,8 +28,12 @@ import PhotoStoriesTimePage from './pages/PhotoStoriesTimePage/PhotoStoriesTimeP
 import OurTeamPage from './pages/OurTeamPage/OurTeamPage'
 import MarketPatisipantsPage from './pages/MarketPatisipantsPage/MarketPatisipantsPage'
 import ReviewsPage from './pages/ReviewsPage/ReviewsPage'
+
 import Hanukkah2024Page from './pages/Hanukkah2024Page/Hanukkah2024Page'
 import LotteryHanukkah2024Page from './pages/Hanukkah2024Page/LotteryHanukkah2024Page'
+
+import Hanukkah2025Page from './pages/Festivals/Hanukkah/Hanukkah2025Page/Hanukkah2025Page'
+
 import ContactsPage from './pages/ContactsPage/ContactsPage'
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage/PrivacyPolicyPage'
 import RegistrationPage from './pages/RegistrationPage/RegistrationPage'
@@ -228,6 +232,13 @@ function App() {
           element={
             <LotteryHanukkah2024Page handleLotClick={handleLotClick}
             />
+          }>
+        </Route>
+
+        <Route
+          path="/hanukkah_2025"
+          element={
+            <Hanukkah2025Page/>
           }>
         </Route>
 

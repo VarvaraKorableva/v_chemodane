@@ -63,6 +63,32 @@
     color: #fff;
 }
 
+.heading__F47622 {
+    color: #F47622;
+}
+
+.heading__E5070ABD {
+    color: #E5070ABD;
+}
+
+.heading__3B6BB4 {
+    color: #3B6BB4;
+}
+
+.heading__EF7936 {
+    color: #EF7936;
+
+}
+
+.heading__size_hanukkah2025 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;                   
+    font-style: normal;                 
+    font-size: 24px;                    
+    line-height: 50px;  
+}
+
+
 @media screen and (max-width: 850px) {
     .heading { 
         font-size: 24px;
