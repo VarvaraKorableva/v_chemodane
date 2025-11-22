@@ -7,7 +7,7 @@ export default function SpecialEvent() {
     return(
         <Container as="section">
             <Heading className="heading heading__EF7936">Специальное событие фестиваля — спектакль «Семейная реликвия»</Heading>
-            <div className='center_container_hanukkha2025 text' >    
+            <div className='center_container_hanukkha2025 text specialEvent__position'>    
                 <h3 className='uppercase'>Театральная лаборатория Марфы Горвиц</h3>
                 <p>Что такое семейная память? Почему истории, рассказанные когда-то за кухонным столом, переживают поколения и становятся частью нас?</p>
                 <p>«Семейная реликвия» — документальный спектакль по реальным историям родителей и детей. Участники лаборатории исследуют прошлое своих семей, находят забытые письма, фотографии, вещи — и превращают их в живое сценическое действие.</p>
@@ -22,6 +22,9 @@ export default function SpecialEvent() {
                 </ul>
 
                 <p>⚠️ По всей видимости, это будет второй и последний показ спектакля. Если вы хотели увидеть «Семейную реликвию», но не успели в прошлый раз — приходите 18 декабря.</p>
+
+                <div className='specialEvent__first__left__pic'></div>
+                <div className='specialEvent__first__right__pic'></div>
             </div>
         </Container>
     )

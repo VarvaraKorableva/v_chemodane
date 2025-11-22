@@ -1,0 +1,65 @@
+.specialEvent__position {
+    position: relative;
+}
+
+.specialEvent__first__right__pic {
+    background-image: url(../../../../images/hanukkah2025/SpecialEvent/1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -150px;
+    right: 150px;
+    width: 100px;
+    height: 150px;
+}
+
+@media screen and (max-width: 950px) {
+    .specialEvent__first__right__pic {
+        right: -20px;
+    }
+}    
+
+@media screen and (max-width: 890px) {
+    .specialEvent__first__right__pic {
+        right: -70px;
+    }
+}    
+
+@media screen and (max-width: 850px) {
+    .specialEvent__first__right__pic {
+        top: 0;
+        right: -80px;
+    }
+}    
+
+@media screen and (max-width: 700px) {
+    .specialEvent__first__right__pic {
+        top: -200px;
+        right: -50px;
+
+        width: 80px;
+        height: 110px;
+    }
+}   
+
+@media screen and (max-width: 600px) {
+    .specialEvent__first__right__pic {
+        top: -200px;
+        right: 0px;
+    }
+}  
+
+@media screen and (max-width: 390px) {
+    .specialEvent__first__right__pic {
+        width: 70px;
+        height: 90px;
+        top: -220px;
+    }
+} 
+
+@media screen and (max-width: 310px) {
+    .specialEvent__first__right__pic {
+        display: none;
+    }
+} 

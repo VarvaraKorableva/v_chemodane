@@ -18,8 +18,31 @@
     margin-top: 54px;
 }
 
+.literatureProgram__lastPic {
+    background-image: url(../../../../images/hanukkah2025/Program/2.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 241px;
+    height: 155px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
 .scienceProgram__title__container {
     max-width: 550px;
+}
+
+.literatureProgram__first__left__pic {
+    background-image: url(../../../../images/hanukkah2025/Program/6.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -50px;
+    left: -167px;
+    width: 167px;
+    height: 148px;
 }
 
 .scienceProgram__first__right__pic {
@@ -34,6 +57,18 @@
     height: 122px;
 }
 
+.literatureProgram__right__pic {
+    background-image: url(../../../../images/hanukkah2025/Program/4.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -90px;
+    right: -172px;
+    width: 172px;
+    height: 277px;
+}
+
 .program_ul {
     padding: 0;
     list-style-type: none;
@@ -44,6 +79,10 @@
     position: relative;
 }
 .TheatreProgram__first_right_pic_2 {
+    display: none;
+}
+
+.literatureProgram__first__left__pic__hanukkha {
     display: none;
 }
 
@@ -83,11 +122,30 @@
     height: 101px;
 }
 
+@media screen and (max-width: 1200px) {
+    .literatureProgram__first__left__pic {
+        top: -50px;
+        left: -129px;
+        width: 129px;
+        height: 114px;
+    }
+}
+
 @media screen and (max-width: 1227px) {
     .TheatreProgram__second_left_pic {
         width: 141px;
         height: 181px;
         left: -110px;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+
+    .scienceProgram__second__right__pic {
+        width: 111px;
+        height: 70px;
+        right: 0;
+        bottom: -20px;
     }
 }
 
@@ -99,11 +157,11 @@
         height: 100px;
     }
 
-    .scienceProgram__second__right__pic {
-        width: 111px;
-        height: 70px;
-        right: 150;
-        bottom: -20px;
+    .literatureProgram__right__pic {
+        bottom: -70px;
+        right: -50px;
+        width: 104px;
+        height: 167px;
     }
 }
 
@@ -116,7 +174,33 @@
     }
 }
 
+@media screen and (max-width: 905px) {
+    .scienceProgram__second__right__pic {
+        width: 111px;
+        height: 70px;
+        right: -0px;
+        bottom: -60px;
+    }
+
+    .literatureProgram__right__pic {
+        bottom: -150px;
+    }
+}
+
 @media screen and (max-width: 890px) {
+
+    .literatureProgram__right__pic {
+        bottom: -70px;
+        right: -80px;
+    }
+
+    .scienceProgram__second__right__pic {
+        width: 111px;
+        height: 70px;
+        right: -120px;
+        bottom: 0px;
+    }
+
     .TheatreProgram__first_right_pic {
         right: -100px;
     }
@@ -133,6 +217,12 @@
         margin-top: 74px;
     }
 
+    .literatureProgram__lastPic {
+        width: 187px;
+        height: 120px;
+        margin-bottom: 50px;
+    }
+
     .scienceProgram__lastPic {
         width: 352px;
         height: 132px;
@@ -142,6 +232,26 @@
     .scienceProgram__first__right__pic {
         top: -100px;
         right: -50px;
+    }
+}
+
+@media screen and (max-width: 735px) {
+    .literatureProgram__first__left__pic {
+        top: -50px;
+        left: unset;
+        right: -70px;
+        width: 129px;
+        height: 114px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .scienceProgram__second__right__pic {
+        width: 65px;
+        height: 41px;
+        right: -20px;
+        bottom: unset;
+        top: -20px;
     }
 }
 
@@ -177,7 +287,30 @@
     }
 }
 
+@media screen and (max-width: 585px) {
+    .literatureProgram__first__left__pic {
+        top: 0px;
+        left: unset;
+        right: 0px;
+        width: 80px;
+        height: 71px;
+    }
+
+    .literatureProgram__right__pic {
+        width: 52px;
+        height: 84px;
+        right: 0;
+        bottom: -130px;
+    }
+}
+
 @media screen and (max-width: 485px) {
+
+    .literatureProgram__first__left__pic {
+        top: 155px;
+        right: -20px;
+    }
+
     .scienceProgram__short__title {
         max-width: 250px;
     }
@@ -191,10 +324,48 @@
         margin-top: 37px;
     }
 
+    .literatureProgram__lastPic {
+        width: 131px;
+        height: 84px;
+    }
+
     .scienceProgram__lastPic {
         width: 196px;
         height: 74px;
         margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .literatureProgram__first__left__pic {
+        width: 60px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .scienceProgram__second__right__pic {
+        right: -20px;
+        bottom: -20px;
+        top: unset;
+    }
+
+    .literatureProgram__first__left__pic {
+        display: none;
+    }
+
+    .literatureProgram__first__left__pic__hanukkha {
+        display: flex;
+
+        background-image: url(../../../../images/hanukkah2025/Program/6.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 80px;
+        height: 71px;
     }
 }
 
