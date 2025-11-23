@@ -5,16 +5,7 @@ import ScienceProgram from '../../../../components/Festivals/Hanukkah2025/Progra
 import LiteratureProgram from '../../../../components/Festivals/Hanukkah2025/Program/LiteratureProgram'
 import LiveMusic from '../../../../components/Festivals/Hanukkah2025/LiveMusic/LiveMusic'
 import SpecialEvent from '../../../../components/Festivals/Hanukkah2025/SpecialEvent/SpecialEvent'
-/*import TextSection from '../../components/PhotoStoriesTime/TextSection/TextSection'
-import ForWhom from '../../components/PhotoStoriesTime/ForWhom/ForWhom'
-import ProgramFlow from '../../components/PhotoStoriesTime/ProgramFlow/ProgramFlow'
-import ProgramBenefits from '../../components/PhotoStoriesTime/ProgramBenefits/ProgramBenefits'
-import HowToParticipate from '../../components/PhotoStoriesTime/HowToParticipate/HowToParticipate'
-import ProgramCurators from '../../components/PhotoStoriesTime/ProgramCurators/ProgramCurators'
-import ProgramSchedule from '../../components/PhotoStoriesTime/ProgramSchedule/ProgramSchedule'
-import SeparatorPage from '../../components/SeparatorPage/SeparatorPage'*/
-
-import OurPartners from '../../../../components/OurPartners/OurPartners'
+import TicketsStickyButton from '../../../../components/TicketsStickyButton/TicketsStickyButton'
 
 import any from '../../../../images/logo/anublack.png'
 import nadav from '../../../../images/logo/Nadav.png'
@@ -22,7 +13,7 @@ import ujFederation from '../../../../images/logo/ujFederation.png'
 import yadvashem from '../../../../images/logo/yadvashem.png'
 
 function Hanukkah2025Page() {
-
+    const link = 'https://eventbuzz.co.il/producer/v2/Vchemodane'
     const colors = {
         orangeline: 'orangeline',
         yellowline: 'yellowline',
@@ -80,23 +71,7 @@ function Hanukkah2025Page() {
             <LiteratureProgram></LiteratureProgram>
             <LiveMusic></LiveMusic>
             <SpecialEvent></SpecialEvent>
-            {/*<SeparatorPage color={colors.blueline}></SeparatorPage>
-            <TextSection></TextSection>
-            <SeparatorPage color={colors.redline}></SeparatorPage>
-            <ForWhom></ForWhom>
-            <SeparatorPage color={colors.yellowline}></SeparatorPage>
-            <ProgramFlow></ProgramFlow>
-            <SeparatorPage color={colors.orangeline}></SeparatorPage>
-            <ProgramBenefits></ProgramBenefits>
-            <SeparatorPage color={colors.blueline}></SeparatorPage>
-            <HowToParticipate></HowToParticipate>
-            <SeparatorPage color={colors.blueBigline}></SeparatorPage>
-            <ProgramCurators></ProgramCurators>
-            <SeparatorPage color={colors.blueLineMiddle}></SeparatorPage>
-            <ProgramSchedule></ProgramSchedule>
-            <SeparatorPage color={colors.threeLinesRedline} variant="tall"></SeparatorPage>
-            <OurPartners dataArr={partnersData}></OurPartners>
-            <SeparatorPage color={colors.threeLines} variant="tall"></SeparatorPage>*/}
+            <TicketsStickyButton link={link}/>
         </>
     )
 } 

@@ -2,12 +2,11 @@ import MiniFestivalFamilyRelicBanner from '../../components/Festivals/MiniFestiv
 import Info from '../../components/Festivals/MiniFestivalFamilyRelic/Info/Info'
 import EventInfo from '../../components/Festivals/MiniFestivalFamilyRelic/EventInfo/EventInfo'
 import Schedule from '../../components/Festivals/MiniFestivalFamilyRelic/Schedule/Schedule'
-import TicketsStickyButton from '../../components/TicketsStickyButton/TicketsStickyButton'
 import HelpStickyButton from '../../components/TicketsStickyButton/HelpStickyButton'
 import SeparatorPage from '../../components/SeparatorPage/SeparatorPage'
 
 function MiniFestivalFamilyRelic({handleCardClick}) {
-    const link = 'https://www.anumuseum.org.il/ru/events/the-suitcase/'
+    
     const colors = {
         pink: 'pink',
         purple: 'purple',
@@ -25,7 +24,6 @@ function MiniFestivalFamilyRelic({handleCardClick}) {
             <Schedule handleCardClick={handleCardClick}/>
             <SeparatorPage color={colors.another}></SeparatorPage>
             <HelpStickyButton/>
-            <TicketsStickyButton link={link}/>
         </>
     )
 }

@@ -13,7 +13,10 @@ function NavContainer() {
                 </li>
                 <li className="hanukaTelAviv2024Banner__li">
                     <a className="hanukaTelAviv2024Banner__link" 
-                    href="#PhotoStoriesTime__ProgramSchedule">
+                        href="https://eventbuzz.co.il/producer/v2/Vchemodane" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         Билеты
                     </a>
                 </li>
@@ -23,3 +26,5 @@ function NavContainer() {
 }
 
 export default NavContainer
+
+//const link = 'https://eventbuzz.co.il/producer/v2/Vchemodane'
