@@ -1,4 +1,4 @@
-//import PhotoStoriesTimeBannerSection from '../../components/PhotoStoriesTime/PhotoStoriesTimeBannerSection/PhotoStoriesTimeBannerSection'
+import Hanukkah2025Banner from '../../../../components/Festivals/Hanukkah2025/Hanukkah2025Banner/Hanukkah2025Banner'
 import MainInfo from '../../../../components/Festivals/Hanukkah2025/MainInfo/MainInfo'
 import TheatreProgram from '../../../../components/Festivals/Hanukkah2025/Program/TheatreProgram'
 import ScienceProgram from '../../../../components/Festivals/Hanukkah2025/Program/ScienceProgram'
@@ -73,7 +73,7 @@ function Hanukkah2025Page() {
 
     return (
         <>
-            {/*<PhotoStoriesTimeBannerSection></PhotoStoriesTimeBannerSection>*/}
+            <Hanukkah2025Banner/>
             <MainInfo></MainInfo>
             <TheatreProgram></TheatreProgram>
             <ScienceProgram></ScienceProgram>

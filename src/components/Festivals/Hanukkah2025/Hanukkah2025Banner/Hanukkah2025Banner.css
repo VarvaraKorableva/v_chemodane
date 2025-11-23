@@ -1,0 +1,352 @@
+.Hanukkah2025Banner__banner__section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Hanukkah2025Banner__banner__pic-container {
+    width: 100%;
+    height: fit-content;
+    min-height: 451px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../../../../images/hanukkah2025/Banner/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.Hanukkah2025Banner__banner__Title {
+    background-image: url(../../../../images/hanukkah2025/Banner/1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    width: 471px;
+    height: 368px;
+}
+/*up date and logo*/
+.Hanukkah2025Banner__banner__pics__container {
+    display: flex;
+    justify-content: space-between;
+    width: calc(146px + 204px + 283px);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.Hanukkah2025Banner__banner__pic_left {
+    background-image: url(../../../../images/hanukkah2025/Banner/4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: center;
+    width: 204px;
+    height: 101px;
+    margin-top: 35px;
+}
+
+.Hanukkah2025Banner__banner__pic_right {
+    background-image: url(../../../../images/hanukkah2025/Banner/5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: center;
+    width: 283px;
+    height: 159px;
+    margin-top: 35px;
+}
+
+.Hanukkah2025Banner__banner__pic_first__left {
+    background-image: url(../../../../images/hanukkah2025/Banner/7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: center;
+    width: 185px;
+    height: 112px;
+    position: absolute;
+    top: 70px; 
+    left: 25%;
+}
+
+.Hanukkah2025Banner__banner__pic_second__left {
+    background-image: url(../../../../images/hanukkah2025/Banner/2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: center;
+    position: absolute;
+    bottom: 41px;
+    left: 30%;
+    width: 155px;
+    height: 131px;
+}
+
+.Hanukkah2025Banner__banner__pic_first__right {
+    background-image: url(../../../../images/hanukkah2025/Banner/2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: center;
+    width: 117px;
+    height: 98px;
+    position: absolute;
+    top: 70px; 
+    right: 25%;
+}
+.Hanukkah2025Banner__banner__pic_second__right {
+    background-image: url(../../../../images/hanukkah2025/Banner/3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: center;
+    position: absolute;
+    bottom: 41px;
+    right: 30%;
+    width: 174px;
+    height: 148px;
+}
+
+@media screen and (max-width: 1950px) {
+    .Hanukkah2025Banner__banner__pic_first__left {
+        left: 20%;
+    }
+    .Hanukkah2025Banner__banner__pic_second__left {
+        left: 25%;
+    }
+
+    .Hanukkah2025Banner__banner__pic_first__right {
+        right: 20%;
+    }
+
+    .Hanukkah2025Banner__banner__pic_second__right {
+        right: 20%;
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    .Hanukkah2025Banner__banner__pic_first__left {
+        left: 15%;
+    }
+    .Hanukkah2025Banner__banner__pic_second__left {
+        left: 20%;
+    }
+
+    .Hanukkah2025Banner__banner__pic_first__right {
+        right: 15%;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .Hanukkah2025Banner__banner__pic_first__left {
+        left: 10%;
+    }
+    .Hanukkah2025Banner__banner__pic_second__left {
+        left: 15%;
+    }
+
+    .Hanukkah2025Banner__banner__pic_first__right {
+        right: 10%;
+    }
+
+    .Hanukkah2025Banner__banner__pic_second__right {
+        right: 15%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .Hanukkah2025Banner__banner__pic_first__left {
+        left: 5%;
+    }
+    .Hanukkah2025Banner__banner__pic_second__left {
+        left: 10%;
+    }
+
+    .Hanukkah2025Banner__banner__pic_first__right {
+        right: 5%;
+    }
+
+    .Hanukkah2025Banner__banner__pic_second__right {
+        right: 10%;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .Hanukkah2025Banner__banner__pic_first__left {
+        left: 2%;
+    }
+    .Hanukkah2025Banner__banner__pic_second__left {
+        left: 5%;
+    }
+
+    .Hanukkah2025Banner__banner__pic_first__right {
+        right: 2%;
+    }
+
+    .Hanukkah2025Banner__banner__pic_second__right {
+        right: 5%;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .Hanukkah2025Banner__banner__pic_first__left {
+        left: 0%;
+        top: 90px;
+    }
+    .Hanukkah2025Banner__banner__pic_second__left {
+        left: 3%;
+    }
+
+    .Hanukkah2025Banner__banner__pic_second__right {
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 883px) {
+    .Hanukkah2025Banner__banner__pic-container {
+        height: 451px;
+        align-items: center;
+    }
+
+    .Hanukkah2025Banner__banner__Title {
+        width: 404px;
+        height: 316px;
+    }
+
+    .Hanukkah2025Banner__banner__pics__container {
+        width: calc(85px + 204px + 283px);
+    }
+
+    .Hanukkah2025Banner__banner__pic_left {
+        margin-top: 19px;
+    }
+
+    .Hanukkah2025Banner__banner__pic_right {
+        margin-top: 19px;
+    }
+
+    .Hanukkah2025Banner__banner__pic_first__left {
+        width: 119px;
+        height: 72px;
+    }
+
+    .Hanukkah2025Banner__banner__pic_second__left {
+        width: 110px;
+        height: 93px;
+    }
+
+    .Hanukkah2025Banner__banner__pic_first__right {
+        display: none;
+    }
+
+    .Hanukkah2025Banner__banner__pic_second__right {
+        width: 136px;
+        height: 116px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .Hanukkah2025Banner__banner__pic_first__left {
+       top: 100px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .Hanukkah2025Banner__banner__pic_first__left {
+        width: 100px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Hanukkah2025Banner__banner__pic-container {
+        min-height: 311px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .Hanukkah2025Banner__banner__Title {
+        width: 300px;
+        height: 250px;
+    }
+
+    .Hanukkah2025Banner__banner__pic_left {
+        width: 180px;
+        height: 101px;
+    }
+    
+    .Hanukkah2025Banner__banner__pic_right {
+        width: 250px;
+        height: 130px;
+    }
+
+    .Hanukkah2025Banner__banner__pics__container {
+        width: calc(45px + 180px + 250px);
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .Hanukkah2025Banner__banner__Title {
+        width: 260px;
+        height: 203px;
+    }
+
+    .Hanukkah2025Banner__banner__pic_left {
+        margin-top: 28px;
+        width: 111px;
+        height: 55px;
+    }
+
+    .Hanukkah2025Banner__banner__pic_right {
+        margin-top: 28px;
+        width: 123px;
+        height: 69px;
+    }
+
+    .Hanukkah2025Banner__banner__pics__container {
+        width: calc(100px + 111px + 123px);
+    }
+
+    .Hanukkah2025Banner__banner__pic-container {
+        max-height: 311px;
+    }
+
+    .Hanukkah2025Banner__banner__pic_first__left {
+        width: 60px;
+        height: 36px;
+        top: 70px;
+    }
+
+    .Hanukkah2025Banner__banner__pic_second__left {
+        width: 78px;
+        height: 66px;
+        bottom: 17px;
+        left: 0;
+    }
+
+    .Hanukkah2025Banner__banner__pic_second__right {
+        width: 57px;
+        height: 49px;
+        bottom: 150px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .Hanukkah2025Banner__banner__pics__container {
+        width: calc(50px + 111px + 123px);
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .Hanukkah2025Banner__banner__pic_second__right {
+        bottom: 30px;
+    }
+}
