@@ -7,23 +7,15 @@ import LiveMusic from '../../../../components/Festivals/Hanukkah2025/LiveMusic/L
 import SpecialEvent from '../../../../components/Festivals/Hanukkah2025/SpecialEvent/SpecialEvent'
 import TicketsStickyButton from '../../../../components/TicketsStickyButton/TicketsStickyButton'
 
+
 import any from '../../../../images/logo/anublack.png'
 import nadav from '../../../../images/logo/Nadav.png'
 import ujFederation from '../../../../images/logo/ujFederation.png'
 import yadvashem from '../../../../images/logo/yadvashem.png'
 
+
 function Hanukkah2025Page() {
     const link = 'https://eventbuzz.co.il/producer/v2/Vchemodane'
-    const colors = {
-        orangeline: 'orangeline',
-        yellowline: 'yellowline',
-        redline: 'redline',
-        blueline: 'blueline',
-        blueBigline: 'blue_bigline',
-        blueLineMiddle: 'blueline_middle',
-        threeLines: 'three_lines',
-        threeLinesRedline: 'three_lines_redline'
-    }
 
     const partnersData = 
     [
@@ -60,6 +52,8 @@ function Hanukkah2025Page() {
             description: '',
             id: 4,
         },
+
+
     ]
 
     return (
