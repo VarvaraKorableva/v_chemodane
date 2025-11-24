@@ -28,11 +28,7 @@ export default function ScienceProgram() {
 
                         <div className='scienceProgram__second__right__pic'></div>
                     </li>
-
-                    <li>
-                        <h3 className='uppercase scienceProgram__title__container'>Интерактивная лекция о молекулах от Якова Журинского</h3>
-                        <p>Простым и живым языком о том, из чего устроен наш мир.</p>
-                    </li>
+                    
                 </ul>
 
                 <div className='scienceProgram__lastPic'></div>
