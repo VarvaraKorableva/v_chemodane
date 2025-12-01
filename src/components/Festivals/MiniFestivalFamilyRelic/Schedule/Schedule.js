@@ -3,7 +3,7 @@ import Heading from '../../../../UI-Kit/Heading/HeadingClean'
 import './Schedule.css'
 import Container from '../../../../UI-Kit/Container/Container'
 
-function Schedule({schedulePdf, schedulePng, schedulePngSecond = null}) {
+function Schedule({schedulePdf, schedulePng, schedulePngSecond = null, idName}) {
     const [width, setWidth] = useState(window.innerWidth);
 
     const handleResize = () => {
@@ -18,7 +18,7 @@ function Schedule({schedulePdf, schedulePng, schedulePngSecond = null}) {
       }, []);
 
     return(
-        <Container as="section" id='schedule_MiniFestivalFamilyRelic'>
+        <Container as="section" id={idName}>
 
             <div className='schedule__title-btn__container'>
                 <Heading>Расписание</Heading>

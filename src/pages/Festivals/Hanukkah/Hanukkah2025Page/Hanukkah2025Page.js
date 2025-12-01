@@ -101,6 +101,8 @@ function Hanukkah2025Page() {
         }
     ]
 
+    const idName = 'schedule_Hanukkah2025'
+
     return (
         <>
             <Hanukkah2025Banner/>
@@ -111,7 +113,7 @@ function Hanukkah2025Page() {
             <LiveMusic></LiveMusic>
             <SpecialEvent></SpecialEvent>
             <SeparatorPage color={colors.birusacoral}></SeparatorPage>
-            <Schedule schedulePdf={schedulePdf} schedulePng={schedulePng} schedulePngSecond={schedulePngSecond}/>
+            <Schedule schedulePdf={schedulePdf} schedulePng={schedulePng} schedulePngSecond={schedulePngSecond} idName={idName}/>
             <SeparatorPage color={colors.coralyellow}></SeparatorPage>
             <OurPartners dataArr={partnersData}/>
             <SeparatorPage color={colors.blueorangedarkblueyellow}></SeparatorPage>

@@ -17,6 +17,9 @@ function MiniFestivalFamilyRelic({handleCardClick}) {
         blue: 'blue',
         another: 'another'
     }
+
+    const idName = 'schedule_MiniFestivalFamilyRelic'
+
     return (
         <>
             <MiniFestivalFamilyRelicBanner/>
@@ -24,7 +27,7 @@ function MiniFestivalFamilyRelic({handleCardClick}) {
             <SeparatorPage color={colors.pink}></SeparatorPage>
             <Info/>
             <SeparatorPage color={colors.yellow}></SeparatorPage>
-            <Schedule schedulePdf={schedulePdf} schedulePng={schedulePng}/>
+            <Schedule schedulePdf={schedulePdf} schedulePng={schedulePng} idName={idName}/>
             <SeparatorPage color={colors.another}></SeparatorPage>
             <HelpStickyButton/>
         </>
