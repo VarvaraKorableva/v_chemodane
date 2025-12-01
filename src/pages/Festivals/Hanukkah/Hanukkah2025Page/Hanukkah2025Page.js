@@ -6,16 +6,32 @@ import LiteratureProgram from '../../../../components/Festivals/Hanukkah2025/Pro
 import LiveMusic from '../../../../components/Festivals/Hanukkah2025/LiveMusic/LiveMusic'
 import SpecialEvent from '../../../../components/Festivals/Hanukkah2025/SpecialEvent/SpecialEvent'
 import TicketsStickyButton from '../../../../components/TicketsStickyButton/TicketsStickyButton'
+import Schedule from '../../../../components/Festivals/MiniFestivalFamilyRelic/Schedule/Schedule'
+import SeparatorPage from '../../../../components/SeparatorPage/SeparatorPage'
+import OurPartners from '../../../../components/OurPartners/OurPartners'
 
+import schedulePdf from '../../../../images/hanukkah2025/Schedule/sc.pdf'
+import schedulePng from '../../../../images/hanukkah2025/Schedule/sc-1.png'
+import schedulePngSecond from '../../../../images/hanukkah2025/Schedule/sc-2.png'
 
 import any from '../../../../images/logo/anublack.png'
 import nadav from '../../../../images/logo/Nadav.png'
+import ulpanPolitica from '../../../../images/logo/ulpanPolitica.png' ////////link
 import ujFederation from '../../../../images/logo/ujFederation.png'
-import yadvashem from '../../../../images/logo/yadvashem.png'
-
+import latte from '../../../../images/logo/latte.png'
+import ole from '../../../../images/logo/ole.png'
+import haifaruco from '../../../../images/logo/haifaruco.png'
+import haifaafisha from '../../../../images/logo/haifaafisha.png'
 
 function Hanukkah2025Page() {
     const link = 'https://eventbuzz.co.il/producer/v2/Vchemodane'
+
+    const colors = {
+        blueorangedarkblueyellow: 'blueorangedarkblueyellow',
+        birusacoral: 'birusacoral',
+        coralyellow: 'coralyellow',
+        yellowblue: 'yellowblue'
+    }
 
     const partnersData = 
     [
@@ -36,24 +52,53 @@ function Hanukkah2025Page() {
             id: 2,
         },
         {
-            name: 'Яд Вашем',
-            logo: yadvashem,
-            alt: 'logo Яд Вашем',
-            link: 'https://www.yadvashem.org/ru/',
+            name: 'ulpanPolitica',
+            logo: ulpanPolitica,
+            alt: 'logo ulpanPolitica',
+            link: 'https://www.ulpanPolitica.org/ru/',
             description: '',
             id: 3,
         },
-
+        {
+            name: 'ole',
+            logo: ole,
+            alt: 'logo ole',
+            link: 'https://www.ole.org/ru/',
+            description: '',
+            id: 4,
+        },
+        {
+            name: 'haifaruco',
+            logo: haifaruco,
+            alt: 'logo haifaruco',
+            link: 'https://www.haifaruco.org/ru/',
+            description: '',
+            id: 5,
+        },
         {
             name: 'UJAFederation',
             logo: ujFederation,
             alt: 'logo UJAFederation',
             link: '',
             description: '',
-            id: 4,
+            id: 6,
         },
-
-
+        {
+            name: 'haifaafisha',
+            logo: haifaafisha,
+            alt: 'logo haifaafisha',
+            link: 'https://www.haifaafisha.org/ru/',
+            description: '',
+            id: 7,
+        },
+        {
+            name: 'latte',
+            logo: latte,
+            alt: 'logo latte',
+            link: 'https://www.latte.org/ru/',
+            description: '',
+            id: 8,
+        }
     ]
 
     return (
@@ -65,6 +110,11 @@ function Hanukkah2025Page() {
             <LiteratureProgram></LiteratureProgram>
             <LiveMusic></LiveMusic>
             <SpecialEvent></SpecialEvent>
+            <SeparatorPage color={colors.birusacoral}></SeparatorPage>
+            <Schedule schedulePdf={schedulePdf} schedulePng={schedulePng} schedulePngSecond={schedulePngSecond}/>
+            <SeparatorPage color={colors.coralyellow}></SeparatorPage>
+            <OurPartners dataArr={partnersData}/>
+            <SeparatorPage color={colors.blueorangedarkblueyellow}></SeparatorPage>
             <TicketsStickyButton link={link}/>
         </>
     )

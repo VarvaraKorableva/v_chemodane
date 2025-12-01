@@ -5,6 +5,9 @@ import Schedule from '../../components/Festivals/MiniFestivalFamilyRelic/Schedul
 import HelpStickyButton from '../../components/TicketsStickyButton/HelpStickyButton'
 import SeparatorPage from '../../components/SeparatorPage/SeparatorPage'
 
+import schedulePdf from '../../images/Scheduleminifestival.pdf'
+import schedulePng from '../../images/minifestival.jpg'
+
 function MiniFestivalFamilyRelic({handleCardClick}) {
     
     const colors = {
@@ -21,7 +24,7 @@ function MiniFestivalFamilyRelic({handleCardClick}) {
             <SeparatorPage color={colors.pink}></SeparatorPage>
             <Info/>
             <SeparatorPage color={colors.yellow}></SeparatorPage>
-            <Schedule handleCardClick={handleCardClick}/>
+            <Schedule schedulePdf={schedulePdf} schedulePng={schedulePng}/>
             <SeparatorPage color={colors.another}></SeparatorPage>
             <HelpStickyButton/>
         </>
