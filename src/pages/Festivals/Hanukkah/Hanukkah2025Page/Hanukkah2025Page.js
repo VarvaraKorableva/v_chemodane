@@ -63,7 +63,7 @@ function Hanukkah2025Page() {
             name: 'ole',
             logo: ole,
             alt: 'logo ole',
-            link: 'https://www.ole.org/ru/',
+            link: 'https://olimhaifa.co.il/',
             description: '',
             id: 4,
         },

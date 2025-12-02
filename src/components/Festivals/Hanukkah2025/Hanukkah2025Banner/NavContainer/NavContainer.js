@@ -26,5 +26,3 @@ function NavContainer() {
 }
 
 export default NavContainer
-
-//const link = 'https://eventbuzz.co.il/producer/v2/Vchemodane'

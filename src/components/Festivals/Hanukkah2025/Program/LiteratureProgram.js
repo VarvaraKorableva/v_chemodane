@@ -12,7 +12,7 @@ export default function LiteratureProgram() {
                 <div className='literatureProgram__first__left__pic__hanukkha'></div>
                 <ul className='text program_ul'>
                     <li>
-                        <h3 className='uppercase'>Презентация новой книги Марии Парр</h3>
+                        <h3 className='uppercase'>Презентация новой книги Марии Парр  <span className='no-wrap'>«Оскар и Я»</span></h3>
                         <p>
                         Встреча с известной переводчицей Ольгой Дробот — разговор о тексте, переводе и историях,
                         которые стоят между строк.
@@ -42,7 +42,7 @@ export default function LiteratureProgram() {
                         <h3 className='uppercase'>Книжный маркет</h3>
                         <p>
                         Энциклопедии, комиксы, книги о науке и природе — от независимых магазинов Бабель Хайфа,
-                        AKAK.STORE, Исрадон, детского магазина Маша и три медведя, издательства Август и других
+                        AKAK.STORE, Исрадон, детского магазина «Маша и три медведя», издательства «Август» и других
                         участников. А также арт-маркет: иллюстрации, открытки, авторские работы и подарки к Хануке.
                         </p>
 
