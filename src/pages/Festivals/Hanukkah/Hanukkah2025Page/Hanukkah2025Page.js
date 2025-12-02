@@ -11,8 +11,8 @@ import SeparatorPage from '../../../../components/SeparatorPage/SeparatorPage'
 import OurPartners from '../../../../components/OurPartners/OurPartners'
 
 import schedulePdf from '../../../../images/hanukkah2025/Schedule/sc.pdf'
-import schedulePng from '../../../../images/hanukkah2025/Schedule/sc-1.png'
-import schedulePngSecond from '../../../../images/hanukkah2025/Schedule/sc-2.png'
+import schedulePng from '../../../../images/hanukkah2025/Schedule/sc17.jpg'
+import schedulePngSecond from '../../../../images/hanukkah2025/Schedule/sc18.jpg'
 
 import any from '../../../../images/logo/anublack.png'
 import nadav from '../../../../images/logo/Nadav.png'
