@@ -29,6 +29,7 @@ function OurProjectPopup({isOpen, onClose}) {
                   <p className='ourProjectPopup-subtitle'>ФЕСТИВАЛИ</p>
                   <div className='ourProjectPopup-submenu-container'>
 
+                    <Link to='/hanukkah_2025' onClick={onClosePopup} className="ourProjectPopup-submenu-link">ХАЙФА, ХАНУКА, 2025</Link>
                     <Link to='/purim_2025' onClick={onClosePopup} className='ourProjectPopup-submenu-link'>ПУРИМ 2025</Link>
                     <Link to='/hanukkah_2024' onClick={onClosePopup} className='ourProjectPopup-submenu-link'>ТЕЛЬ-АВИВ, ХАНУКА, 2024</Link>
                     <Link to='/haifa' onClick={onClosePopup} className='ourProjectPopup-submenu-link'>ХАЙФА 2024</Link>
