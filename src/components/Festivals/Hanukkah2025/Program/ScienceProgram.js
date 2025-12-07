@@ -12,10 +12,9 @@ export default function ScienceProgram() {
             <div className='center_container_hanukkha2025'>
                 <ul className='text program_ul'>
                     <li>
-                        <h3 className='uppercase scienceProgram__title__container'>Биологические мастер-классы от команды «Лаба в музее»</h3>
+                        <h3 className='uppercase scienceProgram__title__container'>Мастер-классы  детективно-биологической лаборатории</h3>
                         <p>
-                        Занятия для разных возрастов — вас ждут запутанные детективные истории и научные эксперименты,
-                        которые хочется повторить дома.
+                        Вместе с двумя профессиональными биологами: - Машей Яриной и Лизой Штофф, мы будем проводить химический анализ, находить ключи к тайне и решать загадки.
                         </p>
 
                         <div className='scienceProgram__first__right__pic'></div>
