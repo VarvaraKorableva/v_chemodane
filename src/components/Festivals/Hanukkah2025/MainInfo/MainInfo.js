@@ -16,8 +16,11 @@ export default function MainInfo() {
                 <p className='hanukkha2025__text__margin'>Научный фестиваль «В чемодане» —</p>
                 <h2 className='uppercase hanukkha2025__subtitle'>НАУКА ХАНУКА</h2>
 
-
-                <p>Мерказ Хадарим, ул. Кирьят Сефер, 25, Хайфа</p>
+                <a href="https://maps.app.goo.gl/NRgpUijaWDHdrTUV8"
+                    target="_blank" rel="noopener noreferrer">
+                    📌 Мерказ Хадарим, ул. Кирьят Сефер, 25, Хайфа
+                </a>
+                <a href=''></a>
                 <p className='hanukkha2025__text__margin'>17 декабря — 14:00–20:00</p>
                 <p className='hanukkha2025__text__margin'>18 декабря — 12:00–20:00</p>
 
