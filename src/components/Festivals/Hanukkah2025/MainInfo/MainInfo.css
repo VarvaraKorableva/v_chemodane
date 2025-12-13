@@ -53,7 +53,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: calc(189px + 150px); /*hanukkha2025__mainInfo__first_left_pic heigt + margin botton*/ 
+    top: calc(189px + 150px);
     left: -240px;
     width: 226px;
     height: 191px;
@@ -132,6 +132,12 @@
     .hanukkha2025__mainInfo__ticket_pic {
         display: none;
     }
+
+    .hanukkha2025__mainInfo__second_left_pic {
+        /*top: calc(189px + 150px); hanukkha2025__mainInfo__first_left_pic heigt + margin botton*/ 
+        bottom: -100px;
+        left: -180px;
+    }
 }
 
 @media screen and (max-width: 738px) {
@@ -146,11 +152,6 @@
         left: 0px;
         width: 56px;
         height: 61px;
-    }
-
-    .hanukkha2025__mainInfo__second_left_pic {
-        top: calc(189px + 150px); /*hanukkha2025__mainInfo__first_left_pic heigt + margin botton*/ 
-        left: 0px;
     }
 }
 
