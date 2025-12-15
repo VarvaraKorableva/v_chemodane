@@ -22,8 +22,9 @@ import latte from '../../../../images/logo/latte.png'
 import ole from '../../../../images/logo/ole.png'
 import haifaruco from '../../../../images/logo/haifaruco.png'
 import haifaafisha from '../../../../images/logo/haifaafisha.png'
+import Participants from '../../../../components/Participants/Participants'
 
-function Hanukkah2025Page() {
+function Hanukkah2025Page({addCard, limit}) {
     const link = 'https://eventbuzz.co.il/producer/v2/Vchemodane'
 
     const colors = {
@@ -114,6 +115,8 @@ function Hanukkah2025Page() {
             <SpecialEvent></SpecialEvent>
             <SeparatorPage color={colors.birusacoral}></SeparatorPage>
             <Schedule schedulePdf={schedulePdf} schedulePng={schedulePng} schedulePngSecond={schedulePngSecond} idName={idName}/>
+            <SeparatorPage color={colors.yellowblue}></SeparatorPage>
+            <Participants addCard={addCard} limit={limit}></Participants>
             <SeparatorPage color={colors.coralyellow}></SeparatorPage>
             <OurPartners dataArr={partnersData}/>
             <SeparatorPage color={colors.blueorangedarkblueyellow}></SeparatorPage>

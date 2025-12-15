@@ -238,7 +238,7 @@ function App() {
         <Route
           path="/hanukkah_2025"
           element={
-            <Hanukkah2025Page/>
+            <Hanukkah2025Page addCard={addCard} limit={limit}/>
           }>
         </Route>
 
