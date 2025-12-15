@@ -1,6 +1,7 @@
 import participantsData from '../../data/participantsDataHaifa'
 import hanukkahParticipantsData from '../../data/hanukkah/hanukkahParticipantsData'
 import purim2025Data from '../../data/purim/purim2025marketparticipants.js'
+import hanukkah2025Data from '../../data/hanukkah/hanukkah2025Data'
 import Participant from './Participant'
 import './Participants.css'
 import Heading from '../../UI-Kit/Heading/HeadingClean'
@@ -15,6 +16,8 @@ function Participants({addCard, limit}) {
     data = hanukkahParticipantsData;
   } else if (location.pathname.includes("/purim_2025")) {
     data = purim2025Data;
+  } else if (location.pathname.includes("/hanukkah_2025")) {
+    data = hanukkah2025Data;
   }
 
     return(
