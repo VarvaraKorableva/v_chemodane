@@ -30,15 +30,15 @@ function OurProjectPopup({isOpen, onClose}) {
                   <div className='ourProjectPopup-submenu-container'>
 
                     <Link to='/hanukkah_2025' onClick={onClosePopup} className="ourProjectPopup-submenu-link">ХАЙФА, ХАНУКА, 2025</Link>
-                    <Link to='/purim_2025' onClick={onClosePopup} className='ourProjectPopup-submenu-link'>ПУРИМ 2025</Link>
+                    <Link to='/purim_2025' onClick={onClosePopup} className='ourProjectPopup-submenu-link'>ТЕЛЬ-АВИВ, ПУРИМ, 2025</Link>
                     <Link to='/hanukkah_2024' onClick={onClosePopup} className='ourProjectPopup-submenu-link'>ТЕЛЬ-АВИВ, ХАНУКА, 2024</Link>
-                    <Link to='/haifa' onClick={onClosePopup} className='ourProjectPopup-submenu-link'>ХАЙФА 2024</Link>
-                    <Link to='/purim_2024' onClick={onClosePopup} className='ourProjectPopup-submenu-link'>ПУРИМ 2024</Link>
+                    <Link to='/haifa' onClick={onClosePopup} className='ourProjectPopup-submenu-link'>ХАЙФА, УРА! КАНИКУЛЫ, 2024</Link>
+                    <Link to='/purim_2024' onClick={onClosePopup} className='ourProjectPopup-submenu-link'>ТЕЛЬ-АВИВ, ПУРИМ, 2024</Link>
 
-                    <p className='ourProjectPopup-submenu-link_notactive'>ИЕРУСАЛИМ 2023</p>
-                    <p className='ourProjectPopup-submenu-link_notactive'>ТЕЛЬ-АВИВ 2023</p>
-                    <p className='ourProjectPopup-submenu-link_notactive'>ХАЙФА 2022</p>
-                    <p className='ourProjectPopup-submenu-link_notactive'>ИЕРУСАЛИМ 2022</p>
+                    <p className='ourProjectPopup-submenu-link_notactive'>ИЕРУСАЛИМ, 2023</p>
+                    <p className='ourProjectPopup-submenu-link_notactive'>ТЕЛЬ-АВИВ, 2023</p>
+                    <p className='ourProjectPopup-submenu-link_notactive'>ХАЙФА, 2022</p>
+                    <p className='ourProjectPopup-submenu-link_notactive'>ИЕРУСАЛИМ, 2022</p>
                   </div>
                 </li>
                 <li>
