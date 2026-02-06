@@ -32,7 +32,8 @@ import ReviewsPage from './pages/ReviewsPage/ReviewsPage'
 import Hanukkah2024Page from './pages/Hanukkah2024Page/Hanukkah2024Page'
 import LotteryHanukkah2024Page from './pages/Hanukkah2024Page/LotteryHanukkah2024Page'
 
-import Hanukkah2025Page from './pages/Festivals/Hanukkah/Hanukkah2025Page/Hanukkah2025Page'
+import Hanukkah2025Page from './pages/Festivals/Hanukkah/Hanukkah2025Page/Hanukkah2025Page' 
+import Purim2026Page from './pages/Festivals/Purim/Purim2025/Purim2025Page'
 
 import ContactsPage from './pages/ContactsPage/ContactsPage'
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage/PrivacyPolicyPage'
@@ -241,7 +242,7 @@ function App() {
             <Hanukkah2025Page addCard={addCard} limit={limit}/>
           }>
         </Route>
-
+        
         <Route 
           path='/marker-paticipants/:slug'
             element={
@@ -284,6 +285,13 @@ function App() {
               ></Purim2025>
             }
         >
+        </Route>
+
+        <Route
+          path="/purim_2026"
+          element={
+            <Purim2026Page addCard={addCard} limit={limit}/>
+          }>
         </Route>
 
         <Route

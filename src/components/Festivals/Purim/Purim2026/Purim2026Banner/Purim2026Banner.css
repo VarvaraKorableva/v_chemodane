@@ -1,0 +1,515 @@
+.Purim2026Banner__banner__section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Purim2026Banner__banner__pic-container {
+    width: 100%;
+    height: fit-content;
+    min-height: 451px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../../../../../images/banners/purim_2026/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.Purim2026Banner__content__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.Purim2026Banner__time {
+    font-weight: 400;
+}
+
+.Purim2026Banner__text__wrapper {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.Purim2026Banner__time__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: flex-start;
+    margin-top: 23px;
+}
+
+.Purim2026Banner__text {
+    margin: 0;
+}
+
+.Purim2026Banner__main__text {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.Purim2026Banner__text__white {
+    color: #ffffff;
+    margin: 0;
+}
+
+.Purim2026Banner__stars__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+.Purim2026Banner__title {
+    width: 271px;
+    height: 183px;
+    background-image: url(../../../../../images/banners/purim_2026/title.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.Purim2026Banner__star {
+    width: 15px;
+    height: 15px;
+    background-image: url(../../../../../images/banners/purim_2026/littlestar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/*//////pics///////*/
+
+.Purim2026Banner__right__star {
+    width: 40px;
+    height: 40px;
+    background-image: url(../../../../../images/banners/purim_2026/bigstar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    position: absolute;
+    top: 206px;
+    right: 98px;
+}
+
+.Purim2026Banner__down__star {
+    width: 50px;
+    height: 50px;
+    background-image: url(../../../../../images/banners/purim_2026/bigstar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    position: absolute;
+    bottom: 21px;
+    right: 353px;
+}
+
+.Purim2026Banner__second__left__round {
+    width: 65px;
+    height: 65px;
+    background-image: url(../../../../../images/banners/purim_2026/round.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    position: absolute;
+    top: 242px;
+    left: 364px;
+}
+
+.Purim2026Banner__left__round {
+    width: 84px;
+    height: 84px;
+    background-image: url(../../../../../images/banners/purim_2026/round.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    position: absolute;
+    top: 143px;
+    left: 174px;
+}
+
+.Purim2026Banner__dots {
+    width: 28px;
+    height: 134px;
+    background-image: url(../../../../../images/banners/purim_2026/smalldots.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    position: absolute;
+    bottom: 105px;
+    right: 277px;
+}
+
+.Purim2026Banner__round {
+    width: 94px;
+    height: 94px;
+    background-image: url(../../../../../images/banners/purim_2026/round.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    position: absolute;
+    bottom: 58px;
+    right: 140px;
+}
+
+.Purim2026Banner__star__big {
+    width: 78px;
+    height: 74px;
+    background-image: url(../../../../../images/banners/purim_2026/bigstar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    position: absolute;
+    top: 32px;
+    left: 220px;
+}
+
+.Purim2026Banner__wavyline__and__round {
+    width: 217px;
+    height: 83px;
+    background-image: url(../../../../../images/banners/purim_2026/wavylineandround.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    position: absolute;
+    top: 23px;
+    right: 33px;
+}
+
+.Purim2026Banner__wavy__line {
+    width: 87px;
+    height: 69px;
+    background-image: url(../../../../../images/banners/purim_2026/wavyline.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    position: absolute;
+    top: 11px;
+    left: 43px;
+}
+
+.Purim2026Banner__dots__bg {
+    width: 390px;
+    height: 165px;
+    background-image: url(../../../../../images/banners/purim_2026/bluedots.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.Purim2026Banner__flags {
+    width: 350px;
+    height: 285px;
+    background-image: url(../../../../../images/banners/purim_2026/flags.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+
+@media screen and (max-width: 1230px) {
+    .Purim2026Banner__dots__bg {
+        width: 257px;
+        height: 109px;
+    }
+
+    .Purim2026Banner__flags {
+        width: 233px;
+        height: 190px;
+    }
+
+    .Purim2026Banner__wavy__line {
+        top: 32px;
+        left: 40px;
+    }
+
+    .Purim2026Banner__star__big {
+        width: 60px;
+        height: 64px;
+        left: 150px;
+    }
+
+    .Purim2026Banner__second__left__round {
+        width: 45px;
+        height: 45px;
+        top: 242px;
+        left: 250px;
+    }
+
+    .Purim2026Banner__down__star {
+        width: 50px;
+        height: 50px;
+        bottom: 21px;
+        right: 280px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Purim2026Banner__down__star {
+        width: 40px;
+        height: 40px;
+        right: 150px;
+        bottom: 10px;
+    }
+}    
+
+@media screen and (max-width: 900px) {
+    .Purim2026Banner__wavyline__and__round {
+        width: 135px;
+        height: 52px;
+        top: 21px;
+        right: 0;
+    }
+
+    .Purim2026Banner__star__big {
+        width: 40px;
+        height: 44px;
+        left: 150px;
+        top: 80px;
+    }
+
+    .Purim2026Banner__dots {
+        display: none;
+    }
+
+    .Purim2026Banner__left__round {
+        width: 56px;
+        height: 56px;
+        top: 203px;
+        left: 102px;
+    }
+
+    .Purim2026Banner__round {
+        width: 60px;
+        height: 60px;
+        bottom: 110px;
+        right: 100px;
+    }
+
+    .Purim2026Banner__second__left__round {
+        width: 35px;
+        height: 35px;
+        top: 242px;
+        left: 150px;
+    }
+}
+
+@media screen and (max-width: 883px) {
+    .Purim2026Banner__banner__pic-container {
+        height: 451px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .Purim2026Banner__dots__bg {
+        width: 17px;
+        height: 81px;
+        bottom: 20px;
+        left: 20px;
+        background-image: url(../../../../../images/banners/purim_2026/smalldots.png);
+    }
+
+    .Purim2026Banner__star__big {
+        width: 30px;
+        height: 34px;
+        left: 150px;
+        top: 90px;
+    }
+
+    .Purim2026Banner__left__round {
+        width: 26px;
+        height: 26px;
+        left: 20px;
+    }
+
+    .Purim2026Banner__second__left__round {
+        width: 35px;
+        height: 35px;
+        top: 230px;
+        left: 100px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .Purim2026Banner__flags {
+        width: 150px;
+        height: 120px;
+    }
+
+    .Purim2026Banner__wavy__line {
+        top: 32px;
+        left: 20px;
+    }
+
+    .Purim2026Banner__down__star {
+        right: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Purim2026Banner__banner__pic-container {
+        min-height: 311px;
+    }
+
+    .Purim2026Banner__flags {
+        display: none;
+    }
+
+    .Purim2026Banner__wavy__line {
+        top: 52px;
+    }
+
+
+    .Purim2026Banner__wavyline__and__round {
+        display: none;
+    }
+
+    .Purim2026Banner__round {
+        right: 30px;
+    }
+
+    .Purim2026Banner__down__star {
+        right: 20px;
+    }
+
+    .Purim2026Banner__right__star {
+        width: 30px;
+        height: 30px;
+        top: 150px;
+        right: 50px;
+    }
+
+    .Purim2026Banner__star__big {
+        width: 35px;
+        height: 35px;
+        top: 150px;
+        left: 100px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .Purim2026Banner__content__container {
+        font-size: 16px;
+    }
+
+    .Purim2026Banner__main__text { 
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .Purim2026Banner__dots__bg {
+        bottom: 20px;
+        left: 5px;
+    }
+
+    .Purim2026Banner__flags {
+        display: none;
+    }
+
+    .Purim2026Banner__wavy__line {
+        width: 96px;
+        height: 37px;
+        top: 62px;
+        left: 7px;
+        background-image: url(../../../../../images/banners/purim_2026/wavylineandround.png);
+    }
+
+    .Purim2026Banner__second__left__round {
+        display: none;
+    }
+
+    .Purim2026Banner__title {
+        width: 260px;
+        height: 175px;
+    }
+
+    .Purim2026Banner__star {
+        width: 15px;
+        height: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .Purim2026Banner__title {
+        width: 177px;
+        height: 120px;
+    }
+
+    .Purim2026Banner__round {
+        display: none;
+    }
+
+    .Purim2026Banner__down__star {
+        right: 10px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .Purim2026Banner__banner__pic-container {
+        max-height: 311px;
+    }
+
+    .Purim2026Banner__star__big {
+        width: 30px;
+        height: 30px;
+        top: 150px;
+        left: 30px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .Purim2026Banner__down__star {
+        right: 10px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .Purim2026Banner__right__star {
+        width: 20px;
+        height: 20px;
+        top: 150px;
+        right: 20px;
+    }
+}
