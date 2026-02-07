@@ -7,7 +7,7 @@ import './Slider.css';
 
 function Slider() {
     const images = [
-        { id: 1, src: page0, link: 'https://anumuseum.org.il/ru/events/purim-suitcase-26/', text: '', trigger: false, newTab: false },
+        { id: 1, src: page0, link: '/purim_2026', text: '', trigger: false, newTab: false },
         { id: 2, src: page1, link: '/photo-stories-time', text: '', trigger: false },
         { id: 3, src: page2, link: 'https://forms.gle/USjZPq4y9WSDvLBy6', text: '', trigger: false, newTab: true },
         { id: 4, src: page3, link: 'https://forms.gle/N4mSMeM2ZK5Fdw7f9', text: '', trigger: false, newTab: true },

@@ -50,6 +50,11 @@
   text-transform: uppercase;
 }
 
+.margin__bottom20 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
 @media screen and (max-width: 900px) {
   .text {
       line-height: unset;

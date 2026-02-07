@@ -1,6 +1,8 @@
 import Purim2026Banner from '../../../../components/Festivals/Purim/Purim2026/Purim2026Banner/Purim2026Banner'
 import MainInfo from '../../../../components/Festivals/Purim/Purim2026/MainInfo/MainInfo'
-import TheatreProgram from '../../../../components/Festivals/Hanukkah2025/Program/TheatreProgram'
+import MainTicket from '../../../../components/Festivals/Purim/Purim2026/MainTicket/MainTicket'
+import MainAlso from '../../../../components/Festivals/Purim/Purim2026/MainAlso/MainAlso'
+
 import ScienceProgram from '../../../../components/Festivals/Hanukkah2025/Program/ScienceProgram'
 import LiteratureProgram from '../../../../components/Festivals/Hanukkah2025/Program/LiteratureProgram'
 import LiveMusic from '../../../../components/Festivals/Hanukkah2025/LiveMusic/LiveMusic'
@@ -16,13 +18,9 @@ import schedulePngSecond from '../../../../images/hanukkah2025/Schedule/sc18.jpg
 
 import any from '../../../../images/logo/anublack.png'
 import nadav from '../../../../images/logo/Nadav.png'
-import ulpanPolitica from '../../../../images/logo/ulpanPolitica.png' ////////link
 import ujFederation from '../../../../images/logo/ujFederation.png'
 import latte from '../../../../images/logo/latte.png'
-import ole from '../../../../images/logo/ole.png'
-import haifaruco from '../../../../images/logo/haifaruco.png'
-import haifaafisha from '../../../../images/logo/haifaafisha.png'
-import Participants from '../../../../components/Participants/Participants'
+import nontech from '../../../../images/logo/nontech.png'
 
 function Purim2026Page({addCard, limit}) {
     const link = 'https://eventbuzz.co.il/producer/v2/Vchemodane'
@@ -45,38 +43,6 @@ function Purim2026Page({addCard, limit}) {
             id: 1,
         },
         {
-            name: 'ФОНД НАДАВ',
-            logo: nadav,
-            alt: 'logo ФОНД НАДАВ',
-            link: 'https://nadavfoundation.org',
-            description: '',
-            id: 2,
-        },
-        {
-            name: 'ulpanPolitica',
-            logo: ulpanPolitica,
-            alt: 'logo ulpanPolitica',
-            link: 'https://ulpan.space/',
-            description: '',
-            id: 3,
-        },
-        {
-            name: 'ole',
-            logo: ole,
-            alt: 'logo ole',
-            link: 'https://olimhaifa.co.il/',
-            description: '',
-            id: 4,
-        },
-        {
-            name: 'haifaruco',
-            logo: haifaruco,
-            alt: 'logo haifaruco',
-            link: 'https://haifaru.co.il/',
-            description: '',
-            id: 5,
-        },
-        {
             name: 'UJAFederation',
             logo: ujFederation,
             alt: 'logo UJAFederation',
@@ -85,12 +51,12 @@ function Purim2026Page({addCard, limit}) {
             id: 6,
         },
         {
-            name: 'haifaafisha',
-            logo: haifaafisha,
-            alt: 'logo haifaafisha',
-            link: 'https://www.haifaafisha.org/ru/',
+            name: 'nontech',
+            logo: nontech,
+            alt: 'logo nontech',
+            link: 'https://nontech.co.il/',
             description: '',
-            id: 7,
+            id: 5,
         },
         {
             name: 'latte',
@@ -99,15 +65,26 @@ function Purim2026Page({addCard, limit}) {
             link: 'https://www.facebook.com/groups/pumpkinlatte/',
             description: '',
             id: 8,
-        }
+        },
+        {
+            name: 'ФОНД НАДАВ',
+            logo: nadav,
+            alt: 'logo ФОНД НАДАВ',
+            link: 'https://nadavfoundation.org',
+            description: '',
+            id: 2,
+        },
     ]
 
-    const idName = 'schedule_Hanukkah2025'
+    const idName = 'schedule_Purim2026'
 
     return (
         <>
             <Purim2026Banner/>
             <MainInfo></MainInfo>
+            <MainTicket></MainTicket>
+            <MainAlso></MainAlso>
+            <OurPartners dataArr={partnersData}/>
         </>
     )
 } 

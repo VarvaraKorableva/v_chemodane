@@ -1,0 +1,156 @@
+.center_container_purim2025 {
+    max-width: 802px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-self: center;
+}
+
+.MainTicket__text__container {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    padding: 0;
+}   
+
+.MainTicket__container {
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+.MainTicket__star {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.MainTicket__purpalstar {
+    background-image: url(../../../../../images/purim/purim2026/mainTickets/purpalstar.png);
+}
+
+.MainTicket__yellowstar {
+    background-image: url(../../../../../images/purim/purim2026/mainTickets/yellowstar.png);
+}
+
+.MainTicket__pinkstar {
+    background-image: url(../../../../../images/purim/purim2026/mainTickets/pinkstar.png);
+}
+
+.MainTicket__bluestar {
+    background-image: url(../../../../../images/purim/purim2026/mainTickets/bluestar.png);
+}
+
+.MainTicket__darkbluestar {
+    background-image: url(../../../../../images/purim/purim2026/mainTickets/darkbluestar.png);
+}
+.MainTicket__margintopzero {
+    margin-top: 0px;
+}
+
+.MainTicket__dots__and__round {
+    position: absolute;
+    top: 650px;
+    right: 0;
+    height: 567px;
+    width: 215px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    background-image: url(../../../../../images/purim/purim2026/mainTickets/dotsandroundright.png);
+}
+
+.MainTicket__btn {
+    color: orange;
+    background-color: #374BA5;
+    border-radius: 12px;
+    width: 156px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .MainTicket__dots__and__round {
+        top: 1300px;
+        right: 0;
+        height: 352px;
+        width: 134px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .MainTicket__star {
+        top: 0px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+@media screen and (max-width: 880px) {
+    .MainTicket__dots__and__round {
+        top: unset;
+        bottom: 220px;
+        right: 0;
+        height: 196px;
+        width: 75px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .MainTicket__star {
+        top: 5px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .MainTicket__container {
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .MainTicket__dots__and__round {
+        top: unset;
+        bottom: 270px;
+        right: 0;
+        height: 196px;
+        width: 75px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .MainTicket__star {
+        top: 5px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .MainTicket__container {
+        padding-left: 30px;
+
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .MainTicket__dots__and__round {
+        display: none;
+    }
+}

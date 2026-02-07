@@ -1,0 +1,79 @@
+.center_container_purim2026 {
+    max-width: 802px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-self: center;
+}
+
+.MainAlso__text__container {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    padding: 0;
+}   
+
+.MainAlso__tickets__btn {
+    background-color: #374BA5;
+    border-radius: 12px;
+    width: 129px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    text-transform: uppercase;
+    color: orange;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.MainAlso__container {
+    margin-bottom: 20px;
+}
+
+.MainAlso__wavylines__and__round {
+    width: 216px;
+    height: 83px;
+    background-image: url(../../../../../images/banners/purim_2026/wavylineandround.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+}
+
+@media screen and (max-width: 1000px) {
+    .MainAlso__wavylines__and__round {
+        width: 200px;
+        height: 77px;
+        bottom: 30px;
+        right: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .MainAlso__tickets__btn {
+        width: 104px;
+        height: 36px;
+    }
+
+    .MainAlso__wavylines__and__round {
+        width: 102px;
+        height: 39px;
+        bottom: 100px;
+        right: 100px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .MainAlso__wavylines__and__round {
+        bottom: 100px;
+        right: 30px;
+    }
+}
