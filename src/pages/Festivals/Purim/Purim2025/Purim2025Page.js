@@ -26,10 +26,8 @@ function Purim2026Page({addCard, limit}) {
     const link = 'https://eventbuzz.co.il/producer/v2/Vchemodane'
 
     const colors = {
-        blueorangedarkblueyellow: 'blueorangedarkblueyellow',
-        birusacoral: 'birusacoral',
-        coralyellow: 'coralyellow',
-        yellowblue: 'yellowblue'
+        purim2026lines4: 'purim2026lines4',
+        purim2026linesorange: 'purim2026linesorange',
     }
 
     const partnersData = 
@@ -84,7 +82,9 @@ function Purim2026Page({addCard, limit}) {
             <MainInfo></MainInfo>
             <MainTicket></MainTicket>
             <MainAlso></MainAlso>
+            <SeparatorPage color={colors.purim2026linesorange}></SeparatorPage>
             <OurPartners dataArr={partnersData}/>
+            <SeparatorPage color={colors.purim2026lines4}></SeparatorPage>
         </>
     )
 } 

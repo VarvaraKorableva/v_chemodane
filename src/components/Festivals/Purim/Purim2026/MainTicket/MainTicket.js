@@ -9,6 +9,8 @@ export default function MainTicket() {
                 <Heading className="heading heading__F79423">Основной билет: что входит?</Heading>
 
                 <div className='MainTicket__dots__and__round'></div>
+                <div className='MainTicket__halfring'></div>
+                <div className='MainTicket__dots'></div>
 
                 <ul className='MainTicket__text__container text'>
                     <li className='MainTicket__container'>
@@ -99,6 +101,8 @@ export default function MainTicket() {
                         </p>
                     </li>
                 </ul>
+
+                <div className='MainTicket__savivon'></div>
             </div>
             
         </Container>

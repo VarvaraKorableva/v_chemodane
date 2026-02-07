@@ -13,7 +13,7 @@ function NavContainer() {
                 </li>
                 <li className="hanukaTelAviv2024Banner__li">
                     <a className="hanukaTelAviv2024Banner__link" 
-                        href="https://eventbuzz.co.il/producer/v2/Vchemodane" 
+                        href="https://anumuseum.org.il/ru/events/shadow-play/" 
                         target="_blank"
                         rel="noopener noreferrer"
                     >

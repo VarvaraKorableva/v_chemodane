@@ -85,6 +85,55 @@
     cursor: pointer;
 }
 
+.MainTicket__savivon {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    height: 179px;
+    width: 116px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    background-image: url(../../../../../images/purim/purim2026/mainTickets/savivon.png);
+}
+
+.MainTicket__halfring {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 85px;
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    background-image: url(../../../../../images/purim/purim2026/mainTickets/halfring.png);
+}
+
+.MainTicket__dots {
+    position: absolute;
+    top: 1700px;
+    left: 20px;
+    width: 60px;
+    height: 288px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    background-image: url(../../../../../images/purim/purim2026/mainTickets/5dots.png);
+}
+
+@media screen and (max-width: 1240px) {
+    .MainTicket__savivon {
+        bottom: -30px;
+        left: 3px;
+        width: 90px;
+        height: 159px;
+    }
+}
+
+
 @media screen and (max-width: 1200px) {
     .MainTicket__dots__and__round {
         top: 1300px;
@@ -101,8 +150,33 @@
         width: 30px;
         height: 30px;
     }
+
+    .MainTicket__savivon {
+        display: none;
+    }
+
+    .MainTicket__halfring {
+        width: 55px;
+        height: 85px;
+        top: 100px;
+    }
+
+    .MainTicket__dots {
+        width: 49px;
+        height: 235px;
+    }
 }
 
+@media screen and (max-width: 900px) {
+    .MainTicket__dots {
+        width: 39px;
+        height: 200px;
+        left: unset;
+        top: unset;
+        bottom: 600px;
+        right: 3px;
+    }
+}
 
 @media screen and (max-width: 880px) {
     .MainTicket__dots__and__round {
@@ -133,6 +207,12 @@
         right: 0;
         height: 196px;
         width: 75px;
+    }
+
+    .MainTicket__halfring {
+        width: 35px;
+        height: 55px;
+        top: 140px;
     }
 }
 
