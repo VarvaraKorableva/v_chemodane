@@ -12,6 +12,7 @@ import Schedule from '../../../../components/Festivals/MiniFestivalFamilyRelic/S
 import SeparatorPage from '../../../../components/SeparatorPage/SeparatorPage'
 import OurPartners from '../../../../components/OurPartners/OurPartners'
 
+
 import schedulePdf from '../../../../images/hanukkah2025/Schedule/sc.pdf'
 import schedulePng from '../../../../images/hanukkah2025/Schedule/sc17.jpg'
 import schedulePngSecond from '../../../../images/hanukkah2025/Schedule/sc18.jpg'
@@ -21,6 +22,8 @@ import nadav from '../../../../images/logo/Nadav.png'
 import ujFederation from '../../../../images/logo/ujFederation.png'
 import latte from '../../../../images/logo/latte.png'
 import nontech from '../../../../images/logo/nontech.png'
+import howpeople from '../../../../images/logo/howpeople.png'
+import ulpanPolitica from '../../../../images/logo/ulpanPolitica.png'
 
 function Purim2026Page({addCard, limit}) {
     const link = 'https://eventbuzz.co.il/producer/v2/Vchemodane'
@@ -49,6 +52,14 @@ function Purim2026Page({addCard, limit}) {
             id: 6,
         },
         {
+            name: 'ulpanPolitica',
+            logo: ulpanPolitica,
+            alt: 'logo ulpanPolitica',
+            link: '',
+            description: '',
+            id: 15,
+        },
+        {
             name: 'nontech',
             logo: nontech,
             alt: 'logo nontech',
@@ -72,6 +83,16 @@ function Purim2026Page({addCard, limit}) {
             description: '',
             id: 2,
         },
+        {
+            name: 'Как Люди',
+            logo: howpeople,
+            alt: 'logo Как Люди',
+            link: '',
+            description: '',
+            id: 12,
+        },
+
+        
     ]
 
     const idName = 'schedule_Purim2026'

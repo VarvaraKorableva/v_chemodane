@@ -13,7 +13,7 @@ function NavContainer() {
                 </li>
                 <li className="hanukaTelAviv2024Banner__li">
                     <a className="hanukaTelAviv2024Banner__link" 
-                        href="https://anumuseum.org.il/ru/events/shadow-play/" 
+                        href="https://anumuseum.org.il/ru/events/purim-suitcase-26/" 
                         target="_blank"
                         rel="noopener noreferrer"
                     >

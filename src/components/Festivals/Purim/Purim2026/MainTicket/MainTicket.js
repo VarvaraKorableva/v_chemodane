@@ -22,7 +22,7 @@ export default function MainTicket() {
                     <li className='MainTicket__container'>
                         <div className='MainTicket__yellowstar MainTicket__star'></div>
                         <h3 className='uppercase bold MainTicket__margintopzero'>Встречи с писателями</h3>
-                        <p>Разговоры о книгах, чтения и возможность лично пообщаться с авторами, задать вопросы и взять автограф. Особые гости фестиваля — писатель, социолог Виктор Вахштайн (автограф-сессия состоится 4 марта),писатели Линор Горалик и Борис Лейбов (встреча состоится 4 марта) и писатель Евгения Пастернак (Мастер-класс 4 марта). </p>
+                        <p>Разговоры о книгах, чтения и возможность лично пообщаться с авторами, задать вопросы и взять автограф. Особые гости фестиваля: <strong>Виктор Вахштайн</strong> (автограф-сессия состоится 4 марта), <strong>Линор Горалик</strong> и <strong>Борис Лейбов</strong> (встреча состоится 4 марта) и <strong>Евгения Пастернак</strong> (Мастер-класс 4 марта). </p>
                     </li>
 
                     <li className='MainTicket__container'>
@@ -46,14 +46,13 @@ export default function MainTicket() {
                         <div className='MainTicket__darkbluestar MainTicket__star'></div>
                         <h3 className='uppercase bold MainTicket__margintopzero'>Оригинальная фотозона</h3>
                         <p>Для семейных пуримских фотографий</p>
-                        <p>* станция для создания фотомагнита  на память</p>
                         <p>Профессиональный фотограф Елена Ростунов</p>
                     </li>
 
                     <li className='MainTicket__container'>
                         <div className='MainTicket__pinkstar MainTicket__star'></div>
                         <h3 className='uppercase bold MainTicket__margintopzero'>Экскурсии по музею АНУ</h3>
-                        <p>Авторские туры Зеева Волка, Константина Бондаря, Зои Брук и Любы Шинкарук</p>
+                        <p>Авторские туры <strong>Зеева Волка, Константина Бондаря, Зои Брук</strong> и <strong>Любы Шинкарук</strong></p>
                     </li>
 
                     <li className='MainTicket__container'>
@@ -77,8 +76,8 @@ export default function MainTicket() {
                     <li className='MainTicket__container'>
                         <div className='MainTicket__pinkstar MainTicket__star'></div>
                         <h3 className='uppercase bold MainTicket__margintopzero'>Беспроигрышная Лотерея</h3>
-                        <p>Концерт зажигательной группы Frisson Trio</p>
-                        <p>А также, пуримское угощение и особенная семейная атмосфера праздника.</p>
+                        <p>Концерт зажигательной группы <strong>Frisson Trio</strong></p>
+                        <p>А также, <strong>пуримское угощение</strong> и <strong>особенная семейная атмосфера праздника</strong>.</p>
                     </li>
 
                     <li className='MainTicket__container'>
@@ -91,7 +90,7 @@ export default function MainTicket() {
                     <li>
                         <p>Обратите внимание, что на часть мероприятий необходимо приобретать</p>
 
-                        <a href='https://anumuseum.org.il/ru/events/shadow-play/' target='_blank' className='MainTicket__btn bold'>отдельный билет</a>
+                        <a href='https://anumuseum.org.il/ru/events/purim-suitcase-26/' target='_blank' className='MainTicket__btn bold'>отдельный билет</a>
                     </li>
 
                     <li>
