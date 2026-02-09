@@ -46,6 +46,7 @@
     position: absolute;
     bottom: 50px;
     right: 100px;
+    
 }
 
 @media screen and (max-width: 1000px) {

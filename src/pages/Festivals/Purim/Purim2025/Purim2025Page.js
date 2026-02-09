@@ -13,9 +13,9 @@ import SeparatorPage from '../../../../components/SeparatorPage/SeparatorPage'
 import OurPartners from '../../../../components/OurPartners/OurPartners'
 
 
-import schedulePdf from '../../../../images/hanukkah2025/Schedule/sc.pdf'
-import schedulePng from '../../../../images/hanukkah2025/Schedule/sc17.jpg'
-import schedulePngSecond from '../../../../images/hanukkah2025/Schedule/sc18.jpg'
+import schedulePdf from '../../../../images/schedule/schedulepurim2026.pdf'
+import schedulePng from '../../../../images/schedule/schedulepurim2026-1.png'
+import schedulePngSecond from '../../../../images/schedule/schedulepurim2026-2.png'
 
 import any from '../../../../images/logo/anublack.png'
 import nadav from '../../../../images/logo/Nadav.png'
@@ -103,6 +103,7 @@ function Purim2026Page({addCard, limit}) {
             <MainInfo></MainInfo>
             <MainTicket></MainTicket>
             <MainAlso></MainAlso>
+            <Schedule schedulePdf={schedulePdf} schedulePng={schedulePng} schedulePngSecond={schedulePngSecond} idName={idName}/>
             <SeparatorPage color={colors.purim2026linesorange}></SeparatorPage>
             <OurPartners dataArr={partnersData}/>
             <SeparatorPage color={colors.purim2026lines4}></SeparatorPage>

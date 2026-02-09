@@ -30,7 +30,7 @@ export default function Purim2026Banner() {
                     </div>
 
                     <p className='Purim2026Banner__main__text'>Театры и мастер-классы для всей семьи</p>
-                    <p className='Purim2026Banner__main__text'>Вход в костюмах приветствуется</p>
+                    <p className='Purim2026Banner__main__text margin__bottom20'>Вход в костюмах приветствуется</p>
                 </div>
 
                 <div className='Purim2026Banner__dots__bg'></div>
@@ -45,6 +45,9 @@ export default function Purim2026Banner() {
                 <div className='Purim2026Banner__left__round'></div>
                 <div className='Purim2026Banner__down__star'></div>
                 <div className='Purim2026Banner__right__star'></div>
+                <div className='Purim2026Banner__pink__round'></div>
+                <div className='Purim2026Banner__pink__round__left'></div>
+                <div className='Purim2026Banner__blue__round__left'></div>
 
             </div> 
 
