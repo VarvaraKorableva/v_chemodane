@@ -11,7 +11,7 @@ import TicketsStickyButton from '../../../../components/TicketsStickyButton/Tick
 import Schedule from '../../../../components/Festivals/MiniFestivalFamilyRelic/Schedule/Schedule'
 import SeparatorPage from '../../../../components/SeparatorPage/SeparatorPage'
 import OurPartners from '../../../../components/OurPartners/OurPartners'
-
+import Participants from '../../../../components/Participants/Participants'
 
 import schedulePdf from '../../../../images/schedule/schedulepurim2026.pdf'
 import schedulePng from '../../../../images/schedule/schedulepurim2026-1.png'
@@ -31,6 +31,8 @@ function Purim2026Page({addCard, limit}) {
     const colors = {
         purim2026lines4: 'purim2026lines4',
         purim2026linesorange: 'purim2026linesorange',
+        purim2026linespurpal: 'purim2026linespurpal',
+        purim2026pink: "purim2026pink"
     }
 
     const partnersData = 
@@ -103,7 +105,10 @@ function Purim2026Page({addCard, limit}) {
             <MainInfo></MainInfo>
             <MainTicket></MainTicket>
             <MainAlso></MainAlso>
+            <SeparatorPage color={colors.purim2026linespurpal}></SeparatorPage>
             <Schedule schedulePdf={schedulePdf} schedulePng={schedulePng} schedulePngSecond={schedulePngSecond} idName={idName}/>
+            <SeparatorPage color={colors.purim2026pink}></SeparatorPage>
+            <Participants addCard={addCard} limit={limit}></Participants>
             <SeparatorPage color={colors.purim2026linesorange}></SeparatorPage>
             <OurPartners dataArr={partnersData}/>
             <SeparatorPage color={colors.purim2026lines4}></SeparatorPage>
