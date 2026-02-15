@@ -84,7 +84,7 @@ export default function MainTicket() {
                         <div className='MainTicket__yellowstar MainTicket__star'></div>
                         <h3 className='uppercase bold MainTicket__margintopzero'>Стоимость основного билета</h3>
                         <p>Вход — 50 шекелей на человека.</p>
-                        <p>Дети до 4 лет — бесплатно.</p>
+                        <p>Дети до 3 лет — бесплатно.</p>
                     </li>
 
                     <li>
