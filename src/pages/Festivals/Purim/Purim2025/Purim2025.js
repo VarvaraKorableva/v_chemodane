@@ -1,12 +1,12 @@
-import Purim2025Banner from '../../../components/Purim/Purim2025/Purim2025Banner/Purim2025Banner'
-import Presentation from '../../../components/Purim/Purim2025/Presentation/Presentation'
-import Schedule from '../../../components/Purim/Purim2025/Schedule/Schedule'
-import ImportantNotes from "../../../components/Purim/Purim2025/ImportantNotes/ImportantNotes"
-import Participants from '../../../components/Participants/Participants'
-import OurPartners from '../../../components/OurPartners/OurPartners'
-import purim2025participantsData from '../../../data/purim/purim2025participants'
+import Purim2025Banner from '../../../../components/Purim/Purim2025/Purim2025Banner/Purim2025Banner'
+import Presentation from '../../../../components/Purim/Purim2025/Presentation/Presentation'
+import Schedule from '../../../../components/Purim/Purim2025/Schedule/Schedule'
+import ImportantNotes from "../../../../components/Purim/Purim2025/ImportantNotes/ImportantNotes"
+import Participants from '../../../../components/Participants/Participants'
+import OurPartners from '../../../../components/OurPartners/OurPartners'
+import purim2025participantsData from '../../../../data/purim/purim2025participants'
 
-import SeparatorPage from '../../../components/SeparatorPage/SeparatorPage'
+import SeparatorPage from '../../../../components/SeparatorPage/SeparatorPage'
 
 function Purim2025({handleCardClick, addCard, limit}) {
     const colors = {
