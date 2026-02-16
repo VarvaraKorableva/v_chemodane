@@ -55,11 +55,12 @@
     background-image: url(../../../../../images/banners/purim_2026/pinkround.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     justify-content: center;
+    background-size: contain;
     position: absolute;
     top: 420px;
     right: -50px;
+
 }
 
 .mainInfo__blueround {

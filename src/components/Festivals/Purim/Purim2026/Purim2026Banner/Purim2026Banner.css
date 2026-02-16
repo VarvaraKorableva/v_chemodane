@@ -142,6 +142,45 @@
     right: 98px;
 }
 
+.Purim2026Banner__right__star__big__screen {
+    width: 30px;
+    height: 30px;
+    background-image: url(../../../../../images/banners/purim_2026/bigstar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    position: absolute;
+    top: 146px;
+    right: 430px;
+}
+
+.Purim2026Banner__right__star__big__screen {
+    width: 70px;
+    height: 70px;
+    background-image: url(../../../../../images/banners/purim_2026/bigstar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    position: absolute;
+    top: 120px;
+    left: 430px;
+}
+
+.Purim2026Banner__right__star__big__screen {
+    width: 70px;
+    height: 70px;
+    background-image: url(../../../../../images/banners/purim_2026/bigstar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    position: absolute;
+    top: 150px;
+    right: 450px;
+}
+
 .Purim2026Banner__down__star {
     width: 50px;
     height: 50px;
@@ -205,6 +244,19 @@
     position: absolute;
     bottom: 58px;
     right: 140px;
+}
+
+.Purim2026Banner__round__big__screen {
+    width: 110px;
+    height: 110px;
+    background-image: url(../../../../../images/banners/purim_2026/round.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    position: absolute;
+    top: 88px;
+    right: 300px;
 }
 
 .Purim2026Banner__star__big {
@@ -279,12 +331,44 @@
     background-image: url(../../../../../images/banners/purim_2026/pinkround.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     justify-content: center;
     position: absolute;
     bottom: 250px;
     right: 200px;
     z-index: 3;
+}
+
+.Purim2026Banner__pink__round__big__screen {
+    width: 30px;
+    height: 30px;
+    background-image: url(../../../../../images/banners/purim_2026/pinkround.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: center;
+    position: absolute;
+    bottom: 50px;
+    left: 470px;
+    z-index: 3;
+}
+
+@media screen and (max-width: 1450px) {
+    .Purim2026Banner__right__star__big__screen {
+        display: none;
+    }
+
+    .Purim2026Banner__round__big__screen {
+        display: none;
+    }
+
+    .Purim2026Banner__pink__round__big__screen {
+        display: none;
+    }
+
+    .Purim2026Banner__right__star__big__screen {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1230px) {

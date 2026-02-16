@@ -49,6 +49,12 @@ export default function Purim2026Banner() {
                 <div className='Purim2026Banner__pink__round__left'></div>
                 <div className='Purim2026Banner__blue__round__left'></div>
 
+                <div className='Purim2026Banner__right__star__big__screen'></div>
+                <div className='Purim2026Banner__round__big__screen'></div>
+                <div className='Purim2026Banner__pink__round__big__screen'></div>
+                <div className='Purim2026Banner__right__star__big__screen'></div>
+
+
             </div> 
 
             <NavContainer/>

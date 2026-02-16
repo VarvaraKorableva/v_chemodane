@@ -8,8 +8,7 @@ import Haifa from './pages/Haifa/Haifa'
 import MainNewHeader from './components/Main/MainHeader/MainNewHeader/MainNewHeader'
 import Schedule from './components/Schedule/Schedule'
 import ScheduleHaifa from './components/ScheduleHaifa/ScheduleHaifa'
-import Purim2024 from './pages/Festivals/Purim/Purim2024/PurimPage'
-import Purim2025 from './pages/Festivals/Purim/Purim2025/Purim2025'
+
 import FamilyRelicOnStagePage from './pages/FamilyRelicOnStagePage/FamilyRelicOnStagePage'
 import MiniFestivalFamilyRelic from './pages/MiniFestivalFamilyRelic/MiniFestivalFamilyRelic'
 import NotReadyPage from './pages/NotReadyPage/NotReadyPage'
@@ -29,17 +28,23 @@ import OurTeamPage from './pages/OurTeamPage/OurTeamPage'
 import MarketPatisipantsPage from './pages/MarketPatisipantsPage/MarketPatisipantsPage'
 import ReviewsPage from './pages/ReviewsPage/ReviewsPage'
 
-import Hanukkah2024Page from './pages/Festivals/Hanukkah/Hanukkah2024Page/Hanukkah2024Page'
-import LotteryHanukkah2024Page from './pages/Festivals/Hanukkah/Hanukkah2024Page/LotteryHanukkah2024Page'
-
-import Hanukkah2025Page from './pages/Festivals/Hanukkah/Hanukkah2025Page/Hanukkah2025Page' 
-import Purim2026Page from './pages/Festivals/Purim/Purim2026/Purim2026Page'
 
 import ContactsPage from './pages/ContactsPage/ContactsPage'
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage/PrivacyPolicyPage'
 import RegistrationPage from './pages/RegistrationPage/RegistrationPage'
 import SubscribPage from './pages/SubscribPage/SubscribPage'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
+
+////Festivals
+import Hanukkah2024Page from './pages/Festivals/Hanukkah/Hanukkah2024Page/Hanukkah2024Page'
+import LotteryHanukkah2024Page from './pages/Festivals/Hanukkah/Hanukkah2024Page/LotteryHanukkah2024Page'
+import Hanukkah2025Page from './pages/Festivals/Hanukkah/Hanukkah2025Page/Hanukkah2025Page' 
+import Purim2024 from './pages/Festivals/Purim/Purim2024/PurimPage'
+import Purim2025 from './pages/Festivals/Purim/Purim2025/Purim2025'
+import Purim2026 from './pages/Festivals/Purim/Purim2026/Purim2026Page'
+
+
+
 
 function App() {
   
@@ -290,7 +295,7 @@ function App() {
         <Route
           path="/purim_2026"
           element={
-            <Purim2026Page addCard={addCard} limit={limit}/>
+            <Purim2026 addCard={addCard} limit={limit}/>
           }>
         </Route>
 
