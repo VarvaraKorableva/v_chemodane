@@ -26,7 +26,7 @@ import howpeople from '../../../../images/logo/howpeople.png'
 import ulpanPolitica from '../../../../images/logo/ulpanPolitica.png'
 
 function Purim2026Page({addCard, limit}) {
-    const link = 'https://eventbuzz.co.il/producer/v2/Vchemodane'
+    const link = 'https://anumuseum.org.il/ru/events/purim-suitcase-26/'
 
     const colors = {
         purim2026lines4: 'purim2026lines4',
@@ -112,6 +112,7 @@ function Purim2026Page({addCard, limit}) {
             <SeparatorPage color={colors.purim2026linesorange}></SeparatorPage>
             <OurPartners dataArr={partnersData}/>
             <SeparatorPage color={colors.purim2026lines4}></SeparatorPage>
+            <TicketsStickyButton link={link}/>
         </>
     )
 } 
