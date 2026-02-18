@@ -14,8 +14,8 @@ import OurPartners from '../../../../components/OurPartners/OurPartners'
 import Participants from '../../../../components/Participants/Participants'
 
 import schedulePdf from '../../../../images/schedule/schedulepurim2026.pdf'
-import schedulePng from '../../../../images/schedule/schedulepurim2026-1.png'
-import schedulePngSecond from '../../../../images/schedule/schedulepurim2026-2.png'
+import schedulePng from '../../../../images/schedule/schedulepurim2026-1.jpg'
+import schedulePngSecond from '../../../../images/schedule/schedulepurim2026-2.jpg'
 
 import any from '../../../../images/logo/anublack.png'
 import nadav from '../../../../images/logo/Nadav.png'
