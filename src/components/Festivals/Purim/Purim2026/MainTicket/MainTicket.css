@@ -30,7 +30,7 @@
     height: 40px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     justify-content: center;
 }
 
@@ -65,7 +65,7 @@
     width: 215px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     justify-content: center;
     background-image: url(../../../../../images/purim/purim2026/mainTickets/dotsandroundright.png);
 }
@@ -93,7 +93,7 @@
     width: 116px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     justify-content: center;
     background-image: url(../../../../../images/purim/purim2026/mainTickets/savivon.png);
 }
@@ -120,7 +120,7 @@
     height: 288px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     justify-content: center;
     background-image: url(../../../../../images/purim/purim2026/mainTickets/5dots.png);
 }
