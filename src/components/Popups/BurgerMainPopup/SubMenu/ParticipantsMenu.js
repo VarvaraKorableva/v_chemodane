@@ -14,7 +14,7 @@ function ParticipantsMenu({onClosePopup, closeSubMenu}) {
                 </Link>
             </li>*/}
             
-            <Link to="/marker-paticipants" onClick={onClosePopup} className="burgerMainPopup-submenu-link">
+            <Link to="/marker-participants" onClick={onClosePopup} className="burgerMainPopup-submenu-link">
               Участники Маркета
             </Link>
           

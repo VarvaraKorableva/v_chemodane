@@ -249,7 +249,7 @@ function App() {
         </Route>
         
         <Route 
-          path='/marker-paticipants/:slug'
+          path='/marker-participants/:slug'
             element={
               <IndividualPageOfParticipants />
             }
@@ -263,7 +263,7 @@ function App() {
         />
 
         <Route 
-          path='/marker-paticipants'
+          path='/marker-participants'
             element={
               <MarketPatisipantsPage addCard={addCard} limit={limit}/>
             }

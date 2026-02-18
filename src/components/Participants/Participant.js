@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 function Paticipant({item}) {
 
     return (
-        <Link to={`/marker-paticipants/${item.slug}`} className="paticipant-container">
+        <Link to={`/marker-participants/${item.slug}`} className="paticipant-container">
     
            {item.imgLink === ''?
             <p className="paticipant-img">Участник скоро добавит свой логотип</p>
