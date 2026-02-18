@@ -134,6 +134,22 @@ const purim2026Data = [
             id:9
         },
 
+        {
+            companyName:"Новый Иерусалимский Журнал",
+            slug: "novyi-ierusalimskii-zhurnal", 
+            previousParticipation:"",
+            socialNetwork: {
+                instagram: "",
+                facebook: "",
+                personalSite: "",
+            },
+            description:"Мы  — израильский литературно-художественный журнал, публикующий замечательную прозу и поэзию, рассказывающий об израильском театре, кино, художниках, истории, о новых книгах и современном литературном процессе. Журнал, полный графики и фотографий. Журнал, рассказывающий, чем живет страна.",
+            participationInTheLottery:"",
+            imgLink:"",
+            id:10
+        },
+       
+
 
 ]
 
