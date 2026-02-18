@@ -148,6 +148,51 @@ const purim2026Data = [
             imgLink:"",
             id:10
         },
+
+        {
+            companyName:"Sweet baby book",
+            slug: "sweet-baby-book",
+            previousParticipation:"",
+            socialNetwork: {
+                instagram: "https://www.instagram.com/sweet_baby_book",
+                facebook: "",
+                personalSite: "",
+            },
+            description:"Книга из фетра Sweet baby book - это безопасная и познавательная игрушка для детей от 3х месяцев и старше. Индивидуальные развивающие книжки способны развивать позновательную, речевую активность, тактильные ощущения,внимательность, мелкую моторику и координацию движений обеих рук, логическое мышление, память.",
+            participationInTheLottery:"",
+            imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710707361299_421701167.jpg",
+            id:11,
+        },
+
+        {
+            companyName:"Bilberry Forest",
+            slug: "bilberry-forest",
+            previousParticipation:"Да, во всех, начиная с первого тель-авивского",
+            socialNetwork: {
+                instagram: "https://www.instagram.com/bilberry_forest/",
+                facebook: "",
+                personalSite: "",
+            },
+            description:"Светлана Соловая, автор проекта \"Bilberry Forest\" и постоянный участник наших фестивалей привезёт в Тель-Авив новые коллекции керамической посуды и украшений.",
+            participationInTheLottery:"да",
+            imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710273291901_646709829.png",
+            id:12,
+        },
+
+        {
+            companyName:"Arcane Jewelry",
+            slug: "arcane-jewelry",
+            previousParticipation:"",
+            socialNetwork: {
+                instagram: "",
+                facebook: "",
+                personalSite: "",
+            },
+            description:"Arcane Jewelry - бренд украшений ручной работы из натуральных камней, вдохновлённый самой жизнью. Каждое изделие рождается из идеи и проходит путь от тщательного подбора материалов до финальной композиции. Несколько часов внимания к деталям, форме и энергетике камня - чтобы украшение стало не просто аксессуаром, а особенной историей. В коллекциях бренда представлены тематические и сезонные линии - от праздничной коллекции к Рош-хаШана до украшений из шоколадного гематита, а также летние и осенние дропы.",
+            participationInTheLottery:"",
+            imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1771434241933_967526556",
+            id:13,
+        },
        
 
 
