@@ -16,7 +16,7 @@
     background-image: url(../../../../../images/banners/purim_2026/bigstar.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     justify-content: center;
     position: absolute;
     top: 106px;
@@ -29,7 +29,7 @@
     background-image: url(../../../../../images/banners/purim_2026/bigstar.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     justify-content: center;
     position: absolute;
     bottom: 0px;
@@ -42,7 +42,7 @@
     background-image: url(../../../../../images/banners/purim_2026/wavylineandround.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     justify-content: center;
     position: absolute;
     top: 0;
@@ -69,7 +69,7 @@
     background-image: url(../../../../../images/banners/purim_2026/blueround.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     justify-content: center;
     position: absolute;
     top: 220px;
@@ -82,7 +82,7 @@
     background-image: url(../../../../../images/banners/purim_2026/smalldots.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     justify-content: center;
     position: absolute;
     top: 520px;
