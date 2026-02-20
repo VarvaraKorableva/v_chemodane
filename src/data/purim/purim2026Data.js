@@ -100,7 +100,7 @@ const purim2026Data = [
             },
             description:"Интернет магазин детских книг с радостью предоставит вам возможность познакомиться с лучшими новинками детской литературы",
             participationInTheLottery:"да",
-            imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1733571156846_39147123",
+            imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1771609670030_586462158",
             id:7,
         },
 
@@ -214,8 +214,3 @@ const purim2026Data = [
 ]
 
 export default purim2026Data
-
-
-
-
-///participants

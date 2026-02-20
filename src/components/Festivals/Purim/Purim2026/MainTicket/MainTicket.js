@@ -58,7 +58,7 @@ export default function MainTicket() {
                     <li className='MainTicket__container'>
                         <div className='MainTicket__yellowstar MainTicket__star'></div>
                         <h3 className='uppercase bold MainTicket__margintopzero'>Еврейская традиция</h3>
-                        <p>Знакомство с пуримскими обычаями и чтение Свитка Торы в атмосфере праздника. Встреча с равином Бени Миничем.</p>
+                        <p>Знакомство с пуримскими обычаями и чтение Свитка Торы в атмосфере праздника. Встреча с раввином Бени Миничем, община Даниэль в Яффо.</p>
                     </li>
 
                     <li className='MainTicket__container'>
