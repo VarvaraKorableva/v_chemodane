@@ -208,6 +208,21 @@ const purim2026Data = [
             imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1710401859436_115596249.jpg",
             id:14
         },
+
+        {
+            companyName:"Шеф Арт",
+            slug: "pchef-art",
+            previousParticipation:"",
+            socialNetwork: {
+                instagram: "",
+                facebook: "",
+                personalSite: "",
+            },
+            description:"Шеф Арт - первый сертифицированный сервис домашних обедов под ключ в Израиле. Анастасия Корсакова приготовит и организует кейтеринг\фуршет, будет шеф поваром на Вашем празднике. Очень вкусная, здоровая еда и невероятно красиво оформленая. Заказывайте ! 0587936259",
+            participationInTheLottery:"да",
+            imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1771612897331_495577082",
+            id:15
+        },
        
 
 
