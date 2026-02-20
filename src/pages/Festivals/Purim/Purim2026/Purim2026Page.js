@@ -3,10 +3,6 @@ import MainInfo from '../../../../components/Festivals/Purim/Purim2026/MainInfo/
 import MainTicket from '../../../../components/Festivals/Purim/Purim2026/MainTicket/MainTicket'
 import MainAlso from '../../../../components/Festivals/Purim/Purim2026/MainAlso/MainAlso'
 
-import ScienceProgram from '../../../../components/Festivals/Hanukkah2025/Program/ScienceProgram'
-import LiteratureProgram from '../../../../components/Festivals/Hanukkah2025/Program/LiteratureProgram'
-import LiveMusic from '../../../../components/Festivals/Hanukkah2025/LiveMusic/LiveMusic'
-import SpecialEvent from '../../../../components/Festivals/Hanukkah2025/SpecialEvent/SpecialEvent'
 import TicketsStickyButton from '../../../../components/TicketsStickyButton/TicketsStickyButton'
 import Schedule from '../../../../components/Festivals/MiniFestivalFamilyRelic/Schedule/Schedule'
 import SeparatorPage from '../../../../components/SeparatorPage/SeparatorPage'
@@ -24,6 +20,7 @@ import latte from '../../../../images/logo/latte.png'
 import nontech from '../../../../images/logo/nontech.png'
 import howpeople from '../../../../images/logo/howpeople.png'
 import ulpanPolitica from '../../../../images/logo/ulpanPolitica.png'
+import kehilatdanieljaffa from '../../../../images/logo/kehilatdanieljaffa.jpg'
 
 function Purim2026Page({addCard, limit}) {
     const link = 'https://anumuseum.org.il/ru/events/purim-suitcase-26/'
@@ -51,7 +48,7 @@ function Purim2026Page({addCard, limit}) {
             alt: 'logo UJAFederation',
             link: 'https://www.ujafedny.org/',
             description: '',
-            id: 6,
+            id: 2,
         },
         {
             name: 'ulpanPolitica',
@@ -59,7 +56,7 @@ function Purim2026Page({addCard, limit}) {
             alt: 'logo ulpanPolitica',
             link: '',
             description: '',
-            id: 15,
+            id: 3,
         },
         {
             name: 'nontech',
@@ -67,7 +64,7 @@ function Purim2026Page({addCard, limit}) {
             alt: 'logo nontech',
             link: 'https://nontech.co.il/',
             description: '',
-            id: 5,
+            id: 4,
         },
         {
             name: 'latte',
@@ -75,7 +72,7 @@ function Purim2026Page({addCard, limit}) {
             alt: 'logo latte',
             link: 'https://www.facebook.com/groups/pumpkinlatte/',
             description: '',
-            id: 8,
+            id: 5,
         },
         {
             name: 'ФОНД НАДАВ',
@@ -83,7 +80,7 @@ function Purim2026Page({addCard, limit}) {
             alt: 'logo ФОНД НАДАВ',
             link: 'https://nadavfoundation.org',
             description: '',
-            id: 2,
+            id: 6,
         },
         {
             name: 'Как Люди',
@@ -91,7 +88,15 @@ function Purim2026Page({addCard, limit}) {
             alt: 'logo Как Люди',
             link: '',
             description: '',
-            id: 12,
+            id: 7,
+        },
+        {
+            name: 'kehilatdanieljaffa',
+            logo: kehilatdanieljaffa,
+            alt: 'logo kehilatdanieljaffa',
+            link: '',
+            description: '',
+            id: 8,
         },
 
         
