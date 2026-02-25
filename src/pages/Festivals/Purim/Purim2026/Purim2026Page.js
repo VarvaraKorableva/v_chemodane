@@ -21,6 +21,8 @@ import nontech from '../../../../images/logo/nontech.png'
 import howpeople from '../../../../images/logo/howpeople.png'
 import ulpanPolitica from '../../../../images/logo/ulpanPolitica.png'
 import kehilatdanieljaffa from '../../../../images/logo/kehilatdanieljaffa.jpg'
+import mania from '../../../../images/logo/manialogo.png'
+import today from '../../../../images/logo/todaylogo.png'
 
 function Purim2026Page({addCard, limit}) {
     const link = 'https://anumuseum.org.il/ru/events/purim-suitcase-26/'
@@ -97,6 +99,22 @@ function Purim2026Page({addCard, limit}) {
             link: '',
             description: '',
             id: 8,
+        },
+        {
+            name: 'mania',
+            logo: mania,
+            alt: 'logo mania',
+            link: '',
+            description: '',
+            id: 9,
+        },
+        {
+            name: 'today',
+            logo: today,
+            alt: 'logo today',
+            link: '',
+            description: '',
+            id: 10,
         },
 
         

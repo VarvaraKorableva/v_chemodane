@@ -75,7 +75,7 @@ export default function MainTicket() {
 
                     <li className='MainTicket__container'>
                         <div className='MainTicket__pinkstar MainTicket__star'></div>
-                        <h3 className='uppercase bold MainTicket__margintopzero'>Беспроигрышная Лотерея</h3>
+                        <h3 className='uppercase bold MainTicket__margintopzero'>Праздничная Лотерея</h3>
                         <p>Концерт зажигательной группы <strong>Frisson Trio</strong></p>
                         <p>А также, <strong>пуримское угощение</strong> и <strong>особенная семейная атмосфера праздника</strong>.</p>
                     </li>
