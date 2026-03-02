@@ -268,7 +268,21 @@ const purim2026Data = [
             imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1772047358093_290557517",
             id:18,
         },
-
+        
+        {
+            companyName:"Марабу",
+            slug: "Marabou",
+            previousParticipation:true,
+            socialNetwork: {
+                instagram: "",
+                facebook: "",
+                personalSite: "https://camp.marabou.club/israelapril2026/?utm_source=tg&utm_medium=seeding&utm_campaign=israelabril2026&utm_content=purimvchemodane26.02.2026",
+            },
+            description:"'Марабу' - это международный образовательный лагерь для детей и подростков 10-15 лет. Смены 'Марабу' вот уже больше десяти лет проходят в Европе и США, а с недавних пор, - и в Израиле. Вторая тематическая смена 'Знаки и символы' пройдёт с 27 марта по  3 апреля в Медрешет Бен-Гурион. В рамках фестиваля Пурим вожатые лагеря  представят и проведут 'Тайный шифр' - творческий мастер-класс по созданию зашифрованной открытки. 4 марта в 17.00",
+            participationInTheLottery:"да",
+            imgLink:"https://newbacketitemspic.s3.eu-central-1.amazonaws.com/1772468585288_323572121",
+            id:19,
+        },
 ]
 
 export default purim2026Data
