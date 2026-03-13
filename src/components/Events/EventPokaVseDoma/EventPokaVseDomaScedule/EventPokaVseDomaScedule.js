@@ -1,5 +1,6 @@
 import "./EventPokaVseDomaScedule.css"
 import Container from '../../../../UI-Kit/Container/Container'
+import Heading from '../../../../UI-Kit/Heading/Heading'
 
 export default function EventPokaVseDomaScedule() {
   return (
@@ -16,11 +17,15 @@ export default function EventPokaVseDomaScedule() {
         <p>
         Фестиваль «В чемодане» продолжает онлайн-программу поддержки «Пока все дома».
         Мы подготовили для вас серию встреч и занятий, которые помогут провести это время спокойнее и интереснее.
-        Все встречи проходят в Zoom и бесплатны для участников. В программе:
+        Все встречи проходят в Zoom и бесплатны для участников.
         </p>
+        
+        
       </div>
 
-      <div className="pokaSchedule__events">
+      <Heading className="heading heading__F79423">В программе:</Heading>
+
+      <div className="pokaSchedule__events text">
 
         <div className="eventCard">
           <div className="eventCard__date">🔸13 марта | пятница | 13:30</div>
