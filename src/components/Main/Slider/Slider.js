@@ -3,16 +3,14 @@ import React, { useState, useEffect } from 'react';
 import page1 from '../../../images/slider/banner_site.jpg';
 import page2 from '../../../images/slider/apply.png';
 import page3 from '../../../images/slider/offer.png';
-
-
 import page0 from '../../../images/slider/poka_web.jpg';
-//
+
 import './Slider.css';
 
 function Slider() {
     const images = [
         //{ id: 1, src: page0, link: '/purim_2026', text: '', trigger: false, newTab: false },
-        { id: 1, src: page0, link: 'https://forms.gle/2T8HNXU6iZf5oyt2A', text: '', trigger: false, newTab: true },
+        { id: 1, src: page0, link: '/event-poka-vse-doma', text: '', trigger: false, newTab: false },
         { id: 2, src: page1, link: '/photo-stories-time', text: '', trigger: false },
         { id: 3, src: page2, link: 'https://forms.gle/USjZPq4y9WSDvLBy6', text: '', trigger: false, newTab: true },
         { id: 4, src: page3, link: 'https://forms.gle/N4mSMeM2ZK5Fdw7f9', text: '', trigger: false, newTab: true },

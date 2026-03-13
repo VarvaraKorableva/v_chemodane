@@ -9,6 +9,7 @@ import MainNewHeader from './components/Main/MainHeader/MainNewHeader/MainNewHea
 import Schedule from './components/Schedule/Schedule'
 import ScheduleHaifa from './components/ScheduleHaifa/ScheduleHaifa'
 
+import EventPokaVseDomaPage from './pages/Events/EventPokaVseDomaPage'
 import FamilyRelicOnStagePage from './pages/FamilyRelicOnStagePage/FamilyRelicOnStagePage'
 import MiniFestivalFamilyRelic from './pages/MiniFestivalFamilyRelic/MiniFestivalFamilyRelic'
 import NotReadyPage from './pages/NotReadyPage/NotReadyPage'
@@ -268,6 +269,13 @@ function App() {
               <MarketPatisipantsPage addCard={addCard} limit={limit}/>
             }
         />
+
+        <Route 
+          path='/event-poka-vse-doma'
+            element={
+              <EventPokaVseDomaPage />
+            }
+        />  
 
         <Route
           path='/purim_2024'

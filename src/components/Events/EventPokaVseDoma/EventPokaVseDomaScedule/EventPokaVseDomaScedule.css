@@ -1,0 +1,81 @@
+
+.pokaSchedule {
+    max-width: 1100px;
+    margin: auto;
+    padding: 60px 20px;
+    font-family: "Mulish", sans-serif;
+  }
+  
+  .pokaSchedule__title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 800;
+  }
+  
+  .pokaSchedule__intro {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 50px;
+  }
+  
+  .pokaSchedule__events {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+  }
+  
+  .eventCard {
+    background: rgb(173,215,255);
+    padding: 28px;
+    border-radius: 16px;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+    transition: transform .2s;
+  }
+  
+  .eventCard:hover {
+    transform: translateY(-6px);
+  }
+  
+  .eventCard__date {
+    background: #ffd23f;
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  
+  .eventCard h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+  
+  .eventCard p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .eventCard ul {
+    padding-left: 18px;
+    margin-bottom: 12px;
+  }
+  
+  .eventCard li {
+    margin-bottom: 4px;
+  }
+  
+  .age {
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  
+  .pokaSchedule__footer {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+  }
