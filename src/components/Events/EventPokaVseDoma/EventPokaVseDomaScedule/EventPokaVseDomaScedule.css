@@ -9,10 +9,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    display: flex;*/
   }
   
   .pokaSchedule__title {
@@ -118,5 +114,9 @@
 
     .eventCard {
       padding: 15px;
+    }
+
+    .pokaSchedule__events {
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     }
   }
