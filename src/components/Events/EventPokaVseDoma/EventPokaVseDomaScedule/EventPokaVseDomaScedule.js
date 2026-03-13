@@ -225,8 +225,14 @@ export default function EventPokaVseDomaScedule() {
       </div>
 
       <div className="pokaSchedule__footer">
-        <p>Ссылка на регистрацию в первом комментарии👇🏼</p>
-
+        <p>Ссылка на регистрацию👇🏼</p>
+        <a 
+          className="pokaSchedule__link" 
+          href="https://forms.gle/2T8HNXU6iZf5oyt2A" 
+          target='_blank' 
+          rel="noopener noreferrer">
+            Онлайн регистрация
+        </a>
         <p>
         С любовью,<br/>
         Команда фестиваля «В ЧЕМОДАНЕ»<br/>
