@@ -4,6 +4,11 @@
     margin: auto;
     padding: 60px 20px;
     font-family: "Mulish", sans-serif;
+    box-sizing: border-box;
+    /*justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;*/
   }
   
   .pokaSchedule__title {
@@ -34,6 +39,7 @@
     border-radius: 16px;
     box-shadow: 0 8px 22px rgba(0,0,0,0.1);
     transition: transform .2s;
+    box-sizing: border-box;
   }
   
   .eventCard:hover {
@@ -78,4 +84,15 @@
     text-align: center;
     font-size: 18px;
     line-height: 1.6;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .pokaSchedule {
+      padding: 0;
+    } 
+
+    .eventCard {
+      padding: 15px;
+    }
   }
