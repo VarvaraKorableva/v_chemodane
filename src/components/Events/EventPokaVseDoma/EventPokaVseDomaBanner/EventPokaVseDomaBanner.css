@@ -43,18 +43,23 @@
     color: #F04A3A;
     background-color: #CDE7D9;
     transform: rotate(-3deg);
+    display: flex;
+    align-self: flex-end;
 }
 
 .EventPokaVseDomaBanner__vse {
     color: #3AA65A;
     background-color: #F6C64A;
     transform: rotate(2deg);
+
 }
 
 .EventPokaVseDomaBanner__doma {
     color: #FFD24A;
     background-color: #D56A3C;
     transform: rotate(-2deg);
+    display: flex;
+    align-self: flex-end;
 }
 
 .EventPokaVseDomaBanner__onlain {
