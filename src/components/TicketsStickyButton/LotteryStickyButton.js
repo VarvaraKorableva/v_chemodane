@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './TicketsStickyButton.css';
 
-const LotteryStickyButton = () => {
+const LotteryStickyButton = ({text = 'Купить билеты', link = '', className='lottery-sticky-button'}) => {
   const [isVisible, setIsVisible] = useState(false);
-
 
   useEffect(() => {
     const handleScroll = () => {
@@ -20,8 +19,8 @@ const LotteryStickyButton = () => {
   }, []);
 
   return (
-    <a href='https://www.anumuseum.org.il/ru/events/lottery/' rel="noopener noreferrer" target='_blank' className={`lottery-sticky-button ${isVisible ? 'visible' : ''}`}>
-      <span>Купить билеты на ЛОТЕРЕЮ</span>
+    <a href={link} rel="noopener noreferrer" target='_blank' className={`${className} ${isVisible ? 'visible' : ''}`}>
+      <span>{text}</span>
     </a>
   );
 };
