@@ -7,7 +7,7 @@ const FestivalLecture = () => {
     <Container as="section">
     <div className="pokaSchedule text text__festival">
         <div className="festival__badge festival__title">
-          Фестиваль "в Чемодане" × Прямая Речь
+          Фестиваль «в Чемодане» × Прямая Речь
         </div>
 
         <h2 className="festival__title">
@@ -19,7 +19,7 @@ const FestivalLecture = () => {
         </p>
 
         <p className="festival__lead">
-          В проекте "Пока все дома" — лекция от Ильи Колмановского!
+          В проекте «Пока все дома» — лекция от Ильи Колмановского!
         </p>
 
         <p className="festival__text">

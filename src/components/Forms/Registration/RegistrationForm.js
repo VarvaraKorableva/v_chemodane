@@ -124,7 +124,7 @@ export default function RegistrationForm() {
             onChange={handleChange}
             className='checkbox'
           />
-          Я согласен(а) получать электронные письма от фестиваля "В чемодане"
+          Я согласен(а) получать электронные письма от фестиваля «В чемодане»
         </label>
       </div>
 
