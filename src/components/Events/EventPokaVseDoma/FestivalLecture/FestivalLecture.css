@@ -1,0 +1,132 @@
+.festival {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #fff7e6, #ffe9f3);
+    display: flex;
+    justify-content: center;
+  }
+
+  .text__festival {
+    text-align: center !important;
+  }
+
+  .festival__pic__container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .festival__ul {
+      list-style-type: none;
+      padding: 0;
+  }
+
+  .festival__pic {
+      background-image: url(../../../../images/pickolmanovski.jpeg);
+      width: 400px;
+      height: 400px;
+      background-size: contain;   
+      object-fit: contain;     
+      background-position: center;  
+      background-repeat: no-repeat;  
+      border-radius: 16px;   
+      align-self: flex-start;     
+      margin-right: 20px;   
+  }
+  
+  .festival__container {
+    max-width: 800px;
+    background: white;
+    border-radius: 24px;
+    padding: 40px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  }
+  
+  .festival__badge {
+    display: inline-block;
+    background: rgb(173,215,255);
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+  
+  .festival__title {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .festival__subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .festival__lead {
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .festival__text {
+    line-height: 1.6;
+    margin-bottom: 24px;
+  }
+  
+  .festival__block {
+    background: rgb(173,215,255);
+    padding: 20px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .festival__block h3 {
+    margin-bottom: 10px;
+  }
+  
+  .festival__block ul {
+    padding-left: 20px;
+  }
+  
+  .festival__block li {
+    margin-bottom: 8px;
+  }
+  
+  .festival__speaker {
+    margin-bottom: 24px;
+  }
+  
+  .festival__speaker h3 {
+    margin-bottom: 8px;
+  }
+  
+  .festival__info {
+    border-top: 1px solid #eee;
+    padding-top: 16px;
+    font-size: 14px;
+    color: #444;
+  }
+
+
+@media screen and (max-width: 730px) {
+    .festival__pic__container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .festival__pic {
+        margin-bottom: 20px;    
+        margin-right: 0;   
+        align-self: center;  
+    }
+
+    .festival__badge {
+        font-size: 14px !important;
+        margin-top: 20px;
+    }
+} 
+
+@media screen and (max-width: 430px) {
+    .festival__pic {
+        width: 300px;
+        height: 300px;
+    }
+} 
